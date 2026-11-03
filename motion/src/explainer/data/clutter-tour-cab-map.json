@@ -1,0 +1,2046 @@
+{
+ "id": "clutter-tour-cab-map",
+ "durationS": 74.397,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 8.0,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.151,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.192,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.124
+        },
+        {
+         "text": "rider",
+         "tail": "",
+         "hl": false,
+         "start": 0.17,
+         "end": 0.426
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 0.472,
+         "end": 0.53
+        },
+        {
+         "text": "watching",
+         "tail": "",
+         "hl": false,
+         "start": 0.577,
+         "end": 0.878
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 0.925,
+         "end": 0.994
+        },
+        {
+         "text": "car",
+         "tail": "",
+         "hl": false,
+         "start": 1.029,
+         "end": 1.192
+        }
+       ]
+      },
+      {
+       "start": 1.25,
+       "end": 2.295,
+       "words": [
+        {
+         "text": "move",
+         "tail": "",
+         "hl": false,
+         "start": 1.25,
+         "end": 1.47
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 1.505,
+         "end": 1.586
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 1.633,
+         "end": 1.703
+        },
+        {
+         "text": "map",
+         "tail": ".",
+         "hl": true,
+         "start": 1.749,
+         "end": 2.295
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.751,
+     "end": 5.441,
+     "chunks": [
+      {
+       "start": 2.751,
+       "end": 3.613,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 2.751,
+         "end": 2.835
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 2.87,
+         "end": 3.113
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 3.137,
+         "end": 3.218
+        },
+        {
+         "text": "old",
+         "tail": ",",
+         "hl": true,
+         "start": 3.299,
+         "end": 3.613
+        }
+       ]
+      },
+      {
+       "start": 3.647,
+       "end": 5.633,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 3.647,
+         "end": 3.775
+        },
+        {
+         "text": "twenty",
+         "tail": "",
+         "hl": false,
+         "start": 3.822,
+         "end": 4.124
+        },
+        {
+         "text": "apps",
+         "tail": "",
+         "hl": false,
+         "start": 4.182,
+         "end": 4.368
+        },
+        {
+         "text": "are",
+         "tail": "",
+         "hl": false,
+         "start": 4.414,
+         "end": 4.495
+        },
+        {
+         "text": "running",
+         "tail": "",
+         "hl": false,
+         "start": 4.518,
+         "end": 4.751
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 4.786,
+         "end": 4.844
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 4.878,
+         "end": 4.948
+        },
+        {
+         "text": "background",
+         "tail": ".",
+         "hl": false,
+         "start": 4.983,
+         "end": 5.633
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 6.041,
+     "end": 7.0,
+     "chunks": [
+      {
+       "start": 6.041,
+       "end": 7.278,
+       "words": [
+        {
+         "text": "Does",
+         "tail": "",
+         "hl": false,
+         "start": 6.041,
+         "end": 6.233
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 6.268,
+         "end": 6.337
+        },
+        {
+         "text": "map",
+         "tail": "",
+         "hl": false,
+         "start": 6.384,
+         "end": 6.57
+        },
+        {
+         "text": "keep",
+         "tail": "",
+         "hl": false,
+         "start": 6.651,
+         "end": 6.86
+        },
+        {
+         "text": "up",
+         "tail": "?",
+         "hl": true,
+         "cue": "up",
+         "start": 6.906,
+         "end": 7.278
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "CLUTTER TOUR",
+    "kicker": "CLUTTER TOUR CHARTER",
+    "headline": "Does the map keep up?",
+    "highlight": "map",
+    "icon": "grid",
+    "sub": {
+     "text": "50 cars · 2 GB RAM · 20 apps",
+     "cue": "up"
+    }
+   }
+  },
+  {
+   "id": "charter",
+   "start": 8.0,
+   "end": 20.227,
+   "sentences": [
+    {
+     "start": 8.0,
+     "end": 9.375,
+     "chunks": [
+      {
+       "start": 8.0,
+       "end": 9.568,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 8.0,
+         "end": 8.059
+        },
+        {
+         "text": "good",
+         "tail": "",
+         "hl": false,
+         "start": 8.128,
+         "end": 8.291
+        },
+        {
+         "text": "charter",
+         "tail": "",
+         "hl": true,
+         "start": 8.326,
+         "end": 8.581
+        },
+        {
+         "text": "fits",
+         "tail": "",
+         "hl": false,
+         "start": 8.604,
+         "end": 8.778
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 8.813,
+         "end": 8.894
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 8.964,
+         "end": 9.092
+        },
+        {
+         "text": "line",
+         "tail": ".",
+         "hl": false,
+         "start": 9.126,
+         "end": 9.568
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.975,
+     "end": 19.227,
+     "chunks": [
+      {
+       "start": 9.975,
+       "end": 13.273,
+       "words": [
+        {
+         "text": "Explore",
+         "tail": "",
+         "hl": true,
+         "cue": "ex",
+         "start": 9.975,
+         "end": 10.509
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 10.555,
+         "end": 10.648
+        },
+        {
+         "text": "driver",
+         "tail": "",
+         "hl": false,
+         "start": 10.695,
+         "end": 11.113
+        },
+        {
+         "text": "map",
+         "tail": "",
+         "hl": false,
+         "start": 11.194,
+         "end": 11.485
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 11.566,
+         "end": 11.682
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 11.74,
+         "end": 11.775
+        },
+        {
+         "text": "live",
+         "tail": "",
+         "hl": false,
+         "start": 11.868,
+         "end": 12.181
+        },
+        {
+         "text": "cab-tracking",
+         "tail": "",
+         "hl": false,
+         "start": 12.228,
+         "end": 12.924
+        },
+        {
+         "text": "app",
+         "tail": ",",
+         "hl": false,
+         "start": 12.994,
+         "end": 13.273
+        }
+       ]
+      },
+      {
+       "start": 13.319,
+       "end": 15.548,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "cue": "with",
+         "start": 13.319,
+         "end": 13.516
+        },
+        {
+         "text": "low",
+         "tail": "",
+         "hl": false,
+         "start": 13.598,
+         "end": 13.818
+        },
+        {
+         "text": "RAM",
+         "tail": "",
+         "hl": false,
+         "start": 13.888,
+         "end": 14.132
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 14.19,
+         "end": 14.283
+        },
+        {
+         "text": "heavy",
+         "tail": "",
+         "hl": false,
+         "start": 14.341,
+         "end": 14.573
+        },
+        {
+         "text": "background",
+         "tail": "",
+         "hl": false,
+         "start": 14.654,
+         "end": 15.095
+        },
+        {
+         "text": "load",
+         "tail": ",",
+         "hl": false,
+         "start": 15.153,
+         "end": 15.548
+        }
+       ]
+      },
+      {
+       "start": 15.583,
+       "end": 18.009,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 15.583,
+         "end": 15.734
+        },
+        {
+         "text": "discover",
+         "tail": "",
+         "hl": true,
+         "cue": "disc",
+         "start": 15.827,
+         "end": 16.303
+        },
+        {
+         "text": "rendering",
+         "tail": "",
+         "hl": false,
+         "start": 16.396,
+         "end": 16.814
+        },
+        {
+         "text": "lag",
+         "tail": ",",
+         "hl": false,
+         "start": 16.883,
+         "end": 17.266
+        },
+        {
+         "text": "crashes",
+         "tail": ",",
+         "hl": false,
+         "start": 17.359,
+         "end": 18.009
+        }
+       ]
+      },
+      {
+       "start": 18.044,
+       "end": 19.449,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 18.044,
+         "end": 18.218
+        },
+        {
+         "text": "lost",
+         "tail": "",
+         "hl": false,
+         "start": 18.288,
+         "end": 18.555
+        },
+        {
+         "text": "trip",
+         "tail": "",
+         "hl": false,
+         "start": 18.59,
+         "end": 18.799
+        },
+        {
+         "text": "state",
+         "tail": ".",
+         "hl": false,
+         "start": 18.845,
+         "end": 19.449
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE CHARTER",
+    "file": "charter.md",
+    "lines": [
+     {
+      "text": "Explore:  driver map, live cab app",
+      "cue": "ex",
+      "hl": true
+     },
+     {
+      "text": "With:     low RAM + background load",
+      "cue": "with",
+      "hl": true
+     },
+     {
+      "text": "To discover:",
+      "cue": "disc"
+     },
+     {
+      "text": "  rendering lag, crashes,",
+      "cue": "disc"
+     },
+     {
+      "text": "  lost trip state",
+      "cue": "disc"
+     }
+    ]
+   }
+  },
+  {
+   "id": "setup",
+   "start": 20.227,
+   "end": 32.84,
+   "sentences": [
+    {
+     "start": 20.227,
+     "end": 24.444,
+     "chunks": [
+      {
+       "start": 20.227,
+       "end": 21.077,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 20.227,
+         "end": 20.566
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 20.59,
+         "end": 20.671
+        },
+        {
+         "text": "setup",
+         "tail": ".",
+         "hl": true,
+         "start": 20.717,
+         "end": 21.077
+        }
+       ]
+      },
+      {
+       "start": 21.124,
+       "end": 22.297,
+       "words": [
+        {
+         "text": "Use",
+         "tail": "",
+         "hl": false,
+         "start": 21.124,
+         "end": 21.379
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 21.403,
+         "end": 21.426
+        },
+        {
+         "text": "low-RAM",
+         "tail": "",
+         "hl": false,
+         "cue": "ram",
+         "start": 21.484,
+         "end": 21.832
+        },
+        {
+         "text": "device",
+         "tail": ",",
+         "hl": false,
+         "start": 21.902,
+         "end": 22.297
+        }
+       ]
+      },
+      {
+       "start": 22.32,
+       "end": 24.63,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 22.32,
+         "end": 22.401
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 22.448,
+         "end": 22.506
+        },
+        {
+         "text": "emulator",
+         "tail": "",
+         "hl": false,
+         "start": 22.54,
+         "end": 22.982
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 23.028,
+         "end": 23.179
+        },
+        {
+         "text": "2",
+         "tail": "",
+         "hl": false,
+         "start": 23.237,
+         "end": 23.353
+        },
+        {
+         "text": "gigabytes",
+         "tail": "",
+         "hl": false,
+         "start": 23.411,
+         "end": 23.876
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 23.922,
+         "end": 24.003
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "start": 24.085,
+         "end": 24.63
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 25.044,
+     "end": 28.363,
+     "chunks": [
+      {
+       "start": 25.044,
+       "end": 25.954,
+       "words": [
+        {
+         "text": "Fill",
+         "tail": "",
+         "hl": false,
+         "cue": "bg",
+         "start": 25.044,
+         "end": 25.257
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 25.315,
+         "end": 25.385
+        },
+        {
+         "text": "background",
+         "tail": ":",
+         "hl": false,
+         "start": 25.443,
+         "end": 25.954
+        }
+       ]
+      },
+      {
+       "start": 26.14,
+       "end": 27.846,
+       "words": [
+        {
+         "text": "music",
+         "tail": "",
+         "hl": false,
+         "start": 26.14,
+         "end": 26.442
+        },
+        {
+         "text": "streaming",
+         "tail": ",",
+         "hl": false,
+         "start": 26.476,
+         "end": 26.848
+        },
+        {
+         "text": "navigation",
+         "tail": ",",
+         "hl": false,
+         "start": 26.883,
+         "end": 27.44
+        },
+        {
+         "text": "camera",
+         "tail": ",",
+         "hl": false,
+         "start": 27.475,
+         "end": 27.846
+        }
+       ]
+      },
+      {
+       "start": 27.87,
+       "end": 28.555,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 27.87,
+         "end": 27.963
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 27.997,
+         "end": 28.021
+        },
+        {
+         "text": "game",
+         "tail": ".",
+         "hl": false,
+         "start": 28.079,
+         "end": 28.555
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.963,
+     "end": 31.84,
+     "chunks": [
+      {
+       "start": 28.963,
+       "end": 30.031,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 28.963,
+         "end": 29.16
+        },
+        {
+         "text": "send",
+         "tail": "",
+         "hl": false,
+         "start": 29.242,
+         "end": 29.393
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "start": 29.439,
+         "end": 29.683
+        },
+        {
+         "text": "pressure",
+         "tail": "",
+         "hl": true,
+         "cue": "trim",
+         "start": 29.729,
+         "end": 30.031
+        }
+       ]
+      },
+      {
+       "start": 30.055,
+       "end": 32.028,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 30.055,
+         "end": 30.182
+        },
+        {
+         "text": "adb",
+         "tail": "",
+         "hl": false,
+         "start": 30.24,
+         "end": 30.531
+        },
+        {
+         "text": "shell",
+         "tail": "",
+         "hl": false,
+         "start": 30.612,
+         "end": 30.809
+        },
+        {
+         "text": "am",
+         "tail": "",
+         "hl": false,
+         "start": 30.856,
+         "end": 30.914
+        },
+        {
+         "text": "send-trim-memory",
+         "tail": ".",
+         "hl": false,
+         "start": 30.983,
+         "end": 32.028
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "SETUP",
+    "title": "First: the setup",
+    "steps": [
+     {
+      "label": "Low-RAM device",
+      "sub": "or a 2 GB emulator",
+      "icon": "layers",
+      "cue": "ram"
+     },
+     {
+      "label": "Fill the background",
+      "sub": "music, maps, camera, game",
+      "icon": "grid",
+      "cue": "bg"
+     },
+     {
+      "label": "Memory pressure",
+      "sub": "am send-trim-memory",
+      "icon": "terminal",
+      "cue": "trim"
+     }
+    ]
+   }
+  },
+  {
+   "id": "clutter",
+   "start": 32.84,
+   "end": 45.035,
+   "sentences": [
+    {
+     "start": 32.84,
+     "end": 36.956,
+     "chunks": [
+      {
+       "start": 32.84,
+       "end": 33.99,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 32.84,
+         "end": 33.281
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 33.316,
+         "end": 33.479
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 33.513,
+         "end": 33.583
+        },
+        {
+         "text": "clutter",
+         "tail": ".",
+         "hl": true,
+         "start": 33.618,
+         "end": 33.99
+        }
+       ]
+      },
+      {
+       "start": 34.025,
+       "end": 35.615,
+       "words": [
+        {
+         "text": "Request",
+         "tail": "",
+         "hl": false,
+         "start": 34.025,
+         "end": 34.338
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 34.384,
+         "end": 34.408
+        },
+        {
+         "text": "ride",
+         "tail": "",
+         "hl": false,
+         "start": 34.477,
+         "end": 34.698
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 34.721,
+         "end": 34.791
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 34.837,
+         "end": 34.86
+        },
+        {
+         "text": "busy",
+         "tail": "",
+         "hl": false,
+         "start": 34.919,
+         "end": 35.232
+        },
+        {
+         "text": "area",
+         "tail": ",",
+         "hl": false,
+         "start": 35.302,
+         "end": 35.615
+        }
+       ]
+      },
+      {
+       "start": 35.638,
+       "end": 37.159,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 35.638,
+         "end": 35.778
+        },
+        {
+         "text": "fifty",
+         "tail": "",
+         "hl": false,
+         "cue": "c1",
+         "start": 35.812,
+         "end": 36.091
+        },
+        {
+         "text": "cars",
+         "tail": "",
+         "hl": false,
+         "start": 36.149,
+         "end": 36.393
+        },
+        {
+         "text": "around",
+         "tail": "",
+         "hl": false,
+         "start": 36.428,
+         "end": 36.695
+        },
+        {
+         "text": "you",
+         "tail": ".",
+         "hl": false,
+         "start": 36.753,
+         "end": 37.159
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 37.556,
+     "end": 40.752,
+     "chunks": [
+      {
+       "start": 37.556,
+       "end": 39.345,
+       "words": [
+        {
+         "text": "Turn",
+         "tail": "",
+         "hl": false,
+         "start": 37.556,
+         "end": 37.755
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 37.801,
+         "end": 37.859
+        },
+        {
+         "text": "surge",
+         "tail": "",
+         "hl": false,
+         "cue": "c2",
+         "start": 37.917,
+         "end": 38.138
+        },
+        {
+         "text": "zones",
+         "tail": ",",
+         "hl": false,
+         "start": 38.184,
+         "end": 38.521
+        },
+        {
+         "text": "chat",
+         "tail": "",
+         "hl": false,
+         "cue": "c3",
+         "start": 38.579,
+         "end": 38.811
+        },
+        {
+         "text": "messages",
+         "tail": ",",
+         "hl": false,
+         "start": 38.881,
+         "end": 39.345
+        }
+       ]
+      },
+      {
+       "start": 39.369,
+       "end": 40.947,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 39.369,
+         "end": 39.461
+        },
+        {
+         "text": "fast",
+         "tail": "",
+         "hl": false,
+         "start": 39.519,
+         "end": 39.775
+        },
+        {
+         "text": "location",
+         "tail": "",
+         "hl": false,
+         "start": 39.821,
+         "end": 40.204
+        },
+        {
+         "text": "updates",
+         "tail": ".",
+         "hl": false,
+         "start": 40.262,
+         "end": 40.947
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 41.352,
+     "end": 44.035,
+     "chunks": [
+      {
+       "start": 41.352,
+       "end": 43.105,
+       "words": [
+        {
+         "text": "Rotate",
+         "tail": "",
+         "hl": true,
+         "cue": "c4",
+         "start": 41.352,
+         "end": 41.84
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 41.874,
+         "end": 41.944
+        },
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 41.991,
+         "end": 42.292
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 42.339,
+         "end": 42.42
+        },
+        {
+         "text": "zoom",
+         "tail": "",
+         "hl": false,
+         "start": 42.478,
+         "end": 42.687
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 42.757,
+         "end": 42.804
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 42.862,
+         "end": 42.931
+        },
+        {
+         "text": "out",
+         "tail": "",
+         "hl": false,
+         "start": 42.978,
+         "end": 43.105
+        }
+       ]
+      },
+      {
+       "start": 43.14,
+       "end": 44.232,
+       "words": [
+        {
+         "text": "while",
+         "tail": "",
+         "hl": false,
+         "start": 43.14,
+         "end": 43.326
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 43.361,
+         "end": 43.431
+        },
+        {
+         "text": "car",
+         "tail": "",
+         "hl": false,
+         "start": 43.465,
+         "end": 43.674
+        },
+        {
+         "text": "moves",
+         "tail": ".",
+         "hl": false,
+         "start": 43.732,
+         "end": 44.232
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "ADD THE CLUTTER",
+    "headline": "Pile on the clutter",
+    "highlight": "clutter",
+    "stops": [
+     {
+      "name": "50 cars",
+      "sub": "busy area",
+      "icon": "grid",
+      "cue": "c1"
+     },
+     {
+      "name": "Surge zones",
+      "sub": "heatmap",
+      "icon": "flame",
+      "cue": "c2"
+     },
+     {
+      "name": "Chat + GPS",
+      "sub": "fast updates",
+      "icon": "chat",
+      "cue": "c3"
+     },
+     {
+      "name": "Rotate",
+      "sub": "and zoom",
+      "icon": "aperture",
+      "cue": "c4",
+      "tone": "bad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "watch",
+   "start": 45.035,
+   "end": 55.437,
+   "sentences": [
+    {
+     "start": 45.035,
+     "end": 48.307,
+     "chunks": [
+      {
+       "start": 45.035,
+       "end": 46.193,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 45.035,
+         "end": 45.369
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 45.52,
+         "end": 45.741
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 45.787,
+         "end": 45.857
+        },
+        {
+         "text": "watch",
+         "tail": ".",
+         "hl": true,
+         "start": 45.926,
+         "end": 46.193
+        }
+       ]
+      },
+      {
+       "start": 46.216,
+       "end": 47.772,
+       "words": [
+        {
+         "text": "Car",
+         "tail": "",
+         "hl": false,
+         "start": 46.216,
+         "end": 46.391
+        },
+        {
+         "text": "markers",
+         "tail": "",
+         "hl": false,
+         "cue": "m",
+         "start": 46.449,
+         "end": 46.762
+        },
+        {
+         "text": "should",
+         "tail": "",
+         "hl": false,
+         "start": 46.797,
+         "end": 46.983
+        },
+        {
+         "text": "glide",
+         "tail": "",
+         "hl": false,
+         "start": 47.041,
+         "end": 47.331
+        },
+        {
+         "text": "smoothly",
+         "tail": ",",
+         "hl": false,
+         "start": 47.354,
+         "end": 47.772
+        }
+       ]
+      },
+      {
+       "start": 47.807,
+       "end": 48.469,
+       "words": [
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 47.807,
+         "end": 47.946
+        },
+        {
+         "text": "jump",
+         "tail": ".",
+         "hl": false,
+         "start": 47.993,
+         "end": 48.469
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 48.907,
+     "end": 50.748,
+     "chunks": [
+      {
+       "start": 48.907,
+       "end": 50.951,
+       "words": [
+        {
+         "text": "Map",
+         "tail": "",
+         "hl": false,
+         "start": 48.907,
+         "end": 49.151
+        },
+        {
+         "text": "tiles",
+         "tail": "",
+         "hl": false,
+         "cue": "t",
+         "start": 49.209,
+         "end": 49.453
+        },
+        {
+         "text": "should",
+         "tail": "",
+         "hl": false,
+         "start": 49.476,
+         "end": 49.638
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 49.673,
+         "end": 49.859
+        },
+        {
+         "text": "go",
+         "tail": "",
+         "hl": false,
+         "start": 49.917,
+         "end": 50.022
+        },
+        {
+         "text": "blank",
+         "tail": "",
+         "hl": true,
+         "start": 50.08,
+         "end": 50.37
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 50.428,
+         "end": 50.486
+        },
+        {
+         "text": "grey",
+         "tail": ".",
+         "hl": false,
+         "start": 50.521,
+         "end": 50.951
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 51.348,
+     "end": 54.437,
+     "chunks": [
+      {
+       "start": 51.348,
+       "end": 52.711,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 51.348,
+         "end": 51.469
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 51.515,
+         "end": 51.585
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 51.655,
+         "end": 52.003
+        },
+        {
+         "text": "kills",
+         "tail": "",
+         "hl": false,
+         "cue": "p",
+         "start": 52.049,
+         "end": 52.293
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 52.351,
+         "end": 52.432
+        },
+        {
+         "text": "app",
+         "tail": ",",
+         "hl": false,
+         "start": 52.502,
+         "end": 52.711
+        }
+       ]
+      },
+      {
+       "start": 52.734,
+       "end": 54.627,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 52.734,
+         "end": 52.804
+        },
+        {
+         "text": "trip",
+         "tail": "",
+         "hl": false,
+         "start": 52.85,
+         "end": 53.013
+        },
+        {
+         "text": "must",
+         "tail": "",
+         "hl": false,
+         "start": 53.071,
+         "end": 53.222
+        },
+        {
+         "text": "come",
+         "tail": "",
+         "hl": false,
+         "start": 53.268,
+         "end": 53.419
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "start": 53.442,
+         "end": 53.593
+        },
+        {
+         "text": "exactly",
+         "tail": "",
+         "hl": true,
+         "start": 53.64,
+         "end": 53.965
+        },
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 54.0,
+         "end": 54.069
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 54.116,
+         "end": 54.185
+        },
+        {
+         "text": "was",
+         "tail": ".",
+         "hl": false,
+         "start": 54.22,
+         "end": 54.627
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "WHAT TO WATCH",
+    "title": "Third: what to watch",
+    "rows": [
+     {
+      "kicker": "MARKERS",
+      "text": "Glide smoothly, never jump",
+      "icon": "arrowRight",
+      "cue": "m"
+     },
+     {
+      "kicker": "MAP TILES",
+      "text": "Never blank or grey",
+      "icon": "image",
+      "cue": "t"
+     },
+     {
+      "kicker": "PROCESS DEATH",
+      "text": "Trip comes back exactly",
+      "icon": "check",
+      "cue": "p"
+     }
+    ]
+   }
+  },
+  {
+   "id": "measure",
+   "start": 55.437,
+   "end": 61.897,
+   "sentences": [
+    {
+     "start": 55.437,
+     "end": 56.391,
+     "chunks": [
+      {
+       "start": 55.437,
+       "end": 56.593,
+       "words": [
+        {
+         "text": "Measure",
+         "tail": ",",
+         "hl": true,
+         "start": 55.437,
+         "end": 55.827
+        },
+        {
+         "text": "don't",
+         "tail": "",
+         "hl": false,
+         "start": 55.862,
+         "end": 56.082
+        },
+        {
+         "text": "guess",
+         "tail": ".",
+         "hl": false,
+         "start": 56.117,
+         "end": 56.593
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 56.991,
+     "end": 60.897,
+     "chunks": [
+      {
+       "start": 56.991,
+       "end": 59.179,
+       "words": [
+        {
+         "text": "Check",
+         "tail": "",
+         "hl": false,
+         "start": 56.991,
+         "end": 57.194
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "cue": "drops",
+         "start": 57.241,
+         "end": 57.45
+        },
+        {
+         "text": "drops",
+         "tail": "",
+         "hl": false,
+         "start": 57.473,
+         "end": 57.705
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 57.74,
+         "end": 57.879
+        },
+        {
+         "text": "dumpsys",
+         "tail": "",
+         "hl": false,
+         "cue": "gfx",
+         "start": 57.914,
+         "end": 58.308
+        },
+        {
+         "text": "gfxinfo",
+         "tail": ",",
+         "hl": false,
+         "start": 58.39,
+         "end": 59.179
+        }
+       ]
+      },
+      {
+       "start": 59.249,
+       "end": 61.095,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 59.249,
+         "end": 59.446
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "start": 59.516,
+         "end": 59.829
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 59.864,
+         "end": 59.992
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 60.015,
+         "end": 60.085
+        },
+        {
+         "text": "Memory",
+         "tail": "",
+         "hl": true,
+         "cue": "mem",
+         "start": 60.12,
+         "end": 60.363
+        },
+        {
+         "text": "Profiler",
+         "tail": ".",
+         "hl": false,
+         "start": 60.41,
+         "end": 61.095
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "MEASURE",
+    "title": "adb",
+    "command": "adb shell dumpsys gfxinfo cab.app",
+    "cue": "gfx",
+    "lines": [
+     {
+      "text": "Total frames rendered: 3120",
+      "tone": "normal"
+     },
+     {
+      "text": "Janky frames: 412 (13.2%)",
+      "tone": "dim",
+      "flag": "drops"
+     },
+     {
+      "text": "90th percentile: 38ms",
+      "tone": "dim"
+     }
+    ],
+    "badge": {
+     "text": "+ Memory Profiler",
+     "cue": "mem"
+    }
+   }
+  },
+  {
+   "id": "bugs",
+   "start": 61.897,
+   "end": 69.69,
+   "sentences": [
+    {
+     "start": 61.897,
+     "end": 68.69,
+     "chunks": [
+      {
+       "start": 61.897,
+       "end": 62.64,
+       "words": [
+        {
+         "text": "Bugs",
+         "tail": "",
+         "hl": false,
+         "start": 61.897,
+         "end": 62.199
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 62.234,
+         "end": 62.303
+        },
+        {
+         "text": "finds",
+         "tail": ":",
+         "hl": false,
+         "start": 62.361,
+         "end": 62.64
+        }
+       ]
+      },
+      {
+       "start": 62.675,
+       "end": 64.37,
+       "words": [
+        {
+         "text": "janky",
+         "tail": "",
+         "hl": true,
+         "cue": "b1",
+         "start": 62.675,
+         "end": 63.023
+        },
+        {
+         "text": "markers",
+         "tail": ",",
+         "hl": false,
+         "start": 63.105,
+         "end": 63.557
+        },
+        {
+         "text": "blank",
+         "tail": "",
+         "hl": false,
+         "cue": "b2",
+         "start": 63.604,
+         "end": 63.894
+        },
+        {
+         "text": "tiles",
+         "tail": ",",
+         "hl": false,
+         "start": 63.952,
+         "end": 64.37
+        }
+       ]
+      },
+      {
+       "start": 64.44,
+       "end": 65.624,
+       "words": [
+        {
+         "text": "out-of-memory",
+         "tail": "",
+         "hl": false,
+         "cue": "b3",
+         "start": 64.44,
+         "end": 65.078
+        },
+        {
+         "text": "crashes",
+         "tail": ",",
+         "hl": false,
+         "start": 65.136,
+         "end": 65.624
+        }
+       ]
+      },
+      {
+       "start": 65.647,
+       "end": 67.435,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 65.647,
+         "end": 65.74
+        },
+        {
+         "text": "markers",
+         "tail": "",
+         "hl": false,
+         "start": 65.798,
+         "end": 66.228
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 66.274,
+         "end": 66.413
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 66.471,
+         "end": 66.692
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 66.75,
+         "end": 66.901
+        },
+        {
+         "text": "removed",
+         "tail": ",",
+         "hl": false,
+         "start": 66.971,
+         "end": 67.435
+        }
+       ]
+      },
+      {
+       "start": 67.458,
+       "end": 68.863,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 67.458,
+         "end": 67.551
+        },
+        {
+         "text": "slowly",
+         "tail": "",
+         "hl": false,
+         "start": 67.598,
+         "end": 67.969
+        },
+        {
+         "text": "leak",
+         "tail": "",
+         "hl": true,
+         "cue": "b4",
+         "start": 68.027,
+         "end": 68.201
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "start": 68.271,
+         "end": 68.863
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "BUGS IT FINDS",
+    "cards": [
+     {
+      "title": "Janky markers",
+      "icon": "flame",
+      "cue": "b1"
+     },
+     {
+      "title": "Blank tiles",
+      "icon": "image",
+      "cue": "b2"
+     },
+     {
+      "title": "OOM crashes",
+      "icon": "unlink",
+      "cue": "b3"
+     },
+     {
+      "title": "Marker leaks",
+      "icon": "layers",
+      "cue": "b4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 69.69,
+   "end": 74.397,
+   "sentences": [
+    {
+     "start": 69.69,
+     "end": 71.097,
+     "chunks": [
+      {
+       "start": 69.69,
+       "end": 71.263,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 69.69,
+         "end": 69.975
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 70.044,
+         "end": 70.149
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 70.195,
+         "end": 70.369
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 70.404,
+         "end": 70.729
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 70.764,
+         "end": 71.263
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

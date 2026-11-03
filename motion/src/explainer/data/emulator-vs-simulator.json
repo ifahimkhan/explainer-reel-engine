@@ -1,0 +1,1380 @@
+{
+ "id": "emulator-vs-simulator",
+ "durationS": 50.241,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.199,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 3.108,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.785,
+       "words": [
+        {
+         "text": "Most",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.23
+        },
+        {
+         "text": "developers",
+         "tail": "",
+         "hl": false,
+         "start": 0.265,
+         "end": 0.729
+        },
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 0.811,
+         "end": 1.031
+        },
+        {
+         "text": "these",
+         "tail": "",
+         "hl": false,
+         "start": 1.077,
+         "end": 1.298
+        },
+        {
+         "text": "two",
+         "tail": "",
+         "hl": false,
+         "start": 1.333,
+         "end": 1.484
+        },
+        {
+         "text": "words",
+         "tail": "",
+         "hl": true,
+         "start": 1.542,
+         "end": 1.785
+        }
+       ]
+      },
+      {
+       "start": 1.844,
+       "end": 3.248,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 1.844,
+         "end": 1.994
+        },
+        {
+         "text": "they",
+         "tail": "",
+         "hl": false,
+         "start": 2.018,
+         "end": 2.134
+        },
+        {
+         "text": "mean",
+         "tail": "",
+         "hl": false,
+         "start": 2.192,
+         "end": 2.343
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 2.389,
+         "end": 2.47
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "start": 2.517,
+         "end": 2.749
+        },
+        {
+         "text": "thing",
+         "tail": ".",
+         "hl": false,
+         "start": 2.796,
+         "end": 3.248
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.708,
+     "end": 4.199,
+     "chunks": [
+      {
+       "start": 3.708,
+       "end": 4.376,
+       "words": [
+        {
+         "text": "They",
+         "tail": "",
+         "hl": false,
+         "start": 3.708,
+         "end": 3.853
+        },
+        {
+         "text": "don't",
+         "tail": ".",
+         "hl": true,
+         "cue": "dont",
+         "start": 3.888,
+         "end": 4.376
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "EMULATOR VS SIMULATOR",
+    "kicker": "EMULATOR VS SIMULATOR",
+    "headline": "Not the same thing",
+    "highlight": "Not",
+    "icon": "layers",
+    "sub": {
+     "text": "Most devs mix them up",
+     "cue": "dont"
+    }
+   }
+  },
+  {
+   "id": "emulator",
+   "start": 5.199,
+   "end": 17.885,
+   "sentences": [
+    {
+     "start": 5.199,
+     "end": 7.709,
+     "chunks": [
+      {
+       "start": 5.199,
+       "end": 6.906,
+       "words": [
+        {
+         "text": "An",
+         "tail": "",
+         "hl": false,
+         "start": 5.199,
+         "end": 5.35
+        },
+        {
+         "text": "emulator",
+         "tail": "",
+         "hl": true,
+         "start": 5.408,
+         "end": 5.861
+        },
+        {
+         "text": "copies",
+         "tail": "",
+         "hl": false,
+         "start": 5.907,
+         "end": 6.302
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 6.348,
+         "end": 6.43
+        },
+        {
+         "text": "hardware",
+         "tail": "",
+         "hl": false,
+         "cue": "hw",
+         "start": 6.488,
+         "end": 6.906
+        }
+       ]
+      },
+      {
+       "start": 6.929,
+       "end": 7.892,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": true,
+         "start": 6.929,
+         "end": 6.998
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 7.033,
+         "end": 7.103
+        },
+        {
+         "text": "software",
+         "tail": ".",
+         "hl": false,
+         "start": 7.138,
+         "end": 7.892
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 8.309,
+     "end": 12.617,
+     "chunks": [
+      {
+       "start": 8.309,
+       "end": 9.911,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 8.309,
+         "end": 8.413
+        },
+        {
+         "text": "translates",
+         "tail": "",
+         "hl": false,
+         "start": 8.437,
+         "end": 8.866
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": false,
+         "start": 8.924,
+         "end": 9.098
+        },
+        {
+         "text": "machine",
+         "tail": "",
+         "hl": false,
+         "cue": "mc",
+         "start": 9.145,
+         "end": 9.412
+        },
+        {
+         "text": "instructions",
+         "tail": ",",
+         "hl": false,
+         "start": 9.447,
+         "end": 9.911
+        }
+       ]
+      },
+      {
+       "start": 9.935,
+       "end": 11.502,
+       "words": [
+        {
+         "text": "so",
+         "tail": "",
+         "hl": false,
+         "start": 9.935,
+         "end": 9.993
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 10.062,
+         "end": 10.178
+        },
+        {
+         "text": "actual",
+         "tail": "",
+         "hl": false,
+         "start": 10.213,
+         "end": 10.492
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 10.55,
+         "end": 10.701
+        },
+        {
+         "text": "binary",
+         "tail": "",
+         "hl": false,
+         "cue": "bin",
+         "start": 10.782,
+         "end": 11.223
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 11.305,
+         "end": 11.502
+        }
+       ]
+      },
+      {
+       "start": 11.548,
+       "end": 12.767,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 11.548,
+         "end": 11.699
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 11.723,
+         "end": 11.781
+        },
+        {
+         "text": "would",
+         "tail": "",
+         "hl": false,
+         "start": 11.815,
+         "end": 11.955
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 11.99,
+         "end": 12.036
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.071,
+         "end": 12.14
+        },
+        {
+         "text": "device",
+         "tail": ".",
+         "hl": true,
+         "start": 12.187,
+         "end": 12.767
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 13.217,
+     "end": 16.885,
+     "chunks": [
+      {
+       "start": 13.217,
+       "end": 13.821,
+       "words": [
+        {
+         "text": "Example",
+         "tail": ":",
+         "hl": false,
+         "start": 13.217,
+         "end": 13.821
+        }
+       ]
+      },
+      {
+       "start": 13.914,
+       "end": 14.959,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 13.914,
+         "end": 14.03
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": true,
+         "cue": "ae",
+         "start": 14.099,
+         "end": 14.413
+        },
+        {
+         "text": "Emulator",
+         "tail": ",",
+         "hl": false,
+         "start": 14.471,
+         "end": 14.959
+        }
+       ]
+      },
+      {
+       "start": 14.982,
+       "end": 17.072,
+       "words": [
+        {
+         "text": "which",
+         "tail": "",
+         "hl": false,
+         "start": 14.982,
+         "end": 15.156
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 15.214,
+         "end": 15.47
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 15.516,
+         "end": 15.539
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 15.597,
+         "end": 15.795
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 15.864,
+         "end": 16.166
+        },
+        {
+         "text": "system",
+         "tail": "",
+         "hl": false,
+         "start": 16.201,
+         "end": 16.515
+        },
+        {
+         "text": "image",
+         "tail": ".",
+         "hl": false,
+         "start": 16.573,
+         "end": 17.072
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "EMULATOR",
+    "title": "Copies hardware + software",
+    "steps": [
+     {
+      "label": "Hardware copied",
+      "sub": "CPU, memory, devices",
+      "icon": "layers",
+      "cue": "hw"
+     },
+     {
+      "label": "Real machine code",
+      "sub": "instructions translated",
+      "icon": "code",
+      "cue": "mc"
+     },
+     {
+      "label": "Your actual binary",
+      "sub": "same app as on device",
+      "icon": "file",
+      "cue": "bin"
+     },
+     {
+      "label": "Android Emulator",
+      "sub": "full system image",
+      "icon": "grid",
+      "cue": "ae"
+     }
+    ]
+   }
+  },
+  {
+   "id": "simulator",
+   "start": 17.885,
+   "end": 28.059,
+   "sentences": [
+    {
+     "start": 17.885,
+     "end": 20.615,
+     "chunks": [
+      {
+       "start": 17.885,
+       "end": 19.786,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 17.885,
+         "end": 17.951
+        },
+        {
+         "text": "simulator",
+         "tail": "",
+         "hl": true,
+         "start": 18.033,
+         "end": 18.52
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 18.578,
+         "end": 18.764
+        },
+        {
+         "text": "copies",
+         "tail": "",
+         "hl": false,
+         "start": 18.822,
+         "end": 19.217
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 19.252,
+         "end": 19.321
+        },
+        {
+         "text": "behavior",
+         "tail": "",
+         "hl": true,
+         "cue": "beh",
+         "start": 19.368,
+         "end": 19.786
+        }
+       ]
+      },
+      {
+       "start": 19.844,
+       "end": 20.796,
+       "words": [
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 19.844,
+         "end": 19.902
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 19.948,
+         "end": 20.018
+        },
+        {
+         "text": "environment",
+         "tail": ".",
+         "hl": false,
+         "start": 20.064,
+         "end": 20.796
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 21.215,
+     "end": 23.994,
+     "chunks": [
+      {
+       "start": 21.215,
+       "end": 23.16,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 21.215,
+         "end": 21.384
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 21.453,
+         "end": 21.651
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 21.697,
+         "end": 21.767
+        },
+        {
+         "text": "built",
+         "tail": "",
+         "hl": false,
+         "start": 21.813,
+         "end": 21.999
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 22.022,
+         "end": 22.127
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 22.162,
+         "end": 22.255
+        },
+        {
+         "text": "computer's",
+         "tail": "",
+         "hl": false,
+         "start": 22.301,
+         "end": 22.696
+        },
+        {
+         "text": "processor",
+         "tail": ",",
+         "hl": false,
+         "cue": "cpu",
+         "start": 22.731,
+         "end": 23.16
+        }
+       ]
+      },
+      {
+       "start": 23.184,
+       "end": 24.17,
+       "words": [
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 23.184,
+         "end": 23.334
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 23.358,
+         "end": 23.427
+        },
+        {
+         "text": "phone's",
+         "tail": ".",
+         "hl": false,
+         "start": 23.462,
+         "end": 24.17
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.594,
+     "end": 27.059,
+     "chunks": [
+      {
+       "start": 24.594,
+       "end": 25.074,
+       "words": [
+        {
+         "text": "Example",
+         "tail": ":",
+         "hl": false,
+         "start": 24.594,
+         "end": 25.074
+        }
+       ]
+      },
+      {
+       "start": 25.108,
+       "end": 26.026,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 25.108,
+         "end": 25.213
+        },
+        {
+         "text": "iOS",
+         "tail": "",
+         "hl": true,
+         "cue": "ios",
+         "start": 25.271,
+         "end": 25.526
+        },
+        {
+         "text": "Simulator",
+         "tail": ",",
+         "hl": false,
+         "start": 25.561,
+         "end": 26.026
+        }
+       ]
+      },
+      {
+       "start": 26.049,
+       "end": 27.233,
+       "words": [
+        {
+         "text": "which",
+         "tail": "",
+         "hl": false,
+         "start": 26.049,
+         "end": 26.2
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 26.223,
+         "end": 26.42
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 26.467,
+         "end": 26.536
+        },
+        {
+         "text": "macOS",
+         "tail": ".",
+         "hl": false,
+         "start": 26.583,
+         "end": 27.233
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "SIMULATOR",
+    "title": "Copies behavior only",
+    "cards": [
+     {
+      "title": "Behavior only",
+      "sub": "no real hardware",
+      "icon": "wand",
+      "cue": "beh"
+     },
+     {
+      "title": "Your computer's CPU",
+      "sub": "not the phone's",
+      "icon": "terminal",
+      "cue": "cpu"
+     },
+     {
+      "title": "iOS Simulator",
+      "sub": "runs on macOS",
+      "icon": "grid",
+      "cue": "ios"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tradeoff",
+   "start": 28.059,
+   "end": 40.376,
+   "sentences": [
+    {
+     "start": 28.059,
+     "end": 30.839,
+     "chunks": [
+      {
+       "start": 28.059,
+       "end": 28.659,
+       "words": [
+        {
+         "text": "Emulator",
+         "tail": ":",
+         "hl": false,
+         "cue": "emu",
+         "start": 28.059,
+         "end": 28.659
+        }
+       ]
+      },
+      {
+       "start": 28.682,
+       "end": 29.866,
+       "words": [
+        {
+         "text": "closer",
+         "tail": "",
+         "hl": false,
+         "start": 28.682,
+         "end": 29.03
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 29.077,
+         "end": 29.123
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 29.17,
+         "end": 29.263
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": true,
+         "start": 29.309,
+         "end": 29.495
+        },
+        {
+         "text": "device",
+         "tail": ",",
+         "hl": false,
+         "start": 29.553,
+         "end": 29.866
+        }
+       ]
+      },
+      {
+       "start": 29.89,
+       "end": 31.074,
+       "words": [
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 29.89,
+         "end": 30.017
+        },
+        {
+         "text": "heavier",
+         "tail": "",
+         "hl": false,
+         "start": 30.075,
+         "end": 30.377
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 30.424,
+         "end": 30.505
+        },
+        {
+         "text": "slower",
+         "tail": ".",
+         "hl": false,
+         "start": 30.54,
+         "end": 31.074
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 31.439,
+     "end": 34.129,
+     "chunks": [
+      {
+       "start": 31.439,
+       "end": 31.985,
+       "words": [
+        {
+         "text": "Simulator",
+         "tail": ":",
+         "hl": false,
+         "cue": "sim",
+         "start": 31.439,
+         "end": 31.985
+        }
+       ]
+      },
+      {
+       "start": 32.019,
+       "end": 32.716,
+       "words": [
+        {
+         "text": "fast",
+         "tail": "",
+         "hl": true,
+         "start": 32.019,
+         "end": 32.298
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 32.333,
+         "end": 32.414
+        },
+        {
+         "text": "light",
+         "tail": ",",
+         "hl": false,
+         "start": 32.484,
+         "end": 32.716
+        }
+       ]
+      },
+      {
+       "start": 32.751,
+       "end": 34.318,
+       "words": [
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 32.751,
+         "end": 32.867
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 32.913,
+         "end": 32.971
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 33.018,
+         "end": 33.111
+        },
+        {
+         "text": "hide",
+         "tail": "",
+         "hl": false,
+         "start": 33.169,
+         "end": 33.366
+        },
+        {
+         "text": "hardware",
+         "tail": "",
+         "hl": false,
+         "start": 33.412,
+         "end": 33.772
+        },
+        {
+         "text": "bugs",
+         "tail": ".",
+         "hl": false,
+         "start": 33.807,
+         "end": 34.318
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 34.729,
+     "end": 39.376,
+     "chunks": [
+      {
+       "start": 34.729,
+       "end": 36.238,
+       "words": [
+        {
+         "text": "Neither",
+         "tail": "",
+         "hl": false,
+         "start": 34.729,
+         "end": 35.066
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 35.124,
+         "end": 35.263
+        },
+        {
+         "text": "catches",
+         "tail": "",
+         "hl": false,
+         "start": 35.309,
+         "end": 35.646
+        },
+        {
+         "text": "everything",
+         "tail": ":",
+         "hl": true,
+         "start": 35.704,
+         "end": 36.238
+        }
+       ]
+      },
+      {
+       "start": 36.273,
+       "end": 37.306,
+       "words": [
+        {
+         "text": "camera",
+         "tail": ",",
+         "hl": false,
+         "start": 36.273,
+         "end": 36.749
+        },
+        {
+         "text": "sensors",
+         "tail": ",",
+         "hl": false,
+         "start": 36.772,
+         "end": 37.306
+        }
+       ]
+      },
+      {
+       "start": 37.376,
+       "end": 38.328,
+       "words": [
+        {
+         "text": "real",
+         "tail": "",
+         "hl": false,
+         "start": 37.376,
+         "end": 37.608
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "start": 37.666,
+         "end": 37.945
+        },
+        {
+         "text": "limits",
+         "tail": ",",
+         "hl": false,
+         "start": 38.003,
+         "end": 38.328
+        }
+       ]
+      },
+      {
+       "start": 38.351,
+       "end": 39.559,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 38.351,
+         "end": 38.444
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": false,
+         "start": 38.502,
+         "end": 38.676
+        },
+        {
+         "text": "performance",
+         "tail": ".",
+         "hl": false,
+         "start": 38.734,
+         "end": 39.559
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "THE TRADE-OFF",
+    "left": {
+     "kicker": "EMULATOR",
+     "title": "Closer to real",
+     "items": [
+      "More accurate",
+      "Heavier",
+      "Slower"
+     ],
+     "cue": "emu"
+    },
+    "right": {
+     "kicker": "SIMULATOR",
+     "title": "Fast & light",
+     "items": [
+      "Quick to launch",
+      "Can hide hardware bugs"
+     ],
+     "cue": "sim"
+    }
+   }
+  },
+  {
+   "id": "rule",
+   "start": 40.376,
+   "end": 45.535,
+   "sentences": [
+    {
+     "start": 40.376,
+     "end": 42.06,
+     "chunks": [
+      {
+       "start": 40.376,
+       "end": 40.887,
+       "words": [
+        {
+         "text": "Build",
+         "tail": "",
+         "hl": true,
+         "cue": "build",
+         "start": 40.376,
+         "end": 40.597
+        },
+        {
+         "text": "fast",
+         "tail": "",
+         "hl": false,
+         "start": 40.643,
+         "end": 40.887
+        }
+       ]
+      },
+      {
+       "start": 40.933,
+       "end": 42.28,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 40.933,
+         "end": 40.991
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 41.038,
+         "end": 41.061
+        },
+        {
+         "text": "simulator",
+         "tail": "",
+         "hl": false,
+         "start": 41.096,
+         "end": 41.502
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 41.549,
+         "end": 41.595
+        },
+        {
+         "text": "emulator",
+         "tail": ".",
+         "hl": false,
+         "start": 41.642,
+         "end": 42.28
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 42.66,
+     "end": 44.535,
+     "chunks": [
+      {
+       "start": 42.66,
+       "end": 43.752,
+       "words": [
+        {
+         "text": "Always",
+         "tail": "",
+         "hl": false,
+         "start": 42.66,
+         "end": 43.008
+        },
+        {
+         "text": "do",
+         "tail": "",
+         "hl": false,
+         "start": 43.055,
+         "end": 43.148
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 43.194,
+         "end": 43.217
+        },
+        {
+         "text": "final",
+         "tail": "",
+         "hl": false,
+         "start": 43.264,
+         "end": 43.519
+        },
+        {
+         "text": "test",
+         "tail": "",
+         "hl": false,
+         "start": 43.566,
+         "end": 43.752
+        }
+       ]
+      },
+      {
+       "start": 43.798,
+       "end": 44.75,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 43.798,
+         "end": 43.868
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 43.914,
+         "end": 43.937
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": true,
+         "cue": "real",
+         "start": 43.995,
+         "end": 44.17
+        },
+        {
+         "text": "device",
+         "tail": ".",
+         "hl": true,
+         "start": 44.216,
+         "end": 44.75
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "THE RULE",
+    "title": "How to use both",
+    "steps": [
+     {
+      "label": "Build fast",
+      "sub": "simulator or emulator",
+      "icon": "sparkle",
+      "cue": "build"
+     },
+     {
+      "label": "Final test",
+      "sub": "on a real device",
+      "icon": "check",
+      "cue": "real"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 45.535,
+   "end": 50.241,
+   "sentences": [
+    {
+     "start": 45.535,
+     "end": 46.941,
+     "chunks": [
+      {
+       "start": 45.535,
+       "end": 47.107,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 45.535,
+         "end": 45.819
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 45.888,
+         "end": 45.993
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 46.039,
+         "end": 46.213
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 46.248,
+         "end": 46.573
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 46.608,
+         "end": 47.107
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "stock-check-reminder",
+  "voice": "am_michael",
+  "lang": "a",
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "punch",
+        "label": "STOCK CHECK REMINDERS",
+        "word": "ONE",
+        "headline": "stock check per day — here's how the app never lets you forget",
+        "highlight": "never",
+        "kicker": "TAGWAY ICE",
+        "icon": "bell"
+      },
+      "sentences": [
+        { "caption": "*One*#one stock check. One *reminder* system." },
+        { "caption": "Here's how it *never* lets you forget." }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "transition": "slide",
+      "visual": {
+        "type": "sequence",
+        "label": "THE FLOW",
+        "title": "From login to a tracked reminder",
+        "lanes": [
+          { "name": "App", "icon": "phone" },
+          { "name": "AlarmManager", "icon": "bell" },
+          { "name": "Engine", "icon": "wand" },
+          { "name": "Notifier", "icon": "send" },
+          { "name": "TCM", "icon": "db" }
+        ],
+        "messages": [
+          { "from": 0, "to": 1, "text": "Schedule next alarm", "cue": "s1" },
+          { "from": 1, "to": 2, "text": "Alarm fires → decide", "cue": "s2" },
+          { "from": 2, "to": 3, "text": "Post notification", "cue": "s3" },
+          { "from": 3, "to": 0, "text": "Notification shown", "cue": "s4" },
+          { "from": 3, "to": 4, "text": "Track Reminder-Dn", "cue": "s5", "tone": "good" }
+        ]
+      },
+      "sentences": [
+        { "caption": "From *login* to a tracked reminder — five hops." },
+        { "caption": "The app *arms* the next alarm.#s1" },
+        { "caption": "Alarm fires, the *engine* decides.#s2" },
+        { "caption": "Notification *posted*#s3 and shown on screen.#s4" },
+        { "caption": "*Tracked*#s5 to TCM — only if it really appeared." }
+      ]
+    },
+    {
+      "id": "engine",
+      "visual": {
+        "type": "steps",
+        "label": "INSIDE THE ENGINE",
+        "title": "What happens each time the alarm fires",
+        "steps": [
+          { "label": "Logged in with Stock Check permission?", "sub": "No → cancel alarm and stop", "icon": "auth", "cue": "q1" },
+          { "label": "Today's check already saved?", "sub": "Yes → set alarm for 00:01 tomorrow", "icon": "check", "cue": "q2" },
+          { "label": "Pick only the latest due reminder", "sub": "Older ones marked handled — no flood", "icon": "bell", "cue": "q3" },
+          { "label": "Scanning less than 2 hours ago?", "sub": "Yes → hold. Only the 21:00 miss gets through", "icon": "camera", "cue": "q4" },
+          { "label": "Save state → post → track if it appeared", "sub": "Crash cannot repeat or break the chain", "icon": "signal", "cue": "q5" }
+        ],
+        "camera": [
+          { "cue": "q5", "zoom": 1.4, "x": 540, "y": 700, "dur": 2.5 }
+        ]
+      },
+      "sentences": [
+        { "caption": "Every alarm fire runs through *five* checks.#q1" },
+        { "caption": "Are you *logged in*#q1 with Stock Check permission?" },
+        { "caption": "Is today's check *already done*?#q2 If yes — alarm set for tomorrow, nothing shown." },
+        { "caption": "Which reminder is *due*?#q3 Only the latest. Older ones? Skipped." },
+        { "caption": "*Scanning*?#q4 Reminders held for 2 hours." },
+        { "caption": "Save state, post, then *track*#q5 — but only if the notification actually appeared." }
+      ]
+    },
+    {
+      "id": "quiz",
+      "visual": {
+        "type": "quiz",
+        "label": "QUICK QUIZ",
+        "question": "Phone was off for 3 hours. How many reminders fire?",
+        "highlight": "many",
+        "options": ["All 3 missed ones", "Just the latest", "None", "Depends on settings"],
+        "answer": 1,
+        "seconds": 5,
+        "ask": "ask",
+        "reveal": "reveal"
+      },
+      "sentences": [
+        { "caption": "*Pause* and guess.#ask" },
+        { "caption": "Your phone was off for 3 hours." },
+        { "caption": "How *many* reminders fire when it turns back on?" },
+        { "caption": "Just the *latest* one.#reveal The engine skips the older due ones." }
+      ]
+    },
+    {
+      "id": "triggers",
+      "transition": "whip",
+      "visual": {
+        "type": "journey",
+        "label": "ENTRY POINTS",
+        "headline": "Five things wake the engine",
+        "highlight": "Five",
+        "stops": [
+          { "name": "Alarm fires", "sub": "Scheduled time", "icon": "bell", "cue": "wake", "tone": "good" },
+          { "name": "Boot/Update", "sub": "Never breaks", "icon": "download", "cue": "reboot" },
+          { "name": "App open", "sub": "Catches up", "icon": "phone", "cue": "app" },
+          { "name": "Tag scanned", "sub": "2-hr pause", "icon": "aperture", "cue": "scan" },
+          { "name": "Check saved", "sub": "Reminders stop", "icon": "check", "cue": "saved", "tone": "good" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Five things *wake* the engine.#wake" },
+        { "caption": "The alarm, a reboot,#reboot or an *app open*.#app" },
+        { "caption": "First *tag scanned*#scan — 2-hour pause kicks in." },
+        { "caption": "Stock check *saved*?#saved Reminders stop. Streak grows." }
+      ]
+    },
+    {
+      "id": "schedule",
+      "visual": {
+        "type": "chart",
+        "label": "DAILY SCHEDULE",
+        "title": "Missed day: cumulative reminders across the day (illustrative)",
+        "points": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11],
+        "yMax": 12,
+        "unit": "reminders",
+        "start": "chartstart",
+        "end": "chartend",
+        "note": { "text": "Flat = 2-hr scanning pause (illustrative)", "cue": "scan2" },
+        "camera": [
+          { "cue": "miss", "zoom": 1.3, "x": 540, "y": 560 },
+          { "cue": "scan2", "zoom": 1 }
+        ]
+      },
+      "glitch": [{ "cue": "miss" }],
+      "sentences": [
+        { "caption": "On a *normal* day:#chartstart morning, midday, final at 8:30." },
+        { "caption": "*Miss* a day?#miss Hourly reminders every hour until 9 PM." },
+        { "caption": "Start *scanning*?#scan2 Two-hour *pause*#scan2 — then reminders resume.#chartend" }
+      ]
+    },
+    {
+      "id": "messages",
+      "visual": {
+        "type": "compare",
+        "label": "MESSAGE TONE",
+        "left": {
+          "kicker": "D0 — ON TRACK",
+          "title": "Streak messages",
+          "items": ["Morning · midday · final", "Keep momentum", "Streak growing"],
+          "cue": "d0"
+        },
+        "right": {
+          "kicker": "D1–D7+ — MISSED",
+          "title": "Escalating nudges",
+          "items": ["D1 — Fresh start", "D2 — Back on track", "D7+ — Gentle restart"],
+          "cue": "d1",
+          "camera": [
+            { "cue": "d7", "zoom": 1.35, "x": 810, "y": 700, "dur": 2 },
+            { "cue": "back2", "zoom": 1 }
+          ]
+        }
+      },
+      "sentences": [
+        { "caption": "The *message* changes with the streak." },
+        { "caption": "Day zero: *motivating* copy.#d0 Morning, midday, final." },
+        { "caption": "Miss one day? *Fresh start*.#d1 Two days? Back on track." },
+        { "caption": "Seven or more?#d7 A *gentle* restart — no guilt.#back2" }
+      ]
+    },
+    {
+      "id": "tracking",
+      "visual": {
+        "type": "phoneapp",
+        "label": "WHAT GETS TRACKED",
+        "title": "Notification shade",
+        "rows": 8,
+        "speed": 480,
+        "scroll": "scrollstart",
+        "jank": { "cue": "blocked" },
+        "dialog": {
+          "cue": "blocked",
+          "title": "Notifications blocked",
+          "body": "The reminder channel is off. Nothing will be tracked.",
+          "buttons": ["OK"]
+        }
+      },
+      "glitch": [{ "cue": "off", "text": "REMINDER NOT TRACKED" }],
+      "sentences": [
+        { "caption": "A reminder only *counts*#scrollstart if the notification actually appeared." },
+        { "caption": "Notifications *off*?#off Nothing tracked." },
+        { "caption": "Channel *blocked*?#blocked Nothing tracked." },
+        { "caption": "No permission? *Nothing* tracked." }
+      ]
+    },
+    {
+      "id": "payload",
+      "visual": {
+        "type": "diff",
+        "label": "TCM EVENT",
+        "file": "Reminder-D1.json",
+        "lines": [
+          { "text": "POST /ClientManagementApi/api/…", "kind": "ctx" },
+          { "text": "{", "kind": "ctx" },
+          { "text": "  \"AppName\":    \"Tagway Ice\",", "kind": "add", "cue": "fires" },
+          { "text": "  \"Modulename\": \"Reminder-D1\",", "kind": "add", "cue": "payload" },
+          { "text": "  \"Username\":   \"<logged-in user>\"", "kind": "add", "cue": "payload" },
+          { "text": "}", "kind": "ctx" },
+          { "text": "// queued offline — up to 50", "kind": "ctx", "cue": "queue" }
+        ]
+      },
+      "sentences": [
+        { "caption": "When a reminder *appears*, one event fires.#fires" },
+        { "caption": "Reminder-*D1*.#payload AppName: Tagway Ice. Username: you." },
+        { "caption": "Offline?#queue *Queued* on-device — up to 50 events, sent next time the app tracks anything." }
+      ]
+    },
+    {
+      "id": "safety",
+      "transition": "zoom",
+      "visual": {
+        "type": "trio",
+        "label": "SAFEGUARDS",
+        "title": "Why users are never spammed",
+        "rows": [
+          { "kicker": "ANTI-FLOOD", "text": "No dups. Latest only. One notif ID.", "icon": "lock", "cue": "rules" },
+          { "kicker": "SMART TIMING", "text": "Pause while scanning. Cut-off 21:00.", "icon": "bell", "cue": "flood" },
+          { "kicker": "PER-USER", "text": "Client+user keyed. Shared = separate.", "icon": "user", "cue": "per" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Six rules that mean you're *never* spammed.#rules" },
+        { "caption": "No duplicates. Only the *latest* due reminder fires.#flood" },
+        { "caption": "2-hour scan pause. Cut-off at 9 PM." },
+        { "caption": "*Per-user* state.#per Shared device? Separate streaks." },
+        { "caption": "And if the reminder code *crashes* — it's logged, never shown to you." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1563 @@
+{
+ "id": "fps-vs-frame-pacing",
+ "durationS": 60.647,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.299,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.802,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.003,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.181
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 0.25,
+         "end": 0.436
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 0.517,
+         "end": 0.773
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 0.819,
+         "end": 0.9
+        },
+        {
+         "text": "60",
+         "tail": "",
+         "hl": false,
+         "start": 0.958,
+         "end": 1.284
+        },
+        {
+         "text": "FPS",
+         "tail": ".",
+         "hl": true,
+         "start": 1.365,
+         "end": 2.003
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.402,
+     "end": 3.57,
+     "chunks": [
+      {
+       "start": 2.402,
+       "end": 3.789,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 2.402,
+         "end": 2.523
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 2.558,
+         "end": 2.628
+        },
+        {
+         "text": "still",
+         "tail": "",
+         "hl": false,
+         "start": 2.674,
+         "end": 2.883
+        },
+        {
+         "text": "feels",
+         "tail": "",
+         "hl": false,
+         "start": 2.929,
+         "end": 3.15
+        },
+        {
+         "text": "choppy",
+         "tail": ".",
+         "hl": true,
+         "start": 3.197,
+         "end": 3.789
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 4.17,
+     "end": 6.299,
+     "chunks": [
+      {
+       "start": 4.17,
+       "end": 5.415,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 4.17,
+         "end": 4.289
+        },
+        {
+         "text": "problem",
+         "tail": "",
+         "hl": false,
+         "start": 4.324,
+         "end": 4.602
+        },
+        {
+         "text": "isn't",
+         "tail": "",
+         "hl": false,
+         "start": 4.649,
+         "end": 4.858
+        },
+        {
+         "text": "FPS",
+         "tail": ".",
+         "hl": false,
+         "start": 4.916,
+         "end": 5.415
+        }
+       ]
+      },
+      {
+       "start": 5.438,
+       "end": 6.483,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 5.438,
+         "end": 5.566
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "start": 5.613,
+         "end": 5.868
+        },
+        {
+         "text": "pacing",
+         "tail": ".",
+         "hl": true,
+         "cue": "pacing",
+         "start": 5.903,
+         "end": 6.483
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "FPS VS FRAME PACING",
+    "kicker": "FPS VS FRAME TIME",
+    "headline": "60 FPS. Still stutters.",
+    "highlight": "stutters",
+    "icon": "video",
+    "sub": {
+     "text": "It's frame pacing",
+     "cue": "pacing"
+    }
+   }
+  },
+  {
+   "id": "fps",
+   "start": 7.299,
+   "end": 13.454,
+   "sentences": [
+    {
+     "start": 7.299,
+     "end": 9.808,
+     "chunks": [
+      {
+       "start": 7.299,
+       "end": 8.762,
+       "words": [
+        {
+         "text": "FPS",
+         "tail": "",
+         "hl": true,
+         "start": 7.299,
+         "end": 7.705
+        },
+        {
+         "text": "counts",
+         "tail": "",
+         "hl": false,
+         "cue": "counts",
+         "start": 7.798,
+         "end": 8.088
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 8.147,
+         "end": 8.251
+        },
+        {
+         "text": "many",
+         "tail": "",
+         "hl": false,
+         "start": 8.297,
+         "end": 8.437
+        },
+        {
+         "text": "frames",
+         "tail": "",
+         "hl": false,
+         "start": 8.484,
+         "end": 8.762
+        }
+       ]
+      },
+      {
+       "start": 8.797,
+       "end": 9.993,
+       "words": [
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 8.797,
+         "end": 8.878
+        },
+        {
+         "text": "draw",
+         "tail": "",
+         "hl": false,
+         "start": 8.925,
+         "end": 9.099
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 9.134,
+         "end": 9.192
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 9.261,
+         "end": 9.401
+        },
+        {
+         "text": "second",
+         "tail": ".",
+         "hl": false,
+         "start": 9.436,
+         "end": 9.993
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 10.408,
+     "end": 12.454,
+     "chunks": [
+      {
+       "start": 10.408,
+       "end": 11.081,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 10.408,
+         "end": 10.593
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 10.628,
+         "end": 10.674
+        },
+        {
+         "text": "average",
+         "tail": ",",
+         "hl": true,
+         "start": 10.732,
+         "end": 11.081
+        }
+       ]
+      },
+      {
+       "start": 11.104,
+       "end": 12.613,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 11.104,
+         "end": 11.197
+        },
+        {
+         "text": "averages",
+         "tail": "",
+         "hl": false,
+         "start": 11.266,
+         "end": 11.672
+        },
+        {
+         "text": "hide",
+         "tail": "",
+         "hl": false,
+         "start": 11.742,
+         "end": 11.939
+        },
+        {
+         "text": "spikes",
+         "tail": ".",
+         "hl": false,
+         "start": 11.963,
+         "end": 12.613
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "FPS",
+    "kicker": "FRAMES PER SECOND",
+    "value": 60,
+    "from": 0,
+    "suffix": " fps",
+    "caption": "An average. Averages hide spikes.",
+    "icon": "video",
+    "cue": "counts"
+   }
+  },
+  {
+   "id": "frametime",
+   "start": 13.454,
+   "end": 23.272,
+   "sentences": [
+    {
+     "start": 13.454,
+     "end": 16.521,
+     "chunks": [
+      {
+       "start": 13.454,
+       "end": 15.742,
+       "words": [
+        {
+         "text": "Frame",
+         "tail": "",
+         "hl": true,
+         "start": 13.454,
+         "end": 13.71
+        },
+        {
+         "text": "time",
+         "tail": "",
+         "hl": true,
+         "start": 13.756,
+         "end": 13.989
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 14.012,
+         "end": 14.105
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 14.174,
+         "end": 14.314
+        },
+        {
+         "text": "long",
+         "tail": "",
+         "hl": false,
+         "start": 14.372,
+         "end": 14.592
+        },
+        {
+         "text": "each",
+         "tail": "",
+         "hl": false,
+         "start": 14.662,
+         "end": 14.871
+        },
+        {
+         "text": "single",
+         "tail": "",
+         "hl": false,
+         "start": 14.906,
+         "end": 15.184
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "start": 15.207,
+         "end": 15.44
+        },
+        {
+         "text": "takes",
+         "tail": ",",
+         "hl": false,
+         "start": 15.475,
+         "end": 15.742
+        }
+       ]
+      },
+      {
+       "start": 15.765,
+       "end": 16.694,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 15.765,
+         "end": 15.834
+        },
+        {
+         "text": "milliseconds",
+         "tail": ".",
+         "hl": false,
+         "start": 15.892,
+         "end": 16.694
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.121,
+     "end": 20.078,
+     "chunks": [
+      {
+       "start": 17.121,
+       "end": 18.021,
+       "words": [
+        {
+         "text": "At",
+         "tail": "",
+         "hl": false,
+         "start": 17.121,
+         "end": 17.278
+        },
+        {
+         "text": "60",
+         "tail": "",
+         "hl": false,
+         "cue": "h60",
+         "start": 17.336,
+         "end": 17.672
+        },
+        {
+         "text": "hertz",
+         "tail": ",",
+         "hl": false,
+         "start": 17.754,
+         "end": 18.021
+        }
+       ]
+      },
+      {
+       "start": 18.055,
+       "end": 20.18,
+       "words": [
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 18.055,
+         "end": 18.264
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "start": 18.31,
+         "end": 18.566
+        },
+        {
+         "text": "gets",
+         "tail": "",
+         "hl": false,
+         "start": 18.601,
+         "end": 18.775
+        },
+        {
+         "text": "about",
+         "tail": "",
+         "hl": false,
+         "start": 18.81,
+         "end": 19.007
+        },
+        {
+         "text": "16",
+         "tail": "",
+         "hl": true,
+         "start": 19.053,
+         "end": 19.355
+        },
+        {
+         "text": "milliseconds",
+         "tail": ".",
+         "hl": false,
+         "start": 19.425,
+         "end": 20.18
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 20.678,
+     "end": 22.272,
+     "chunks": [
+      {
+       "start": 20.678,
+       "end": 21.668,
+       "words": [
+        {
+         "text": "At",
+         "tail": "",
+         "hl": false,
+         "start": 20.678,
+         "end": 20.809
+        },
+        {
+         "text": "120",
+         "tail": "",
+         "hl": false,
+         "cue": "h120",
+         "start": 20.867,
+         "end": 21.343
+        },
+        {
+         "text": "hertz",
+         "tail": ",",
+         "hl": false,
+         "start": 21.401,
+         "end": 21.668
+        }
+       ]
+      },
+      {
+       "start": 21.703,
+       "end": 22.481,
+       "words": [
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 21.703,
+         "end": 21.901
+        },
+        {
+         "text": "about",
+         "tail": "",
+         "hl": false,
+         "start": 21.924,
+         "end": 22.133
+        },
+        {
+         "text": "8",
+         "tail": ".",
+         "hl": true,
+         "start": 22.179,
+         "end": 22.481
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "FRAME TIME",
+    "left": {
+     "kicker": "60 HZ",
+     "title": "16.67 ms",
+     "items": [
+      "Budget per frame"
+     ],
+     "cue": "h60"
+    },
+    "right": {
+     "kicker": "120 HZ",
+     "title": "8.33 ms",
+     "items": [
+      "Half the time"
+     ],
+     "cue": "h120"
+    }
+   }
+  },
+  {
+   "id": "pacing",
+   "start": 23.272,
+   "end": 38.015,
+   "sentences": [
+    {
+     "start": 23.272,
+     "end": 25.551,
+     "chunks": [
+      {
+       "start": 23.272,
+       "end": 25.723,
+       "words": [
+        {
+         "text": "Frame",
+         "tail": "",
+         "hl": true,
+         "start": 23.272,
+         "end": 23.528
+        },
+        {
+         "text": "pacing",
+         "tail": "",
+         "hl": true,
+         "start": 23.551,
+         "end": 23.876
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 23.946,
+         "end": 24.016
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 24.074,
+         "end": 24.213
+        },
+        {
+         "text": "evenly",
+         "tail": "",
+         "hl": false,
+         "start": 24.283,
+         "end": 24.666
+        },
+        {
+         "text": "those",
+         "tail": "",
+         "hl": false,
+         "start": 24.724,
+         "end": 24.898
+        },
+        {
+         "text": "frames",
+         "tail": "",
+         "hl": false,
+         "start": 24.933,
+         "end": 25.189
+        },
+        {
+         "text": "arrive",
+         "tail": ".",
+         "hl": false,
+         "start": 25.223,
+         "end": 25.723
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 26.151,
+     "end": 29.564,
+     "chunks": [
+      {
+       "start": 26.151,
+       "end": 26.726,
+       "words": [
+        {
+         "text": "Picture",
+         "tail": "",
+         "hl": false,
+         "start": 26.151,
+         "end": 26.471
+        },
+        {
+         "text": "this",
+         "tail": ":",
+         "hl": false,
+         "start": 26.494,
+         "end": 26.726
+        }
+       ]
+      },
+      {
+       "start": 26.773,
+       "end": 28.329,
+       "words": [
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 26.773,
+         "end": 26.947
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "start": 26.993,
+         "end": 27.238
+        },
+        {
+         "text": "takes",
+         "tail": "",
+         "hl": false,
+         "start": 27.261,
+         "end": 27.47
+        },
+        {
+         "text": "8",
+         "tail": "",
+         "hl": false,
+         "cue": "p1",
+         "start": 27.528,
+         "end": 27.702
+        },
+        {
+         "text": "milliseconds",
+         "tail": ",",
+         "hl": false,
+         "start": 27.76,
+         "end": 28.329
+        }
+       ]
+      },
+      {
+       "start": 28.352,
+       "end": 29.78,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 28.352,
+         "end": 28.422
+        },
+        {
+         "text": "next",
+         "tail": "",
+         "hl": false,
+         "start": 28.468,
+         "end": 28.642
+        },
+        {
+         "text": "takes",
+         "tail": "",
+         "hl": false,
+         "start": 28.666,
+         "end": 28.863
+        },
+        {
+         "text": "25",
+         "tail": ".",
+         "hl": false,
+         "cue": "p2",
+         "start": 28.921,
+         "end": 29.78
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 30.164,
+     "end": 33.227,
+     "chunks": [
+      {
+       "start": 30.164,
+       "end": 32.102,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 30.164,
+         "end": 30.338
+        },
+        {
+         "text": "average",
+         "tail": "",
+         "hl": false,
+         "start": 30.408,
+         "end": 30.814
+        },
+        {
+         "text": "still",
+         "tail": "",
+         "hl": false,
+         "start": 30.837,
+         "end": 31.046
+        },
+        {
+         "text": "says",
+         "tail": "",
+         "hl": false,
+         "start": 31.104,
+         "end": 31.266
+        },
+        {
+         "text": "60",
+         "tail": "",
+         "hl": false,
+         "cue": "p3",
+         "start": 31.336,
+         "end": 31.626
+        },
+        {
+         "text": "FPS",
+         "tail": ",",
+         "hl": false,
+         "start": 31.708,
+         "end": 32.102
+        }
+       ]
+      },
+      {
+       "start": 32.126,
+       "end": 33.413,
+       "words": [
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 32.126,
+         "end": 32.253
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 32.288,
+         "end": 32.404
+        },
+        {
+         "text": "eyes",
+         "tail": "",
+         "hl": false,
+         "start": 32.439,
+         "end": 32.578
+        },
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 32.613,
+         "end": 32.741
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 32.764,
+         "end": 32.799
+        },
+        {
+         "text": "stutter",
+         "tail": ".",
+         "hl": true,
+         "cue": "p4",
+         "start": 32.845,
+         "end": 33.413
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.827,
+     "end": 37.015,
+     "chunks": [
+      {
+       "start": 33.827,
+       "end": 35.173,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 33.827,
+         "end": 34.012
+        },
+        {
+         "text": "why",
+         "tail": "",
+         "hl": false,
+         "start": 34.035,
+         "end": 34.14
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 34.198,
+         "end": 34.221
+        },
+        {
+         "text": "steady",
+         "tail": "",
+         "hl": true,
+         "cue": "steady",
+         "start": 34.268,
+         "end": 34.511
+        },
+        {
+         "text": "30",
+         "tail": "",
+         "hl": false,
+         "start": 34.569,
+         "end": 34.79
+        },
+        {
+         "text": "FPS",
+         "tail": "",
+         "hl": false,
+         "start": 34.883,
+         "end": 35.173
+        }
+       ]
+      },
+      {
+       "start": 35.231,
+       "end": 37.217,
+       "words": [
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 35.231,
+         "end": 35.336
+        },
+        {
+         "text": "feel",
+         "tail": "",
+         "hl": false,
+         "start": 35.394,
+         "end": 35.58
+        },
+        {
+         "text": "smoother",
+         "tail": "",
+         "hl": false,
+         "start": 35.626,
+         "end": 35.963
+        },
+        {
+         "text": "than",
+         "tail": "",
+         "hl": false,
+         "start": 35.998,
+         "end": 36.114
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 36.172,
+         "end": 36.23
+        },
+        {
+         "text": "uneven",
+         "tail": "",
+         "hl": false,
+         "start": 36.276,
+         "end": 36.59
+        },
+        {
+         "text": "60",
+         "tail": ".",
+         "hl": false,
+         "start": 36.648,
+         "end": 37.217
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "FRAME PACING",
+    "headline": "Same 60 FPS. Uneven.",
+    "highlight": "Uneven",
+    "stops": [
+     {
+      "name": "8 ms",
+      "sub": "frame 1",
+      "icon": "check",
+      "cue": "p1"
+     },
+     {
+      "name": "25 ms",
+      "sub": "frame 2",
+      "icon": "flame",
+      "cue": "p2",
+      "tone": "bad"
+     },
+     {
+      "name": "8 ms",
+      "sub": "frame 3",
+      "icon": "check",
+      "cue": "p3"
+     },
+     {
+      "name": "25 ms",
+      "sub": "frame 4",
+      "icon": "flame",
+      "cue": "p4",
+      "tone": "bad"
+     }
+    ],
+    "note": {
+     "text": "Steady 30 can beat uneven 60",
+     "cue": "steady"
+    }
+   }
+  },
+  {
+   "id": "measure",
+   "start": 38.015,
+   "end": 48.535,
+   "sentences": [
+    {
+     "start": 38.015,
+     "end": 39.74,
+     "chunks": [
+      {
+       "start": 38.015,
+       "end": 39.919,
+       "words": [
+        {
+         "text": "Don't",
+         "tail": "",
+         "hl": false,
+         "start": 38.015,
+         "end": 38.212
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 38.247,
+         "end": 38.375
+        },
+        {
+         "text": "watch",
+         "tail": "",
+         "hl": false,
+         "start": 38.421,
+         "end": 38.654
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 38.712,
+         "end": 38.816
+        },
+        {
+         "text": "FPS",
+         "tail": "",
+         "hl": false,
+         "start": 38.897,
+         "end": 39.269
+        },
+        {
+         "text": "counter",
+         "tail": ".",
+         "hl": true,
+         "start": 39.338,
+         "end": 39.919
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 40.34,
+     "end": 44.207,
+     "chunks": [
+      {
+       "start": 40.34,
+       "end": 43.207,
+       "words": [
+        {
+         "text": "Use",
+         "tail": "",
+         "hl": false,
+         "start": 40.34,
+         "end": 40.595
+        },
+        {
+         "text": "dumpsys",
+         "tail": "",
+         "hl": false,
+         "cue": "gfx",
+         "start": 40.642,
+         "end": 41.037
+        },
+        {
+         "text": "gfxinfo",
+         "tail": "",
+         "hl": false,
+         "start": 41.106,
+         "end": 41.791
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 41.849,
+         "end": 42.011
+        },
+        {
+         "text": "frame-time",
+         "tail": "",
+         "hl": false,
+         "start": 42.069,
+         "end": 42.545
+        },
+        {
+         "text": "percentiles",
+         "tail": ",",
+         "hl": true,
+         "start": 42.58,
+         "end": 43.207
+        }
+       ]
+      },
+      {
+       "start": 43.23,
+       "end": 44.38,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 43.23,
+         "end": 43.347
+        },
+        {
+         "text": "janky",
+         "tail": "",
+         "hl": false,
+         "cue": "janky",
+         "start": 43.405,
+         "end": 43.73
+        },
+        {
+         "text": "frames",
+         "tail": ".",
+         "hl": false,
+         "start": 43.788,
+         "end": 44.38
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 44.807,
+     "end": 47.535,
+     "chunks": [
+      {
+       "start": 44.807,
+       "end": 46.397,
+       "words": [
+        {
+         "text": "Use",
+         "tail": "",
+         "hl": false,
+         "start": 44.807,
+         "end": 45.039
+        },
+        {
+         "text": "Perfetto",
+         "tail": "",
+         "hl": true,
+         "cue": "perf",
+         "start": 45.062,
+         "end": 45.422
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 45.48,
+         "end": 45.562
+        },
+        {
+         "text": "Macrobenchmark",
+         "tail": "",
+         "hl": false,
+         "start": 45.62,
+         "end": 46.397
+        }
+       ]
+      },
+      {
+       "start": 46.455,
+       "end": 47.686,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 46.455,
+         "end": 46.502
+        },
+        {
+         "text": "find",
+         "tail": "",
+         "hl": false,
+         "start": 46.571,
+         "end": 46.757
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 46.792,
+         "end": 46.862
+        },
+        {
+         "text": "slow",
+         "tail": "",
+         "hl": false,
+         "cue": "slow",
+         "start": 46.896,
+         "end": 47.094
+        },
+        {
+         "text": "frames",
+         "tail": ".",
+         "hl": false,
+         "start": 47.152,
+         "end": 47.686
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "HOW TO MEASURE",
+    "title": "adb",
+    "command": "adb shell dumpsys gfxinfo app",
+    "cue": "gfx",
+    "lines": [
+     {
+      "text": "50th percentile: 9ms",
+      "tone": "good"
+     },
+     {
+      "text": "90th percentile: 24ms",
+      "tone": "dim",
+      "flag": "slow"
+     },
+     {
+      "text": "99th percentile: 41ms",
+      "tone": "dim",
+      "flag": "slow"
+     },
+     {
+      "text": "Janky frames: 18%",
+      "tone": "dim",
+      "flag": "janky"
+     }
+    ],
+    "badge": {
+     "text": "Perfetto · Macrobenchmark",
+     "cue": "perf"
+    }
+   }
+  },
+  {
+   "id": "rule",
+   "start": 48.535,
+   "end": 55.94,
+   "sentences": [
+    {
+     "start": 48.535,
+     "end": 52.478,
+     "chunks": [
+      {
+       "start": 48.535,
+       "end": 50.694,
+       "words": [
+        {
+         "text": "For",
+         "tail": "",
+         "hl": false,
+         "start": 48.535,
+         "end": 48.673
+        },
+        {
+         "text": "games",
+         "tail": ",",
+         "hl": false,
+         "start": 48.72,
+         "end": 49.126
+        },
+        {
+         "text": "Google's",
+         "tail": "",
+         "hl": false,
+         "start": 49.207,
+         "end": 49.626
+        },
+        {
+         "text": "Frame",
+         "tail": "",
+         "hl": true,
+         "cue": "lib",
+         "start": 49.684,
+         "end": 49.951
+        },
+        {
+         "text": "Pacing",
+         "tail": "",
+         "hl": true,
+         "start": 49.974,
+         "end": 50.276
+        },
+        {
+         "text": "library",
+         "tail": "",
+         "hl": false,
+         "start": 50.334,
+         "end": 50.694
+        }
+       ]
+      },
+      {
+       "start": 50.752,
+       "end": 52.633,
+       "words": [
+        {
+         "text": "keeps",
+         "tail": "",
+         "hl": false,
+         "start": 50.752,
+         "end": 51.019
+        },
+        {
+         "text": "frames",
+         "tail": "",
+         "hl": false,
+         "start": 51.077,
+         "end": 51.483
+        },
+        {
+         "text": "evenly",
+         "tail": "",
+         "hl": false,
+         "start": 51.576,
+         "end": 51.971
+        },
+        {
+         "text": "spaced",
+         "tail": ".",
+         "hl": false,
+         "start": 52.017,
+         "end": 52.633
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 53.078,
+     "end": 54.94,
+     "chunks": [
+      {
+       "start": 53.078,
+       "end": 53.902,
+       "words": [
+        {
+         "text": "Measure",
+         "tail": "",
+         "hl": true,
+         "cue": "rule",
+         "start": 53.078,
+         "end": 53.391
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "start": 53.426,
+         "end": 53.658
+        },
+        {
+         "text": "time",
+         "tail": ",",
+         "hl": false,
+         "start": 53.693,
+         "end": 53.902
+        }
+       ]
+      },
+      {
+       "start": 53.926,
+       "end": 55.122,
+       "words": [
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 53.926,
+         "end": 54.123
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 54.17,
+         "end": 54.367
+        },
+        {
+         "text": "FPS",
+         "tail": ".",
+         "hl": false,
+         "start": 54.437,
+         "end": 55.122
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "THE RULE",
+    "title": "Smooth, not just fast",
+    "steps": [
+     {
+      "label": "Frame Pacing library",
+      "sub": "for OpenGL / Vulkan games",
+      "icon": "video",
+      "cue": "lib"
+     },
+     {
+      "label": "Measure frame time",
+      "sub": "not just FPS",
+      "icon": "check",
+      "cue": "rule"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 55.94,
+   "end": 60.647,
+   "sentences": [
+    {
+     "start": 55.94,
+     "end": 57.347,
+     "chunks": [
+      {
+       "start": 55.94,
+       "end": 57.513,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 55.94,
+         "end": 56.225
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 56.294,
+         "end": 56.399
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 56.445,
+         "end": 56.619
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 56.654,
+         "end": 56.979
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 57.014,
+         "end": 57.513
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

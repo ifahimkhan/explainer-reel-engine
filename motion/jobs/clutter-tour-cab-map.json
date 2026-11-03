@@ -1,0 +1,156 @@
+{
+  "id": "clutter-tour-cab-map",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "CLUTTER TOUR",
+        "kicker": "CLUTTER TOUR CHARTER",
+        "headline": "Does the map keep up?",
+        "highlight": "map",
+        "icon": "grid",
+        "sub": { "text": "50 cars · 2 GB RAM · 20 apps", "cue": "up" }
+      },
+      "sentences": [
+        { "caption": "Your rider is watching the car | move on the *map*." },
+        { "caption": "The phone is *old*, | and twenty apps are running in the background." },
+        { "caption": "Does the map keep *up*?#up" }
+      ]
+    },
+    {
+      "id": "charter",
+      "visual": {
+        "type": "editor",
+        "label": "THE CHARTER",
+        "file": "charter.md",
+        "lines": [
+          { "text": "Explore:  driver map, live cab app", "cue": "ex", "hl": true },
+          { "text": "With:     low RAM + background load", "cue": "with", "hl": true },
+          { "text": "To discover:", "cue": "disc" },
+          { "text": "  rendering lag, crashes,", "cue": "disc" },
+          { "text": "  lost trip state", "cue": "disc" }
+        ]
+      },
+      "sentences": [
+        { "caption": "A good *charter* fits in one line." },
+        { "caption": "*Explore*#ex the driver map in a live cab-tracking app, | with#with low RAM and heavy background load, | to *discover*#disc rendering lag, crashes, | and lost trip state." }
+      ]
+    },
+    {
+      "id": "setup",
+      "visual": {
+        "type": "steps",
+        "label": "SETUP",
+        "title": "First: the setup",
+        "steps": [
+          { "label": "Low-RAM device", "sub": "or a 2 GB emulator", "icon": "layers", "cue": "ram" },
+          { "label": "Fill the background", "sub": "music, maps, camera, game", "icon": "grid", "cue": "bg" },
+          { "label": "Memory pressure", "sub": "am send-trim-memory", "icon": "terminal", "cue": "trim" }
+        ]
+      },
+      "sentences": [
+        { "caption": "First: the *setup*. | Use a low-RAM#ram device, | or an emulator with 2 gigabytes of memory." },
+        { "caption": "Fill#bg the background: | music streaming, navigation, camera, | and a game." },
+        { "caption": "Then send memory *pressure*#trim | with adb shell am send-trim-memory." }
+      ]
+    },
+    {
+      "id": "clutter",
+      "visual": {
+        "type": "journey",
+        "label": "ADD THE CLUTTER",
+        "headline": "Pile on the clutter",
+        "highlight": "clutter",
+        "stops": [
+          { "name": "50 cars", "sub": "busy area", "icon": "grid", "cue": "c1" },
+          { "name": "Surge zones", "sub": "heatmap", "icon": "flame", "cue": "c2" },
+          { "name": "Chat + GPS", "sub": "fast updates", "icon": "chat", "cue": "c3" },
+          { "name": "Rotate", "sub": "and zoom", "icon": "aperture", "cue": "c4", "tone": "bad" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Second: add the *clutter*. | Request a ride in a busy area, | with fifty#c1 cars around you." },
+        { "caption": "Turn on surge#c2 zones, chat#c3 messages, | and fast location updates." },
+        { "caption": "*Rotate*#c4 the screen and zoom in and out | while the car moves." }
+      ]
+    },
+    {
+      "id": "watch",
+      "visual": {
+        "type": "trio",
+        "label": "WHAT TO WATCH",
+        "title": "Third: what to watch",
+        "rows": [
+          { "kicker": "MARKERS", "text": "Glide smoothly, never jump", "icon": "arrowRight", "cue": "m" },
+          { "kicker": "MAP TILES", "text": "Never blank or grey", "icon": "image", "cue": "t" },
+          { "kicker": "PROCESS DEATH", "text": "Trip comes back exactly", "icon": "check", "cue": "p" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Third: what to *watch*. | Car markers#m should glide smoothly, | not jump." },
+        { "caption": "Map tiles#t should never go *blank* or grey." },
+        { "caption": "And if Android kills#p the app, | the trip must come back *exactly* as it was." }
+      ]
+    },
+    {
+      "id": "measure",
+      "visual": {
+        "type": "terminal",
+        "label": "MEASURE",
+        "title": "adb",
+        "command": "adb shell dumpsys gfxinfo cab.app",
+        "cue": "gfx",
+        "lines": [
+          { "text": "Total frames rendered: 3120", "tone": "normal" },
+          { "text": "Janky frames: 412 (13.2%)", "tone": "dim", "flag": "drops" },
+          { "text": "90th percentile: 38ms", "tone": "dim" }
+        ],
+        "badge": { "text": "+ Memory Profiler", "cue": "mem" }
+      },
+      "sentences": [
+        { "caption": "*Measure*, don't guess." },
+        { "caption": "Check frame#drops drops with dumpsys#gfx gfxinfo, | and memory with the *Memory*#mem Profiler." }
+      ]
+    },
+    {
+      "id": "bugs",
+      "visual": {
+        "type": "cards",
+        "label": "BUGS IT FINDS",
+        "cards": [
+          { "title": "Janky markers", "icon": "flame", "cue": "b1" },
+          { "title": "Blank tiles", "icon": "image", "cue": "b2" },
+          { "title": "OOM crashes", "icon": "unlink", "cue": "b3" },
+          { "title": "Marker leaks", "icon": "layers", "cue": "b4" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Bugs it finds: | *janky*#b1 markers, blank#b2 tiles, | out-of-memory#b3 crashes, | and markers that never get removed, | and slowly *leak*#b4 memory." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

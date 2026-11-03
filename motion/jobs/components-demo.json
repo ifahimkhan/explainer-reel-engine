@@ -1,0 +1,70 @@
+{
+  "id": "components-demo",
+  "voice": "am_michael",
+  "lang": "a",
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 1.5,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "punch", "label": "PUNCH HOOK", "word": "GC",
+        "headline": "How often does it run in your app?", "highlight": "run",
+        "kicker": "ANDROID MEMORY", "icon": "flame",
+        "sub": { "text": "Most devs have no idea", "cue": "idea" }
+      },
+      "sentences": [
+        { "caption": "How often does garbage collection run in your app?" },
+        { "caption": "Most developers have no idea.#idea" }
+      ]
+    },
+    {
+      "id": "chart",
+      "visual": {
+        "type": "chart", "label": "LIVE CHART", "title": "Heap used · live",
+        "points": [40, 52, 64, 76, 88, 46, 58, 70, 82, 94, 50, 62, 74, 86, 98, 54, 66, 78, 90, 160, 60],
+        "yMax": 192, "unit": "MB", "dropMin": 25, "start": "s", "end": "e",
+        "limit": { "value": 150, "label": "75% · warning" },
+        "note": { "text": "Every drop is a GC", "cue": "drop" },
+        "camera": [
+          { "cue": "zoom", "zoom": 1.6, "x": 820, "y": 560 },
+          { "cue": "back", "zoom": 1 }
+        ]
+      },
+      "sentences": [
+        { "caption": "Heap memory climbs#s as your app allocates objects." },
+        { "caption": "Every sharp drop#drop is a garbage collection." },
+        { "caption": "And when it spikes#zoom past the warning line, | you are close to running out." },
+        { "caption": "Now zoom back#back out and see the whole pattern.#e" }
+      ]
+    },
+    {
+      "id": "seq",
+      "visual": {
+        "type": "sequence", "label": "SEQUENCE", "title": "UPI payment",
+        "lanes": [
+          { "name": "App", "icon": "phone" },
+          { "name": "Your bank", "icon": "db" },
+          { "name": "NPCI", "icon": "share" },
+          { "name": "Rahul's bank", "icon": "db" }
+        ],
+        "messages": [
+          { "from": 0, "to": 1, "text": "pay ₹500", "cue": "m1" },
+          { "from": 1, "to": 2, "text": "debit + route", "cue": "m2" },
+          { "from": 2, "to": 3, "text": "credit ₹500", "cue": "m3" },
+          { "from": 3, "to": 2, "text": "credited", "cue": "m4", "tone": "good" },
+          { "from": 2, "to": 1, "text": "success", "cue": "m5", "tone": "good" },
+          { "from": 1, "to": 0, "text": "Paid ₹500", "cue": "m6", "tone": "good" }
+        ],
+        "note": { "text": "All in a few seconds", "cue": "secs" }
+      },
+      "sentences": [
+        { "caption": "Your app#m1 asks your bank to pay. | Your bank routes#m2 it to NPCI." },
+        { "caption": "NPCI asks#m3 the other bank to credit. | The bank confirms,#m4 NPCI reports#m5 success, | and your app shows#m6 paid." },
+        { "caption": "All in a few#secs seconds." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "store-compliance-testing",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "STORE COMPLIANCE",
+        "kicker": "APP STORE COMPLIANCE TESTING",
+        "headline": "Launch day. Rejected.",
+        "highlight": "Rejected",
+        "icon": "flame",
+        "sub": { "text": "Your app works. The store still says no.", "cue": "rejects" }
+      },
+      "sentences": [
+        { "caption": "Your app is *ready*. | Launch day is set." },
+        { "caption": "Then the store *rejects*#rejects it." }
+      ]
+    },
+    {
+      "id": "what",
+      "visual": {
+        "type": "compare",
+        "label": "WHAT IT IS",
+        "left": { "kicker": "APPLE", "title": "Review Guidelines", "items": ["App Store", "Checked before submit"], "cue": "apple" },
+        "right": { "kicker": "GOOGLE", "title": "Developer Policies", "items": ["Google Play", "Checked before submit"], "cue": "google" }
+      },
+      "sentences": [
+        { "caption": "*App* *Store* *Compliance* *Testing* | means checking your app against the store's rules, | *before* you submit it." },
+        { "caption": "That's Apple's#apple App Store Review Guidelines, | and Google#google Play's Developer Policies." }
+      ]
+    },
+    {
+      "id": "checks",
+      "visual": {
+        "type": "cards",
+        "label": "WHAT IT CHECKS",
+        "cards": [
+          { "title": "Privacy", "sub": "policy, labels, permissions", "icon": "auth", "cue": "c1" },
+          { "title": "Payments", "sub": "store billing", "icon": "dollar", "cue": "c2" },
+          { "title": "Account deletion", "sub": "inside the app", "icon": "user", "cue": "c3" },
+          { "title": "Technical rules", "sub": "crashes, target API", "icon": "code", "cue": "c4" }
+        ]
+      },
+      "sentences": [
+        { "caption": "First: *privacy*.#c1 | A privacy policy, correct data safety labels, | and a reason for every permission." },
+        { "caption": "Second: *payments*.#c2 | Digital goods usually have to go | through the store's own billing." },
+        { "caption": "Third: account *deletion*.#c3 | If users can create an account, | they must be able to delete it inside the app." },
+        { "caption": "Fourth: *technical*#c4 rules. | No crashes, no placeholder screens, | and the required target API level." }
+      ]
+    },
+    {
+      "id": "risk",
+      "visual": {
+        "type": "terminal",
+        "label": "WHY IT'S CRITICAL",
+        "title": "store review",
+        "command": "submit release 1.0.0",
+        "cue": "rejection",
+        "lines": [
+          { "text": "Status: Rejected", "tone": "bad" },
+          { "text": "Fix, resubmit, wait again...", "tone": "dim" },
+          { "text": "Repeated violation: app removed", "tone": "dim", "flag": "removed" },
+          { "text": "Developer account suspended", "tone": "dim", "flag": "suspended" }
+        ],
+        "badge": { "text": "Launch date slips", "cue": "slips" }
+      },
+      "sentences": [
+        { "caption": "Every *rejection*#rejection costs you days, | and your launch date *slips*.#slips" },
+        { "caption": "Repeated violations can get your app *removed*,#removed | or even your developer account *suspended*.#suspended" }
+      ]
+    },
+    {
+      "id": "rule",
+      "visual": {
+        "type": "steps",
+        "label": "THE RULE",
+        "title": "Ship without surprises",
+        "steps": [
+          { "label": "Policies = test suite", "sub": "check them like tests", "icon": "check", "cue": "suite" },
+          { "label": "Every release", "sub": "not only the first", "icon": "layers", "cue": "every" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Treat store policies | as a *test*#suite *suite*." },
+        { "caption": "Run the checklist before every#every *release*, | not only the first one." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Python deps for tts/ (install into .venv: .venv\Scripts\pip install -r requirements.txt)
+kokoro==0.9.4
+torch==2.14.1
+numpy==2.5.4
+soundfile==0.14.0
+faster-whisper==1.2.1
+av==15.1.0  # av>=16 breaks faster-whisper 1.2.1
+piper-tts==1.8.0
+edge-tts==7.3.1
+elevenlabs==2.74.1
+python-dotenv==1.2.4
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl

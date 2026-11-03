@@ -1,0 +1,1285 @@
+{
+ "id": "apk-to-compose",
+ "durationS": 61.953,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 8.48,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 8.18,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 3.801,
+       "words": [
+        {
+         "text": "Can",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.121
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 0.201,
+         "end": 0.281
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": true,
+         "start": 0.441,
+         "end": 0.681
+        },
+        {
+         "text": "agent",
+         "tail": "",
+         "hl": true,
+         "start": 0.761,
+         "end": 1.161
+        },
+        {
+         "text": "reverse-engineer",
+         "tail": "",
+         "hl": false,
+         "start": 1.321,
+         "end": 2.201
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 2.281,
+         "end": 2.361
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 2.441,
+         "end": 2.841
+        },
+        {
+         "text": "APK",
+         "tail": ",",
+         "hl": false,
+         "start": 2.921,
+         "end": 3.801
+        }
+       ]
+      },
+      {
+       "start": 4.041,
+       "end": 5.321,
+       "words": [
+        {
+         "text": "extract",
+         "tail": "",
+         "hl": false,
+         "start": 4.041,
+         "end": 4.281
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 4.401,
+         "end": 4.521
+        },
+        {
+         "text": "logic",
+         "tail": ",",
+         "hl": false,
+         "start": 4.601,
+         "end": 5.321
+        }
+       ]
+      },
+      {
+       "start": 5.401,
+       "end": 8.361,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 5.401,
+         "end": 5.481
+        },
+        {
+         "text": "rebuild",
+         "tail": "",
+         "hl": false,
+         "start": 5.561,
+         "end": 5.961
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 6.041,
+         "end": 6.121
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 6.201,
+         "end": 6.281
+        },
+        {
+         "text": "Jetpack",
+         "tail": "",
+         "hl": false,
+         "start": 6.361,
+         "end": 6.761
+        },
+        {
+         "text": "Compose",
+         "tail": "",
+         "hl": false,
+         "start": 7.041,
+         "end": 7.321
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 7.401,
+         "end": 7.561
+        },
+        {
+         "text": "scratch",
+         "tail": "?",
+         "hl": true,
+         "cue": "sub",
+         "start": 7.641,
+         "end": 8.361
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "THE QUESTION",
+    "kicker": "ANDROID + AI AGENT",
+    "headline": "APK to Compose with AI",
+    "highlight": "AI",
+    "icon": "wand",
+    "sub": {
+     "text": "Rebuilt from scratch",
+     "cue": "sub"
+    }
+   }
+  },
+  {
+   "id": "setup",
+   "start": 8.48,
+   "end": 17.717,
+   "sentences": [
+    {
+     "start": 8.48,
+     "end": 17.417,
+     "chunks": [
+      {
+       "start": 8.48,
+       "end": 11.164,
+       "words": [
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 8.48,
+         "end": 8.604
+        },
+        {
+         "text": "tested",
+         "tail": "",
+         "hl": false,
+         "start": 8.684,
+         "end": 9.004
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 9.084,
+         "end": 9.164
+        },
+        {
+         "text": "workflow",
+         "tail": "",
+         "hl": false,
+         "start": 9.244,
+         "end": 9.724
+        },
+        {
+         "text": "using",
+         "tail": "",
+         "hl": false,
+         "start": 9.804,
+         "end": 10.044
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": true,
+         "start": 10.204,
+         "end": 10.524
+        },
+        {
+         "text": "Code",
+         "tail": ",",
+         "hl": true,
+         "start": 10.604,
+         "end": 11.164
+        }
+       ]
+      },
+      {
+       "start": 11.324,
+       "end": 14.764,
+       "words": [
+        {
+         "text": "paired",
+         "tail": "",
+         "hl": false,
+         "start": 11.324,
+         "end": 11.484
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 11.564,
+         "end": 11.804
+        },
+        {
+         "text": "REA",
+         "tail": ",",
+         "hl": false,
+         "cue": "rea",
+         "start": 11.884,
+         "end": 12.884
+        },
+        {
+         "text": "Reverse",
+         "tail": "",
+         "hl": false,
+         "start": 13.084,
+         "end": 13.404
+        },
+        {
+         "text": "Engineer",
+         "tail": "",
+         "hl": false,
+         "start": 13.564,
+         "end": 13.884
+        },
+        {
+         "text": "Anything",
+         "tail": ",",
+         "hl": false,
+         "start": 14.044,
+         "end": 14.764
+        }
+       ]
+      },
+      {
+       "start": 14.884,
+       "end": 17.644,
+       "words": [
+        {
+         "text": "over",
+         "tail": "",
+         "hl": false,
+         "start": 14.884,
+         "end": 15.004
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 15.044,
+         "end": 15.084
+        },
+        {
+         "text": "Model",
+         "tail": "",
+         "hl": false,
+         "start": 15.164,
+         "end": 15.404
+        },
+        {
+         "text": "Context",
+         "tail": "",
+         "hl": false,
+         "start": 15.484,
+         "end": 15.884
+        },
+        {
+         "text": "Protocol",
+         "tail": ",",
+         "hl": false,
+         "start": 15.964,
+         "end": 16.764
+        },
+        {
+         "text": "MCP",
+         "tail": ".",
+         "hl": true,
+         "start": 16.844,
+         "end": 17.644
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "THE SETUP",
+    "kicker": "MODEL CONTEXT PROTOCOL",
+    "headline": "Claude Code + REA over MCP",
+    "highlight": "MCP",
+    "icon": "terminal",
+    "sub": {
+     "text": "REA = Reverse Engineer Anything",
+     "cue": "rea"
+    }
+   }
+  },
+  {
+   "id": "versus",
+   "start": 17.717,
+   "end": 24.028,
+   "sentences": [
+    {
+     "start": 17.717,
+     "end": 23.728,
+     "chunks": [
+      {
+       "start": 17.717,
+       "end": 20.164,
+       "words": [
+        {
+         "text": "Instead",
+         "tail": "",
+         "hl": false,
+         "start": 17.717,
+         "end": 18.004
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 18.084,
+         "end": 18.244
+        },
+        {
+         "text": "hours",
+         "tail": "",
+         "hl": true,
+         "cue": "left",
+         "start": 18.324,
+         "end": 18.724
+        },
+        {
+         "text": "spent",
+         "tail": "",
+         "hl": false,
+         "start": 18.924,
+         "end": 19.124
+        },
+        {
+         "text": "manually",
+         "tail": "",
+         "hl": false,
+         "start": 19.284,
+         "end": 19.764
+        },
+        {
+         "text": "digging",
+         "tail": "",
+         "hl": false,
+         "start": 19.844,
+         "end": 20.164
+        }
+       ]
+      },
+      {
+       "start": 20.284,
+       "end": 22.084,
+       "words": [
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 20.284,
+         "end": 20.404
+        },
+        {
+         "text": "decompiled",
+         "tail": "",
+         "hl": false,
+         "start": 20.484,
+         "end": 21.124
+        },
+        {
+         "text": "files",
+         "tail": ",",
+         "hl": false,
+         "start": 21.204,
+         "end": 22.084
+        }
+       ]
+      },
+      {
+       "start": 22.164,
+       "end": 24.004,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 22.164,
+         "end": 22.244
+        },
+        {
+         "text": "agent",
+         "tail": "",
+         "hl": false,
+         "start": 22.324,
+         "end": 22.724
+        },
+        {
+         "text": "autonomously",
+         "tail": ":",
+         "hl": true,
+         "cue": "right",
+         "start": 22.804,
+         "end": 24.004
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "MANUAL VS AGENT",
+    "left": {
+     "kicker": "MANUAL",
+     "title": "Hours",
+     "items": [
+      "Digging through decompiled files"
+     ],
+     "cue": "left"
+    },
+    "right": {
+     "kicker": "AI AGENT",
+     "title": "Autonomous",
+     "items": [
+      "Decompile",
+      "Audit",
+      "Rebuild"
+     ],
+     "cue": "right"
+    }
+   }
+  },
+  {
+   "id": "steps",
+   "start": 24.028,
+   "end": 42.632,
+   "sentences": [
+    {
+     "start": 24.028,
+     "end": 27.339,
+     "chunks": [
+      {
+       "start": 24.028,
+       "end": 27.527,
+       "words": [
+        {
+         "text": "Decompiled",
+         "tail": "",
+         "hl": true,
+         "cue": "s1",
+         "start": 24.028,
+         "end": 24.727
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 24.767,
+         "end": 24.807
+        },
+        {
+         "text": "production",
+         "tail": "",
+         "hl": false,
+         "start": 24.887,
+         "end": 25.367
+        },
+        {
+         "text": "APK",
+         "tail": "",
+         "hl": false,
+         "start": 25.447,
+         "end": 26.007
+        },
+        {
+         "text": "using",
+         "tail": "",
+         "hl": false,
+         "start": 26.247,
+         "end": 26.567
+        },
+        {
+         "text": "JADX",
+         "tail": ".",
+         "hl": true,
+         "start": 26.647,
+         "end": 27.527
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 27.479,
+     "end": 31.678,
+     "chunks": [
+      {
+       "start": 27.479,
+       "end": 29.079,
+       "words": [
+        {
+         "text": "Mapped",
+         "tail": "",
+         "hl": true,
+         "cue": "s2",
+         "start": 27.479,
+         "end": 27.879
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 27.959,
+         "end": 28.199
+        },
+        {
+         "text": "lifecycles",
+         "tail": "",
+         "hl": false,
+         "start": 28.279,
+         "end": 29.079
+        }
+       ]
+      },
+      {
+       "start": 29.239,
+       "end": 31.879,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 29.239,
+         "end": 29.479
+        },
+        {
+         "text": "audited",
+         "tail": "",
+         "hl": false,
+         "start": 29.639,
+         "end": 30.119
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 30.199,
+         "end": 30.279
+        },
+        {
+         "text": "exposed",
+         "tail": "",
+         "hl": false,
+         "start": 30.359,
+         "end": 30.839
+        },
+        {
+         "text": "components",
+         "tail": ".",
+         "hl": true,
+         "start": 30.919,
+         "end": 31.879
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 31.818,
+     "end": 35.028,
+     "chunks": [
+      {
+       "start": 31.818,
+       "end": 35.168,
+       "words": [
+        {
+         "text": "Extracted",
+         "tail": "",
+         "hl": true,
+         "cue": "s3",
+         "start": 31.818,
+         "end": 32.528
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 32.568,
+         "end": 32.608
+        },
+        {
+         "text": "exact",
+         "tail": "",
+         "hl": false,
+         "start": 32.688,
+         "end": 33.248
+        },
+        {
+         "text": "core",
+         "tail": "",
+         "hl": false,
+         "start": 33.408,
+         "end": 33.728
+        },
+        {
+         "text": "mathematical",
+         "tail": "",
+         "hl": true,
+         "start": 33.808,
+         "end": 34.448
+        },
+        {
+         "text": "logic",
+         "tail": ".",
+         "hl": false,
+         "start": 34.528,
+         "end": 35.168
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.168,
+     "end": 38.196,
+     "chunks": [
+      {
+       "start": 35.168,
+       "end": 36.807,
+       "words": [
+        {
+         "text": "Wrote",
+         "tail": "",
+         "hl": false,
+         "cue": "s4",
+         "start": 35.168,
+         "end": 35.447
+        },
+        {
+         "text": "passing",
+         "tail": "",
+         "hl": false,
+         "start": 35.527,
+         "end": 35.927
+        },
+        {
+         "text": "unit",
+         "tail": "",
+         "hl": true,
+         "start": 36.007,
+         "end": 36.247
+        },
+        {
+         "text": "tests",
+         "tail": "",
+         "hl": true,
+         "start": 36.327,
+         "end": 36.807
+        }
+       ]
+      },
+      {
+       "start": 36.887,
+       "end": 38.487,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 36.887,
+         "end": 36.967
+        },
+        {
+         "text": "verify",
+         "tail": "",
+         "hl": false,
+         "start": 37.047,
+         "end": 37.447
+        },
+        {
+         "text": "behavior",
+         "tail": ".",
+         "hl": false,
+         "start": 37.527,
+         "end": 38.487
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 38.336,
+     "end": 42.332,
+     "chunks": [
+      {
+       "start": 38.336,
+       "end": 40.336,
+       "words": [
+        {
+         "text": "Rebuilt",
+         "tail": "",
+         "hl": true,
+         "cue": "s5",
+         "start": 38.336,
+         "end": 38.896
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 38.976,
+         "end": 39.056
+        },
+        {
+         "text": "entire",
+         "tail": "",
+         "hl": false,
+         "start": 39.136,
+         "end": 39.696
+        },
+        {
+         "text": "UI",
+         "tail": "",
+         "hl": false,
+         "start": 39.856,
+         "end": 40.336
+        }
+       ]
+      },
+      {
+       "start": 40.416,
+       "end": 42.576,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 40.416,
+         "end": 40.576
+        },
+        {
+         "text": "clean",
+         "tail": "",
+         "hl": false,
+         "start": 40.736,
+         "end": 41.136
+        },
+        {
+         "text": "Jetpack",
+         "tail": "",
+         "hl": true,
+         "start": 41.216,
+         "end": 41.616
+        },
+        {
+         "text": "Compose",
+         "tail": ".",
+         "hl": true,
+         "start": 41.936,
+         "end": 42.576
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "WHAT IT DID",
+    "title": "RAW APK TO REBUILD",
+    "steps": [
+     {
+      "label": "Decompiled the APK",
+      "sub": "production APK, JADX",
+      "icon": "terminal",
+      "cue": "s1"
+     },
+     {
+      "label": "Mapped lifecycles",
+      "sub": "audited exposed components",
+      "icon": "layers",
+      "cue": "s2"
+     },
+     {
+      "label": "Extracted core logic",
+      "sub": "the exact math",
+      "icon": "db",
+      "cue": "s3"
+     },
+     {
+      "label": "Wrote unit tests",
+      "sub": "verified behavior",
+      "icon": "check",
+      "cue": "s4"
+     },
+     {
+      "label": "Rebuilt the UI",
+      "sub": "clean Jetpack Compose",
+      "icon": "grid",
+      "cue": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "result",
+   "start": 42.632,
+   "end": 48.649,
+   "sentences": [
+    {
+     "start": 42.632,
+     "end": 48.349,
+     "chunks": [
+      {
+       "start": 42.632,
+       "end": 44.451,
+       "words": [
+        {
+         "text": "Total",
+         "tail": "",
+         "hl": false,
+         "start": 42.632,
+         "end": 42.931
+        },
+        {
+         "text": "time",
+         "tail": "",
+         "hl": false,
+         "start": 43.011,
+         "end": 43.251
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 43.331,
+         "end": 43.491
+        },
+        {
+         "text": "raw",
+         "tail": "",
+         "hl": false,
+         "start": 43.571,
+         "end": 43.811
+        },
+        {
+         "text": "APK",
+         "tail": "",
+         "hl": false,
+         "start": 43.891,
+         "end": 44.451
+        }
+       ]
+      },
+      {
+       "start": 44.611,
+       "end": 46.771,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 44.611,
+         "end": 44.691
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 44.771,
+         "end": 44.851
+        },
+        {
+         "text": "working",
+         "tail": ",",
+         "hl": false,
+         "start": 44.931,
+         "end": 45.491
+        },
+        {
+         "text": "tested",
+         "tail": "",
+         "hl": false,
+         "start": 45.691,
+         "end": 45.891
+        },
+        {
+         "text": "build",
+         "tail": ":",
+         "hl": false,
+         "cue": "build",
+         "start": 45.971,
+         "end": 46.771
+        }
+       ]
+      },
+      {
+       "start": 46.851,
+       "end": 48.531,
+       "words": [
+        {
+         "text": "about",
+         "tail": "",
+         "hl": false,
+         "start": 46.851,
+         "end": 47.171
+        },
+        {
+         "text": "11",
+         "tail": "",
+         "hl": true,
+         "start": 47.331,
+         "end": 47.731
+        },
+        {
+         "text": "minutes",
+         "tail": ".",
+         "hl": true,
+         "start": 47.811,
+         "end": 48.531
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "TOTAL TIME",
+    "kicker": "RAW APK TO TESTED BUILD",
+    "headline": "About 11 minutes",
+    "highlight": "11",
+    "icon": "flame",
+    "sub": {
+     "text": "Working + tested build",
+     "cue": "build"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 48.649,
+   "end": 61.953,
+   "sentences": [
+    {
+     "start": 48.649,
+     "end": 51.871,
+     "chunks": [
+      {
+       "start": 48.649,
+       "end": 50.324,
+       "words": [
+        {
+         "text": "Watch",
+         "tail": "",
+         "hl": false,
+         "start": 48.649,
+         "end": 48.964
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 49.044,
+         "end": 49.124
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 49.204,
+         "end": 49.364
+        },
+        {
+         "text": "terminal",
+         "tail": "",
+         "hl": false,
+         "start": 49.444,
+         "end": 49.844
+        },
+        {
+         "text": "setup",
+         "tail": "",
+         "hl": false,
+         "start": 49.924,
+         "end": 50.324
+        }
+       ]
+      },
+      {
+       "start": 50.404,
+       "end": 52.004,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 50.404,
+         "end": 50.564
+        },
+        {
+         "text": "demo",
+         "tail": "",
+         "hl": true,
+         "cue": "demo",
+         "start": 50.644,
+         "end": 51.044
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 51.124,
+         "end": 51.204
+        },
+        {
+         "text": "my",
+         "tail": "",
+         "hl": false,
+         "start": 51.284,
+         "end": 51.364
+        },
+        {
+         "text": "channel",
+         "tail": ".",
+         "hl": false,
+         "start": 51.444,
+         "end": 52.004
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 52.011,
+     "end": 60.453,
+     "chunks": [
+      {
+       "start": 52.011,
+       "end": 54.634,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 52.011,
+         "end": 52.154
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 52.234,
+         "end": 52.314
+        },
+        {
+         "text": "find",
+         "tail": "",
+         "hl": false,
+         "start": 52.434,
+         "end": 52.554
+        },
+        {
+         "text": "hands-on",
+         "tail": "",
+         "hl": false,
+         "start": 52.634,
+         "end": 53.194
+        },
+        {
+         "text": "Android",
+         "tail": ",",
+         "hl": false,
+         "start": 53.354,
+         "end": 53.994
+        },
+        {
+         "text": "Kotlin",
+         "tail": ",",
+         "hl": false,
+         "start": 54.074,
+         "end": 54.634
+        }
+       ]
+      },
+      {
+       "start": 54.754,
+       "end": 57.354,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 54.754,
+         "end": 54.874
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 55.034,
+         "end": 55.274
+        },
+        {
+         "text": "engineering",
+         "tail": "",
+         "hl": false,
+         "start": 55.354,
+         "end": 55.754
+        },
+        {
+         "text": "workflows",
+         "tail": "",
+         "hl": false,
+         "start": 55.834,
+         "end": 56.314
+        },
+        {
+         "text": "valuable",
+         "tail": ",",
+         "hl": false,
+         "start": 56.394,
+         "end": 57.354
+        }
+       ]
+      },
+      {
+       "start": 57.554,
+       "end": 58.954,
+       "words": [
+        {
+         "text": "consider",
+         "tail": "",
+         "hl": false,
+         "start": 57.554,
+         "end": 57.754
+        },
+        {
+         "text": "subscribing",
+         "tail": "",
+         "hl": true,
+         "start": 57.834,
+         "end": 58.314
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 58.394,
+         "end": 58.434
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 58.474,
+         "end": 58.554
+        },
+        {
+         "text": "channel",
+         "tail": "",
+         "hl": false,
+         "start": 58.634,
+         "end": 58.954
+        }
+       ]
+      },
+      {
+       "start": 59.034,
+       "end": 60.634,
+       "words": [
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 59.034,
+         "end": 59.194
+        },
+        {
+         "text": "upcoming",
+         "tail": "",
+         "hl": false,
+         "start": 59.274,
+         "end": 59.674
+        },
+        {
+         "text": "deep",
+         "tail": "",
+         "hl": false,
+         "start": 59.754,
+         "end": 59.914
+        },
+        {
+         "text": "dives",
+         "tail": ".",
+         "hl": true,
+         "start": 59.994,
+         "end": 60.634
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "FULL DEMO",
+    "kicker": "ANDROID / KOTLIN / AI",
+    "headline": "Subscribe for deep dives",
+    "highlight": "Subscribe",
+    "icon": "bell",
+    "sub": {
+     "text": "Full terminal setup + demo on my channel",
+     "cue": "demo"
+    }
+   }
+  }
+ ]
+}

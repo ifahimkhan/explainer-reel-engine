@@ -1,0 +1,1481 @@
+{
+ "id": "github-tricks",
+ "durationS": 55.377,
+ "copy": {
+  "hook.badge": "Sirf 1 word badla",
+  "teaser.title": "5 TRICKS, SIRF 1 URL",
+  "teaser.pill": "Doosra aur bhi kamaal",
+  "diagram.pill": "0 files khole",
+  "wiki.question": "Auth kaise kaam karta hai?",
+  "wiki.answerPre": "Login ",
+  "wiki.answerFile": "lib/auth.ts",
+  "wiki.answerPost": " mein hota hai. Session cookie banti hai, aur middleware har request check karta hai.",
+  "recap.pill": "Sabko bas 1 GitHub URL chahiye",
+  "recap.locked": "DM mein",
+  "cta.title": "COMMENT KARO, DM AAYEGA",
+  "cta.keyword": "GITHUB",
+  "cta.dmTitle": "5 GitHub URL tricks (full list)",
+  "cta.dmSub": "Bas ek word badlo, kaam ho jaata hai",
+  "cta.sendTo": "Send to",
+  "cta.share": "Developer dost jo har file khol ke padhta hai"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.28,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.274,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.274,
+       "words": [
+        {
+         "text": "GitHub",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.446
+        },
+        {
+         "text": "link",
+         "tail": "",
+         "hl": false,
+         "start": 0.446,
+         "end": 0.669
+        },
+        {
+         "text": "mein",
+         "tail": "",
+         "hl": false,
+         "start": 0.669,
+         "end": 0.892
+        },
+        {
+         "text": "sirf",
+         "tail": "",
+         "hl": false,
+         "start": 0.892,
+         "end": 1.115
+        },
+        {
+         "text": "ek",
+         "tail": "",
+         "hl": true,
+         "cue": "mark",
+         "start": 1.115,
+         "end": 1.338
+        },
+        {
+         "text": "word",
+         "tail": "",
+         "hl": true,
+         "start": 1.338,
+         "end": 1.561
+        },
+        {
+         "text": "badlo",
+         "tail": ",",
+         "hl": false,
+         "cue": "morph",
+         "start": 1.561,
+         "end": 2.274
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.394,
+     "end": 4.98,
+     "chunks": [
+      {
+       "start": 2.394,
+       "end": 4.98,
+       "words": [
+        {
+         "text": "aur",
+         "tail": "",
+         "hl": false,
+         "start": 2.394,
+         "end": 2.576
+        },
+        {
+         "text": "poora",
+         "tail": "",
+         "hl": false,
+         "start": 2.576,
+         "end": 2.941
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 2.941,
+         "end": 3.123
+        },
+        {
+         "text": "banane",
+         "tail": "",
+         "hl": false,
+         "start": 3.123,
+         "end": 3.669
+        },
+        {
+         "text": "ka",
+         "tail": "",
+         "hl": false,
+         "start": 3.669,
+         "end": 3.851
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": true,
+         "cue": "prompt",
+         "start": 3.851,
+         "end": 4.033
+        },
+        {
+         "text": "mil",
+         "tail": "",
+         "hl": false,
+         "start": 4.033,
+         "end": 4.215
+        },
+        {
+         "text": "jaata",
+         "tail": "",
+         "hl": false,
+         "start": 4.215,
+         "end": 4.58
+        },
+        {
+         "text": "hai",
+         "tail": ".",
+         "hl": false,
+         "start": 4.58,
+         "end": 4.98
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reverse",
+   "start": 5.28,
+   "end": 17.683,
+   "sentences": [
+    {
+     "start": 5.28,
+     "end": 8.93,
+     "chunks": [
+      {
+       "start": 5.28,
+       "end": 7.191,
+       "words": [
+        {
+         "text": "Kisi",
+         "tail": "",
+         "hl": false,
+         "start": 5.28,
+         "end": 5.622
+        },
+        {
+         "text": "bhi",
+         "tail": "",
+         "hl": false,
+         "start": 5.622,
+         "end": 5.792
+        },
+        {
+         "text": "public",
+         "tail": "",
+         "hl": false,
+         "start": 5.792,
+         "end": 6.133
+        },
+        {
+         "text": "repo",
+         "tail": "",
+         "hl": false,
+         "start": 6.133,
+         "end": 6.474
+        },
+        {
+         "text": "ke",
+         "tail": "",
+         "hl": false,
+         "start": 6.474,
+         "end": 6.645
+        },
+        {
+         "text": "link",
+         "tail": "",
+         "hl": false,
+         "start": 6.645,
+         "end": 6.815
+        },
+        {
+         "text": "mein",
+         "tail": ",",
+         "hl": false,
+         "start": 6.815,
+         "end": 7.191
+        }
+       ]
+      },
+      {
+       "start": 7.191,
+       "end": 8.93,
+       "words": [
+        {
+         "text": "github",
+         "tail": "",
+         "hl": true,
+         "start": 7.191,
+         "end": 7.532
+        },
+        {
+         "text": "ko",
+         "tail": "",
+         "hl": false,
+         "start": 7.532,
+         "end": 7.702
+        },
+        {
+         "text": "gitreverse",
+         "tail": "",
+         "hl": true,
+         "cue": "morph",
+         "start": 7.702,
+         "end": 8.385
+        },
+        {
+         "text": "kar",
+         "tail": "",
+         "hl": false,
+         "start": 8.385,
+         "end": 8.555
+        },
+        {
+         "text": "do",
+         "tail": ".",
+         "hl": false,
+         "start": 8.555,
+         "end": 8.93
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.05,
+     "end": 13.549,
+     "chunks": [
+      {
+       "start": 9.05,
+       "end": 11.484,
+       "words": [
+        {
+         "text": "Ye",
+         "tail": "",
+         "hl": false,
+         "start": 9.05,
+         "end": 9.235
+        },
+        {
+         "text": "poore",
+         "tail": "",
+         "hl": false,
+         "start": 9.235,
+         "end": 9.604
+        },
+        {
+         "text": "repo",
+         "tail": "",
+         "hl": false,
+         "start": 9.604,
+         "end": 9.972
+        },
+        {
+         "text": "ka",
+         "tail": "",
+         "hl": false,
+         "start": 9.972,
+         "end": 10.157
+        },
+        {
+         "text": "structure",
+         "tail": "",
+         "hl": true,
+         "cue": "repo",
+         "start": 10.157,
+         "end": 10.71
+        },
+        {
+         "text": "padhta",
+         "tail": "",
+         "hl": false,
+         "start": 10.71,
+         "end": 11.079
+        },
+        {
+         "text": "hai",
+         "tail": ",",
+         "hl": false,
+         "start": 11.079,
+         "end": 11.484
+        }
+       ]
+      },
+      {
+       "start": 11.484,
+       "end": 13.549,
+       "words": [
+        {
+         "text": "aur",
+         "tail": "",
+         "hl": false,
+         "start": 11.484,
+         "end": 11.669
+        },
+        {
+         "text": "aapko",
+         "tail": "",
+         "hl": false,
+         "start": 11.669,
+         "end": 12.037
+        },
+        {
+         "text": "ek",
+         "tail": "",
+         "hl": false,
+         "start": 12.037,
+         "end": 12.222
+        },
+        {
+         "text": "clean",
+         "tail": "",
+         "hl": false,
+         "cue": "clean",
+         "start": 12.222,
+         "end": 12.406
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": true,
+         "cue": "prompt",
+         "start": 12.406,
+         "end": 12.59
+        },
+        {
+         "text": "de",
+         "tail": "",
+         "hl": false,
+         "start": 12.59,
+         "end": 12.775
+        },
+        {
+         "text": "deta",
+         "tail": "",
+         "hl": false,
+         "start": 12.775,
+         "end": 13.144
+        },
+        {
+         "text": "hai",
+         "tail": ".",
+         "hl": false,
+         "start": 13.144,
+         "end": 13.549
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 13.669,
+     "end": 17.383,
+     "chunks": [
+      {
+       "start": 13.669,
+       "end": 15.692,
+       "words": [
+        {
+         "text": "Wo",
+         "tail": "",
+         "hl": false,
+         "start": 13.669,
+         "end": 13.835
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": false,
+         "start": 13.835,
+         "end": 14.001
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": true,
+         "cue": "claude",
+         "start": 14.001,
+         "end": 14.332
+        },
+        {
+         "text": "Code",
+         "tail": "",
+         "hl": true,
+         "start": 14.332,
+         "end": 14.664
+        },
+        {
+         "text": "mein",
+         "tail": "",
+         "hl": false,
+         "start": 14.664,
+         "end": 14.83
+        },
+        {
+         "text": "paste",
+         "tail": "",
+         "hl": false,
+         "cue": "paste",
+         "start": 14.83,
+         "end": 15.161
+        },
+        {
+         "text": "karo",
+         "tail": ",",
+         "hl": false,
+         "start": 15.161,
+         "end": 15.692
+        }
+       ]
+      },
+      {
+       "start": 15.692,
+       "end": 17.383,
+       "words": [
+        {
+         "text": "aur",
+         "tail": "",
+         "hl": false,
+         "start": 15.692,
+         "end": 15.858
+        },
+        {
+         "text": "apna",
+         "tail": "",
+         "hl": false,
+         "start": 15.858,
+         "end": 16.19
+        },
+        {
+         "text": "khud",
+         "tail": "",
+         "hl": false,
+         "start": 16.19,
+         "end": 16.355
+        },
+        {
+         "text": "ka",
+         "tail": "",
+         "hl": false,
+         "start": 16.355,
+         "end": 16.521
+        },
+        {
+         "text": "version",
+         "tail": "",
+         "hl": true,
+         "cue": "version",
+         "start": 16.521,
+         "end": 16.853
+        },
+        {
+         "text": "ready",
+         "tail": ".",
+         "hl": false,
+         "start": 16.853,
+         "end": 17.383
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "teaser",
+   "start": 17.683,
+   "end": 21.847,
+   "sentences": [
+    {
+     "start": 17.683,
+     "end": 19.715,
+     "chunks": [
+      {
+       "start": 17.683,
+       "end": 19.715,
+       "words": [
+        {
+         "text": "Lekin",
+         "tail": "",
+         "hl": false,
+         "start": 17.683,
+         "end": 18.082
+        },
+        {
+         "text": "ye",
+         "tail": "",
+         "hl": false,
+         "start": 18.082,
+         "end": 18.281
+        },
+        {
+         "text": "toh",
+         "tail": "",
+         "hl": false,
+         "start": 18.281,
+         "end": 18.48
+        },
+        {
+         "text": "sirf",
+         "tail": "",
+         "hl": false,
+         "start": 18.48,
+         "end": 18.679
+        },
+        {
+         "text": "pehla",
+         "tail": "",
+         "hl": true,
+         "start": 18.679,
+         "end": 19.078
+        },
+        {
+         "text": "trick",
+         "tail": "",
+         "hl": false,
+         "start": 19.078,
+         "end": 19.277
+        },
+        {
+         "text": "hai",
+         "tail": ".",
+         "hl": false,
+         "start": 19.277,
+         "end": 19.715
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 19.835,
+     "end": 21.547,
+     "chunks": [
+      {
+       "start": 19.835,
+       "end": 21.547,
+       "words": [
+        {
+         "text": "Doosra",
+         "tail": "",
+         "hl": false,
+         "cue": "unlock",
+         "start": 19.835,
+         "end": 20.207
+        },
+        {
+         "text": "aur",
+         "tail": "",
+         "hl": false,
+         "start": 20.207,
+         "end": 20.393
+        },
+        {
+         "text": "bhi",
+         "tail": "",
+         "hl": false,
+         "start": 20.393,
+         "end": 20.579
+        },
+        {
+         "text": "kamaal",
+         "tail": "",
+         "hl": true,
+         "cue": "pill",
+         "start": 20.579,
+         "end": 20.952
+        },
+        {
+         "text": "ka",
+         "tail": "",
+         "hl": false,
+         "start": 20.952,
+         "end": 21.138
+        },
+        {
+         "text": "hai",
+         "tail": ".",
+         "hl": false,
+         "start": 21.138,
+         "end": 21.547
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagram",
+   "start": 21.847,
+   "end": 32.053,
+   "sentences": [
+    {
+     "start": 21.847,
+     "end": 23.995,
+     "chunks": [
+      {
+       "start": 21.847,
+       "end": 23.995,
+       "words": [
+        {
+         "text": "Ab",
+         "tail": "",
+         "hl": false,
+         "start": 21.847,
+         "end": 22.058
+        },
+        {
+         "text": "link",
+         "tail": "",
+         "hl": false,
+         "start": 22.058,
+         "end": 22.268
+        },
+        {
+         "text": "mein",
+         "tail": "",
+         "hl": false,
+         "start": 22.268,
+         "end": 22.479
+        },
+        {
+         "text": "hub",
+         "tail": "",
+         "hl": true,
+         "cue": "morph",
+         "start": 22.479,
+         "end": 22.689
+        },
+        {
+         "text": "ko",
+         "tail": "",
+         "hl": false,
+         "start": 22.689,
+         "end": 22.9
+        },
+        {
+         "text": "diagram",
+         "tail": "",
+         "hl": true,
+         "start": 22.9,
+         "end": 23.321
+        },
+        {
+         "text": "kar",
+         "tail": "",
+         "hl": false,
+         "start": 23.321,
+         "end": 23.532
+        },
+        {
+         "text": "do",
+         "tail": ".",
+         "hl": false,
+         "start": 23.532,
+         "end": 23.995
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.115,
+     "end": 28.727,
+     "chunks": [
+      {
+       "start": 24.115,
+       "end": 26.592,
+       "words": [
+        {
+         "text": "GitDiagram",
+         "tail": "",
+         "hl": false,
+         "cue": "nodes",
+         "start": 24.115,
+         "end": 24.687
+        },
+        {
+         "text": "poore",
+         "tail": "",
+         "hl": false,
+         "start": 24.687,
+         "end": 25.068
+        },
+        {
+         "text": "repo",
+         "tail": "",
+         "hl": false,
+         "start": 25.068,
+         "end": 25.449
+        },
+        {
+         "text": "ka",
+         "tail": "",
+         "hl": false,
+         "start": 25.449,
+         "end": 25.64
+        },
+        {
+         "text": "architecture",
+         "tail": "",
+         "hl": false,
+         "start": 25.64,
+         "end": 26.592
+        }
+       ]
+      },
+      {
+       "start": 26.592,
+       "end": 28.727,
+       "words": [
+        {
+         "text": "ek",
+         "tail": "",
+         "hl": false,
+         "start": 26.592,
+         "end": 26.783
+        },
+        {
+         "text": "visual",
+         "tail": "",
+         "hl": true,
+         "cue": "edges",
+         "start": 26.783,
+         "end": 27.164
+        },
+        {
+         "text": "map",
+         "tail": "",
+         "hl": true,
+         "start": 27.164,
+         "end": 27.355
+        },
+        {
+         "text": "mein",
+         "tail": "",
+         "hl": false,
+         "start": 27.355,
+         "end": 27.545
+        },
+        {
+         "text": "bana",
+         "tail": "",
+         "hl": false,
+         "start": 27.545,
+         "end": 27.926
+        },
+        {
+         "text": "deta",
+         "tail": "",
+         "hl": false,
+         "start": 27.926,
+         "end": 28.308
+        },
+        {
+         "text": "hai",
+         "tail": ".",
+         "hl": false,
+         "start": 28.308,
+         "end": 28.727
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.847,
+     "end": 31.753,
+     "chunks": [
+      {
+       "start": 28.847,
+       "end": 30.316,
+       "words": [
+        {
+         "text": "Har",
+         "tail": "",
+         "hl": false,
+         "cue": "pulse",
+         "start": 28.847,
+         "end": 29.003
+        },
+        {
+         "text": "piece",
+         "tail": ",",
+         "hl": false,
+         "start": 29.003,
+         "end": 29.503
+        },
+        {
+         "text": "har",
+         "tail": "",
+         "hl": false,
+         "start": 29.503,
+         "end": 29.659
+        },
+        {
+         "text": "connection",
+         "tail": ",",
+         "hl": false,
+         "cue": "hot",
+         "start": 29.659,
+         "end": 30.316
+        }
+       ]
+      },
+      {
+       "start": 30.316,
+       "end": 31.753,
+       "words": [
+        {
+         "text": "bina",
+         "tail": "",
+         "hl": false,
+         "cue": "pill",
+         "start": 30.316,
+         "end": 30.628
+        },
+        {
+         "text": "ek",
+         "tail": "",
+         "hl": false,
+         "start": 30.628,
+         "end": 30.784
+        },
+        {
+         "text": "bhi",
+         "tail": "",
+         "hl": false,
+         "start": 30.784,
+         "end": 30.941
+        },
+        {
+         "text": "file",
+         "tail": "",
+         "hl": true,
+         "start": 30.941,
+         "end": 31.253
+        },
+        {
+         "text": "khole",
+         "tail": ".",
+         "hl": false,
+         "start": 31.253,
+         "end": 31.753
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wiki",
+   "start": 32.053,
+   "end": 40.166,
+   "sentences": [
+    {
+     "start": 32.053,
+     "end": 34.397,
+     "chunks": [
+      {
+       "start": 32.053,
+       "end": 32.788,
+       "words": [
+        {
+         "text": "Aur",
+         "tail": "",
+         "hl": false,
+         "start": 32.053,
+         "end": 32.228
+        },
+        {
+         "text": "teesra",
+         "tail": ":",
+         "hl": true,
+         "start": 32.228,
+         "end": 32.788
+        }
+       ]
+      },
+      {
+       "start": 32.788,
+       "end": 34.397,
+       "words": [
+        {
+         "text": "github",
+         "tail": "",
+         "hl": true,
+         "start": 32.788,
+         "end": 33.138
+        },
+        {
+         "text": "ko",
+         "tail": "",
+         "hl": false,
+         "start": 33.138,
+         "end": 33.312
+        },
+        {
+         "text": "deepwiki",
+         "tail": "",
+         "hl": true,
+         "cue": "morph",
+         "start": 33.312,
+         "end": 33.837
+        },
+        {
+         "text": "kar",
+         "tail": "",
+         "hl": false,
+         "start": 33.837,
+         "end": 34.012
+        },
+        {
+         "text": "do",
+         "tail": ".",
+         "hl": false,
+         "start": 34.012,
+         "end": 34.397
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 34.517,
+     "end": 39.866,
+     "chunks": [
+      {
+       "start": 34.517,
+       "end": 37.283,
+       "words": [
+        {
+         "text": "Repo",
+         "tail": "",
+         "hl": false,
+         "start": 34.517,
+         "end": 34.881
+        },
+        {
+         "text": "ka",
+         "tail": "",
+         "hl": false,
+         "start": 34.881,
+         "end": 35.063
+        },
+        {
+         "text": "poora",
+         "tail": "",
+         "hl": false,
+         "start": 35.063,
+         "end": 35.427
+        },
+        {
+         "text": "documentation",
+         "tail": "",
+         "hl": true,
+         "cue": "doc",
+         "start": 35.427,
+         "end": 36.336
+        },
+        {
+         "text": "ban",
+         "tail": "",
+         "hl": false,
+         "start": 36.336,
+         "end": 36.518
+        },
+        {
+         "text": "jaata",
+         "tail": "",
+         "hl": false,
+         "start": 36.518,
+         "end": 36.882
+        },
+        {
+         "text": "hai",
+         "tail": ",",
+         "hl": false,
+         "start": 36.882,
+         "end": 37.283
+        }
+       ]
+      },
+      {
+       "start": 37.283,
+       "end": 39.866,
+       "words": [
+        {
+         "text": "aur",
+         "tail": "",
+         "hl": false,
+         "start": 37.283,
+         "end": 37.465
+        },
+        {
+         "text": "aap",
+         "tail": "",
+         "hl": false,
+         "start": 37.465,
+         "end": 37.646
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "cue": "ask",
+         "start": 37.646,
+         "end": 38.01
+        },
+        {
+         "text": "se",
+         "tail": "",
+         "hl": false,
+         "start": 38.01,
+         "end": 38.192
+        },
+        {
+         "text": "seedha",
+         "tail": "",
+         "hl": false,
+         "start": 38.192,
+         "end": 38.556
+        },
+        {
+         "text": "sawaal",
+         "tail": "",
+         "hl": true,
+         "start": 38.556,
+         "end": 38.92
+        },
+        {
+         "text": "pooch",
+         "tail": "",
+         "hl": false,
+         "cue": "answer",
+         "start": 38.92,
+         "end": 39.102
+        },
+        {
+         "text": "sakte",
+         "tail": "",
+         "hl": false,
+         "start": 39.102,
+         "end": 39.466
+        },
+        {
+         "text": "ho",
+         "tail": ".",
+         "hl": false,
+         "start": 39.466,
+         "end": 39.866
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "start": 40.166,
+   "end": 44.234,
+   "sentences": [
+    {
+     "start": 40.166,
+     "end": 43.934,
+     "chunks": [
+      {
+       "start": 40.166,
+       "end": 41.509,
+       "words": [
+        {
+         "text": "Aise",
+         "tail": "",
+         "hl": false,
+         "start": 40.166,
+         "end": 40.599
+        },
+        {
+         "text": "5",
+         "tail": "",
+         "hl": true,
+         "start": 40.599,
+         "end": 41.032
+        },
+        {
+         "text": "tricks",
+         "tail": ",",
+         "hl": true,
+         "start": 41.032,
+         "end": 41.509
+        }
+       ]
+      },
+      {
+       "start": 41.509,
+       "end": 43.934,
+       "words": [
+        {
+         "text": "aur",
+         "tail": "",
+         "hl": false,
+         "start": 41.509,
+         "end": 41.725
+        },
+        {
+         "text": "sabko",
+         "tail": "",
+         "hl": false,
+         "cue": "pill",
+         "start": 41.725,
+         "end": 42.158
+        },
+        {
+         "text": "bas",
+         "tail": "",
+         "hl": false,
+         "start": 42.158,
+         "end": 42.375
+        },
+        {
+         "text": "ek",
+         "tail": "",
+         "hl": false,
+         "start": 42.375,
+         "end": 42.591
+        },
+        {
+         "text": "GitHub",
+         "tail": "",
+         "hl": true,
+         "start": 42.591,
+         "end": 43.024
+        },
+        {
+         "text": "URL",
+         "tail": "",
+         "hl": true,
+         "start": 43.024,
+         "end": 43.241
+        },
+        {
+         "text": "chahiye",
+         "tail": ".",
+         "hl": false,
+         "start": 43.241,
+         "end": 43.934
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 44.234,
+   "end": 55.377,
+   "sentences": [
+    {
+     "start": 44.234,
+     "end": 47.15,
+     "chunks": [
+      {
+       "start": 44.234,
+       "end": 45.514,
+       "words": [
+        {
+         "text": "Comment",
+         "tail": "",
+         "hl": false,
+         "start": 44.234,
+         "end": 44.59
+        },
+        {
+         "text": "karo",
+         "tail": "",
+         "hl": false,
+         "start": 44.59,
+         "end": 44.945
+        },
+        {
+         "text": "GITHUB",
+         "tail": ",",
+         "hl": true,
+         "cue": "type",
+         "start": 44.945,
+         "end": 45.514
+        }
+       ]
+      },
+      {
+       "start": 45.514,
+       "end": 47.15,
+       "words": [
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "cue": "dm",
+         "start": 45.514,
+         "end": 45.692
+        },
+        {
+         "text": "poori",
+         "tail": "",
+         "hl": false,
+         "start": 45.692,
+         "end": 46.048
+        },
+        {
+         "text": "list",
+         "tail": "",
+         "hl": false,
+         "start": 46.048,
+         "end": 46.226
+        },
+        {
+         "text": "DM",
+         "tail": "",
+         "hl": true,
+         "start": 46.226,
+         "end": 46.404
+        },
+        {
+         "text": "karta",
+         "tail": "",
+         "hl": false,
+         "start": 46.404,
+         "end": 46.759
+        },
+        {
+         "text": "hoon",
+         "tail": ".",
+         "hl": false,
+         "start": 46.759,
+         "end": 47.15
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 47.27,
+     "end": 52.111,
+     "chunks": [
+      {
+       "start": 47.27,
+       "end": 49.324,
+       "words": [
+        {
+         "text": "Ye",
+         "tail": "",
+         "hl": false,
+         "start": 47.27,
+         "end": 47.454
+        },
+        {
+         "text": "us",
+         "tail": "",
+         "hl": false,
+         "start": 47.454,
+         "end": 47.637
+        },
+        {
+         "text": "developer",
+         "tail": "",
+         "hl": false,
+         "cue": "share",
+         "start": 47.637,
+         "end": 48.371
+        },
+        {
+         "text": "dost",
+         "tail": "",
+         "hl": false,
+         "start": 48.371,
+         "end": 48.554
+        },
+        {
+         "text": "ko",
+         "tail": "",
+         "hl": false,
+         "start": 48.554,
+         "end": 48.737
+        },
+        {
+         "text": "bhejo",
+         "tail": ",",
+         "hl": false,
+         "start": 48.737,
+         "end": 49.324
+        }
+       ]
+      },
+      {
+       "start": 49.324,
+       "end": 52.111,
+       "words": [
+        {
+         "text": "jo",
+         "tail": "",
+         "hl": false,
+         "start": 49.324,
+         "end": 49.508
+        },
+        {
+         "text": "abhi",
+         "tail": "",
+         "hl": false,
+         "start": 49.508,
+         "end": 49.874
+        },
+        {
+         "text": "bhi",
+         "tail": "",
+         "hl": false,
+         "start": 49.874,
+         "end": 50.058
+        },
+        {
+         "text": "har",
+         "tail": "",
+         "hl": false,
+         "start": 50.058,
+         "end": 50.241
+        },
+        {
+         "text": "file",
+         "tail": "",
+         "hl": false,
+         "start": 50.241,
+         "end": 50.608
+        },
+        {
+         "text": "khol",
+         "tail": "",
+         "hl": false,
+         "start": 50.608,
+         "end": 50.791
+        },
+        {
+         "text": "ke",
+         "tail": "",
+         "hl": false,
+         "start": 50.791,
+         "end": 50.974
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 50.974,
+         "end": 51.341
+        },
+        {
+         "text": "padhta",
+         "tail": "",
+         "hl": false,
+         "cue": "sent",
+         "start": 51.341,
+         "end": 51.708
+        },
+        {
+         "text": "hai",
+         "tail": ".",
+         "hl": false,
+         "start": 51.708,
+         "end": 52.111
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 52.231,
+     "end": 53.877,
+     "chunks": [
+      {
+       "start": 52.231,
+       "end": 53.877,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 52.231,
+         "end": 52.52
+        },
+        {
+         "text": "karo",
+         "tail": ",",
+         "hl": false,
+         "start": 52.52,
+         "end": 52.982
+        },
+        {
+         "text": "10K",
+         "tail": "",
+         "hl": true,
+         "cue": "road",
+         "start": 52.982,
+         "end": 53.271
+        },
+        {
+         "text": "tak",
+         "tail": "",
+         "hl": false,
+         "start": 53.271,
+         "end": 53.415
+        },
+        {
+         "text": "chalo",
+         "tail": ".",
+         "hl": false,
+         "start": 53.415,
+         "end": 53.877
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

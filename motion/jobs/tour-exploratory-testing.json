@@ -1,0 +1,157 @@
+{
+  "id": "tour-exploratory-testing",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "TOUR-BASED TESTING",
+        "kicker": "EXPLORATORY TESTING",
+        "headline": "Stop clicking. Take a tour.",
+        "highlight": "tour",
+        "icon": "star",
+        "sub": { "text": "Tours give it a plan", "cue": "plan" }
+      },
+      "sentences": [
+        { "caption": "Most exploratory testing | is just *random* clicking." },
+        { "caption": "Tours give it a *plan*.#plan" }
+      ]
+    },
+    {
+      "id": "what",
+      "visual": {
+        "type": "journey",
+        "label": "WHAT IT IS",
+        "headline": "Your app is a city",
+        "highlight": "city",
+        "stops": [
+          { "name": "Feature", "sub": "map it", "icon": "grid", "cue": "s1" },
+          { "name": "Sabotage", "sub": "break it", "icon": "flame", "cue": "s2", "tone": "bad" },
+          { "name": "Back alley", "sub": "rare paths", "icon": "unlink", "cue": "s3" },
+          { "name": "Clutter", "sub": "overload", "icon": "layers", "cue": "s4" }
+        ],
+        "note": { "text": "James Whittaker, Exploratory Software Testing", "cue": "book" }
+      },
+      "sentences": [
+        { "caption": "*Tour-based* exploratory testing | treats your app like a city,#s1 | and you're the *tourist*.#s2" },
+        { "caption": "Each tour#s3 is a route with one goal,#s4 | so you explore with *focus*, | instead of wandering." },
+        { "caption": "The idea comes from James *Whittaker's*#book book, | Exploratory Software Testing." }
+      ]
+    },
+    {
+      "id": "feature",
+      "visual": {
+        "type": "trio",
+        "label": "FEATURE TOUR",
+        "title": "01 · Feature Tour",
+        "rows": [
+          { "kicker": "GOAL", "text": "Touch every feature once", "icon": "star", "cue": "g" },
+          { "kicker": "SETUP", "text": "Fresh install, every menu + screen", "icon": "terminal", "cue": "s" },
+          { "kicker": "FINDS", "text": "Dead buttons, broken navigation", "icon": "flame", "cue": "f" }
+        ]
+      },
+      "sentences": [
+        { "caption": "First: the *Feature* Tour." },
+        { "caption": "Goal:#g touch every feature at least once, | to map the app." },
+        { "caption": "Setup:#s a fresh install, | and every menu, setting and screen you can reach." },
+        { "caption": "Finds:#f dead buttons, broken navigation, | and features that don't match the *spec*." }
+      ]
+    },
+    {
+      "id": "sabotage",
+      "visual": {
+        "type": "trio",
+        "label": "SABOTAGE TOUR",
+        "title": "02 · Sabotage Tour",
+        "rows": [
+          { "kicker": "GOAL", "text": "Work with resources taken away", "icon": "star", "cue": "g" },
+          { "kicker": "SETUP", "text": "No network, full disk, no permissions", "icon": "terminal", "cue": "s" },
+          { "kicker": "FINDS", "text": "Crashes, no error messages, lost data", "icon": "flame", "cue": "f" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Second: the *Sabotage* Tour." },
+        { "caption": "Goal:#g make the app work | while you take its resources away." },
+        { "caption": "Setup:#s kill the network mid-request, fill the storage, | deny permissions, and force low memory." },
+        { "caption": "Finds:#f crashes, missing error messages, | and corrupted or lost *data*." }
+      ]
+    },
+    {
+      "id": "backalley",
+      "visual": {
+        "type": "trio",
+        "label": "BACK-ALLEY TOUR",
+        "title": "03 · Back-Alley Tour",
+        "rows": [
+          { "kicker": "GOAL", "text": "Visit features nobody uses", "icon": "star", "cue": "g" },
+          { "kicker": "SETUP", "text": "Analytics, deep links, rare flows", "icon": "terminal", "cue": "s" },
+          { "kicker": "FINDS", "text": "Forgotten bugs, silent breaks", "icon": "flame", "cue": "f" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Third: the *Back-Alley* Tour." },
+        { "caption": "Goal:#g visit the features *nobody* uses." },
+        { "caption": "Setup:#s check analytics for the least-used screens, | then open them from deep links, | old settings and rare flows." },
+        { "caption": "Finds:#f forgotten bugs, outdated screens, | and features that broke *silently* months ago." }
+      ]
+    },
+    {
+      "id": "clutter",
+      "visual": {
+        "type": "trio",
+        "label": "CLUTTER TOUR",
+        "title": "04 · Clutter Tour",
+        "rows": [
+          { "kicker": "GOAL", "text": "Overload the app with data", "icon": "star", "cue": "g" },
+          { "kicker": "SETUP", "text": "1000s of items, long names, big font", "icon": "terminal", "cue": "s" },
+          { "kicker": "FINDS", "text": "Cut-off text, overlaps, slow lists", "icon": "flame", "cue": "f" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Fourth: the *Clutter* Tour." },
+        { "caption": "Goal:#g *overload* the app with data." },
+        { "caption": "Setup:#s thousands of items, very long names, | dozens of notifications, | and the largest font size." },
+        { "caption": "Finds:#f cut-off text, overlapping layouts, | slow lists, and *memory* problems." }
+      ]
+    },
+    {
+      "id": "rule",
+      "visual": {
+        "type": "steps",
+        "label": "THE RULE",
+        "title": "Every session",
+        "steps": [
+          { "label": "One tour per session", "icon": "star", "cue": "one" },
+          { "label": "Set a timer", "icon": "bell", "cue": "timer" },
+          { "label": "Write down what you find", "icon": "file", "cue": "write" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Pick one#one tour per session, | set a *timer*,#timer | and write#write down what you find." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

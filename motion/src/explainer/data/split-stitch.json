@@ -1,0 +1,809 @@
+{
+ "id": "split-stitch",
+ "durationS": 42.217,
+ "copy": {},
+ "video": {
+  "src": "split-stitch/camera.mp4",
+  "width": 1920,
+  "height": 1080,
+  "crop": {
+   "x": 1330,
+   "y": 150,
+   "width": 468,
+   "height": 334
+  }
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "sentences": [
+    {
+     "start": 0.08,
+     "end": 2.64,
+     "chunks": [
+      {
+       "start": 0.08,
+       "end": 2.64,
+       "words": [
+        {
+         "text": "This",
+         "tail": "",
+         "hl": false,
+         "start": 0.08,
+         "end": 0.64
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 0.64,
+         "end": 0.78
+        },
+        {
+         "text": "my",
+         "tail": "",
+         "hl": false,
+         "start": 0.78,
+         "end": 0.92
+        },
+        {
+         "text": "current",
+         "tail": "",
+         "hl": false,
+         "start": 0.92,
+         "end": 1.2
+        },
+        {
+         "text": "application",
+         "tail": "",
+         "hl": true,
+         "start": 1.2,
+         "end": 2.2
+        },
+        {
+         "text": "UI",
+         "tail": ".",
+         "hl": true,
+         "start": 2.2,
+         "end": 2.64
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.22,
+     "end": 5.34,
+     "chunks": [
+      {
+       "start": 3.22,
+       "end": 5.34,
+       "words": [
+        {
+         "text": "Let's",
+         "tail": "",
+         "hl": false,
+         "start": 3.22,
+         "end": 3.56
+        },
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 3.56,
+         "end": 3.72
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 3.72,
+         "end": 4.06
+        },
+        {
+         "text": "Stitch",
+         "tail": "",
+         "hl": true,
+         "cue": "sub",
+         "start": 4.06,
+         "end": 4.44
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 4.44,
+         "end": 4.82
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 4.82,
+         "end": 5.12
+        },
+        {
+         "text": "this",
+         "tail": ",",
+         "hl": false,
+         "start": 5.12,
+         "end": 5.34
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "THE APP",
+    "kicker": "GOOGLE STITCH",
+    "headline": "Old UI to AI redesign",
+    "highlight": "AI",
+    "icon": "wand",
+    "sub": {
+     "text": "2 screenshots in",
+     "cue": "sub"
+    }
+   },
+   "end": 5.19
+  },
+  {
+   "id": "generate",
+   "start": 5.19,
+   "sentences": [
+    {
+     "start": 5.34,
+     "end": 8.91,
+     "chunks": [
+      {
+       "start": 5.34,
+       "end": 8.91,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 5.34,
+         "end": 6.54
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 7.79,
+         "end": 8.09
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 8.09,
+         "end": 8.27
+        },
+        {
+         "text": "doing",
+         "tail": "",
+         "hl": false,
+         "cue": "gen",
+         "start": 8.27,
+         "end": 8.49
+        },
+        {
+         "text": "something",
+         "tail": ".",
+         "hl": false,
+         "start": 8.49,
+         "end": 8.91
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.81,
+     "end": 10.69,
+     "chunks": [
+      {
+       "start": 9.81,
+       "end": 10.69,
+       "words": [
+        {
+         "text": "Generating",
+         "tail": "",
+         "hl": false,
+         "start": 9.81,
+         "end": 10.43
+        },
+        {
+         "text": "screens",
+         "tail": ".",
+         "hl": true,
+         "cue": "screens",
+         "start": 10.43,
+         "end": 10.69
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 12.21,
+     "end": 15.05,
+     "chunks": [
+      {
+       "start": 12.21,
+       "end": 15.05,
+       "words": [
+        {
+         "text": "We",
+         "tail": "",
+         "hl": false,
+         "start": 12.21,
+         "end": 12.83
+        },
+        {
+         "text": "also",
+         "tail": "",
+         "hl": false,
+         "start": 12.83,
+         "end": 13.13
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 13.13,
+         "end": 13.45
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 13.45,
+         "end": 13.57
+        },
+        {
+         "text": "map",
+         "tail": "",
+         "hl": true,
+         "cue": "map",
+         "start": 13.57,
+         "end": 13.79
+        },
+        {
+         "text": "view",
+         "tail": "",
+         "hl": true,
+         "start": 13.79,
+         "end": 14.11
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 14.11,
+         "end": 14.79
+        },
+        {
+         "text": "build",
+         "tail": ".",
+         "hl": false,
+         "start": 14.79,
+         "end": 15.05
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 15.05,
+     "end": 19.43,
+     "chunks": [
+      {
+       "start": 15.05,
+       "end": 16.71,
+       "words": [
+        {
+         "text": "Inside",
+         "tail": "",
+         "hl": false,
+         "start": 15.05,
+         "end": 15.41
+        },
+        {
+         "text": "that",
+         "tail": ",",
+         "hl": false,
+         "start": 15.41,
+         "end": 15.79
+        },
+        {
+         "text": "we",
+         "tail": "",
+         "hl": false,
+         "start": 15.79,
+         "end": 15.97
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 15.97,
+         "end": 16.13
+        },
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 16.13,
+         "end": 16.31
+        },
+        {
+         "text": "displayed",
+         "tail": ",",
+         "hl": false,
+         "cue": "note",
+         "start": 16.31,
+         "end": 16.71
+        }
+       ]
+      },
+      {
+       "start": 17.51,
+       "end": 19.43,
+       "words": [
+        {
+         "text": "because",
+         "tail": "",
+         "hl": false,
+         "start": 17.51,
+         "end": 17.77
+        },
+        {
+         "text": "there",
+         "tail": "",
+         "hl": false,
+         "start": 17.77,
+         "end": 18.01
+        },
+        {
+         "text": "we",
+         "tail": "",
+         "hl": false,
+         "start": 18.01,
+         "end": 18.19
+        },
+        {
+         "text": "cannot",
+         "tail": "",
+         "hl": false,
+         "start": 18.19,
+         "end": 18.39
+        },
+        {
+         "text": "make",
+         "tail": "",
+         "hl": false,
+         "start": 18.39,
+         "end": 18.77
+        },
+        {
+         "text": "any",
+         "tail": "",
+         "hl": false,
+         "start": 18.77,
+         "end": 18.99
+        },
+        {
+         "text": "customization",
+         "tail": ".",
+         "hl": true,
+         "start": 18.99,
+         "end": 19.43
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "phones",
+    "label": "GENERATING",
+    "title": "STITCH IS DESIGNING",
+    "phones": [
+     {
+      "title": "Splash",
+      "cue": "gen"
+     },
+     {
+      "title": "Tracker",
+      "cue": "screens"
+     },
+     {
+      "title": "Map view",
+      "cue": "map",
+      "locked": true
+     }
+    ],
+    "note": {
+     "text": "Map view: no customization",
+     "cue": "note"
+    }
+   },
+   "end": 22.27
+  },
+  {
+   "id": "flow",
+   "start": 22.27,
+   "sentences": [
+    {
+     "start": 22.42,
+     "end": 24.77,
+     "chunks": [
+      {
+       "start": 22.42,
+       "end": 24.77,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 22.42,
+         "end": 22.48
+        },
+        {
+         "text": "first",
+         "tail": "",
+         "hl": false,
+         "start": 22.48,
+         "end": 22.7
+        },
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 22.7,
+         "end": 23.02
+        },
+        {
+         "text": "must",
+         "tail": "",
+         "hl": false,
+         "start": 23.02,
+         "end": 23.26
+        },
+        {
+         "text": "be",
+         "tail": "",
+         "hl": false,
+         "start": 23.26,
+         "end": 23.46
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 23.46,
+         "end": 23.77
+        },
+        {
+         "text": "splash",
+         "tail": "",
+         "hl": true,
+         "cue": "s1",
+         "start": 23.77,
+         "end": 24.05
+        },
+        {
+         "text": "activity",
+         "tail": ".",
+         "hl": false,
+         "start": 24.05,
+         "end": 24.77
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.77,
+     "end": 30.77,
+     "chunks": [
+      {
+       "start": 24.77,
+       "end": 29.69,
+       "words": [
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 24.77,
+         "end": 26.47
+        },
+        {
+         "text": "am",
+         "tail": "",
+         "hl": false,
+         "start": 26.47,
+         "end": 26.57
+        },
+        {
+         "text": "guessing",
+         "tail": "",
+         "hl": false,
+         "start": 26.57,
+         "end": 26.79
+        },
+        {
+         "text": "these",
+         "tail": "",
+         "hl": false,
+         "start": 29.05,
+         "end": 29.15
+        },
+        {
+         "text": "users",
+         "tail": "",
+         "hl": false,
+         "cue": "s2",
+         "start": 29.39,
+         "end": 29.69
+        }
+       ]
+      },
+      {
+       "start": 29.69,
+       "end": 30.77,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 29.69,
+         "end": 30.11
+        },
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 30.11,
+         "end": 30.25
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 30.25,
+         "end": 30.41
+        },
+        {
+         "text": "switch",
+         "tail": ",",
+         "hl": false,
+         "start": 30.41,
+         "end": 30.77
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 30.77,
+     "end": 34.63,
+     "chunks": [
+      {
+       "start": 30.77,
+       "end": 33.01,
+       "words": [
+        {
+         "text": "some",
+         "tail": "",
+         "hl": false,
+         "start": 30.77,
+         "end": 32.37
+        },
+        {
+         "text": "navigator",
+         "tail": ".",
+         "hl": true,
+         "cue": "s3",
+         "start": 32.37,
+         "end": 33.01
+        }
+       ]
+      },
+      {
+       "start": 33.01,
+       "end": 34.63,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 33.01,
+         "end": 33.41
+        },
+        {
+         "text": "looks",
+         "tail": "",
+         "hl": false,
+         "start": 33.41,
+         "end": 34.07
+        },
+        {
+         "text": "really",
+         "tail": "",
+         "hl": false,
+         "start": 34.07,
+         "end": 34.35
+        },
+        {
+         "text": "cool",
+         "tail": ".",
+         "hl": false,
+         "start": 34.35,
+         "end": 34.63
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "APP FLOW",
+    "title": "SCREEN FLOW",
+    "steps": [
+     {
+      "label": "Splash activity",
+      "sub": "first screen",
+      "icon": "sparkle",
+      "cue": "s1"
+     },
+     {
+      "label": "User switcher",
+      "sub": "list of users",
+      "icon": "user",
+      "cue": "s2"
+     },
+     {
+      "label": "Navigator",
+      "sub": "looks really cool",
+      "icon": "layers",
+      "cue": "s3"
+     }
+    ]
+   },
+   "end": 36.06
+  },
+  {
+   "id": "result",
+   "start": 36.06,
+   "sentences": [
+    {
+     "start": 36.21,
+     "end": 41.72,
+     "chunks": [
+      {
+       "start": 36.21,
+       "end": 37.57,
+       "words": [
+        {
+         "text": "See",
+         "tail": ",",
+         "hl": false,
+         "cue": "before",
+         "start": 36.21,
+         "end": 36.45
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 36.45,
+         "end": 36.61
+        },
+        {
+         "text": "design",
+         "tail": "",
+         "hl": false,
+         "start": 36.61,
+         "end": 37.03
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 37.03,
+         "end": 37.23
+        },
+        {
+         "text": "ready",
+         "tail": ",",
+         "hl": true,
+         "cue": "after",
+         "start": 37.23,
+         "end": 37.57
+        }
+       ]
+      },
+      {
+       "start": 37.57,
+       "end": 41.72,
+       "words": [
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 37.57,
+         "end": 37.93
+        },
+        {
+         "text": "based",
+         "tail": "",
+         "hl": false,
+         "start": 37.93,
+         "end": 38.33
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 38.33,
+         "end": 38.65
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 38.65,
+         "end": 38.85
+        },
+        {
+         "text": "two",
+         "tail": "",
+         "hl": true,
+         "start": 38.85,
+         "end": 39.99
+        },
+        {
+         "text": "screenshots",
+         "tail": ".",
+         "hl": true,
+         "start": 41.24,
+         "end": 41.72
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "RESULT",
+    "left": {
+     "kicker": "INPUT",
+     "title": "2 screenshots",
+     "items": [
+      "Old main screen",
+      "Old tracker UI"
+     ],
+     "cue": "before"
+    },
+    "right": {
+     "kicker": "OUTPUT",
+     "title": "Full redesign",
+     "items": [
+      "Splash + tracker",
+      "User switcher",
+      "Navigation"
+     ],
+     "cue": "after"
+    }
+   },
+   "end": 42.217
+  }
+ ]
+}

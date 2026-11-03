@@ -1,0 +1,636 @@
+{
+  "id": "upi-layers",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_v3",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "punch",
+        "label": "UPI · 7 LAYERS",
+        "word": "UPI",
+        "headline": "7 layers behind every payment",
+        "highlight": "7",
+        "kicker": "SYSTEM DESIGN",
+        "icon": "layers"
+      },
+      "sentences": [
+        {
+          "caption": "Every UPI payment passes through *seven layers*. | And every layer fixes a *problem*."
+        }
+      ]
+    },
+    {
+      "id": "dayone",
+      "visual": {
+        "type": "journey",
+        "label": "DAY ONE",
+        "headline": "The old way",
+        "highlight": "old",
+        "stops": [
+          {
+            "name": "Account no.",
+            "sub": "16 digits",
+            "icon": "file",
+            "cue": "acct"
+          },
+          {
+            "name": "IFSC code",
+            "icon": "db",
+            "cue": "ifsc"
+          },
+          {
+            "name": "Wrong digit",
+            "sub": "1 of 16",
+            "icon": "unlink",
+            "cue": "wrong",
+            "tone": "bad"
+          },
+          {
+            "name": "Stranger",
+            "sub": "money gone",
+            "icon": "user",
+            "cue": "sent",
+            "tone": "bad"
+          }
+        ],
+        "glitch": [
+          {
+            "cue": "sent",
+            "text": "Money sent to the wrong account"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "Day one: you want to send Rahul ₹500.",
+          "say": "Day one: you want to send Rahul five hundred rupees."
+        },
+        {
+          "caption": "The app asks, | \"Account number?#acct | IFSC code?\"#ifsc"
+        },
+        {
+          "caption": "You type 16 digits. | One digit is *wrong*.#wrong",
+          "say": "You type sixteen digits. One digit is wrong."
+        },
+        {
+          "caption": "\"Money sent.#sent | To *someone else*.\""
+        }
+      ]
+    },
+    {
+      "id": "upiid",
+      "visual": {
+        "type": "journey",
+        "label": "LAYER 1 · UPI ID",
+        "transition": "slide",
+        "headline": "An address for your bank",
+        "highlight": "address",
+        "stops": [
+          {
+            "name": "rahul@okbank",
+            "icon": "user",
+            "cue": "upiid"
+          },
+          {
+            "name": "Name lookup",
+            "icon": "auth",
+            "cue": "lookup"
+          },
+          {
+            "name": "Rahul Sharma",
+            "sub": "verified",
+            "icon": "check",
+            "cue": "name",
+            "tone": "good"
+          }
+        ],
+        "note": {
+          "text": "Check the name before you pay",
+          "cue": "name"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "So UPI gives every bank account an *address*, | like an email for your bank. | Rahul at okbank.#upiid"
+        },
+        {
+          "caption": "You type his UPI ID, | and the app shows his real name#lookup | before you pay.#name"
+        }
+      ]
+    },
+    {
+      "id": "guess",
+      "visual": {
+        "type": "quiz",
+        "label": "QUICK GUESS",
+        "question": "Who connects the two banks?",
+        "highlight": "connects",
+        "options": [
+          "RBI",
+          "NPCI",
+          "Google Pay",
+          "Visa"
+        ],
+        "answer": 1,
+        "seconds": 3,
+        "ask": "ask",
+        "reveal": "reveal"
+      },
+      "sentences": [
+        {
+          "caption": "But your bank and Rahul's bank are *different* banks."
+        },
+        {
+          "caption": "Pause and guess:#ask | who *connects* them?"
+        },
+        {
+          "caption": "It's the NPCI#reveal *switch*."
+        }
+      ]
+    },
+    {
+      "id": "npci",
+      "visual": {
+        "type": "sequence",
+        "label": "LAYER 2 · NPCI SWITCH",
+        "title": "One UPI payment",
+        "transition": "whip",
+        "lanes": [
+          {
+            "name": "App",
+            "icon": "phone"
+          },
+          {
+            "name": "Your bank",
+            "icon": "db"
+          },
+          {
+            "name": "NPCI",
+            "icon": "share"
+          },
+          {
+            "name": "Rahul's bank",
+            "icon": "db"
+          }
+        ],
+        "messages": [
+          {
+            "from": 0,
+            "to": 1,
+            "text": "pay ₹500",
+            "cue": "m1"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "text": "debit + route",
+            "cue": "m2"
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "text": "credit ₹500",
+            "cue": "m3"
+          },
+          {
+            "from": 3,
+            "to": 2,
+            "text": "credited",
+            "cue": "m4",
+            "tone": "good"
+          },
+          {
+            "from": 2,
+            "to": 0,
+            "text": "Paid ₹500",
+            "cue": "m5",
+            "tone": "good"
+          }
+        ],
+        "note": {
+          "text": "All in a few seconds",
+          "cue": "secs"
+        },
+        "camera": [
+          {
+            "cue": "exch",
+            "zoom": 1.15,
+            "x": 540,
+            "y": 480
+          },
+          {
+            "cue": "m1",
+            "zoom": 1
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "Think of it as a *telephone exchange*#exch for banks."
+        },
+        {
+          "caption": "Your app asks#m1 your bank. | Your bank routes#m2 it to NPCI. | NPCI asks Rahul's bank#m3 to credit."
+        },
+        {
+          "caption": "Rahul's bank confirms,#m4 | and your app shows#m5 *paid*. | All in a few seconds.#secs"
+        }
+      ]
+    },
+    {
+      "id": "device",
+      "visual": {
+        "type": "phoneflow",
+        "label": "LAYER 3 · DEVICE + PIN",
+        "phones": [
+          {
+            "owner": "Fraudster's phone",
+            "tone": "bad",
+            "screens": [
+              {
+                "cue": "fraud",
+                "kind": "pay",
+                "to": "Fraudster",
+                "amount": "₹5,000"
+              },
+              {
+                "cue": "blocked",
+                "kind": "status",
+                "tone": "bad",
+                "icon": "lock",
+                "title": "Unknown device",
+                "sub": "Request blocked"
+              }
+            ]
+          },
+          {
+            "owner": "Your phone",
+            "tone": "good",
+            "screens": [
+              {
+                "cue": "yours",
+                "kind": "pay",
+                "to": "Rahul Sharma",
+                "amount": "₹500"
+              },
+              {
+                "cue": "pin",
+                "kind": "pin",
+                "title": "Enter UPI PIN",
+                "sub": "SECURE SCREEN"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "text": "Even the app can't see your PIN",
+          "cue": "cant"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "Then a fraudster#fraud installs your app on their phone."
+        },
+        {
+          "caption": "So UPI binds your account | to your phone#yours and SIM. | Their request comes back:#blocked | \"Unknown device. *Blocked*.\""
+        },
+        {
+          "caption": "And every payment needs your *UPI PIN*,#pin | typed into a secure screen. | Even the app#cant can't see it."
+        }
+      ]
+    },
+    {
+      "id": "txn",
+      "visual": {
+        "type": "sequence",
+        "label": "LAYER 4 · TRANSACTION ID",
+        "title": "Same ID = same payment",
+        "lanes": [
+          {
+            "name": "App",
+            "icon": "phone"
+          },
+          {
+            "name": "Your bank",
+            "icon": "db"
+          },
+          {
+            "name": "NPCI",
+            "icon": "share"
+          }
+        ],
+        "messages": [
+          {
+            "from": 0,
+            "to": 1,
+            "text": "pay ₹500 · txn 4821",
+            "cue": "tap1"
+          },
+          {
+            "from": 0,
+            "to": 1,
+            "text": "retry · txn 4821",
+            "cue": "tap2",
+            "tone": "bad"
+          },
+          {
+            "from": 1,
+            "to": 0,
+            "text": "same ID: ignored",
+            "cue": "ignore",
+            "tone": "good"
+          },
+          {
+            "from": 2,
+            "to": 1,
+            "text": "not credited",
+            "cue": "fail",
+            "tone": "bad"
+          },
+          {
+            "from": 1,
+            "to": 0,
+            "text": "₹500 reversed",
+            "cue": "reversed",
+            "tone": "good"
+          }
+        ],
+        "camera": [
+          {
+            "cue": "tap2",
+            "zoom": 1.35,
+            "x": 470,
+            "y": 620
+          },
+          {
+            "cue": "fail",
+            "zoom": 1
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "Then the network lags,#tap1 | and you tap Pay *twice*.#tap2"
+        },
+        {
+          "caption": "So every payment carries a unique *transaction ID*. | The retry has the same ID, | and the bank ignores it.#ignore"
+        },
+        {
+          "caption": "And if money leaves your bank | but never reaches Rahul,#fail | it's *reversed*#reversed back to you."
+        }
+      ]
+    },
+    {
+      "id": "qr",
+      "visual": {
+        "type": "journey",
+        "label": "LAYER 5 · QR CODES",
+        "transition": "slide",
+        "headline": "Pay at any chai stall",
+        "highlight": "chai",
+        "stops": [
+          {
+            "name": "Scan QR",
+            "icon": "camera",
+            "cue": "scan"
+          },
+          {
+            "name": "Enter PIN",
+            "icon": "lock",
+            "cue": "pin2"
+          },
+          {
+            "name": "Paid",
+            "icon": "check",
+            "cue": "paid",
+            "tone": "good"
+          },
+          {
+            "name": "Speaker",
+            "sub": "Received ₹50",
+            "icon": "bell",
+            "cue": "sound",
+            "tone": "good"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "Now shops want UPI. | But nobody types an ID at a *chai stall*."
+        },
+        {
+          "caption": "So the shop shows a QR code#scan with its UPI ID inside. | Scan, enter your PIN,#pin2 done.#paid"
+        },
+        {
+          "caption": "And a speaker#sound on the counter says, | \"Received ₹50.\"",
+          "say": "And a speaker on the counter says, Received fifty rupees."
+        }
+      ]
+    },
+    {
+      "id": "lite",
+      "visual": {
+        "type": "chart",
+        "label": "LAYER 6 · UPI LITE",
+        "title": "Bank core load (example)",
+        "points": [
+          20,
+          28,
+          36,
+          44,
+          52,
+          60,
+          68,
+          76,
+          84,
+          90,
+          95,
+          30,
+          32,
+          31,
+          33,
+          30,
+          32
+        ],
+        "yMax": 100,
+        "unit": "%",
+        "dropMin": 40,
+        "dropLabel": "UPI Lite",
+        "start": "tea",
+        "end": "nopin",
+        "limit": {
+          "value": 80,
+          "label": "overload"
+        },
+        "note": {
+          "text": "Tiny payments stay on your phone",
+          "cue": "nopin"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "Then millions#tea pay ₹10 for tea, | and every tiny payment hits the bank's *core system*.",
+          "say": "Then millions pay ten rupees for tea, and every tiny payment hits the bank's core system."
+        },
+        {
+          "caption": "So small payments go through *UPI Lite*. | A small balance on your phone. | No PIN for tiny amounts.#nopin"
+        }
+      ]
+    },
+    {
+      "id": "fraud",
+      "visual": {
+        "type": "phoneflow",
+        "label": "LAYER 7 · FRAUD CHECKS",
+        "phones": [
+          {
+            "owner": "Your phone",
+            "screens": [
+              {
+                "cue": "collect",
+                "kind": "pay",
+                "to": "Scammer",
+                "amount": "₹2,000",
+                "button": "Enter PIN to receive",
+                "press": false
+              },
+              {
+                "cue": "receive",
+                "kind": "pin",
+                "title": "Enter PIN to receive",
+                "sub": "PIN = MONEY OUT",
+                "tone": "bad"
+              },
+              {
+                "cue": "flag",
+                "kind": "status",
+                "tone": "bad",
+                "icon": "bell",
+                "title": "Risky request",
+                "sub": "You are paying, not receiving"
+              }
+            ]
+          }
+        ],
+        "note": {
+          "text": "Your PIN is only for sending",
+          "cue": "send"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "Then scammers send collect requests:#collect | \"Enter your PIN#receive to receive money.\""
+        },
+        {
+          "caption": "But your PIN is only for *sending*.#send | Never for receiving."
+        },
+        {
+          "caption": "So apps flag#flag risky requests and warn you: | \"You are paying, not *receiving*.\""
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "visual": {
+        "type": "sequence",
+        "label": "THE TWIST",
+        "title": "The one layer you control",
+        "transition": "zoom",
+        "lanes": [
+          {
+            "name": "Caller",
+            "icon": "user"
+          },
+          {
+            "name": "You",
+            "icon": "phone"
+          },
+          {
+            "name": "Your bank",
+            "icon": "db"
+          },
+          {
+            "name": "Scammer",
+            "icon": "user"
+          }
+        ],
+        "messages": [
+          {
+            "from": 0,
+            "to": 1,
+            "text": "\"enter PIN for refund\"",
+            "cue": "call",
+            "tone": "bad"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "text": "PIN entered",
+            "cue": "you",
+            "tone": "bad"
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "text": "money sent",
+            "cue": "gone",
+            "tone": "bad"
+          }
+        ],
+        "note": {
+          "text": "Never share your UPI PIN",
+          "cue": "share"
+        },
+        "glitch": [
+          {
+            "cue": "gone",
+            "text": "Money sent to someone else"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "After years of work, | UPI is instant, secure, | and works at every *chai stall*."
+        },
+        {
+          "caption": "Then a caller#call says, | \"Sir, I'm from your bank. | Enter your PIN to get your refund.\""
+        },
+        {
+          "caption": "And you *do*.#you"
+        },
+        {
+          "caption": "\"Money sent.#gone | To *someone else*.\""
+        },
+        {
+          "caption": "No layer can protect a PIN you *share*.#share"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "MORE TIPS",
+        "headline": "More system design tips",
+        "highlight": "system",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        {
+          "caption": "*Follow*#follow for more system design tips like this."
+        }
+      ]
+    }
+  ]
+}

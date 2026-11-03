@@ -1,0 +1,1430 @@
+{
+ "id": "github-tricks-en-fahim",
+ "durationS": 60.548,
+ "copy": {
+  "hook.badge": "Just 1 word changed",
+  "teaser.title": "5 TRICKS, JUST 1 URL",
+  "teaser.pill": "Number two is even better",
+  "diagram.pill": "0 files opened",
+  "wiki.question": "How does auth work?",
+  "wiki.answerPre": "Login lives in ",
+  "wiki.answerFile": "lib/auth.ts",
+  "wiki.answerPost": ". It sets a session cookie, and middleware checks every request.",
+  "recap.pill": "All you need is 1 GitHub URL",
+  "recap.locked": "In your DM",
+  "cta.title": "COMMENT, GET THE DM",
+  "cta.keyword": "GITHUB",
+  "cta.dmTitle": "5 GitHub URL tricks (full list)",
+  "cta.dmSub": "Change one word, skip the reading",
+  "cta.sendTo": "Send to",
+  "cta.share": "The dev friend who still opens every file"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.092,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.559,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.877,
+       "words": [
+        {
+         "text": "Change",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.397
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": true,
+         "cue": "mark",
+         "start": 0.557,
+         "end": 0.717
+        },
+        {
+         "text": "word",
+         "tail": "",
+         "hl": true,
+         "start": 0.797,
+         "end": 1.117
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 1.197,
+         "end": 1.437
+        },
+        {
+         "text": "any",
+         "tail": "",
+         "hl": false,
+         "start": 1.517,
+         "end": 1.677
+        },
+        {
+         "text": "GitHub",
+         "tail": "",
+         "hl": false,
+         "start": 1.837,
+         "end": 2.157
+        },
+        {
+         "text": "link",
+         "tail": ",",
+         "hl": false,
+         "cue": "morph",
+         "start": 2.237,
+         "end": 2.877
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.699,
+     "end": 5.792,
+     "chunks": [
+      {
+       "start": 2.699,
+       "end": 3.699,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 2.699,
+         "end": 2.899
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 2.939,
+         "end": 2.979
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 3.059,
+         "end": 3.139
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 3.219,
+         "end": 3.259
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": true,
+         "cue": "prompt",
+         "start": 3.299,
+         "end": 3.699
+        }
+       ]
+      },
+      {
+       "start": 3.859,
+       "end": 6.019,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 3.859,
+         "end": 4.099
+        },
+        {
+         "text": "rebuild",
+         "tail": "",
+         "hl": false,
+         "start": 4.179,
+         "end": 4.579
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 4.659,
+         "end": 4.739
+        },
+        {
+         "text": "entire",
+         "tail": "",
+         "hl": false,
+         "start": 4.819,
+         "end": 5.379
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 5.459,
+         "end": 6.019
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "reverse",
+   "start": 6.092,
+   "end": 19.074,
+   "sentences": [
+    {
+     "start": 6.092,
+     "end": 10.633,
+     "chunks": [
+      {
+       "start": 6.092,
+       "end": 8.08,
+       "words": [
+        {
+         "text": "Take",
+         "tail": "",
+         "hl": false,
+         "start": 6.092,
+         "end": 6.32
+        },
+        {
+         "text": "any",
+         "tail": "",
+         "hl": false,
+         "start": 6.48,
+         "end": 6.64
+        },
+        {
+         "text": "public",
+         "tail": "",
+         "hl": false,
+         "start": 6.8,
+         "end": 7.12
+        },
+        {
+         "text": "repo",
+         "tail": "",
+         "hl": false,
+         "start": 7.2,
+         "end": 7.44
+        },
+        {
+         "text": "link",
+         "tail": ",",
+         "hl": false,
+         "start": 7.52,
+         "end": 8.08
+        }
+       ]
+      },
+      {
+       "start": 8.16,
+       "end": 10.8,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 8.16,
+         "end": 8.24
+        },
+        {
+         "text": "swap",
+         "tail": "",
+         "hl": false,
+         "start": 8.32,
+         "end": 8.64
+        },
+        {
+         "text": "github",
+         "tail": "",
+         "hl": true,
+         "start": 8.72,
+         "end": 9.28
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 9.36,
+         "end": 9.6
+        },
+        {
+         "text": "gitreverse",
+         "tail": ".",
+         "hl": true,
+         "cue": "morph",
+         "start": 9.84,
+         "end": 10.8
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 10.773,
+     "end": 14.756,
+     "chunks": [
+      {
+       "start": 10.773,
+       "end": 13.002,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 10.773,
+         "end": 10.922
+        },
+        {
+         "text": "reads",
+         "tail": "",
+         "hl": false,
+         "start": 11.002,
+         "end": 11.242
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 11.322,
+         "end": 11.402
+        },
+        {
+         "text": "whole",
+         "tail": "",
+         "hl": false,
+         "start": 11.482,
+         "end": 11.722
+        },
+        {
+         "text": "repo's",
+         "tail": "",
+         "hl": false,
+         "start": 11.802,
+         "end": 12.202
+        },
+        {
+         "text": "structure",
+         "tail": ",",
+         "hl": true,
+         "cue": "repo",
+         "start": 12.282,
+         "end": 13.002
+        }
+       ]
+      },
+      {
+       "start": 13.082,
+       "end": 14.922,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 13.082,
+         "end": 13.162
+        },
+        {
+         "text": "hands",
+         "tail": "",
+         "hl": false,
+         "start": 13.242,
+         "end": 13.482
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 13.562,
+         "end": 13.642
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 13.722,
+         "end": 13.882
+        },
+        {
+         "text": "clean",
+         "tail": "",
+         "hl": false,
+         "cue": "clean",
+         "start": 14.042,
+         "end": 14.202
+        },
+        {
+         "text": "prompt",
+         "tail": ".",
+         "hl": true,
+         "cue": "prompt",
+         "start": 14.282,
+         "end": 14.922
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 14.896,
+     "end": 18.774,
+     "chunks": [
+      {
+       "start": 14.896,
+       "end": 17.016,
+       "words": [
+        {
+         "text": "Paste",
+         "tail": "",
+         "hl": false,
+         "cue": "claude",
+         "start": 14.896,
+         "end": 15.176
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 15.256,
+         "end": 15.336
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": false,
+         "start": 15.416,
+         "end": 15.736
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 15.856,
+         "end": 15.976
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": true,
+         "start": 16.056,
+         "end": 16.296
+        },
+        {
+         "text": "Code",
+         "tail": ",",
+         "hl": true,
+         "cue": "paste",
+         "start": 16.376,
+         "end": 17.016
+        }
+       ]
+      },
+      {
+       "start": 17.096,
+       "end": 19.016,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 17.096,
+         "end": 17.336
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 17.416,
+         "end": 17.576
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 17.656,
+         "end": 17.816
+        },
+        {
+         "text": "version",
+         "tail": "",
+         "hl": true,
+         "cue": "version",
+         "start": 18.016,
+         "end": 18.216
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 18.296,
+         "end": 18.376
+        },
+        {
+         "text": "ready",
+         "tail": ".",
+         "hl": false,
+         "start": 18.536,
+         "end": 19.016
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "teaser",
+   "start": 19.074,
+   "end": 23.728,
+   "sentences": [
+    {
+     "start": 19.074,
+     "end": 20.984,
+     "chunks": [
+      {
+       "start": 19.074,
+       "end": 21.136,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 19.074,
+         "end": 19.296
+        },
+        {
+         "text": "that's",
+         "tail": "",
+         "hl": false,
+         "start": 19.536,
+         "end": 19.776
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 19.896,
+         "end": 20.016
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 20.096,
+         "end": 20.176
+        },
+        {
+         "text": "first",
+         "tail": "",
+         "hl": true,
+         "start": 20.256,
+         "end": 20.496
+        },
+        {
+         "text": "trick",
+         "tail": ".",
+         "hl": false,
+         "start": 20.576,
+         "end": 21.136
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 21.124,
+     "end": 23.428,
+     "chunks": [
+      {
+       "start": 21.124,
+       "end": 23.654,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 21.124,
+         "end": 21.254
+        },
+        {
+         "text": "second",
+         "tail": "",
+         "hl": true,
+         "cue": "unlock",
+         "start": 21.334,
+         "end": 21.654
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 21.734,
+         "end": 21.974
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 22.134,
+         "end": 22.373
+        },
+        {
+         "text": "even",
+         "tail": "",
+         "hl": false,
+         "start": 22.454,
+         "end": 22.774
+        },
+        {
+         "text": "better",
+         "tail": ".",
+         "hl": true,
+         "cue": "pill",
+         "start": 22.934,
+         "end": 23.654
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagram",
+   "start": 23.728,
+   "end": 35.987,
+   "sentences": [
+    {
+     "start": 23.728,
+     "end": 26.401,
+     "chunks": [
+      {
+       "start": 23.728,
+       "end": 26.593,
+       "words": [
+        {
+         "text": "Now",
+         "tail": "",
+         "hl": false,
+         "start": 23.728,
+         "end": 23.953
+        },
+        {
+         "text": "swap",
+         "tail": "",
+         "hl": false,
+         "start": 24.113,
+         "end": 24.433
+        },
+        {
+         "text": "hub",
+         "tail": "",
+         "hl": true,
+         "cue": "morph",
+         "start": 24.513,
+         "end": 24.833
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 24.913,
+         "end": 25.073
+        },
+        {
+         "text": "diagram",
+         "tail": "",
+         "hl": true,
+         "start": 25.153,
+         "end": 25.713
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 25.793,
+         "end": 25.873
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 25.913,
+         "end": 25.953
+        },
+        {
+         "text": "link",
+         "tail": ".",
+         "hl": false,
+         "start": 26.033,
+         "end": 26.593
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 26.541,
+     "end": 30.806,
+     "chunks": [
+      {
+       "start": 26.541,
+       "end": 29.021,
+       "words": [
+        {
+         "text": "GitDiagram",
+         "tail": "",
+         "hl": false,
+         "cue": "nodes",
+         "start": 26.541,
+         "end": 27.341
+        },
+        {
+         "text": "maps",
+         "tail": "",
+         "hl": false,
+         "start": 27.421,
+         "end": 27.741
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 27.821,
+         "end": 27.901
+        },
+        {
+         "text": "whole",
+         "tail": "",
+         "hl": false,
+         "start": 27.981,
+         "end": 28.221
+        },
+        {
+         "text": "architecture",
+         "tail": "",
+         "hl": false,
+         "start": 28.301,
+         "end": 29.021
+        }
+       ]
+      },
+      {
+       "start": 29.181,
+       "end": 31.021,
+       "words": [
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 29.181,
+         "end": 29.501
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 29.661,
+         "end": 29.901
+        },
+        {
+         "text": "visual",
+         "tail": "",
+         "hl": true,
+         "cue": "edges",
+         "start": 29.981,
+         "end": 30.381
+        },
+        {
+         "text": "map",
+         "tail": ".",
+         "hl": true,
+         "start": 30.461,
+         "end": 31.021
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 30.946,
+     "end": 35.687,
+     "chunks": [
+      {
+       "start": 30.946,
+       "end": 33.541,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "cue": "pulse",
+         "start": 30.946,
+         "end": 31.341
+        },
+        {
+         "text": "piece",
+         "tail": ",",
+         "hl": false,
+         "start": 31.421,
+         "end": 32.301
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 32.381,
+         "end": 32.621
+        },
+        {
+         "text": "connection",
+         "tail": ",",
+         "hl": false,
+         "cue": "hot",
+         "start": 32.701,
+         "end": 33.541
+        }
+       ]
+      },
+      {
+       "start": 33.741,
+       "end": 35.901,
+       "words": [
+        {
+         "text": "without",
+         "tail": "",
+         "hl": false,
+         "start": 33.741,
+         "end": 34.061
+        },
+        {
+         "text": "opening",
+         "tail": "",
+         "hl": false,
+         "cue": "pill",
+         "start": 34.141,
+         "end": 34.541
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 34.621,
+         "end": 34.741
+        },
+        {
+         "text": "single",
+         "tail": "",
+         "hl": false,
+         "start": 34.861,
+         "end": 35.181
+        },
+        {
+         "text": "file",
+         "tail": ".",
+         "hl": true,
+         "start": 35.261,
+         "end": 35.901
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wiki",
+   "start": 35.987,
+   "end": 44.948,
+   "sentences": [
+    {
+     "start": 35.987,
+     "end": 39.589,
+     "chunks": [
+      {
+       "start": 35.987,
+       "end": 37.334,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 35.987,
+         "end": 36.135
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 36.175,
+         "end": 36.215
+        },
+        {
+         "text": "third",
+         "tail": "",
+         "hl": true,
+         "start": 36.294,
+         "end": 36.455
+        },
+        {
+         "text": "one",
+         "tail": ":",
+         "hl": false,
+         "start": 36.535,
+         "end": 37.334
+        }
+       ]
+      },
+      {
+       "start": 37.495,
+       "end": 39.815,
+       "words": [
+        {
+         "text": "swap",
+         "tail": "",
+         "hl": false,
+         "start": 37.495,
+         "end": 37.815
+        },
+        {
+         "text": "github",
+         "tail": "",
+         "hl": true,
+         "start": 37.974,
+         "end": 38.455
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 38.614,
+         "end": 38.775
+        },
+        {
+         "text": "deepwiki",
+         "tail": ".",
+         "hl": true,
+         "cue": "morph",
+         "start": 38.934,
+         "end": 39.815
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 39.729,
+     "end": 44.648,
+     "chunks": [
+      {
+       "start": 39.729,
+       "end": 42.173,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 39.729,
+         "end": 39.853
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 39.933,
+         "end": 40.013
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 40.173,
+         "end": 40.413
+        },
+        {
+         "text": "documentation",
+         "tail": "",
+         "hl": true,
+         "cue": "doc",
+         "start": 40.493,
+         "end": 41.213
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 41.293,
+         "end": 41.373
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 41.413,
+         "end": 41.453
+        },
+        {
+         "text": "repo",
+         "tail": ",",
+         "hl": false,
+         "start": 41.693,
+         "end": 42.173
+        }
+       ]
+      },
+      {
+       "start": 42.253,
+       "end": 44.893,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 42.253,
+         "end": 42.493
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 42.573,
+         "end": 42.653
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 42.733,
+         "end": 42.813
+        },
+        {
+         "text": "ask",
+         "tail": "",
+         "hl": false,
+         "cue": "ask",
+         "start": 42.893,
+         "end": 43.053
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 43.133,
+         "end": 43.213
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 43.293,
+         "end": 43.533
+        },
+        {
+         "text": "questions",
+         "tail": "",
+         "hl": true,
+         "cue": "answer",
+         "start": 43.613,
+         "end": 44.013
+        },
+        {
+         "text": "directly",
+         "tail": ".",
+         "hl": false,
+         "start": 44.093,
+         "end": 44.893
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "start": 44.948,
+   "end": 49.198,
+   "sentences": [
+    {
+     "start": 44.948,
+     "end": 48.898,
+     "chunks": [
+      {
+       "start": 44.948,
+       "end": 46.271,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 44.948,
+         "end": 45.231
+        },
+        {
+         "text": "5",
+         "tail": "",
+         "hl": true,
+         "start": 45.311,
+         "end": 45.551
+        },
+        {
+         "text": "tricks",
+         "tail": ",",
+         "hl": true,
+         "start": 45.631,
+         "end": 46.271
+        }
+       ]
+      },
+      {
+       "start": 46.351,
+       "end": 49.071,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 46.351,
+         "end": 46.511
+        },
+        {
+         "text": "all",
+         "tail": "",
+         "hl": false,
+         "cue": "pill",
+         "start": 46.591,
+         "end": 46.751
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 46.831,
+         "end": 46.911
+        },
+        {
+         "text": "need",
+         "tail": "",
+         "hl": false,
+         "start": 47.111,
+         "end": 47.311
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 47.391,
+         "end": 47.631
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 47.711,
+         "end": 47.871
+        },
+        {
+         "text": "GitHub",
+         "tail": "",
+         "hl": true,
+         "start": 47.951,
+         "end": 48.351
+        },
+        {
+         "text": "URL",
+         "tail": ".",
+         "hl": true,
+         "start": 48.431,
+         "end": 49.071
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "start": 49.198,
+   "end": 60.548,
+   "sentences": [
+    {
+     "start": 49.198,
+     "end": 52.014,
+     "chunks": [
+      {
+       "start": 49.198,
+       "end": 50.034,
+       "words": [
+        {
+         "text": "Comment",
+         "tail": "",
+         "hl": false,
+         "start": 49.198,
+         "end": 49.474
+        },
+        {
+         "text": "GITHUB",
+         "tail": "",
+         "hl": true,
+         "cue": "type",
+         "start": 49.554,
+         "end": 50.034
+        }
+       ]
+      },
+      {
+       "start": 50.194,
+       "end": 52.194,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "cue": "dm",
+         "start": 50.194,
+         "end": 50.434
+        },
+        {
+         "text": "I'll",
+         "tail": "",
+         "hl": false,
+         "start": 50.514,
+         "end": 50.754
+        },
+        {
+         "text": "DM",
+         "tail": "",
+         "hl": true,
+         "start": 50.834,
+         "end": 51.074
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 51.114,
+         "end": 51.154
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 51.234,
+         "end": 51.314
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 51.394,
+         "end": 51.554
+        },
+        {
+         "text": "list",
+         "tail": ".",
+         "hl": false,
+         "start": 51.754,
+         "end": 52.194
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 52.154,
+     "end": 56.24,
+     "chunks": [
+      {
+       "start": 52.154,
+       "end": 53.66,
+       "words": [
+        {
+         "text": "Send",
+         "tail": "",
+         "hl": false,
+         "cue": "share",
+         "start": 52.154,
+         "end": 52.46
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 52.54,
+         "end": 52.62
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 52.7,
+         "end": 52.78
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 52.82,
+         "end": 52.86
+        },
+        {
+         "text": "dev",
+         "tail": "",
+         "hl": false,
+         "start": 53.02,
+         "end": 53.26
+        },
+        {
+         "text": "friend",
+         "tail": "",
+         "hl": false,
+         "start": 53.34,
+         "end": 53.66
+        }
+       ]
+      },
+      {
+       "start": 53.74,
+       "end": 56.46,
+       "words": [
+        {
+         "text": "who",
+         "tail": "",
+         "hl": false,
+         "start": 53.74,
+         "end": 53.9
+        },
+        {
+         "text": "still",
+         "tail": "",
+         "hl": false,
+         "start": 53.98,
+         "end": 54.3
+        },
+        {
+         "text": "opens",
+         "tail": "",
+         "hl": false,
+         "cue": "sent",
+         "start": 54.38,
+         "end": 54.7
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 54.94,
+         "end": 55.26
+        },
+        {
+         "text": "file",
+         "tail": "",
+         "hl": false,
+         "start": 55.34,
+         "end": 55.58
+        },
+        {
+         "text": "by",
+         "tail": "",
+         "hl": false,
+         "start": 55.66,
+         "end": 55.74
+        },
+        {
+         "text": "hand",
+         "tail": ".",
+         "hl": false,
+         "start": 55.82,
+         "end": 56.46
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 56.38,
+     "end": 59.048,
+     "chunks": [
+      {
+       "start": 56.38,
+       "end": 57.464,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 56.38,
+         "end": 56.664
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 56.744,
+         "end": 56.824
+        },
+        {
+         "text": "more",
+         "tail": ",",
+         "hl": false,
+         "start": 56.904,
+         "end": 57.464
+        }
+       ]
+      },
+      {
+       "start": 57.544,
+       "end": 59.304,
+       "words": [
+        {
+         "text": "let's",
+         "tail": "",
+         "hl": false,
+         "start": 57.544,
+         "end": 57.784
+        },
+        {
+         "text": "hit",
+         "tail": "",
+         "hl": false,
+         "start": 57.864,
+         "end": 58.024
+        },
+        {
+         "text": "10K",
+         "tail": "",
+         "hl": true,
+         "cue": "road",
+         "start": 58.104,
+         "end": 58.504
+        },
+        {
+         "text": "together",
+         "tail": ".",
+         "hl": false,
+         "start": 58.584,
+         "end": 59.304
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

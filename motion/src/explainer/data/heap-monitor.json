@@ -1,0 +1,2392 @@
+{
+ "id": "heap-monitor",
+ "durationS": 100.207,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.792,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.323,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.323,
+       "words": [
+        {
+         "text": "How",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.163
+        },
+        {
+         "text": "often",
+         "tail": "",
+         "hl": false,
+         "start": 0.203,
+         "end": 0.403
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 0.451,
+         "end": 0.643
+        },
+        {
+         "text": "garbage",
+         "tail": "",
+         "hl": true,
+         "start": 0.693,
+         "end": 1.043
+        },
+        {
+         "text": "collection",
+         "tail": "",
+         "hl": false,
+         "start": 1.079,
+         "end": 1.443
+        },
+        {
+         "text": "run",
+         "tail": "",
+         "hl": false,
+         "start": 1.483,
+         "end": 1.603
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 1.656,
+         "end": 1.763
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 1.795,
+         "end": 1.923
+        },
+        {
+         "text": "app",
+         "tail": "?",
+         "hl": false,
+         "start": 1.983,
+         "end": 2.323
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.923,
+     "end": 5.792,
+     "chunks": [
+      {
+       "start": 2.923,
+       "end": 4.752,
+       "words": [
+        {
+         "text": "Most",
+         "tail": "",
+         "hl": false,
+         "start": 2.923,
+         "end": 3.072
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 3.112,
+         "end": 3.392
+        },
+        {
+         "text": "developers",
+         "tail": "",
+         "hl": false,
+         "start": 3.443,
+         "end": 3.952
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 3.984,
+         "end": 4.112
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 4.192,
+         "end": 4.352
+        },
+        {
+         "text": "idea",
+         "tail": ".",
+         "hl": false,
+         "cue": "idea",
+         "start": 4.416,
+         "end": 4.752
+        }
+       ]
+      },
+      {
+       "start": 4.952,
+       "end": 5.792,
+       "words": [
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 4.952,
+         "end": 5.152
+        },
+        {
+         "text": "didn't",
+         "tail": "",
+         "hl": false,
+         "start": 5.184,
+         "end": 5.392
+        },
+        {
+         "text": "either",
+         "tail": ".",
+         "hl": true,
+         "start": 5.438,
+         "end": 5.792
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ANDROID MEMORY",
+    "kicker": "QUICK QUESTION",
+    "headline": "How often does GC run in your app?",
+    "highlight": "GC",
+    "icon": "flame",
+    "sub": {
+     "text": "Most devs have no idea",
+     "cue": "idea"
+    }
+   }
+  },
+  {
+   "id": "origin",
+   "start": 6.792,
+   "end": 17.23,
+   "sentences": [
+    {
+     "start": 6.792,
+     "end": 8.908,
+     "chunks": [
+      {
+       "start": 6.792,
+       "end": 7.868,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 6.792,
+         "end": 6.828
+        },
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 6.908,
+         "end": 6.988
+        },
+        {
+         "text": "built",
+         "tail": "",
+         "hl": false,
+         "start": 7.015,
+         "end": 7.148
+        },
+        {
+         "text": "HeapMonitor",
+         "tail": ".",
+         "hl": true,
+         "start": 7.196,
+         "end": 7.868
+        }
+       ]
+      },
+      {
+       "start": 7.988,
+       "end": 8.908,
+       "words": [
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 7.988,
+         "end": 8.108
+        },
+        {
+         "text": "was",
+         "tail": "",
+         "hl": false,
+         "start": 8.148,
+         "end": 8.268
+        },
+        {
+         "text": "curious",
+         "tail": ".",
+         "hl": false,
+         "start": 8.328,
+         "end": 8.908
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.508,
+     "end": 11.208,
+     "chunks": [
+      {
+       "start": 9.508,
+       "end": 11.245,
+       "words": [
+        {
+         "text": "How",
+         "tail": "",
+         "hl": false,
+         "start": 9.508,
+         "end": 9.565
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 9.618,
+         "end": 9.725
+        },
+        {
+         "text": "heap",
+         "tail": "",
+         "hl": false,
+         "start": 9.805,
+         "end": 10.125
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "cue": "q1",
+         "start": 10.182,
+         "end": 10.525
+        },
+        {
+         "text": "allocated",
+         "tail": "?",
+         "hl": true,
+         "start": 10.581,
+         "end": 11.245
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 11.808,
+     "end": 13.71,
+     "chunks": [
+      {
+       "start": 11.808,
+       "end": 13.71,
+       "words": [
+        {
+         "text": "How",
+         "tail": "",
+         "hl": false,
+         "start": 11.808,
+         "end": 11.95
+        },
+        {
+         "text": "often",
+         "tail": "",
+         "hl": false,
+         "start": 12.003,
+         "end": 12.27
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 12.318,
+         "end": 12.51
+        },
+        {
+         "text": "garbage",
+         "tail": "",
+         "hl": false,
+         "start": 12.56,
+         "end": 12.91
+        },
+        {
+         "text": "collection",
+         "tail": "",
+         "hl": false,
+         "cue": "q2",
+         "start": 12.946,
+         "end": 13.31
+        },
+        {
+         "text": "run",
+         "tail": "?",
+         "hl": true,
+         "start": 13.39,
+         "end": 13.71
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 14.31,
+     "end": 16.23,
+     "chunks": [
+      {
+       "start": 14.31,
+       "end": 16.23,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 14.31,
+         "end": 14.47
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 14.51,
+         "end": 14.63
+        },
+        {
+         "text": "much",
+         "tail": "",
+         "hl": false,
+         "start": 14.662,
+         "end": 14.79
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "cue": "q3",
+         "start": 14.847,
+         "end": 15.19
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 15.222,
+         "end": 15.35
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 15.377,
+         "end": 15.43
+        },
+        {
+         "text": "actually",
+         "tail": "",
+         "hl": false,
+         "start": 15.474,
+         "end": 15.83
+        },
+        {
+         "text": "free",
+         "tail": "?",
+         "hl": true,
+         "start": 15.894,
+         "end": 16.23
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "WHY I BUILT IT",
+    "title": "So I built HeapMonitor",
+    "rows": [
+     {
+      "kicker": "QUESTION 1",
+      "text": "How is heap memory allocated?",
+      "icon": "layers",
+      "cue": "q1"
+     },
+     {
+      "kicker": "QUESTION 2",
+      "text": "How often does GC run?",
+      "icon": "flame",
+      "cue": "q2"
+     },
+     {
+      "kicker": "QUESTION 3",
+      "text": "How much memory does GC free?",
+      "icon": "db",
+      "cue": "q3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "problem",
+   "start": 17.23,
+   "end": 28.965,
+   "sentences": [
+    {
+     "start": 17.23,
+     "end": 23.42,
+     "chunks": [
+      {
+       "start": 17.23,
+       "end": 19.26,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 17.23,
+         "end": 17.26
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 17.31,
+         "end": 17.66
+        },
+        {
+         "text": "Studio",
+         "tail": "",
+         "hl": false,
+         "start": 17.706,
+         "end": 17.98
+        },
+        {
+         "text": "profiler",
+         "tail": "",
+         "hl": false,
+         "cue": "prof",
+         "start": 18.042,
+         "end": 18.54
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 18.6,
+         "end": 18.78
+        },
+        {
+         "text": "tell",
+         "tail": "",
+         "hl": false,
+         "start": 18.812,
+         "end": 18.94
+        },
+        {
+         "text": "you",
+         "tail": ".",
+         "hl": false,
+         "start": 18.98,
+         "end": 19.26
+        }
+       ]
+      },
+      {
+       "start": 19.38,
+       "end": 21.1,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 19.38,
+         "end": 19.74
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 19.78,
+         "end": 19.9
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 19.948,
+         "end": 20.14
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 20.193,
+         "end": 20.3
+        },
+        {
+         "text": "attach",
+         "tail": "",
+         "hl": false,
+         "start": 20.357,
+         "end": 20.7
+        },
+        {
+         "text": "it",
+         "tail": ",",
+         "hl": false,
+         "start": 20.753,
+         "end": 21.1
+        }
+       ]
+      },
+      {
+       "start": 21.146,
+       "end": 22.3,
+       "words": [
+        {
+         "text": "record",
+         "tail": "",
+         "hl": false,
+         "start": 21.146,
+         "end": 21.42
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 21.46,
+         "end": 21.5
+        },
+        {
+         "text": "session",
+         "tail": ",",
+         "hl": false,
+         "start": 21.56,
+         "end": 22.3
+        }
+       ]
+      },
+      {
+       "start": 22.32,
+       "end": 23.42,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 22.32,
+         "end": 22.38
+        },
+        {
+         "text": "dig",
+         "tail": "",
+         "hl": false,
+         "start": 22.46,
+         "end": 22.7
+        },
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 22.72,
+         "end": 22.86
+        },
+        {
+         "text": "graphs",
+         "tail": ".",
+         "hl": true,
+         "start": 22.929,
+         "end": 23.42
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.02,
+     "end": 27.965,
+     "chunks": [
+      {
+       "start": 24.02,
+       "end": 25.725,
+       "words": [
+        {
+         "text": "HeapMonitor",
+         "tail": "",
+         "hl": false,
+         "start": 24.02,
+         "end": 24.605
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "start": 24.672,
+         "end": 25.005
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 25.032,
+         "end": 25.085
+        },
+        {
+         "text": "live",
+         "tail": ",",
+         "hl": true,
+         "cue": "live",
+         "start": 25.181,
+         "end": 25.725
+        }
+       ]
+      },
+      {
+       "start": 25.778,
+       "end": 26.765,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 25.778,
+         "end": 25.885
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 25.952,
+         "end": 26.285
+        },
+        {
+         "text": "screen",
+         "tail": ",",
+         "hl": false,
+         "start": 26.354,
+         "end": 26.765
+        }
+       ]
+      },
+      {
+       "start": 26.832,
+       "end": 27.965,
+       "words": [
+        {
+         "text": "while",
+         "tail": "",
+         "hl": false,
+         "start": 26.832,
+         "end": 27.165
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 27.185,
+         "end": 27.245
+        },
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 27.325,
+         "end": 27.565
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 27.597,
+         "end": 27.725
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 27.765,
+         "end": 27.965
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "THE PROBLEM",
+    "left": {
+     "kicker": "ANDROID STUDIO",
+     "title": "Profiler",
+     "items": [
+      "Attach it",
+      "Record a session",
+      "Dig through graphs"
+     ],
+     "cue": "prof"
+    },
+    "right": {
+     "kicker": "HEAPMONITOR",
+     "title": "Live overlay",
+     "items": [
+      "Every screen",
+      "While you use your app"
+     ],
+     "cue": "live"
+    }
+   }
+  },
+  {
+   "id": "shows",
+   "start": 28.965,
+   "end": 50.528,
+   "sentences": [
+    {
+     "start": 28.965,
+     "end": 30.882,
+     "chunks": [
+      {
+       "start": 28.965,
+       "end": 30.944,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 28.965,
+         "end": 28.965
+        },
+        {
+         "text": "small",
+         "tail": "",
+         "hl": false,
+         "start": 29.011,
+         "end": 29.344
+        },
+        {
+         "text": "overlay",
+         "tail": "",
+         "hl": false,
+         "start": 29.404,
+         "end": 29.824
+        },
+        {
+         "text": "floats",
+         "tail": "",
+         "hl": true,
+         "start": 29.881,
+         "end": 30.224
+        },
+        {
+         "text": "over",
+         "tail": "",
+         "hl": false,
+         "start": 30.272,
+         "end": 30.464
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 30.496,
+         "end": 30.624
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 30.684,
+         "end": 30.944
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 31.482,
+     "end": 40.073,
+     "chunks": [
+      {
+       "start": 31.482,
+       "end": 34.181,
+       "words": [
+        {
+         "text": "Heap",
+         "tail": "",
+         "hl": false,
+         "start": 31.482,
+         "end": 31.701
+        },
+        {
+         "text": "max",
+         "tail": ",",
+         "hl": false,
+         "cue": "heap",
+         "start": 31.821,
+         "end": 32.541
+        },
+        {
+         "text": "used",
+         "tail": ",",
+         "hl": false,
+         "start": 32.613,
+         "end": 32.981
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 33.061,
+         "end": 33.301
+        },
+        {
+         "text": "free",
+         "tail": "",
+         "hl": false,
+         "start": 33.349,
+         "end": 33.541
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "start": 33.598,
+         "end": 34.181
+        }
+       ]
+      },
+      {
+       "start": 34.307,
+       "end": 35.821,
+       "words": [
+        {
+         "text": "Native",
+         "tail": "",
+         "hl": false,
+         "start": 34.307,
+         "end": 35.061
+        },
+        {
+         "text": "heap",
+         "tail": ".",
+         "hl": false,
+         "start": 35.125,
+         "end": 35.821
+        }
+       ]
+      },
+      {
+       "start": 36.041,
+       "end": 38.741,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 36.041,
+         "end": 36.261
+        },
+        {
+         "text": "live",
+         "tail": "",
+         "hl": false,
+         "start": 36.309,
+         "end": 36.501
+        },
+        {
+         "text": "GC",
+         "tail": "",
+         "hl": false,
+         "start": 36.608,
+         "end": 36.821
+        },
+        {
+         "text": "count",
+         "tail": ",",
+         "hl": false,
+         "cue": "gc",
+         "start": 36.888,
+         "end": 37.621
+        },
+        {
+         "text": "GC",
+         "tail": "",
+         "hl": false,
+         "start": 37.754,
+         "end": 38.021
+        },
+        {
+         "text": "time",
+         "tail": ",",
+         "hl": false,
+         "start": 38.085,
+         "end": 38.741
+        }
+       ]
+      },
+      {
+       "start": 38.781,
+       "end": 40.101,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 38.781,
+         "end": 38.901
+        },
+        {
+         "text": "blocking",
+         "tail": "",
+         "hl": false,
+         "start": 38.954,
+         "end": 39.381
+        },
+        {
+         "text": "GCs",
+         "tail": ".",
+         "hl": false,
+         "start": 39.514,
+         "end": 40.101
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 40.673,
+     "end": 45.184,
+     "chunks": [
+      {
+       "start": 40.673,
+       "end": 43.202,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 40.673,
+         "end": 40.722
+        },
+        {
+         "text": "usage",
+         "tail": "",
+         "hl": false,
+         "start": 40.789,
+         "end": 41.122
+        },
+        {
+         "text": "bar",
+         "tail": "",
+         "hl": false,
+         "cue": "bar",
+         "start": 41.202,
+         "end": 41.442
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 41.522,
+         "end": 41.922
+        },
+        {
+         "text": "green",
+         "tail": ",",
+         "hl": false,
+         "start": 41.975,
+         "end": 42.562
+        },
+        {
+         "text": "amber",
+         "tail": ",",
+         "hl": false,
+         "start": 42.629,
+         "end": 43.202
+        }
+       ]
+      },
+      {
+       "start": 43.234,
+       "end": 45.122,
+       "words": [
+        {
+         "text": "then",
+         "tail": "",
+         "hl": false,
+         "start": 43.234,
+         "end": 43.362
+        },
+        {
+         "text": "red",
+         "tail": "",
+         "hl": true,
+         "start": 43.442,
+         "end": 43.682
+        },
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 43.789,
+         "end": 44.002
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 44.022,
+         "end": 44.082
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 44.122,
+         "end": 44.242
+        },
+        {
+         "text": "close",
+         "tail": "",
+         "hl": false,
+         "start": 44.295,
+         "end": 44.562
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 44.589,
+         "end": 44.642
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 44.662,
+         "end": 44.722
+        },
+        {
+         "text": "limit",
+         "tail": ".",
+         "hl": false,
+         "start": 44.775,
+         "end": 45.122
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 45.784,
+     "end": 49.528,
+     "chunks": [
+      {
+       "start": 45.784,
+       "end": 47.296,
+       "words": [
+        {
+         "text": "Tap",
+         "tail": "",
+         "hl": false,
+         "start": 45.784,
+         "end": 46.016
+        },
+        {
+         "text": "Force",
+         "tail": "",
+         "hl": true,
+         "start": 46.083,
+         "end": 46.416
+        },
+        {
+         "text": "GC",
+         "tail": ",",
+         "hl": false,
+         "cue": "force",
+         "start": 46.576,
+         "end": 47.296
+        }
+       ]
+      },
+      {
+       "start": 47.336,
+       "end": 49.536,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 47.336,
+         "end": 47.456
+        },
+        {
+         "text": "watch",
+         "tail": "",
+         "hl": false,
+         "start": 47.523,
+         "end": 47.856
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 47.936,
+         "end": 48.176
+        },
+        {
+         "text": "much",
+         "tail": "",
+         "hl": false,
+         "start": 48.224,
+         "end": 48.416
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "start": 48.473,
+         "end": 48.816
+        },
+        {
+         "text": "comes",
+         "tail": "",
+         "hl": false,
+         "start": 48.869,
+         "end": 49.136
+        },
+        {
+         "text": "back",
+         "tail": ".",
+         "hl": false,
+         "start": 49.184,
+         "end": 49.536
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "screenshot",
+    "label": "WHAT IT SHOWS",
+    "title": "HeapMonitor demo",
+    "src": "heapmonitor.png",
+    "width": 1047,
+    "height": 745,
+    "highlights": [
+     {
+      "x": 290,
+      "y": 88,
+      "w": 742,
+      "h": 308,
+      "cue": "heap"
+     },
+     {
+      "x": 290,
+      "y": 395,
+      "w": 742,
+      "h": 112,
+      "cue": "gc"
+     },
+     {
+      "x": 290,
+      "y": 545,
+      "w": 742,
+      "h": 48,
+      "cue": "bar"
+     },
+     {
+      "x": 615,
+      "y": 612,
+      "w": 185,
+      "h": 76,
+      "cue": "force",
+      "label": "Force GC"
+     }
+    ]
+   }
+  },
+  {
+   "id": "helps",
+   "start": 50.528,
+   "end": 63.024,
+   "sentences": [
+    {
+     "start": 50.528,
+     "end": 53.86,
+     "chunks": [
+      {
+       "start": 50.528,
+       "end": 51.7,
+       "words": [
+        {
+         "text": "Scroll",
+         "tail": "",
+         "hl": false,
+         "start": 50.528,
+         "end": 50.9
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 50.94,
+         "end": 50.98
+        },
+        {
+         "text": "list",
+         "tail": ".",
+         "hl": false,
+         "cue": "scroll",
+         "start": 51.076,
+         "end": 51.7
+        }
+       ]
+      },
+      {
+       "start": 51.748,
+       "end": 52.5,
+       "words": [
+        {
+         "text": "Open",
+         "tail": "",
+         "hl": false,
+         "start": 51.748,
+         "end": 51.94
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 51.98,
+         "end": 52.02
+        },
+        {
+         "text": "screen",
+         "tail": ".",
+         "hl": false,
+         "cue": "open",
+         "start": 52.077,
+         "end": 52.5
+        }
+       ]
+      },
+      {
+       "start": 52.58,
+       "end": 53.86,
+       "words": [
+        {
+         "text": "Load",
+         "tail": "",
+         "hl": false,
+         "start": 52.58,
+         "end": 52.9
+        },
+        {
+         "text": "some",
+         "tail": "",
+         "hl": false,
+         "start": 52.932,
+         "end": 53.06
+        },
+        {
+         "text": "images",
+         "tail": ".",
+         "hl": false,
+         "cue": "load",
+         "start": 53.151,
+         "end": 53.86
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 54.46,
+     "end": 58.228,
+     "chunks": [
+      {
+       "start": 54.46,
+       "end": 56.689,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 54.46,
+         "end": 54.529
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 54.549,
+         "end": 54.609
+        },
+        {
+         "text": "GC",
+         "tail": "",
+         "hl": false,
+         "start": 54.742,
+         "end": 55.009
+        },
+        {
+         "text": "count",
+         "tail": "",
+         "hl": false,
+         "start": 55.049,
+         "end": 55.249
+        },
+        {
+         "text": "jumps",
+         "tail": "",
+         "hl": true,
+         "cue": "jump",
+         "start": 55.329,
+         "end": 55.729
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 55.796,
+         "end": 56.129
+        },
+        {
+         "text": "second",
+         "tail": ",",
+         "hl": false,
+         "start": 56.186,
+         "end": 56.689
+        }
+       ]
+      },
+      {
+       "start": 56.709,
+       "end": 58.289,
+       "words": [
+        {
+         "text": "you're",
+         "tail": "",
+         "hl": false,
+         "start": 56.709,
+         "end": 56.849
+        },
+        {
+         "text": "allocating",
+         "tail": "",
+         "hl": false,
+         "start": 56.907,
+         "end": 57.489
+        },
+        {
+         "text": "too",
+         "tail": "",
+         "hl": false,
+         "start": 57.549,
+         "end": 57.729
+        },
+        {
+         "text": "much",
+         "tail": ".",
+         "hl": false,
+         "cue": "much",
+         "start": 57.793,
+         "end": 58.289
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 58.828,
+     "end": 62.024,
+     "chunks": [
+      {
+       "start": 58.828,
+       "end": 60.824,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 58.828,
+         "end": 58.904
+        },
+        {
+         "text": "blocking",
+         "tail": "",
+         "hl": false,
+         "start": 58.957,
+         "end": 59.384
+        },
+        {
+         "text": "GCs",
+         "tail": "",
+         "hl": false,
+         "start": 59.517,
+         "end": 59.864
+        },
+        {
+         "text": "keep",
+         "tail": "",
+         "hl": false,
+         "start": 59.912,
+         "end": 60.104
+        },
+        {
+         "text": "rising",
+         "tail": ",",
+         "hl": false,
+         "cue": "stall",
+         "start": 60.173,
+         "end": 60.824
+        }
+       ]
+      },
+      {
+       "start": 60.84,
+       "end": 62.024,
+       "words": [
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 60.84,
+         "end": 60.904
+        },
+        {
+         "text": "threads",
+         "tail": "",
+         "hl": false,
+         "start": 60.954,
+         "end": 61.304
+        },
+        {
+         "text": "are",
+         "tail": "",
+         "hl": false,
+         "start": 61.324,
+         "end": 61.384
+        },
+        {
+         "text": "stalling",
+         "tail": ".",
+         "hl": true,
+         "start": 61.437,
+         "end": 62.024
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "HOW IT HELPS",
+    "headline": "Spot allocation pressure",
+    "highlight": "pressure",
+    "stops": [
+     {
+      "name": "Scroll",
+      "icon": "grid",
+      "cue": "scroll"
+     },
+     {
+      "name": "Open screen",
+      "icon": "phone",
+      "cue": "open"
+     },
+     {
+      "name": "Load images",
+      "icon": "image",
+      "cue": "load"
+     },
+     {
+      "name": "GC +12",
+      "sub": "every second",
+      "icon": "flame",
+      "cue": "jump",
+      "tone": "bad"
+     },
+     {
+      "name": "Stalling",
+      "sub": "blocking GCs",
+      "icon": "unlink",
+      "cue": "stall",
+      "tone": "bad"
+     }
+    ],
+    "note": {
+     "text": "Allocating too much",
+     "cue": "much"
+    }
+   }
+  },
+  {
+   "id": "install",
+   "start": 63.024,
+   "end": 77.225,
+   "sentences": [
+    {
+     "start": 63.024,
+     "end": 66.224,
+     "chunks": [
+      {
+       "start": 63.024,
+       "end": 63.984,
+       "words": [
+        {
+         "text": "Setup",
+         "tail": "",
+         "hl": false,
+         "start": 63.024,
+         "end": 63.264
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 63.317,
+         "end": 63.424
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": true,
+         "start": 63.464,
+         "end": 63.584
+        },
+        {
+         "text": "line",
+         "tail": ".",
+         "hl": false,
+         "start": 63.648,
+         "end": 63.984
+        }
+       ]
+      },
+      {
+       "start": 64.084,
+       "end": 65.584,
+       "words": [
+        {
+         "text": "Add",
+         "tail": "",
+         "hl": false,
+         "start": 64.084,
+         "end": 64.384
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 64.404,
+         "end": 64.464
+        },
+        {
+         "text": "JitPack",
+         "tail": "",
+         "hl": false,
+         "start": 64.504,
+         "end": 64.864
+        },
+        {
+         "text": "dependency",
+         "tail": ",",
+         "hl": false,
+         "cue": "dep",
+         "start": 64.915,
+         "end": 65.584
+        }
+       ]
+      },
+      {
+       "start": 65.604,
+       "end": 66.224,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 65.604,
+         "end": 65.664
+        },
+        {
+         "text": "that's",
+         "tail": "",
+         "hl": false,
+         "start": 65.712,
+         "end": 65.984
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 66.011,
+         "end": 66.224
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 66.824,
+     "end": 69.904,
+     "chunks": [
+      {
+       "start": 66.824,
+       "end": 68.566,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 66.824,
+         "end": 66.966
+        },
+        {
+         "text": "code",
+         "tail": ",",
+         "hl": false,
+         "cue": "nocode",
+         "start": 67.03,
+         "end": 67.606
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 67.633,
+         "end": 67.686
+        },
+        {
+         "text": "permissions",
+         "tail": ",",
+         "hl": false,
+         "start": 67.746,
+         "end": 68.566
+        }
+       ]
+      },
+      {
+       "start": 68.619,
+       "end": 70.006,
+       "words": [
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 68.619,
+         "end": 68.726
+        },
+        {
+         "text": "manifest",
+         "tail": "",
+         "hl": false,
+         "start": 68.779,
+         "end": 69.206
+        },
+        {
+         "text": "changes",
+         "tail": ".",
+         "hl": false,
+         "start": 69.276,
+         "end": 70.006
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 70.504,
+     "end": 76.225,
+     "chunks": [
+      {
+       "start": 70.504,
+       "end": 72.267,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 70.504,
+         "end": 70.547
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 70.595,
+         "end": 70.787
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 70.851,
+         "end": 71.107
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 71.134,
+         "end": 71.187
+        },
+        {
+         "text": "debug",
+         "tail": "",
+         "hl": true,
+         "start": 71.254,
+         "end": 71.587
+        },
+        {
+         "text": "builds",
+         "tail": ".",
+         "hl": false,
+         "cue": "debug",
+         "start": 71.644,
+         "end": 72.267
+        }
+       ]
+      },
+      {
+       "start": 72.337,
+       "end": 73.667,
+       "words": [
+        {
+         "text": "Use",
+         "tail": "",
+         "hl": false,
+         "start": 72.337,
+         "end": 72.547
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 72.567,
+         "end": 72.627
+        },
+        {
+         "text": "no-op",
+         "tail": "",
+         "hl": false,
+         "start": 72.707,
+         "end": 73.027
+        },
+        {
+         "text": "artifact",
+         "tail": ",",
+         "hl": false,
+         "start": 73.089,
+         "end": 73.667
+        }
+       ]
+      },
+      {
+       "start": 73.727,
+       "end": 76.307,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 73.727,
+         "end": 73.907
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 73.939,
+         "end": 74.067
+        },
+        {
+         "text": "release",
+         "tail": "",
+         "hl": false,
+         "start": 74.107,
+         "end": 74.387
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 74.447,
+         "end": 74.627
+        },
+        {
+         "text": "ships",
+         "tail": "",
+         "hl": false,
+         "start": 74.694,
+         "end": 75.027
+        },
+        {
+         "text": "zero",
+         "tail": "",
+         "hl": true,
+         "start": 75.091,
+         "end": 75.347
+        },
+        {
+         "text": "monitor",
+         "tail": "",
+         "hl": false,
+         "start": 75.407,
+         "end": 75.827
+        },
+        {
+         "text": "code",
+         "tail": ".",
+         "hl": false,
+         "start": 75.891,
+         "end": 76.307
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "ONE-LINE SETUP",
+    "file": "build.gradle.kts",
+    "lines": [
+     {
+      "text": "dependencies {"
+     },
+     {
+      "text": "  implementation(",
+      "cue": "dep"
+     },
+     {
+      "text": "    \"com.github.ifahimkhan.\" +",
+      "cue": "dep",
+      "hl": true
+     },
+     {
+      "text": "    \"HeapMonitor:heapmonitor:v0.1.1\"",
+      "cue": "dep",
+      "hl": true
+     },
+     {
+      "text": "  )",
+      "cue": "dep"
+     },
+     {
+      "text": "}"
+     }
+    ],
+    "toast": {
+     "text": "No code. No permissions.",
+     "cue": "nocode"
+    },
+    "note": {
+     "text": "Debug only · no-op in release",
+     "cue": "debug"
+    }
+   }
+  },
+  {
+   "id": "compose",
+   "start": 77.225,
+   "end": 88.807,
+   "sentences": [
+    {
+     "start": 77.225,
+     "end": 82.886,
+     "chunks": [
+      {
+       "start": 77.225,
+       "end": 78.726,
+       "words": [
+        {
+         "text": "Using",
+         "tail": "",
+         "hl": false,
+         "start": 77.225,
+         "end": 77.446
+        },
+        {
+         "text": "Jetpack",
+         "tail": "",
+         "hl": true,
+         "start": 77.506,
+         "end": 77.846
+        },
+        {
+         "text": "Compose",
+         "tail": "?",
+         "hl": false,
+         "start": 77.886,
+         "end": 78.726
+        }
+       ]
+      },
+      {
+       "start": 78.79,
+       "end": 81.446,
+       "words": [
+        {
+         "text": "Drop",
+         "tail": "",
+         "hl": false,
+         "start": 78.79,
+         "end": 79.046
+        },
+        {
+         "text": "HeapMonitorOverlay",
+         "tail": "",
+         "hl": false,
+         "cue": "overlay",
+         "start": 79.094,
+         "end": 80.006
+        },
+        {
+         "text": "inside",
+         "tail": "",
+         "hl": false,
+         "start": 80.086,
+         "end": 80.566
+        },
+        {
+         "text": "any",
+         "tail": "",
+         "hl": false,
+         "start": 80.626,
+         "end": 80.806
+        },
+        {
+         "text": "Box",
+         "tail": ",",
+         "hl": false,
+         "start": 80.906,
+         "end": 81.446
+        }
+       ]
+      },
+      {
+       "start": 81.466,
+       "end": 82.886,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 81.466,
+         "end": 81.526
+        },
+        {
+         "text": "place",
+         "tail": "",
+         "hl": false,
+         "start": 81.579,
+         "end": 81.846
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 81.899,
+         "end": 82.006
+        },
+        {
+         "text": "where",
+         "tail": "",
+         "hl": false,
+         "start": 82.033,
+         "end": 82.166
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 82.206,
+         "end": 82.326
+        },
+        {
+         "text": "want",
+         "tail": ".",
+         "hl": false,
+         "start": 82.374,
+         "end": 82.886
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 83.486,
+     "end": 87.807,
+     "chunks": [
+      {
+       "start": 83.486,
+       "end": 86.367,
+       "words": [
+        {
+         "text": "Or",
+         "tail": "",
+         "hl": false,
+         "start": 83.486,
+         "end": 83.647
+        },
+        {
+         "text": "collect",
+         "tail": "",
+         "hl": false,
+         "start": 83.717,
+         "end": 84.207
+        },
+        {
+         "text": "HeapMonitor",
+         "tail": "",
+         "hl": false,
+         "start": 84.255,
+         "end": 84.767
+        },
+        {
+         "text": "snapshots",
+         "tail": "",
+         "hl": false,
+         "cue": "flow",
+         "start": 84.831,
+         "end": 85.407
+        },
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 85.46,
+         "end": 85.567
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 85.607,
+         "end": 85.647
+        },
+        {
+         "text": "StateFlow",
+         "tail": ",",
+         "hl": false,
+         "start": 85.714,
+         "end": 86.367
+        }
+       ]
+      },
+      {
+       "start": 86.407,
+       "end": 87.807,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 86.407,
+         "end": 86.527
+        },
+        {
+         "text": "build",
+         "tail": "",
+         "hl": false,
+         "start": 86.567,
+         "end": 86.767
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 86.799,
+         "end": 86.927
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 86.967,
+         "end": 87.087
+        },
+        {
+         "text": "charts",
+         "tail": ".",
+         "hl": true,
+         "cue": "charts",
+         "start": 87.144,
+         "end": 87.807
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "JETPACK COMPOSE",
+    "file": "MainScreen.kt",
+    "lines": [
+     {
+      "text": "Box(Modifier.fillMaxSize()) {"
+     },
+     {
+      "text": "  AppContent()"
+     },
+     {
+      "text": "  HeapMonitorOverlay()",
+      "cue": "overlay",
+      "hl": true
+     },
+     {
+      "text": "}"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "HeapMonitor.snapshots",
+      "cue": "flow",
+      "hl": true
+     },
+     {
+      "text": "  .collect { snapshot -> }",
+      "cue": "flow",
+      "hl": true
+     }
+    ],
+    "note": {
+     "text": "StateFlow<HeapSnapshot>",
+     "cue": "charts"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 88.807,
+   "end": 100.207,
+   "sentences": [
+    {
+     "start": 88.807,
+     "end": 91.022,
+     "chunks": [
+      {
+       "start": 88.807,
+       "end": 91.022,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 88.807,
+         "end": 88.942
+        },
+        {
+         "text": "open",
+         "tail": "",
+         "hl": true,
+         "start": 89.006,
+         "end": 89.262
+        },
+        {
+         "text": "source",
+         "tail": "",
+         "hl": false,
+         "start": 89.331,
+         "end": 89.742
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 89.802,
+         "end": 89.982
+        },
+        {
+         "text": "MIT",
+         "tail": "",
+         "hl": false,
+         "start": 90.082,
+         "end": 90.382
+        },
+        {
+         "text": "licensed",
+         "tail": ".",
+         "hl": false,
+         "start": 90.444,
+         "end": 91.022
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 91.622,
+     "end": 94.496,
+     "chunks": [
+      {
+       "start": 91.622,
+       "end": 93.456,
+       "words": [
+        {
+         "text": "Find",
+         "tail": "",
+         "hl": false,
+         "start": 91.622,
+         "end": 91.776
+        },
+        {
+         "text": "HeapMonitor",
+         "tail": "",
+         "hl": false,
+         "cue": "find",
+         "start": 91.84,
+         "end": 92.496
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 92.576,
+         "end": 92.736
+        },
+        {
+         "text": "my",
+         "tail": "",
+         "hl": false,
+         "start": 92.789,
+         "end": 92.896
+        },
+        {
+         "text": "GitHub",
+         "tail": ",",
+         "hl": false,
+         "start": 92.953,
+         "end": 93.456
+        }
+       ]
+      },
+      {
+       "start": 93.536,
+       "end": 94.496,
+       "words": [
+        {
+         "text": "ifahimkhan",
+         "tail": ".",
+         "hl": false,
+         "start": 93.536,
+         "end": 94.496
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 95.096,
+     "end": 96.907,
+     "chunks": [
+      {
+       "start": 95.096,
+       "end": 97.023,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "star",
+         "start": 95.096,
+         "end": 95.263
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 95.303,
+         "end": 95.423
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 95.471,
+         "end": 95.663
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 95.703,
+         "end": 95.983
+        },
+        {
+         "text": "tips",
+         "tail": "",
+         "hl": false,
+         "start": 96.047,
+         "end": 96.303
+        },
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 96.335,
+         "end": 96.463
+        },
+        {
+         "text": "this",
+         "tail": ".",
+         "hl": false,
+         "start": 96.527,
+         "end": 97.023
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "OPEN SOURCE",
+    "headline": "Open source. MIT licensed.",
+    "highlight": "MIT",
+    "name": "ifahimkhan/HeapMonitor",
+    "tagline": "KOTLIN · JETPACK COMPOSE",
+    "action": "Star",
+    "done": "Starred",
+    "actionIcon": "star",
+    "mono": true,
+    "cue": "star",
+    "url": {
+     "text": "https://github.com/ifahimkhan/HeapMonitor",
+     "cue": "find"
+    }
+   }
+  }
+ ]
+}

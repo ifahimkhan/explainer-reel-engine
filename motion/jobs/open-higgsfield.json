@@ -1,0 +1,218 @@
+{
+  "id": "open-higgsfield",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.12,
+  "sceneGap": 0.22,
+  "tail": 1.2,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "compare",
+        "label": "THE PROBLEM",
+        "left": { "kicker": "HIGGSFIELD AI", "title": "Subscription", "items": ["Closed platform", "Paid plans"], "cue": "left" },
+        "right": { "kicker": "OPEN HIGGSFIELD", "title": "Open source", "items": ["Free app", "Self-hostable"], "cue": "right" }
+      },
+      "sentences": [
+        { "caption": "*Higgsfield*#left AI puts its AI video studio | behind a *subscription*." },
+        { "caption": "This GitHub repo gives you | an *open-source*#right version of it." }
+      ]
+    },
+    {
+      "id": "stars",
+      "visual": {
+        "type": "stat",
+        "label": "THE REPO",
+        "kicker": "OPEN HIGGSFIELD AI",
+        "value": 1500,
+        "suffix": "+",
+        "caption": "GitHub stars",
+        "icon": "star",
+        "cue": "stars"
+      },
+      "sentences": [
+        { "caption": "It's called *Open* *Higgsfield* AI, | and it already has over 1,500#stars *stars*." }
+      ]
+    },
+    {
+      "id": "studios",
+      "visual": {
+        "type": "cards",
+        "label": "4 STUDIOS",
+        "title": "4 STUDIOS IN 1",
+        "cards": [
+          { "title": "Image", "sub": "text or photo to image", "icon": "image", "cue": "c1" },
+          { "title": "Video", "sub": "text or image to video", "icon": "video", "cue": "c2" },
+          { "title": "Lip Sync", "sub": "portrait + audio", "icon": "mic", "cue": "c3" },
+          { "title": "Cinema", "sub": "pro camera controls", "icon": "camera", "cue": "c4" }
+        ]
+      },
+      "sentences": [
+        { "caption": "It's one studio with *four* tabs: | Image,#c1 Video,#c2 Lip#c3 Sync, | and *Cinema*.#c4" }
+      ]
+    },
+    {
+      "id": "models",
+      "visual": {
+        "type": "chips",
+        "label": "200+ MODELS",
+        "hub": { "text": "200+", "sub": "AI MODELS", "icon": "sparkle" },
+        "chips": [
+          { "text": "Flux", "cue": "m1" },
+          { "text": "Midjourney", "cue": "m2" },
+          { "text": "Kling", "cue": "m3" },
+          { "text": "Sora", "cue": "m4" },
+          { "text": "Veo", "cue": "m5" },
+          { "text": "Seedance", "cue": "m6" }
+        ]
+      },
+      "sentences": [
+        { "caption": "You get *200+* AI models in one place: | Flux,#m1 Midjourney,#m2 Kling,#m3 | Sora,#m4 Veo,#m5 and *Seedance*.#m6" }
+      ]
+    },
+    {
+      "id": "cinema",
+      "visual": {
+        "type": "cards",
+        "label": "CINEMA STUDIO",
+        "title": "PRO CAMERA CONTROLS",
+        "cards": [
+          { "title": "Camera", "sub": "8K digital, 70mm film", "icon": "camera", "cue": "c1" },
+          { "title": "Lens", "sub": "anamorphic, vintage", "icon": "sparkle", "cue": "c2" },
+          { "title": "Focal", "sub": "8mm to 85mm", "icon": "grid", "cue": "c3" },
+          { "title": "Aperture", "sub": "f/1.4 to f/11", "icon": "aperture", "cue": "c4" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Cinema* Studio lets you pick the camera,#c1 | lens,#c2 focal#c3 length, and aperture,#c4 | just like Higgsfield." }
+      ]
+    },
+    {
+      "id": "lipsync",
+      "visual": {
+        "type": "compare",
+        "label": "LIP SYNC",
+        "left": { "kicker": "INPUT", "title": "Portrait + audio", "items": ["1 photo", "1 audio clip"], "cue": "left" },
+        "right": { "kicker": "OUTPUT", "title": "Talking video", "items": ["Lips synced to audio", "Up to 1080p"], "cue": "right" }
+      },
+      "sentences": [
+        { "caption": "And *Lip*#left *Sync* turns a portrait and an audio clip | into a talking#right *video*." }
+      ]
+    },
+    {
+      "id": "why",
+      "visual": {
+        "type": "title",
+        "label": "WHY OPEN?",
+        "kicker": "THE REAL QUESTION",
+        "headline": "Why Open Higgsfield?",
+        "highlight": "Open",
+        "icon": "sparkle",
+        "sub": { "text": "4 reasons", "cue": "sub" }
+      },
+      "sentences": [
+        { "caption": "So why *Open* Higgsfield AI | instead of Higgsfield#sub AI?" }
+      ]
+    },
+    {
+      "id": "reason1",
+      "visual": {
+        "type": "reason",
+        "label": "REASON 1/4",
+        "number": 1,
+        "title": "No subscription",
+        "highlight": "subscription",
+        "icon": "dollar",
+        "points": [
+          { "text": "Free and open source", "cue": "p1" },
+          { "text": "Pay only per generation", "cue": "p2" }
+        ]
+      },
+      "sentences": [
+        { "caption": "One: no *subscription*." },
+        { "caption": "The app is free#p1 and open source, | and you only pay for what you generate,#p2 | with your own API key." }
+      ]
+    },
+    {
+      "id": "reason2",
+      "visual": {
+        "type": "reason",
+        "label": "REASON 2/4",
+        "number": 2,
+        "title": "No lock-in",
+        "highlight": "No",
+        "icon": "unlink",
+        "points": [
+          { "text": "200+ models to pick from", "cue": "p1" },
+          { "text": "Switch any time", "cue": "p2" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Two: no *lock-in*." },
+        { "caption": "Pick from 200+#p1 models, | and switch#p2 whenever a better one drops." }
+      ]
+    },
+    {
+      "id": "reason3",
+      "visual": {
+        "type": "reason",
+        "label": "REASON 3/4",
+        "number": 3,
+        "title": "You own it",
+        "highlight": "own",
+        "icon": "download",
+        "points": [
+          { "text": "Self-host it", "cue": "p1" },
+          { "text": "Mac and Windows app", "cue": "p2" },
+          { "text": "Change the UI", "cue": "p3" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Three: you *own* it." },
+        { "caption": "Self-host#p1 it, | run it as a desktop app on Mac#p2 or Windows, | or change the UI#p3 however you want." }
+      ]
+    },
+    {
+      "id": "reason4",
+      "visual": {
+        "type": "reason",
+        "label": "REASON 4/4",
+        "number": 4,
+        "title": "Extensible",
+        "highlight": "Extensible",
+        "icon": "code",
+        "points": [
+          { "text": "Add your own models", "cue": "p1" },
+          { "text": "Build your own product", "cue": "p2" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Four: it's *extensible*." },
+        { "caption": "Add#p1 your own models | and build#p2 your own product on top of it." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "comment",
+        "label": "COMMENT",
+        "headline": "Want the full tutorial?",
+        "highlight": "tutorial",
+        "keyword": "TUTORIAL",
+        "cue": "type",
+        "sub": { "text": "Full setup tutorial next", "cue": "sub" }
+      },
+      "sentences": [
+        { "caption": "Want the full setup *tutorial*?" },
+        {
+          "caption": "Comment *TUTORIAL*#type below, | and I'll make it next.#sub",
+          "say": "Comment tutorial below, and I'll make it next."
+        }
+      ]
+    }
+  ]
+}

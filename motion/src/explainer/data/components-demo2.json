@@ -1,0 +1,765 @@
+{
+ "id": "components-demo2",
+ "durationS": 32.714,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "quiz",
+   "start": 0.0,
+   "end": 7.167,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.592,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.798,
+       "words": [
+        {
+         "text": "Which",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.248
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 0.248,
+         "end": 0.498
+        },
+        {
+         "text": "freezes",
+         "tail": "",
+         "hl": true,
+         "start": 0.498,
+         "end": 0.998
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 0.998,
+         "end": 1.211
+        },
+        {
+         "text": "app",
+         "tail": "?",
+         "hl": false,
+         "start": 1.211,
+         "end": 1.798
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.192,
+     "end": 3.829,
+     "chunks": [
+      {
+       "start": 2.201,
+       "end": 3.301,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 2.201,
+         "end": 2.301
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 2.301,
+         "end": 2.539
+        },
+        {
+         "text": "3",
+         "tail": "",
+         "hl": false,
+         "cue": "ask",
+         "start": 2.539,
+         "end": 2.814
+        },
+        {
+         "text": "seconds",
+         "tail": ".",
+         "hl": false,
+         "start": 2.814,
+         "end": 3.301
+        }
+       ]
+      },
+      {
+       "start": 3.401,
+       "end": 4.051,
+       "words": [
+        {
+         "text": "Think",
+         "tail": ".",
+         "hl": false,
+         "start": 3.401,
+         "end": 4.051
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 4.429,
+     "end": 6.167,
+     "chunks": [
+      {
+       "start": 4.429,
+       "end": 6.445,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 4.429,
+         "end": 4.633
+        },
+        {
+         "text": "network",
+         "tail": "",
+         "hl": false,
+         "cue": "reveal",
+         "start": 4.633,
+         "end": 5.158
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 5.158,
+         "end": 5.258
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 5.258,
+         "end": 5.345
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": true,
+         "start": 5.345,
+         "end": 5.708
+        },
+        {
+         "text": "thread",
+         "tail": ".",
+         "hl": false,
+         "start": 5.708,
+         "end": 6.445
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "quiz",
+    "label": "QUIZ",
+    "question": "Which one freezes your app?",
+    "highlight": "freezes",
+    "options": [
+     "Glide",
+     "Coroutines on IO",
+     "Network on main thread",
+     "WorkManager"
+    ],
+    "answer": 2,
+    "seconds": 3,
+    "ask": "ask",
+    "reveal": "reveal"
+   }
+  },
+  {
+   "id": "phone",
+   "start": 7.167,
+   "end": 21.542,
+   "sentences": [
+    {
+     "start": 7.167,
+     "end": 10.051,
+     "chunks": [
+      {
+       "start": 7.167,
+       "end": 10.449,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 7.167,
+         "end": 7.261
+        },
+        {
+         "text": "feed",
+         "tail": "",
+         "hl": false,
+         "start": 7.261,
+         "end": 7.574
+        },
+        {
+         "text": "scrolls",
+         "tail": "",
+         "hl": false,
+         "start": 7.574,
+         "end": 7.999
+        },
+        {
+         "text": "smoothly",
+         "tail": "",
+         "hl": true,
+         "start": 7.999,
+         "end": 8.624
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 8.624,
+         "end": 8.786
+        },
+        {
+         "text": "60",
+         "tail": "",
+         "hl": false,
+         "start": 8.786,
+         "end": 9.186
+        },
+        {
+         "text": "frames",
+         "tail": "",
+         "hl": false,
+         "start": 9.186,
+         "end": 9.586
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 9.586,
+         "end": 9.686
+        },
+        {
+         "text": "second",
+         "tail": ".",
+         "hl": false,
+         "start": 9.686,
+         "end": 10.449
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 10.651,
+     "end": 16.424,
+     "chunks": [
+      {
+       "start": 10.657,
+       "end": 13.532,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 10.657,
+         "end": 10.907
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 10.907,
+         "end": 11.02
+        },
+        {
+         "text": "network",
+         "tail": "",
+         "hl": false,
+         "start": 11.02,
+         "end": 11.47
+        },
+        {
+         "text": "call",
+         "tail": "",
+         "hl": false,
+         "cue": "jank",
+         "start": 11.47,
+         "end": 11.895
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 11.895,
+         "end": 12.27
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 12.27,
+         "end": 12.37
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.37,
+         "end": 12.457
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "start": 12.457,
+         "end": 12.795
+        },
+        {
+         "text": "thread",
+         "tail": ",",
+         "hl": false,
+         "start": 12.795,
+         "end": 13.532
+        }
+       ]
+      },
+      {
+       "start": 13.657,
+       "end": 16.682,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 13.657,
+         "end": 13.795
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 13.795,
+         "end": 14.157
+        },
+        {
+         "text": "frame",
+         "tail": "",
+         "hl": false,
+         "start": 14.157,
+         "end": 14.607
+        },
+        {
+         "text": "takes",
+         "tail": "",
+         "hl": false,
+         "start": 14.607,
+         "end": 14.92
+        },
+        {
+         "text": "100",
+         "tail": "",
+         "hl": false,
+         "start": 14.92,
+         "end": 15.557
+        },
+        {
+         "text": "milliseconds",
+         "tail": ".",
+         "hl": false,
+         "start": 15.557,
+         "end": 16.682
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.024,
+     "end": 20.542,
+     "chunks": [
+      {
+       "start": 17.024,
+       "end": 18.291,
+       "words": [
+        {
+         "text": "After",
+         "tail": "",
+         "hl": false,
+         "start": 17.024,
+         "end": 17.304
+        },
+        {
+         "text": "5",
+         "tail": "",
+         "hl": false,
+         "start": 17.304,
+         "end": 17.629
+        },
+        {
+         "text": "seconds",
+         "tail": ",",
+         "hl": false,
+         "cue": "anr",
+         "start": 17.629,
+         "end": 18.291
+        }
+       ]
+      },
+      {
+       "start": 18.429,
+       "end": 20.916,
+       "words": [
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 18.429,
+         "end": 18.954
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "start": 18.954,
+         "end": 19.291
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 19.291,
+         "end": 19.454
+        },
+        {
+         "text": "ANR",
+         "tail": "",
+         "hl": true,
+         "start": 19.454,
+         "end": 19.991
+        },
+        {
+         "text": "dialog",
+         "tail": ".",
+         "hl": false,
+         "start": 19.991,
+         "end": 20.916
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "phoneapp",
+    "label": "PHONE APP",
+    "title": "Tagway Feed",
+    "transition": "whip",
+    "jank": {
+     "cue": "jank"
+    },
+    "dialog": {
+     "cue": "anr",
+     "title": "Tagway isn't responding",
+     "body": "Do you want to close the app?",
+     "buttons": [
+      "Close app",
+      "Wait"
+     ]
+    },
+    "glitch": [
+     {
+      "cue": "anr",
+      "text": "ANR: main thread blocked for 5 seconds"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fix",
+   "start": 21.542,
+   "end": 32.714,
+   "sentences": [
+    {
+     "start": 21.542,
+     "end": 23.543,
+     "chunks": [
+      {
+       "start": 21.542,
+       "end": 23.825,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 21.542,
+         "end": 21.65
+        },
+        {
+         "text": "fix",
+         "tail": ":",
+         "hl": false,
+         "cue": "del",
+         "start": 21.65,
+         "end": 22.1
+        },
+        {
+         "text": "remove",
+         "tail": "",
+         "hl": false,
+         "start": 22.188,
+         "end": 22.613
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 22.613,
+         "end": 22.7
+        },
+        {
+         "text": "blocking",
+         "tail": "",
+         "hl": false,
+         "start": 22.7,
+         "end": 23.175
+        },
+        {
+         "text": "call",
+         "tail": ".",
+         "hl": false,
+         "start": 23.175,
+         "end": 23.825
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.143,
+     "end": 28.086,
+     "chunks": [
+      {
+       "start": 24.159,
+       "end": 25.334,
+       "words": [
+        {
+         "text": "Launch",
+         "tail": "",
+         "hl": false,
+         "cue": "add",
+         "start": 24.159,
+         "end": 24.471
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 24.471,
+         "end": 24.571
+        },
+        {
+         "text": "coroutine",
+         "tail": ",",
+         "hl": false,
+         "start": 24.571,
+         "end": 25.334
+        }
+       ]
+      },
+      {
+       "start": 25.446,
+       "end": 26.959,
+       "words": [
+        {
+         "text": "fetch",
+         "tail": "",
+         "hl": false,
+         "start": 25.446,
+         "end": 25.721
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 25.721,
+         "end": 25.821
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 25.821,
+         "end": 25.946
+        },
+        {
+         "text": "IO",
+         "tail": "",
+         "hl": false,
+         "cue": "add2",
+         "start": 25.946,
+         "end": 26.309
+        },
+        {
+         "text": "dispatcher",
+         "tail": ",",
+         "hl": false,
+         "start": 26.309,
+         "end": 26.959
+        }
+       ]
+      },
+      {
+       "start": 26.996,
+       "end": 28.359,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 26.996,
+         "end": 27.134
+        },
+        {
+         "text": "show",
+         "tail": "",
+         "hl": false,
+         "cue": "show",
+         "start": 27.134,
+         "end": 27.434
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 27.434,
+         "end": 27.534
+        },
+        {
+         "text": "result",
+         "tail": ".",
+         "hl": false,
+         "start": 27.534,
+         "end": 28.359
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.686,
+     "end": 30.214,
+     "chunks": [
+      {
+       "start": 28.686,
+       "end": 30.499,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 28.686,
+         "end": 28.774
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "start": 28.774,
+         "end": 29.111
+        },
+        {
+         "text": "thread",
+         "tail": "",
+         "hl": false,
+         "start": 29.111,
+         "end": 29.424
+        },
+        {
+         "text": "stays",
+         "tail": "",
+         "hl": false,
+         "start": 29.424,
+         "end": 29.811
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": true,
+         "cue": "free",
+         "start": 29.811,
+         "end": 30.499
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "diff",
+    "label": "THE FIX",
+    "file": "FeedViewModel.kt",
+    "transition": "zoom",
+    "lines": [
+     {
+      "text": "fun load() {"
+     },
+     {
+      "text": "  val feed = api.fetch()",
+      "kind": "del",
+      "cue": "del"
+     },
+     {
+      "text": "  viewModelScope.launch {",
+      "kind": "add",
+      "cue": "add"
+     },
+     {
+      "text": "    val feed = withContext(IO) {",
+      "kind": "add",
+      "cue": "add2"
+     },
+     {
+      "text": "      api.fetch()",
+      "kind": "add",
+      "cue": "add2"
+     },
+     {
+      "text": "    }",
+      "kind": "add",
+      "cue": "add2"
+     },
+     {
+      "text": "    show(feed)",
+      "kind": "add",
+      "cue": "show"
+     },
+     {
+      "text": "  }",
+      "kind": "add",
+      "cue": "show"
+     },
+     {
+      "text": "}"
+     }
+    ],
+    "note": {
+     "text": "Main thread stays free",
+     "cue": "free"
+    }
+   }
+  }
+ ]
+}

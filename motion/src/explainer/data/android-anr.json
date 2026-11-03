@@ -1,0 +1,1446 @@
+{
+ "id": "android-anr",
+ "durationS": 54.554,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.625,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 3.625,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 0.935,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.157
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 0.203,
+         "end": 0.354
+        },
+        {
+         "text": "freezes",
+         "tail": ".",
+         "hl": true,
+         "start": 0.435,
+         "end": 0.935
+        }
+       ]
+      },
+      {
+       "start": 0.993,
+       "end": 2.375,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 0.993,
+         "end": 1.156
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 1.225,
+         "end": 1.527
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "start": 1.562,
+         "end": 1.782
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 1.829,
+         "end": 1.852
+        },
+        {
+         "text": "dialog",
+         "tail": ":",
+         "hl": false,
+         "cue": "dialog",
+         "start": 1.922,
+         "end": 2.375
+        }
+       ]
+      },
+      {
+       "start": 2.444,
+       "end": 3.826,
+       "words": [
+        {
+         "text": "\"App",
+         "tail": "",
+         "hl": false,
+         "start": 2.444,
+         "end": 2.723
+        },
+        {
+         "text": "isn't",
+         "tail": "",
+         "hl": false,
+         "start": 2.781,
+         "end": 2.978
+        },
+        {
+         "text": "responding.\"",
+         "tail": "",
+         "hl": true,
+         "start": 3.025,
+         "end": 3.826
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ANR IN ANDROID",
+    "kicker": "APPLICATION NOT RESPONDING",
+    "headline": "\"App isn't responding\"",
+    "highlight": "responding",
+    "icon": "bell",
+    "sub": {
+     "text": "Your users just saw this",
+     "cue": "dialog"
+    }
+   }
+  },
+  {
+   "id": "what",
+   "start": 4.625,
+   "end": 14.445,
+   "sentences": [
+    {
+     "start": 4.625,
+     "end": 6.85,
+     "chunks": [
+      {
+       "start": 4.625,
+       "end": 5.577,
+       "words": [
+        {
+         "text": "ANR",
+         "tail": "",
+         "hl": true,
+         "start": 4.625,
+         "end": 5.089
+        },
+        {
+         "text": "stands",
+         "tail": "",
+         "hl": false,
+         "start": 5.159,
+         "end": 5.438
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 5.473,
+         "end": 5.577
+        }
+       ]
+      },
+      {
+       "start": 5.635,
+       "end": 7.04,
+       "words": [
+        {
+         "text": "Application",
+         "tail": "",
+         "hl": true,
+         "start": 5.635,
+         "end": 6.123
+        },
+        {
+         "text": "Not",
+         "tail": "",
+         "hl": true,
+         "start": 6.146,
+         "end": 6.262
+        },
+        {
+         "text": "Responding",
+         "tail": ".",
+         "hl": true,
+         "start": 6.308,
+         "end": 7.04
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 7.45,
+     "end": 10.225,
+     "chunks": [
+      {
+       "start": 7.45,
+       "end": 9.266,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 7.45,
+         "end": 7.594
+        },
+        {
+         "text": "happens",
+         "tail": "",
+         "hl": false,
+         "start": 7.64,
+         "end": 7.989
+        },
+        {
+         "text": "when",
+         "tail": "",
+         "hl": false,
+         "start": 8.023,
+         "end": 8.174
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 8.221,
+         "end": 8.372
+        },
+        {
+         "text": "app's",
+         "tail": "",
+         "hl": false,
+         "start": 8.465,
+         "end": 8.709
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": true,
+         "start": 8.79,
+         "end": 8.987
+        },
+        {
+         "text": "thread",
+         "tail": "",
+         "hl": true,
+         "start": 9.045,
+         "end": 9.266
+        }
+       ]
+      },
+      {
+       "start": 9.313,
+       "end": 10.369,
+       "words": [
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 9.313,
+         "end": 9.382
+        },
+        {
+         "text": "blocked",
+         "tail": "",
+         "hl": false,
+         "cue": "c1",
+         "start": 9.44,
+         "end": 9.719
+        },
+        {
+         "text": "too",
+         "tail": "",
+         "hl": false,
+         "start": 9.742,
+         "end": 9.87
+        },
+        {
+         "text": "long",
+         "tail": ".",
+         "hl": false,
+         "start": 9.928,
+         "end": 10.369
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 10.825,
+     "end": 13.445,
+     "chunks": [
+      {
+       "start": 10.825,
+       "end": 12.288,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 10.825,
+         "end": 10.907
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "start": 10.954,
+         "end": 11.104
+        },
+        {
+         "text": "thread",
+         "tail": "",
+         "hl": false,
+         "start": 11.151,
+         "end": 11.371
+        },
+        {
+         "text": "draws",
+         "tail": "",
+         "hl": false,
+         "cue": "c2",
+         "start": 11.406,
+         "end": 11.673
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 11.708,
+         "end": 11.824
+        },
+        {
+         "text": "UI",
+         "tail": ",",
+         "hl": false,
+         "start": 11.882,
+         "end": 12.288
+        }
+       ]
+      },
+      {
+       "start": 12.312,
+       "end": 13.623,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 12.312,
+         "end": 12.462
+        },
+        {
+         "text": "handles",
+         "tail": "",
+         "hl": false,
+         "start": 12.509,
+         "end": 12.822
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 12.869,
+         "end": 13.055
+        },
+        {
+         "text": "tap",
+         "tail": ".",
+         "hl": true,
+         "cue": "c3",
+         "start": 13.101,
+         "end": 13.623
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chips",
+    "label": "WHAT IT IS",
+    "hub": {
+     "text": "Main thread",
+     "sub": "UI THREAD",
+     "icon": "layers"
+    },
+    "chips": [
+     {
+      "text": "Blocked too long",
+      "cue": "c1"
+     },
+     {
+      "text": "Draws your UI",
+      "cue": "c2"
+     },
+     {
+      "text": "Handles every tap",
+      "cue": "c3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "trigger",
+   "start": 14.445,
+   "end": 21.104,
+   "sentences": [
+    {
+     "start": 14.445,
+     "end": 17.302,
+     "chunks": [
+      {
+       "start": 14.445,
+       "end": 15.541,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 14.445,
+         "end": 14.578
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 14.624,
+         "end": 14.648
+        },
+        {
+         "text": "tap",
+         "tail": "",
+         "hl": false,
+         "start": 14.694,
+         "end": 14.903
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 14.973,
+         "end": 15.031
+        },
+        {
+         "text": "key",
+         "tail": "",
+         "hl": false,
+         "start": 15.1,
+         "end": 15.228
+        },
+        {
+         "text": "press",
+         "tail": "",
+         "hl": false,
+         "start": 15.275,
+         "end": 15.541
+        }
+       ]
+      },
+      {
+       "start": 15.588,
+       "end": 17.306,
+       "words": [
+        {
+         "text": "isn't",
+         "tail": "",
+         "hl": false,
+         "start": 15.588,
+         "end": 15.809
+        },
+        {
+         "text": "handled",
+         "tail": "",
+         "hl": false,
+         "start": 15.855,
+         "end": 16.192
+        },
+        {
+         "text": "within",
+         "tail": "",
+         "hl": false,
+         "start": 16.226,
+         "end": 16.447
+        },
+        {
+         "text": "5",
+         "tail": "",
+         "hl": true,
+         "cue": "five",
+         "start": 16.528,
+         "end": 16.702
+        },
+        {
+         "text": "seconds",
+         "tail": ".",
+         "hl": true,
+         "start": 16.749,
+         "end": 17.306
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.902,
+     "end": 20.104,
+     "chunks": [
+      {
+       "start": 17.902,
+       "end": 19.021,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 17.902,
+         "end": 18.058
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 18.104,
+         "end": 18.127
+        },
+        {
+         "text": "broadcast",
+         "tail": "",
+         "hl": false,
+         "start": 18.174,
+         "end": 18.638
+        },
+        {
+         "text": "receiver",
+         "tail": "",
+         "hl": false,
+         "start": 18.673,
+         "end": 19.021
+        }
+       ]
+      },
+      {
+       "start": 19.067,
+       "end": 20.263,
+       "words": [
+        {
+         "text": "doesn't",
+         "tail": "",
+         "hl": false,
+         "start": 19.067,
+         "end": 19.299
+        },
+        {
+         "text": "finish",
+         "tail": "",
+         "hl": false,
+         "start": 19.334,
+         "end": 19.566
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 19.613,
+         "end": 19.682
+        },
+        {
+         "text": "time",
+         "tail": ".",
+         "hl": true,
+         "start": 19.729,
+         "end": 20.263
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "WHEN IT TRIGGERS",
+    "kicker": "INPUT NOT HANDLED IN",
+    "value": 5,
+    "from": 0,
+    "suffix": "s",
+    "caption": "Tap or key press, no response",
+    "icon": "bell",
+    "cue": "five"
+   }
+  },
+  {
+   "id": "causes",
+   "start": 21.104,
+   "end": 31.955,
+   "sentences": [
+    {
+     "start": 21.104,
+     "end": 23.122,
+     "chunks": [
+      {
+       "start": 21.104,
+       "end": 22.34,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 21.104,
+         "end": 21.365
+        },
+        {
+         "text": "file",
+         "tail": "",
+         "hl": true,
+         "cue": "c1",
+         "start": 21.412,
+         "end": 21.679
+        },
+        {
+         "text": "reading",
+         "tail": "",
+         "hl": false,
+         "start": 21.714,
+         "end": 21.957
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 22.004,
+         "end": 22.073
+        },
+        {
+         "text": "writing",
+         "tail": "",
+         "hl": false,
+         "start": 22.096,
+         "end": 22.34
+        }
+       ]
+      },
+      {
+       "start": 22.375,
+       "end": 23.304,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 22.375,
+         "end": 22.433
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 22.468,
+         "end": 22.538
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "start": 22.596,
+         "end": 22.77
+        },
+        {
+         "text": "thread",
+         "tail": ".",
+         "hl": false,
+         "start": 22.828,
+         "end": 23.304
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 23.722,
+     "end": 26.682,
+     "chunks": [
+      {
+       "start": 23.722,
+       "end": 24.581,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 23.722,
+         "end": 24.07
+        },
+        {
+         "text": "heavy",
+         "tail": "",
+         "hl": true,
+         "cue": "c2",
+         "start": 24.094,
+         "end": 24.314
+        },
+        {
+         "text": "work",
+         "tail": ",",
+         "hl": false,
+         "start": 24.361,
+         "end": 24.581
+        }
+       ]
+      },
+      {
+       "start": 24.616,
+       "end": 26.834,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 24.616,
+         "end": 24.767
+        },
+        {
+         "text": "parsing",
+         "tail": "",
+         "hl": false,
+         "start": 24.802,
+         "end": 25.115
+        },
+        {
+         "text": "big",
+         "tail": "",
+         "hl": false,
+         "start": 25.162,
+         "end": 25.29
+        },
+        {
+         "text": "JSON",
+         "tail": "",
+         "hl": false,
+         "start": 25.348,
+         "end": 25.638
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 25.708,
+         "end": 25.766
+        },
+        {
+         "text": "decoding",
+         "tail": "",
+         "hl": false,
+         "start": 25.824,
+         "end": 26.218
+        },
+        {
+         "text": "images",
+         "tail": ".",
+         "hl": false,
+         "start": 26.253,
+         "end": 26.834
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 27.282,
+     "end": 30.955,
+     "chunks": [
+      {
+       "start": 27.282,
+       "end": 28.689,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 27.282,
+         "end": 27.609
+        },
+        {
+         "text": "locks",
+         "tail": "",
+         "hl": true,
+         "cue": "c3",
+         "start": 27.655,
+         "end": 27.946
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 27.992,
+         "end": 28.085
+        },
+        {
+         "text": "deadlocks",
+         "tail": ",",
+         "hl": false,
+         "start": 28.143,
+         "end": 28.689
+        }
+       ]
+      },
+      {
+       "start": 28.712,
+       "end": 31.15,
+       "words": [
+        {
+         "text": "where",
+         "tail": "",
+         "hl": false,
+         "start": 28.712,
+         "end": 28.91
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 28.944,
+         "end": 29.014
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "start": 29.084,
+         "end": 29.304
+        },
+        {
+         "text": "thread",
+         "tail": "",
+         "hl": false,
+         "start": 29.374,
+         "end": 29.676
+        },
+        {
+         "text": "waits",
+         "tail": "",
+         "hl": false,
+         "start": 29.757,
+         "end": 30.071
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 30.129,
+         "end": 30.221
+        },
+        {
+         "text": "another",
+         "tail": "",
+         "hl": false,
+         "start": 30.28,
+         "end": 30.593
+        },
+        {
+         "text": "thread",
+         "tail": ".",
+         "hl": false,
+         "start": 30.639,
+         "end": 31.15
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "COMMON CAUSES",
+    "cards": [
+     {
+      "title": "File I/O",
+      "sub": "read / write on main",
+      "icon": "file",
+      "cue": "c1"
+     },
+     {
+      "title": "Heavy work",
+      "sub": "JSON, images",
+      "icon": "image",
+      "cue": "c2"
+     },
+     {
+      "title": "Locks",
+      "sub": "waiting on a thread",
+      "icon": "lock",
+      "cue": "c3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "vitals",
+   "start": 31.955,
+   "end": 39.543,
+   "sentences": [
+    {
+     "start": 31.955,
+     "end": 34.773,
+     "chunks": [
+      {
+       "start": 31.955,
+       "end": 33.65,
+       "words": [
+        {
+         "text": "Google",
+         "tail": "",
+         "hl": false,
+         "start": 31.955,
+         "end": 32.28
+        },
+        {
+         "text": "Play",
+         "tail": "",
+         "hl": false,
+         "start": 32.303,
+         "end": 32.477
+        },
+        {
+         "text": "tracks",
+         "tail": "",
+         "hl": false,
+         "start": 32.535,
+         "end": 32.814
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 32.861,
+         "end": 33.011
+        },
+        {
+         "text": "ANR",
+         "tail": "",
+         "hl": true,
+         "start": 33.081,
+         "end": 33.418
+        },
+        {
+         "text": "rate",
+         "tail": "",
+         "hl": true,
+         "start": 33.452,
+         "end": 33.65
+        }
+       ]
+      },
+      {
+       "start": 33.685,
+       "end": 34.927,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 33.685,
+         "end": 33.754
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 33.836,
+         "end": 34.161
+        },
+        {
+         "text": "vitals",
+         "tail": ".",
+         "hl": false,
+         "cue": "vitals",
+         "start": 34.207,
+         "end": 34.927
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.373,
+     "end": 38.543,
+     "chunks": [
+      {
+       "start": 35.373,
+       "end": 37.858,
+       "words": [
+        {
+         "text": "Too",
+         "tail": "",
+         "hl": false,
+         "start": 35.373,
+         "end": 35.466
+        },
+        {
+         "text": "many",
+         "tail": "",
+         "hl": false,
+         "cue": "many",
+         "start": 35.513,
+         "end": 35.687
+        },
+        {
+         "text": "ANRs",
+         "tail": "",
+         "hl": false,
+         "start": 35.745,
+         "end": 36.256
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 36.302,
+         "end": 36.43
+        },
+        {
+         "text": "lower",
+         "tail": "",
+         "hl": false,
+         "start": 36.5,
+         "end": 36.859
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 36.917,
+         "end": 37.045
+        },
+        {
+         "text": "app's",
+         "tail": "",
+         "hl": false,
+         "start": 37.103,
+         "end": 37.312
+        },
+        {
+         "text": "visibility",
+         "tail": "",
+         "hl": true,
+         "cue": "visibility",
+         "start": 37.359,
+         "end": 37.858
+        }
+       ]
+      },
+      {
+       "start": 37.904,
+       "end": 38.763,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 37.904,
+         "end": 37.974
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 38.02,
+         "end": 38.09
+        },
+        {
+         "text": "Play",
+         "tail": "",
+         "hl": false,
+         "start": 38.125,
+         "end": 38.299
+        },
+        {
+         "text": "Store",
+         "tail": ".",
+         "hl": false,
+         "start": 38.334,
+         "end": 38.763
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "WHY IT MATTERS",
+    "title": "android vitals",
+    "command": "play console > android vitals",
+    "cue": "vitals",
+    "lines": [
+     {
+      "text": "User-perceived ANR rate",
+      "tone": "normal"
+     },
+     {
+      "text": "Status: bad behavior threshold",
+      "tone": "dim",
+      "flag": "many"
+     }
+    ],
+    "badge": {
+     "text": "Lower Play Store visibility",
+     "cue": "visibility"
+    }
+   }
+  },
+  {
+   "id": "fix",
+   "start": 39.543,
+   "end": 49.847,
+   "sentences": [
+    {
+     "start": 39.543,
+     "end": 43.213,
+     "chunks": [
+      {
+       "start": 39.543,
+       "end": 41.224,
+       "words": [
+        {
+         "text": "Move",
+         "tail": "",
+         "hl": false,
+         "start": 39.543,
+         "end": 39.82
+        },
+        {
+         "text": "slow",
+         "tail": "",
+         "hl": false,
+         "start": 39.843,
+         "end": 40.098
+        },
+        {
+         "text": "work",
+         "tail": "",
+         "hl": false,
+         "start": 40.145,
+         "end": 40.377
+        },
+        {
+         "text": "off",
+         "tail": "",
+         "hl": false,
+         "start": 40.435,
+         "end": 40.597
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 40.644,
+         "end": 40.725
+        },
+        {
+         "text": "main",
+         "tail": "",
+         "hl": false,
+         "start": 40.772,
+         "end": 40.946
+        },
+        {
+         "text": "thread",
+         "tail": "",
+         "hl": false,
+         "start": 40.992,
+         "end": 41.224
+        }
+       ]
+      },
+      {
+       "start": 41.271,
+       "end": 43.395,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 41.271,
+         "end": 41.399
+        },
+        {
+         "text": "coroutines",
+         "tail": "",
+         "hl": true,
+         "cue": "io",
+         "start": 41.445,
+         "end": 42.014
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 42.072,
+         "end": 42.176
+        },
+        {
+         "text": "Dispatchers.IO",
+         "tail": ".",
+         "hl": false,
+         "start": 42.223,
+         "end": 43.395
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 43.813,
+     "end": 45.592,
+     "chunks": [
+      {
+       "start": 43.813,
+       "end": 45.764,
+       "words": [
+        {
+         "text": "Use",
+         "tail": "",
+         "hl": false,
+         "start": 43.813,
+         "end": 44.068
+        },
+        {
+         "text": "WorkManager",
+         "tail": "",
+         "hl": true,
+         "cue": "wm",
+         "start": 44.103,
+         "end": 44.637
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 44.684,
+         "end": 44.788
+        },
+        {
+         "text": "background",
+         "tail": "",
+         "hl": false,
+         "start": 44.835,
+         "end": 45.207
+        },
+        {
+         "text": "jobs",
+         "tail": ".",
+         "hl": false,
+         "start": 45.241,
+         "end": 45.764
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 46.192,
+     "end": 48.847,
+     "chunks": [
+      {
+       "start": 46.192,
+       "end": 47.68,
+       "words": [
+        {
+         "text": "Turn",
+         "tail": "",
+         "hl": false,
+         "start": 46.192,
+         "end": 46.415
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 46.473,
+         "end": 46.578
+        },
+        {
+         "text": "StrictMode",
+         "tail": "",
+         "hl": true,
+         "cue": "sm",
+         "start": 46.647,
+         "end": 47.204
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 47.239,
+         "end": 47.309
+        },
+        {
+         "text": "debug",
+         "tail": "",
+         "hl": false,
+         "start": 47.367,
+         "end": 47.68
+        }
+       ]
+      },
+      {
+       "start": 47.727,
+       "end": 49.027,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 47.727,
+         "end": 47.785
+        },
+        {
+         "text": "catch",
+         "tail": "",
+         "hl": false,
+         "start": 47.843,
+         "end": 48.075
+        },
+        {
+         "text": "problems",
+         "tail": "",
+         "hl": false,
+         "start": 48.11,
+         "end": 48.493
+        },
+        {
+         "text": "early",
+         "tail": ".",
+         "hl": false,
+         "start": 48.539,
+         "end": 49.027
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE FIX",
+    "file": "NotesRepository.kt",
+    "lines": [
+     {
+      "text": "suspend fun loadNotes() =",
+      "cue": "io"
+     },
+     {
+      "text": "  withContext(Dispatchers.IO) {",
+      "cue": "io",
+      "hl": true
+     },
+     {
+      "text": "    file.readText()",
+      "cue": "io"
+     },
+     {
+      "text": "  }",
+      "cue": "io"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "workManager.enqueue(syncRequest)",
+      "cue": "wm",
+      "hl": true
+     },
+     {
+      "text": "StrictMode.enableDefaults() // debug",
+      "cue": "sm",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 49.847,
+   "end": 54.554,
+   "sentences": [
+    {
+     "start": 49.847,
+     "end": 51.254,
+     "chunks": [
+      {
+       "start": 49.847,
+       "end": 51.42,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 49.847,
+         "end": 50.132
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 50.201,
+         "end": 50.306
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 50.352,
+         "end": 50.526
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 50.561,
+         "end": 50.886
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 50.921,
+         "end": 51.42
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

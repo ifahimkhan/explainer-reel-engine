@@ -1,0 +1,1366 @@
+{
+ "id": "claude-content-stack",
+ "durationS": 59.481,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.682,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 5.109,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.451,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.131
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 0.211,
+         "end": 0.291
+        },
+        {
+         "text": "automate",
+         "tail": "",
+         "hl": false,
+         "start": 0.371,
+         "end": 0.771
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 0.851,
+         "end": 1.011
+        },
+        {
+         "text": "entire",
+         "tail": "",
+         "hl": false,
+         "start": 1.091,
+         "end": 1.651
+        },
+        {
+         "text": "content",
+         "tail": "",
+         "hl": true,
+         "start": 1.731,
+         "end": 2.051
+        },
+        {
+         "text": "system",
+         "tail": "",
+         "hl": false,
+         "start": 2.131,
+         "end": 2.451
+        }
+       ]
+      },
+      {
+       "start": 2.531,
+       "end": 5.251,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 2.531,
+         "end": 2.611
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 2.691,
+         "end": 3.171
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 3.251,
+         "end": 3.491
+        },
+        {
+         "text": "$35",
+         "tail": "",
+         "hl": true,
+         "start": 3.571,
+         "end": 4.611
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 4.651,
+         "end": 4.691
+        },
+        {
+         "text": "month",
+         "tail": ".",
+         "hl": false,
+         "start": 4.771,
+         "end": 5.251
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 5.229,
+     "end": 6.462,
+     "chunks": [
+      {
+       "start": 5.229,
+       "end": 6.542,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 5.229,
+         "end": 5.502
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 5.542,
+         "end": 5.582
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 5.662,
+         "end": 5.822
+        },
+        {
+         "text": "stack",
+         "tail": ".",
+         "hl": false,
+         "cue": "sub",
+         "start": 5.902,
+         "end": 6.542
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "THE STACK",
+    "kicker": "CLAUDE CONTENT SYSTEM",
+    "headline": "Automate content for $35",
+    "highlight": "35",
+    "icon": "wand",
+    "sub": {
+     "text": "13 tools, 1 system",
+     "cue": "sub"
+    }
+   }
+  },
+  {
+   "id": "brain",
+   "start": 6.682,
+   "end": 10.74,
+   "sentences": [
+    {
+     "start": 6.682,
+     "end": 8.732,
+     "chunks": [
+      {
+       "start": 6.682,
+       "end": 8.974,
+       "words": [
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": true,
+         "start": 6.682,
+         "end": 7.054
+        },
+        {
+         "text": "Code",
+         "tail": "",
+         "hl": true,
+         "start": 7.134,
+         "end": 7.534
+        },
+        {
+         "text": "connects",
+         "tail": "",
+         "hl": false,
+         "start": 7.774,
+         "end": 8.214
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 8.255,
+         "end": 8.334
+        },
+        {
+         "text": "all",
+         "tail": ".",
+         "hl": false,
+         "start": 8.415,
+         "end": 8.974
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 8.852,
+     "end": 10.52,
+     "chunks": [
+      {
+       "start": 8.852,
+       "end": 10.6,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 8.852,
+         "end": 9.32
+        },
+        {
+         "text": "$30",
+         "tail": ".",
+         "hl": false,
+         "cue": "price",
+         "start": 9.48,
+         "end": 10.6
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "THE BRAIN",
+    "kicker": "CLAUDE CODE",
+    "value": 30,
+    "prefix": "$",
+    "suffix": "/mo",
+    "caption": "Connects it all",
+    "icon": "terminal",
+    "cue": "price"
+   }
+  },
+  {
+   "id": "senses",
+   "start": 10.74,
+   "end": 16.211,
+   "sentences": [
+    {
+     "start": 10.74,
+     "end": 13.22,
+     "chunks": [
+      {
+       "start": 10.74,
+       "end": 13.3,
+       "words": [
+        {
+         "text": "Video-use",
+         "tail": "",
+         "hl": false,
+         "cue": "c1",
+         "start": 10.74,
+         "end": 11.54
+        },
+        {
+         "text": "lets",
+         "tail": "",
+         "hl": false,
+         "start": 11.7,
+         "end": 11.94
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 12.02,
+         "end": 12.34
+        },
+        {
+         "text": "watch",
+         "tail": ".",
+         "hl": true,
+         "start": 12.5,
+         "end": 13.3
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 13.34,
+     "end": 15.991,
+     "chunks": [
+      {
+       "start": 13.34,
+       "end": 14.979,
+       "words": [
+        {
+         "text": "Whisper",
+         "tail": "",
+         "hl": false,
+         "cue": "c2",
+         "start": 13.34,
+         "end": 13.819
+        },
+        {
+         "text": "lets",
+         "tail": "",
+         "hl": false,
+         "start": 13.899,
+         "end": 14.139
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 14.219,
+         "end": 14.299
+        },
+        {
+         "text": "hear",
+         "tail": ".",
+         "hl": true,
+         "start": 14.379,
+         "end": 14.979
+        }
+       ]
+      },
+      {
+       "start": 15.259,
+       "end": 16.219,
+       "words": [
+        {
+         "text": "Both",
+         "tail": "",
+         "hl": false,
+         "start": 15.259,
+         "end": 15.579
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": true,
+         "start": 15.659,
+         "end": 16.219
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "SENSES",
+    "title": "CLAUDE'S SENSES · $0",
+    "cards": [
+     {
+      "title": "Video-use",
+      "sub": "Claude can watch · $0",
+      "icon": "video",
+      "cue": "c1"
+     },
+     {
+      "title": "Whisper",
+      "sub": "Claude can hear · $0",
+      "icon": "mic",
+      "cue": "c2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "editing",
+   "start": 16.211,
+   "end": 32.823,
+   "sentences": [
+    {
+     "start": 16.211,
+     "end": 18.62,
+     "chunks": [
+      {
+       "start": 16.211,
+       "end": 18.851,
+       "words": [
+        {
+         "text": "ffmpeg",
+         "tail": "",
+         "hl": false,
+         "cue": "r1",
+         "start": 16.211,
+         "end": 17.171
+        },
+        {
+         "text": "lets",
+         "tail": "",
+         "hl": false,
+         "start": 17.331,
+         "end": 17.571
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 17.651,
+         "end": 18.051
+        },
+        {
+         "text": "edit",
+         "tail": ".",
+         "hl": true,
+         "start": 18.131,
+         "end": 18.851
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 18.74,
+     "end": 20.707,
+     "chunks": [
+      {
+       "start": 18.74,
+       "end": 20.961,
+       "words": [
+        {
+         "text": "Remotion",
+         "tail": "",
+         "hl": false,
+         "cue": "r2",
+         "start": 18.74,
+         "end": 19.361
+        },
+        {
+         "text": "lets",
+         "tail": "",
+         "hl": false,
+         "start": 19.601,
+         "end": 19.841
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 19.921,
+         "end": 20.001
+        },
+        {
+         "text": "animate",
+         "tail": ".",
+         "hl": true,
+         "start": 20.081,
+         "end": 20.961
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 20.827,
+     "end": 25.204,
+     "chunks": [
+      {
+       "start": 20.827,
+       "end": 24.416,
+       "words": [
+        {
+         "text": "HyperFrames",
+         "tail": "",
+         "hl": false,
+         "cue": "r3",
+         "start": 20.827,
+         "end": 21.536
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 21.616,
+         "end": 21.936
+        },
+        {
+         "text": "HTML",
+         "tail": "",
+         "hl": false,
+         "start": 22.016,
+         "end": 22.816
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 22.896,
+         "end": 23.136
+        },
+        {
+         "text": "MP4",
+         "tail": ".",
+         "hl": false,
+         "start": 23.296,
+         "end": 24.416
+        }
+       ]
+      },
+      {
+       "start": 24.496,
+       "end": 25.456,
+       "words": [
+        {
+         "text": "All",
+         "tail": "",
+         "hl": false,
+         "start": 24.496,
+         "end": 24.656
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": false,
+         "start": 24.816,
+         "end": 25.456
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 25.324,
+     "end": 28.872,
+     "chunks": [
+      {
+       "start": 25.324,
+       "end": 27.678,
+       "words": [
+        {
+         "text": "Higgsfield",
+         "tail": "",
+         "hl": false,
+         "cue": "r4",
+         "start": 25.324,
+         "end": 25.838
+        },
+        {
+         "text": "handles",
+         "tail": "",
+         "hl": false,
+         "start": 25.918,
+         "end": 26.318
+        },
+        {
+         "text": "graphics",
+         "tail": "",
+         "hl": false,
+         "start": 26.398,
+         "end": 26.878
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 26.958,
+         "end": 27.118
+        },
+        {
+         "text": "B-roll",
+         "tail": "",
+         "hl": false,
+         "start": 27.198,
+         "end": 27.678
+        }
+       ]
+      },
+      {
+       "start": 27.758,
+       "end": 29.038,
+       "words": [
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 27.758,
+         "end": 27.918
+        },
+        {
+         "text": "$5",
+         "tail": ".",
+         "hl": true,
+         "start": 27.998,
+         "end": 29.038
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.992,
+     "end": 32.603,
+     "chunks": [
+      {
+       "start": 28.992,
+       "end": 32.017,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 28.992,
+         "end": 29.137
+        },
+        {
+         "text": "Edits",
+         "tail": "",
+         "hl": false,
+         "cue": "r5",
+         "start": 29.217,
+         "end": 29.537
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 29.617,
+         "end": 29.857
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 29.937,
+         "end": 30.097
+        },
+        {
+         "text": "captions",
+         "tail": "",
+         "hl": false,
+         "start": 30.177,
+         "end": 30.817
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 30.897,
+         "end": 31.057
+        },
+        {
+         "text": "cleanup",
+         "tail": ",",
+         "hl": false,
+         "start": 31.217,
+         "end": 32.017
+        }
+       ]
+      },
+      {
+       "start": 32.097,
+       "end": 32.897,
+       "words": [
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 32.097,
+         "end": 32.177
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": false,
+         "start": 32.257,
+         "end": 32.897
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "receipt",
+    "label": "EDITING",
+    "title": "EDIT · ANIMATE · CAPTION",
+    "startTotal": 30,
+    "rows": [
+     {
+      "name": "ffmpeg",
+      "role": "Claude can edit",
+      "price": 0,
+      "icon": "terminal",
+      "cue": "r1"
+     },
+     {
+      "name": "Remotion",
+      "role": "Claude can animate",
+      "price": 0,
+      "icon": "video",
+      "cue": "r2"
+     },
+     {
+      "name": "HyperFrames",
+      "role": "HTML to MP4",
+      "price": 0,
+      "icon": "code",
+      "cue": "r3"
+     },
+     {
+      "name": "Higgsfield",
+      "role": "graphics + B-roll",
+      "price": 5,
+      "icon": "image",
+      "cue": "r4"
+     },
+     {
+      "name": "Edits app",
+      "role": "captions + cleanup",
+      "price": 0,
+      "icon": "sparkle",
+      "cue": "r5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "research",
+   "start": 32.823,
+   "end": 39.211,
+   "sentences": [
+    {
+     "start": 32.823,
+     "end": 35.407,
+     "chunks": [
+      {
+       "start": 32.823,
+       "end": 35.664,
+       "words": [
+        {
+         "text": "Apify",
+         "tail": "",
+         "hl": false,
+         "cue": "s1",
+         "start": 32.823,
+         "end": 33.344
+        },
+        {
+         "text": "pulls",
+         "tail": "",
+         "hl": false,
+         "start": 33.424,
+         "end": 33.744
+        },
+        {
+         "text": "transcripts",
+         "tail": "",
+         "hl": true,
+         "start": 33.824,
+         "end": 34.464
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 34.544,
+         "end": 34.704
+        },
+        {
+         "text": "research",
+         "tail": ".",
+         "hl": false,
+         "start": 35.024,
+         "end": 35.664
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.527,
+     "end": 38.991,
+     "chunks": [
+      {
+       "start": 35.527,
+       "end": 38.327,
+       "words": [
+        {
+         "text": "yt-dlp",
+         "tail": "",
+         "hl": false,
+         "cue": "s2",
+         "start": 35.527,
+         "end": 36.727
+        },
+        {
+         "text": "scrapes",
+         "tail": "",
+         "hl": false,
+         "start": 36.967,
+         "end": 37.447
+        },
+        {
+         "text": "footage",
+         "tail": ".",
+         "hl": true,
+         "start": 37.526,
+         "end": 38.327
+        }
+       ]
+      },
+      {
+       "start": 38.567,
+       "end": 39.207,
+       "words": [
+        {
+         "text": "Free",
+         "tail": ".",
+         "hl": false,
+         "start": 38.567,
+         "end": 39.207
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "RESEARCH",
+    "title": "RESEARCH · $0",
+    "steps": [
+     {
+      "label": "Apify",
+      "sub": "transcript research · $0",
+      "icon": "file",
+      "cue": "s1"
+     },
+     {
+      "label": "yt-dlp",
+      "sub": "footage scraping · $0",
+      "icon": "download",
+      "cue": "s2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "publishing",
+   "start": 39.211,
+   "end": 47.687,
+   "sentences": [
+    {
+     "start": 39.211,
+     "end": 41.382,
+     "chunks": [
+      {
+       "start": 39.211,
+       "end": 41.611,
+       "words": [
+        {
+         "text": "Vercel",
+         "tail": "",
+         "hl": false,
+         "cue": "c1",
+         "start": 39.211,
+         "end": 39.691
+        },
+        {
+         "text": "hosts",
+         "tail": "",
+         "hl": false,
+         "start": 39.771,
+         "end": 40.171
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 40.251,
+         "end": 40.331
+        },
+        {
+         "text": "landing",
+         "tail": "",
+         "hl": false,
+         "start": 40.411,
+         "end": 40.731
+        },
+        {
+         "text": "pages",
+         "tail": ".",
+         "hl": false,
+         "start": 40.811,
+         "end": 41.611
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 41.502,
+     "end": 44.143,
+     "chunks": [
+      {
+       "start": 41.502,
+       "end": 44.379,
+       "words": [
+        {
+         "text": "Resend",
+         "tail": "",
+         "hl": false,
+         "cue": "c2",
+         "start": 41.502,
+         "end": 41.979
+        },
+        {
+         "text": "collects",
+         "tail": "",
+         "hl": false,
+         "start": 42.059,
+         "end": 42.779
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 42.859,
+         "end": 43.019
+        },
+        {
+         "text": "sends",
+         "tail": "",
+         "hl": false,
+         "start": 43.099,
+         "end": 43.419
+        },
+        {
+         "text": "emails",
+         "tail": ".",
+         "hl": false,
+         "start": 43.499,
+         "end": 44.379
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 44.263,
+     "end": 47.467,
+     "chunks": [
+      {
+       "start": 44.263,
+       "end": 46.491,
+       "words": [
+        {
+         "text": "Notion",
+         "tail": "",
+         "hl": false,
+         "cue": "c3",
+         "start": 44.263,
+         "end": 44.731
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 44.811,
+         "end": 45.051
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 45.131,
+         "end": 45.211
+        },
+        {
+         "text": "content",
+         "tail": "",
+         "hl": false,
+         "start": 45.291,
+         "end": 45.691
+        },
+        {
+         "text": "calendar",
+         "tail": ".",
+         "hl": true,
+         "start": 45.771,
+         "end": 46.491
+        }
+       ]
+      },
+      {
+       "start": 46.731,
+       "end": 47.611,
+       "words": [
+        {
+         "text": "All",
+         "tail": "",
+         "hl": false,
+         "start": 46.731,
+         "end": 46.971
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": false,
+         "start": 47.051,
+         "end": 47.611
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "PUBLISHING",
+    "title": "PUBLISH · $0",
+    "cards": [
+     {
+      "title": "Vercel",
+      "sub": "landing pages · $0",
+      "icon": "cloud",
+      "cue": "c1"
+     },
+     {
+      "title": "Resend",
+      "sub": "email collect + send · $0",
+      "icon": "send",
+      "cue": "c2"
+     },
+     {
+      "title": "Notion",
+      "sub": "content calendar · $0",
+      "icon": "grid",
+      "cue": "c3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "total",
+   "start": 47.687,
+   "end": 50.414,
+   "sentences": [
+    {
+     "start": 47.687,
+     "end": 50.194,
+     "chunks": [
+      {
+       "start": 47.687,
+       "end": 50.405,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 47.687,
+         "end": 48.005
+        },
+        {
+         "text": "$35",
+         "tail": "",
+         "hl": true,
+         "cue": "total",
+         "start": 48.165,
+         "end": 49.045
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 49.125,
+         "end": 49.205
+        },
+        {
+         "text": "month",
+         "tail": "",
+         "hl": false,
+         "start": 49.285,
+         "end": 49.605
+        },
+        {
+         "text": "total",
+         "tail": ".",
+         "hl": false,
+         "start": 49.765,
+         "end": 50.405
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "TOTAL",
+    "kicker": "13 TOOLS",
+    "value": 35,
+    "prefix": "$",
+    "suffix": "/mo",
+    "caption": "Your whole content system",
+    "icon": "dollar",
+    "cue": "total"
+   }
+  },
+  {
+   "id": "bottleneck",
+   "start": 50.414,
+   "end": 54.988,
+   "sentences": [
+    {
+     "start": 50.414,
+     "end": 52.677,
+     "chunks": [
+      {
+       "start": 50.414,
+       "end": 52.882,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 50.414,
+         "end": 50.642
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 50.682,
+         "end": 50.722
+        },
+        {
+         "text": "bottleneck",
+         "tail": "",
+         "hl": false,
+         "start": 50.802,
+         "end": 51.442
+        },
+        {
+         "text": "isn't",
+         "tail": "",
+         "hl": false,
+         "start": 51.522,
+         "end": 51.842
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 51.922,
+         "end": 52.002
+        },
+        {
+         "text": "toolkit",
+         "tail": ".",
+         "hl": true,
+         "start": 52.162,
+         "end": 52.882
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 52.797,
+     "end": 54.768,
+     "chunks": [
+      {
+       "start": 52.797,
+       "end": 55.0,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 52.797,
+         "end": 53.0
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 53.08,
+         "end": 53.24
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 53.32,
+         "end": 53.48
+        },
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 53.64,
+         "end": 53.88
+        },
+        {
+         "text": "them",
+         "tail": "",
+         "hl": false,
+         "start": 53.96,
+         "end": 54.12
+        },
+        {
+         "text": "together",
+         "tail": ".",
+         "hl": true,
+         "cue": "sub",
+         "start": 54.2,
+         "end": 55.0
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "THE REAL BOTTLENECK",
+    "kicker": "NOT THE TOOLKIT",
+    "headline": "It's the system",
+    "highlight": "system",
+    "icon": "layers",
+    "sub": {
+     "text": "How you use them together",
+     "cue": "sub"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 54.988,
+   "end": 59.481,
+   "sentences": [
+    {
+     "start": 54.988,
+     "end": 58.061,
+     "chunks": [
+      {
+       "start": 54.988,
+       "end": 55.836,
+       "words": [
+        {
+         "text": "Comment",
+         "tail": "",
+         "hl": false,
+         "start": 54.988,
+         "end": 55.276
+        },
+        {
+         "text": "STACK",
+         "tail": "",
+         "hl": true,
+         "cue": "type",
+         "start": 55.356,
+         "end": 55.836
+        }
+       ]
+      },
+      {
+       "start": 55.996,
+       "end": 58.236,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 55.996,
+         "end": 56.236
+        },
+        {
+         "text": "I'll",
+         "tail": "",
+         "hl": false,
+         "start": 56.316,
+         "end": 56.556
+        },
+        {
+         "text": "show",
+         "tail": "",
+         "hl": false,
+         "start": 56.676,
+         "end": 56.796
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 56.876,
+         "end": 56.956
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 57.116,
+         "end": 57.276
+        },
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 57.356,
+         "end": 57.436
+        },
+        {
+         "text": "connect",
+         "tail": "",
+         "hl": false,
+         "cue": "sub",
+         "start": 57.596,
+         "end": 57.756
+        },
+        {
+         "text": "them",
+         "tail": ".",
+         "hl": false,
+         "start": 57.876,
+         "end": 58.236
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "comment",
+    "label": "COMMENT",
+    "headline": "Want to see how I connect them?",
+    "highlight": "connect",
+    "keyword": "STACK",
+    "cue": "type",
+    "sub": {
+     "text": "Full workflow coming next",
+     "cue": "sub"
+    }
+   }
+  }
+ ]
+}

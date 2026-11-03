@@ -1,0 +1,2442 @@
+{
+ "id": "interruption-matrix-banking",
+ "durationS": 95.274,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.973,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.785,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.044,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.093
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 0.209,
+         "end": 0.441
+        },
+        {
+         "text": "taps",
+         "tail": "",
+         "hl": false,
+         "start": 0.499,
+         "end": 0.789
+        },
+        {
+         "text": "Pay",
+         "tail": "",
+         "hl": true,
+         "start": 0.859,
+         "end": 0.987
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 1.022,
+         "end": 1.092
+        },
+        {
+         "text": "their",
+         "tail": "",
+         "hl": false,
+         "start": 1.126,
+         "end": 1.277
+        },
+        {
+         "text": "banking",
+         "tail": "",
+         "hl": false,
+         "start": 1.324,
+         "end": 1.637
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 1.707,
+         "end": 2.044
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.385,
+     "end": 3.354,
+     "chunks": [
+      {
+       "start": 2.385,
+       "end": 3.55,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 2.385,
+         "end": 2.529
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 2.575,
+         "end": 2.645
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 2.68,
+         "end": 2.912
+        },
+        {
+         "text": "rings",
+         "tail": ".",
+         "hl": true,
+         "start": 2.935,
+         "end": 3.55
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.954,
+     "end": 5.973,
+     "chunks": [
+      {
+       "start": 3.954,
+       "end": 5.348,
+       "words": [
+        {
+         "text": "Did",
+         "tail": "",
+         "hl": false,
+         "start": 3.954,
+         "end": 4.14
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 4.175,
+         "end": 4.244
+        },
+        {
+         "text": "money",
+         "tail": "",
+         "hl": false,
+         "start": 4.291,
+         "end": 4.5
+        },
+        {
+         "text": "go",
+         "tail": "",
+         "hl": false,
+         "start": 4.546,
+         "end": 4.674
+        },
+        {
+         "text": "once",
+         "tail": ",",
+         "hl": false,
+         "cue": "once",
+         "start": 4.755,
+         "end": 4.999
+        },
+        {
+         "text": "twice",
+         "tail": ",",
+         "hl": false,
+         "start": 5.022,
+         "end": 5.348
+        }
+       ]
+      },
+      {
+       "start": 5.371,
+       "end": 6.137,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 5.371,
+         "end": 5.44
+        },
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 5.487,
+         "end": 5.638
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 5.684,
+         "end": 5.754
+        },
+        {
+         "text": "all",
+         "tail": "?",
+         "hl": false,
+         "start": 5.8,
+         "end": 6.137
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "INTERRUPTION MATRIX",
+    "kicker": "BANKING PAYMENT SCREEN",
+    "headline": "Tap Pay. The phone rings.",
+    "highlight": "rings",
+    "icon": "dollar",
+    "sub": {
+     "text": "Once, twice, or not at all?",
+     "cue": "once"
+    }
+   }
+  },
+  {
+   "id": "matrix",
+   "start": 6.973,
+   "end": 16.232,
+   "sentences": [
+    {
+     "start": 6.973,
+     "end": 10.513,
+     "chunks": [
+      {
+       "start": 6.973,
+       "end": 8.468,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 6.973,
+         "end": 7.074
+        },
+        {
+         "text": "good",
+         "tail": "",
+         "hl": false,
+         "start": 7.156,
+         "end": 7.318
+        },
+        {
+         "text": "interruption",
+         "tail": "",
+         "hl": false,
+         "start": 7.365,
+         "end": 7.794
+        },
+        {
+         "text": "test",
+         "tail": "",
+         "hl": false,
+         "start": 7.841,
+         "end": 8.05
+        },
+        {
+         "text": "matrix",
+         "tail": "",
+         "hl": true,
+         "start": 8.12,
+         "end": 8.468
+        }
+       ]
+      },
+      {
+       "start": 8.538,
+       "end": 10.685,
+       "words": [
+        {
+         "text": "has",
+         "tail": "",
+         "hl": false,
+         "start": 8.538,
+         "end": 8.688
+        },
+        {
+         "text": "four",
+         "tail": "",
+         "hl": false,
+         "start": 8.77,
+         "end": 9.048
+        },
+        {
+         "text": "columns",
+         "tail": "",
+         "hl": false,
+         "start": 9.106,
+         "end": 9.513
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 9.571,
+         "end": 9.71
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 9.768,
+         "end": 10.0
+        },
+        {
+         "text": "scenario",
+         "tail": ":",
+         "hl": false,
+         "start": 10.047,
+         "end": 10.685
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 11.113,
+     "end": 15.232,
+     "chunks": [
+      {
+       "start": 11.113,
+       "end": 12.77,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 11.113,
+         "end": 11.238
+        },
+        {
+         "text": "trigger",
+         "tail": ",",
+         "hl": false,
+         "cue": "t",
+         "start": 11.284,
+         "end": 11.783
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 11.865,
+         "end": 11.992
+        },
+        {
+         "text": "moment",
+         "tail": "",
+         "hl": false,
+         "cue": "m",
+         "start": 12.05,
+         "end": 12.352
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 12.387,
+         "end": 12.457
+        },
+        {
+         "text": "hits",
+         "tail": ",",
+         "hl": false,
+         "start": 12.515,
+         "end": 12.77
+        }
+       ]
+      },
+      {
+       "start": 12.84,
+       "end": 13.931,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.84,
+         "end": 12.968
+        },
+        {
+         "text": "expected",
+         "tail": "",
+         "hl": false,
+         "cue": "e",
+         "start": 13.014,
+         "end": 13.49
+        },
+        {
+         "text": "result",
+         "tail": ",",
+         "hl": false,
+         "start": 13.548,
+         "end": 13.931
+        }
+       ]
+      },
+      {
+       "start": 13.955,
+       "end": 15.429,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 13.955,
+         "end": 14.047
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 14.094,
+         "end": 14.164
+        },
+        {
+         "text": "risk",
+         "tail": "",
+         "hl": true,
+         "cue": "r",
+         "start": 14.233,
+         "end": 14.477
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 14.523,
+         "end": 14.605
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 14.663,
+         "end": 14.732
+        },
+        {
+         "text": "fails",
+         "tail": ".",
+         "hl": false,
+         "start": 14.779,
+         "end": 15.429
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE MATRIX",
+    "file": "interruption-matrix.md",
+    "lines": [
+     {
+      "text": "Scenario: <interruption>"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "trigger:   what interrupts",
+      "cue": "t",
+      "hl": true
+     },
+     {
+      "text": "moment:    when it hits",
+      "cue": "m",
+      "hl": true
+     },
+     {
+      "text": "expected:  correct behavior",
+      "cue": "e",
+      "hl": true
+     },
+     {
+      "text": "risk:      what breaks if not",
+      "cue": "r",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "call",
+   "start": 16.232,
+   "end": 32.48,
+   "sentences": [
+    {
+     "start": 16.232,
+     "end": 22.391,
+     "chunks": [
+      {
+       "start": 16.232,
+       "end": 17.555,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 16.232,
+         "end": 16.615
+        },
+        {
+         "text": "incoming",
+         "tail": "",
+         "hl": false,
+         "start": 16.65,
+         "end": 17.103
+        },
+        {
+         "text": "call",
+         "tail": ".",
+         "hl": true,
+         "start": 17.161,
+         "end": 17.555
+        }
+       ]
+      },
+      {
+       "start": 17.579,
+       "end": 20.748,
+       "words": [
+        {
+         "text": "Trigger",
+         "tail": ":",
+         "hl": false,
+         "cue": "t",
+         "start": 17.579,
+         "end": 18.043
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 18.078,
+         "end": 18.136
+        },
+        {
+         "text": "call",
+         "tail": "",
+         "hl": false,
+         "start": 18.217,
+         "end": 18.484
+        },
+        {
+         "text": "arrives",
+         "tail": "",
+         "hl": false,
+         "start": 18.542,
+         "end": 18.844
+        },
+        {
+         "text": "right",
+         "tail": "",
+         "hl": false,
+         "start": 18.902,
+         "end": 19.099
+        },
+        {
+         "text": "after",
+         "tail": "",
+         "hl": false,
+         "start": 19.146,
+         "end": 19.366
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 19.413,
+         "end": 19.483
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 19.564,
+         "end": 19.866
+        },
+        {
+         "text": "taps",
+         "tail": "",
+         "hl": false,
+         "start": 19.901,
+         "end": 20.214
+        },
+        {
+         "text": "Pay",
+         "tail": ",",
+         "hl": false,
+         "start": 20.33,
+         "end": 20.748
+        }
+       ]
+      },
+      {
+       "start": 20.794,
+       "end": 22.617,
+       "words": [
+        {
+         "text": "while",
+         "tail": "",
+         "hl": false,
+         "start": 20.794,
+         "end": 21.003
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 21.027,
+         "end": 21.096
+        },
+        {
+         "text": "request",
+         "tail": "",
+         "hl": false,
+         "start": 21.131,
+         "end": 21.526
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 21.584,
+         "end": 21.654
+        },
+        {
+         "text": "still",
+         "tail": "",
+         "hl": false,
+         "start": 21.677,
+         "end": 21.886
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 21.944,
+         "end": 22.025
+        },
+        {
+         "text": "flight",
+         "tail": ".",
+         "hl": false,
+         "start": 22.095,
+         "end": 22.617
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 22.991,
+     "end": 28.282,
+     "chunks": [
+      {
+       "start": 22.991,
+       "end": 25.854,
+       "words": [
+        {
+         "text": "Expected",
+         "tail": ":",
+         "hl": false,
+         "cue": "e",
+         "start": 22.991,
+         "end": 23.544
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 23.567,
+         "end": 23.637
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 23.684,
+         "end": 24.055
+        },
+        {
+         "text": "completes",
+         "tail": "",
+         "hl": false,
+         "start": 24.113,
+         "end": 24.542
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 24.589,
+         "end": 24.658
+        },
+        {
+         "text": "fails",
+         "tail": "",
+         "hl": false,
+         "start": 24.705,
+         "end": 24.949
+        },
+        {
+         "text": "exactly",
+         "tail": "",
+         "hl": false,
+         "start": 25.007,
+         "end": 25.448
+        },
+        {
+         "text": "once",
+         "tail": ",",
+         "hl": true,
+         "start": 25.518,
+         "end": 25.854
+        }
+       ]
+      },
+      {
+       "start": 25.924,
+       "end": 28.466,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 25.924,
+         "end": 26.063
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 26.133,
+         "end": 26.203
+        },
+        {
+         "text": "return",
+         "tail": ",",
+         "hl": false,
+         "start": 26.261,
+         "end": 26.574
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 26.597,
+         "end": 26.667
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 26.725,
+         "end": 26.864
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "start": 26.934,
+         "end": 27.201
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 27.247,
+         "end": 27.317
+        },
+        {
+         "text": "final",
+         "tail": "",
+         "hl": false,
+         "start": 27.364,
+         "end": 27.665
+        },
+        {
+         "text": "status",
+         "tail": ".",
+         "hl": false,
+         "start": 27.712,
+         "end": 28.466
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.882,
+     "end": 31.48,
+     "chunks": [
+      {
+       "start": 28.882,
+       "end": 30.043,
+       "words": [
+        {
+         "text": "Risk",
+         "tail": ":",
+         "hl": false,
+         "cue": "r",
+         "start": 28.882,
+         "end": 29.23
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 29.265,
+         "end": 29.288
+        },
+        {
+         "text": "double",
+         "tail": "",
+         "hl": true,
+         "start": 29.37,
+         "end": 29.648
+        },
+        {
+         "text": "debit",
+         "tail": ",",
+         "hl": false,
+         "start": 29.695,
+         "end": 30.043
+        }
+       ]
+      },
+      {
+       "start": 30.067,
+       "end": 31.669,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 30.067,
+         "end": 30.159
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 30.217,
+         "end": 30.241
+        },
+        {
+         "text": "stuck",
+         "tail": "",
+         "hl": false,
+         "start": 30.276,
+         "end": 30.508
+        },
+        {
+         "text": "processing",
+         "tail": "",
+         "hl": false,
+         "start": 30.566,
+         "end": 31.053
+        },
+        {
+         "text": "screen",
+         "tail": ".",
+         "hl": false,
+         "start": 31.111,
+         "end": 31.669
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "SCENARIO 1",
+    "title": "01 · Incoming call",
+    "rows": [
+     {
+      "kicker": "TRIGGER",
+      "text": "Call right after tapping Pay",
+      "icon": "phone",
+      "cue": "t"
+     },
+     {
+      "kicker": "EXPECTED",
+      "text": "Paid exactly once, status shown",
+      "icon": "check",
+      "cue": "e"
+     },
+     {
+      "kicker": "RISK",
+      "text": "Double debit, stuck processing",
+      "icon": "flame",
+      "cue": "r",
+      "tone": "bad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "battery",
+   "start": 32.48,
+   "end": 48.457,
+   "sentences": [
+    {
+     "start": 32.48,
+     "end": 36.845,
+     "chunks": [
+      {
+       "start": 32.48,
+       "end": 33.978,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 32.48,
+         "end": 32.91
+        },
+        {
+         "text": "critical",
+         "tail": "",
+         "hl": false,
+         "start": 32.944,
+         "end": 33.316
+        },
+        {
+         "text": "low",
+         "tail": "",
+         "hl": false,
+         "start": 33.362,
+         "end": 33.502
+        },
+        {
+         "text": "battery",
+         "tail": ".",
+         "hl": true,
+         "start": 33.548,
+         "end": 33.978
+        }
+       ]
+      },
+      {
+       "start": 34.024,
+       "end": 35.406,
+       "words": [
+        {
+         "text": "Trigger",
+         "tail": ":",
+         "hl": false,
+         "cue": "t",
+         "start": 34.024,
+         "end": 34.431
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 34.466,
+         "end": 34.547
+        },
+        {
+         "text": "5",
+         "tail": "",
+         "hl": false,
+         "start": 34.605,
+         "end": 34.779
+        },
+        {
+         "text": "percent",
+         "tail": "",
+         "hl": false,
+         "start": 34.837,
+         "end": 35.104
+        },
+        {
+         "text": "warning",
+         "tail": "",
+         "hl": false,
+         "start": 35.151,
+         "end": 35.406
+        }
+       ]
+      },
+      {
+       "start": 35.464,
+       "end": 37.031,
+       "words": [
+        {
+         "text": "pops",
+         "tail": "",
+         "hl": false,
+         "start": 35.464,
+         "end": 35.72
+        },
+        {
+         "text": "up",
+         "tail": "",
+         "hl": false,
+         "start": 35.766,
+         "end": 35.859
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 35.917,
+         "end": 35.987
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 36.021,
+         "end": 36.091
+        },
+        {
+         "text": "confirm",
+         "tail": "",
+         "hl": false,
+         "start": 36.126,
+         "end": 36.463
+        },
+        {
+         "text": "screen",
+         "tail": ".",
+         "hl": false,
+         "start": 36.497,
+         "end": 37.031
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 37.445,
+     "end": 42.594,
+     "chunks": [
+      {
+       "start": 37.445,
+       "end": 39.783,
+       "words": [
+        {
+         "text": "Expected",
+         "tail": ":",
+         "hl": false,
+         "cue": "e",
+         "start": 37.445,
+         "end": 38.065
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 38.088,
+         "end": 38.193
+        },
+        {
+         "text": "amount",
+         "tail": "",
+         "hl": false,
+         "start": 38.239,
+         "end": 38.552
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 38.599,
+         "end": 38.691
+        },
+        {
+         "text": "payee",
+         "tail": "",
+         "hl": false,
+         "start": 38.761,
+         "end": 39.028
+        },
+        {
+         "text": "stay",
+         "tail": "",
+         "hl": false,
+         "start": 39.075,
+         "end": 39.318
+        },
+        {
+         "text": "filled",
+         "tail": "",
+         "hl": false,
+         "start": 39.376,
+         "end": 39.632
+        },
+        {
+         "text": "in",
+         "tail": ".",
+         "hl": false,
+         "start": 39.678,
+         "end": 39.783
+        }
+       ]
+      },
+      {
+       "start": 39.806,
+       "end": 40.607,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 39.806,
+         "end": 39.922
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 39.969,
+         "end": 40.038
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 40.085,
+         "end": 40.317
+        },
+        {
+         "text": "dies",
+         "tail": ",",
+         "hl": false,
+         "start": 40.352,
+         "end": 40.607
+        }
+       ]
+      },
+      {
+       "start": 40.63,
+       "end": 42.778,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 40.63,
+         "end": 40.712
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 40.793,
+         "end": 40.99
+        },
+        {
+         "text": "checks",
+         "tail": "",
+         "hl": false,
+         "start": 41.06,
+         "end": 41.35
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 41.397,
+         "end": 41.478
+        },
+        {
+         "text": "server",
+         "tail": "",
+         "hl": true,
+         "start": 41.524,
+         "end": 41.826
+        },
+        {
+         "text": "after",
+         "tail": "",
+         "hl": false,
+         "start": 41.873,
+         "end": 42.093
+        },
+        {
+         "text": "reboot",
+         "tail": ".",
+         "hl": false,
+         "start": 42.14,
+         "end": 42.778
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 43.194,
+     "end": 47.457,
+     "chunks": [
+      {
+       "start": 43.194,
+       "end": 44.332,
+       "words": [
+        {
+         "text": "Risk",
+         "tail": ":",
+         "hl": false,
+         "cue": "r",
+         "start": 43.194,
+         "end": 43.566
+        },
+        {
+         "text": "lost",
+         "tail": "",
+         "hl": false,
+         "start": 43.612,
+         "end": 43.879
+        },
+        {
+         "text": "input",
+         "tail": ",",
+         "hl": false,
+         "start": 43.937,
+         "end": 44.332
+        }
+       ]
+      },
+      {
+       "start": 44.367,
+       "end": 46.271,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 44.367,
+         "end": 44.483
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 44.541,
+         "end": 44.564
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 44.611,
+         "end": 44.959
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 44.994,
+         "end": 45.075
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 45.156,
+         "end": 45.47
+        },
+        {
+         "text": "thinks",
+         "tail": "",
+         "hl": false,
+         "start": 45.528,
+         "end": 45.795
+        },
+        {
+         "text": "failed",
+         "tail": ",",
+         "hl": false,
+         "start": 45.888,
+         "end": 46.271
+        }
+       ]
+      },
+      {
+       "start": 46.294,
+       "end": 47.652,
+       "words": [
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 46.294,
+         "end": 46.433
+        },
+        {
+         "text": "actually",
+         "tail": "",
+         "hl": false,
+         "start": 46.48,
+         "end": 46.851
+        },
+        {
+         "text": "went",
+         "tail": "",
+         "hl": false,
+         "start": 46.898,
+         "end": 47.095
+        },
+        {
+         "text": "through",
+         "tail": ".",
+         "hl": true,
+         "start": 47.13,
+         "end": 47.652
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "SCENARIO 2",
+    "title": "02 · Critical low battery",
+    "rows": [
+     {
+      "kicker": "TRIGGER",
+      "text": "5% warning on the confirm screen",
+      "icon": "battery",
+      "cue": "t"
+     },
+     {
+      "kicker": "EXPECTED",
+      "text": "Input kept, server checked on reboot",
+      "icon": "check",
+      "cue": "e"
+     },
+     {
+      "kicker": "RISK",
+      "text": "Lost input, hidden payment",
+      "icon": "flame",
+      "cue": "r",
+      "tone": "bad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "minimize",
+   "start": 48.457,
+   "end": 68.899,
+   "sentences": [
+    {
+     "start": 48.457,
+     "end": 56.843,
+     "chunks": [
+      {
+       "start": 48.457,
+       "end": 49.805,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 48.457,
+         "end": 48.829
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 48.864,
+         "end": 49.096
+        },
+        {
+         "text": "minimized",
+         "tail": ".",
+         "hl": true,
+         "start": 49.154,
+         "end": 49.805
+        }
+       ]
+      },
+      {
+       "start": 49.979,
+       "end": 53.206,
+       "words": [
+        {
+         "text": "Trigger",
+         "tail": ":",
+         "hl": false,
+         "cue": "t",
+         "start": 49.979,
+         "end": 50.478
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 50.594,
+         "end": 50.71
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 50.78,
+         "end": 51.07
+        },
+        {
+         "text": "presses",
+         "tail": "",
+         "hl": false,
+         "start": 51.128,
+         "end": 51.488
+        },
+        {
+         "text": "Home",
+         "tail": "",
+         "hl": false,
+         "start": 51.569,
+         "end": 51.848
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 51.906,
+         "end": 52.034
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 52.08,
+         "end": 52.15
+        },
+        {
+         "text": "confirm",
+         "tail": "",
+         "hl": false,
+         "start": 52.208,
+         "end": 52.719
+        },
+        {
+         "text": "screen",
+         "tail": ",",
+         "hl": false,
+         "start": 52.777,
+         "end": 53.206
+        }
+       ]
+      },
+      {
+       "start": 53.264,
+       "end": 55.284,
+       "words": [
+        {
+         "text": "then",
+         "tail": "",
+         "hl": false,
+         "start": 53.264,
+         "end": 53.473
+        },
+        {
+         "text": "returns",
+         "tail": "",
+         "hl": false,
+         "start": 53.555,
+         "end": 53.984
+        },
+        {
+         "text": "after",
+         "tail": "",
+         "hl": false,
+         "start": 54.042,
+         "end": 54.309
+        },
+        {
+         "text": "30",
+         "tail": "",
+         "hl": false,
+         "start": 54.39,
+         "end": 54.681
+        },
+        {
+         "text": "seconds",
+         "tail": ",",
+         "hl": false,
+         "start": 54.75,
+         "end": 55.284
+        }
+       ]
+      },
+      {
+       "start": 55.331,
+       "end": 57.049,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 55.331,
+         "end": 55.493
+        },
+        {
+         "text": "again",
+         "tail": "",
+         "hl": false,
+         "start": 55.54,
+         "end": 55.784
+        },
+        {
+         "text": "after",
+         "tail": "",
+         "hl": false,
+         "start": 55.842,
+         "end": 56.086
+        },
+        {
+         "text": "5",
+         "tail": "",
+         "hl": false,
+         "start": 56.155,
+         "end": 56.329
+        },
+        {
+         "text": "minutes",
+         "tail": ".",
+         "hl": false,
+         "start": 56.399,
+         "end": 57.049
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 57.443,
+     "end": 63.404,
+     "chunks": [
+      {
+       "start": 57.443,
+       "end": 59.675,
+       "words": [
+        {
+         "text": "Expected",
+         "tail": ":",
+         "hl": false,
+         "cue": "e",
+         "start": 57.443,
+         "end": 58.073
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 58.107,
+         "end": 58.2
+        },
+        {
+         "text": "recents",
+         "tail": "",
+         "hl": false,
+         "start": 58.258,
+         "end": 58.641
+        },
+        {
+         "text": "preview",
+         "tail": "",
+         "hl": false,
+         "start": 58.699,
+         "end": 59.036
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 59.094,
+         "end": 59.175
+        },
+        {
+         "text": "hidden",
+         "tail": ".",
+         "hl": true,
+         "start": 59.245,
+         "end": 59.675
+        }
+       ]
+      },
+      {
+       "start": 59.791,
+       "end": 61.346,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 59.791,
+         "end": 59.86
+        },
+        {
+         "text": "short",
+         "tail": "",
+         "hl": false,
+         "start": 59.918,
+         "end": 60.162
+        },
+        {
+         "text": "break",
+         "tail": "",
+         "hl": false,
+         "start": 60.22,
+         "end": 60.441
+        },
+        {
+         "text": "keeps",
+         "tail": "",
+         "hl": false,
+         "start": 60.487,
+         "end": 60.731
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 60.766,
+         "end": 60.847
+        },
+        {
+         "text": "data",
+         "tail": ".",
+         "hl": false,
+         "start": 60.894,
+         "end": 61.346
+        }
+       ]
+      },
+      {
+       "start": 61.463,
+       "end": 63.564,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 61.463,
+         "end": 61.544
+        },
+        {
+         "text": "long",
+         "tail": "",
+         "hl": false,
+         "start": 61.625,
+         "end": 61.869
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 61.95,
+         "end": 62.101
+        },
+        {
+         "text": "forces",
+         "tail": "",
+         "hl": false,
+         "start": 62.148,
+         "end": 62.542
+        },
+        {
+         "text": "login",
+         "tail": "",
+         "hl": false,
+         "start": 62.612,
+         "end": 62.937
+        },
+        {
+         "text": "again",
+         "tail": ".",
+         "hl": false,
+         "start": 62.995,
+         "end": 63.564
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 64.004,
+     "end": 67.899,
+     "chunks": [
+      {
+       "start": 64.004,
+       "end": 66.187,
+       "words": [
+        {
+         "text": "Risk",
+         "tail": ":",
+         "hl": false,
+         "cue": "r",
+         "start": 64.004,
+         "end": 64.341
+        },
+        {
+         "text": "account",
+         "tail": "",
+         "hl": false,
+         "start": 64.364,
+         "end": 64.631
+        },
+        {
+         "text": "details",
+         "tail": "",
+         "hl": false,
+         "start": 64.666,
+         "end": 65.026
+        },
+        {
+         "text": "leaking",
+         "tail": "",
+         "hl": false,
+         "start": 65.084,
+         "end": 65.363
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 65.398,
+         "end": 65.456
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 65.49,
+         "end": 65.56
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 65.606,
+         "end": 65.746
+        },
+        {
+         "text": "switcher",
+         "tail": ",",
+         "hl": false,
+         "start": 65.792,
+         "end": 66.187
+        }
+       ]
+      },
+      {
+       "start": 66.222,
+       "end": 68.091,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 66.222,
+         "end": 66.338
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 66.396,
+         "end": 66.419
+        },
+        {
+         "text": "session",
+         "tail": "",
+         "hl": false,
+         "start": 66.477,
+         "end": 66.802
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 66.849,
+         "end": 66.976
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 67.035,
+         "end": 67.255
+        },
+        {
+         "text": "expires",
+         "tail": ".",
+         "hl": true,
+         "start": 67.325,
+         "end": 68.091
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "SCENARIO 3",
+    "title": "03 · App minimized",
+    "rows": [
+     {
+      "kicker": "TRIGGER",
+      "text": "Home pressed, back in 30s / 5 min",
+      "icon": "arrowDown",
+      "cue": "t"
+     },
+     {
+      "kicker": "EXPECTED",
+      "text": "Preview hidden, long break = login",
+      "icon": "eyeOff",
+      "cue": "e"
+     },
+     {
+      "kicker": "RISK",
+      "text": "Leak in switcher, endless session",
+      "icon": "flame",
+      "cue": "r",
+      "tone": "bad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "notification",
+   "start": 68.899,
+   "end": 83.994,
+   "sentences": [
+    {
+     "start": 68.899,
+     "end": 74.811,
+     "chunks": [
+      {
+       "start": 68.899,
+       "end": 70.621,
+       "words": [
+        {
+         "text": "Fourth",
+         "tail": ":",
+         "hl": false,
+         "start": 68.899,
+         "end": 69.263
+        },
+        {
+         "text": "system",
+         "tail": "",
+         "hl": false,
+         "start": 69.356,
+         "end": 69.716
+        },
+        {
+         "text": "notification",
+         "tail": ".",
+         "hl": true,
+         "start": 69.774,
+         "end": 70.621
+        }
+       ]
+      },
+      {
+       "start": 70.83,
+       "end": 73.036,
+       "words": [
+        {
+         "text": "Trigger",
+         "tail": ":",
+         "hl": false,
+         "cue": "t",
+         "start": 70.83,
+         "end": 71.329
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 71.48,
+         "end": 71.585
+        },
+        {
+         "text": "bank's",
+         "tail": "",
+         "hl": false,
+         "start": 71.643,
+         "end": 71.91
+        },
+        {
+         "text": "OTP",
+         "tail": "",
+         "hl": false,
+         "start": 71.968,
+         "end": 72.247
+        },
+        {
+         "text": "SMS",
+         "tail": "",
+         "hl": false,
+         "start": 72.363,
+         "end": 72.653
+        },
+        {
+         "text": "arrives",
+         "tail": ",",
+         "hl": false,
+         "start": 72.699,
+         "end": 73.036
+        }
+       ]
+      },
+      {
+       "start": 73.059,
+       "end": 74.987,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 73.059,
+         "end": 73.152
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 73.187,
+         "end": 73.257
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 73.338,
+         "end": 73.605
+        },
+        {
+         "text": "taps",
+         "tail": "",
+         "hl": false,
+         "start": 73.675,
+         "end": 73.942
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 73.965,
+         "end": 74.035
+        },
+        {
+         "text": "notification",
+         "tail": ".",
+         "hl": false,
+         "start": 74.081,
+         "end": 74.987
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 75.411,
+     "end": 79.708,
+     "chunks": [
+      {
+       "start": 75.411,
+       "end": 77.911,
+       "words": [
+        {
+         "text": "Expected",
+         "tail": ":",
+         "hl": false,
+         "cue": "e",
+         "start": 75.411,
+         "end": 76.065
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 76.111,
+         "end": 76.239
+        },
+        {
+         "text": "OTP",
+         "tail": "",
+         "hl": false,
+         "start": 76.32,
+         "end": 76.68
+        },
+        {
+         "text": "fills",
+         "tail": "",
+         "hl": false,
+         "start": 76.796,
+         "end": 77.028
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 77.075,
+         "end": 77.133
+        },
+        {
+         "text": "automatically",
+         "tail": ",",
+         "hl": true,
+         "start": 77.191,
+         "end": 77.911
+        }
+       ]
+      },
+      {
+       "start": 77.969,
+       "end": 79.907,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 77.969,
+         "end": 78.096
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 78.131,
+         "end": 78.201
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 78.236,
+         "end": 78.572
+        },
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 78.596,
+         "end": 78.863
+        },
+        {
+         "text": "stays",
+         "tail": "",
+         "hl": false,
+         "start": 78.909,
+         "end": 79.188
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 79.234,
+         "end": 79.292
+        },
+        {
+         "text": "place",
+         "tail": ".",
+         "hl": false,
+         "start": 79.35,
+         "end": 79.907
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 80.308,
+     "end": 82.994,
+     "chunks": [
+      {
+       "start": 80.308,
+       "end": 81.77,
+       "words": [
+        {
+         "text": "Risk",
+         "tail": ":",
+         "hl": false,
+         "cue": "r",
+         "start": 80.308,
+         "end": 80.772
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 80.888,
+         "end": 80.981
+        },
+        {
+         "text": "flow",
+         "tail": "",
+         "hl": false,
+         "start": 81.016,
+         "end": 81.214
+        },
+        {
+         "text": "restarts",
+         "tail": ",",
+         "hl": true,
+         "start": 81.272,
+         "end": 81.77
+        }
+       ]
+      },
+      {
+       "start": 81.794,
+       "end": 83.187,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 81.794,
+         "end": 81.898
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 81.921,
+         "end": 81.991
+        },
+        {
+         "text": "OTP",
+         "tail": "",
+         "hl": false,
+         "start": 82.049,
+         "end": 82.386
+        },
+        {
+         "text": "expires",
+         "tail": ".",
+         "hl": false,
+         "start": 82.467,
+         "end": 83.187
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "SCENARIO 4",
+    "title": "04 · System notification",
+    "rows": [
+     {
+      "kicker": "TRIGGER",
+      "text": "OTP SMS arrives, user taps it",
+      "icon": "bell",
+      "cue": "t"
+     },
+     {
+      "kicker": "EXPECTED",
+      "text": "OTP autofills, screen stays",
+      "icon": "check",
+      "cue": "e"
+     },
+     {
+      "kicker": "RISK",
+      "text": "Flow restarts, OTP expires",
+      "icon": "flame",
+      "cue": "r",
+      "tone": "bad"
+     }
+    ]
+   }
+  },
+  {
+   "id": "run",
+   "start": 83.994,
+   "end": 90.567,
+   "sentences": [
+    {
+     "start": 83.994,
+     "end": 89.567,
+     "chunks": [
+      {
+       "start": 83.994,
+       "end": 84.921,
+       "words": [
+        {
+         "text": "On",
+         "tail": "",
+         "hl": false,
+         "start": 83.994,
+         "end": 84.178
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 84.213,
+         "end": 84.282
+        },
+        {
+         "text": "emulator",
+         "tail": ",",
+         "hl": true,
+         "start": 84.329,
+         "end": 84.921
+        }
+       ]
+      },
+      {
+       "start": 85.037,
+       "end": 86.662,
+       "words": [
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 85.037,
+         "end": 85.246
+        },
+        {
+         "text": "adb",
+         "tail": "",
+         "hl": false,
+         "cue": "gsm",
+         "start": 85.339,
+         "end": 85.618
+        },
+        {
+         "text": "emu",
+         "tail": "",
+         "hl": false,
+         "start": 85.734,
+         "end": 85.908
+        },
+        {
+         "text": "gsm",
+         "tail": "",
+         "hl": false,
+         "start": 85.954,
+         "end": 86.279
+        },
+        {
+         "text": "call",
+         "tail": ",",
+         "hl": false,
+         "start": 86.361,
+         "end": 86.662
+        }
+       ]
+      },
+      {
+       "start": 86.721,
+       "end": 88.079,
+       "words": [
+        {
+         "text": "adb",
+         "tail": "",
+         "hl": false,
+         "start": 86.721,
+         "end": 86.988
+        },
+        {
+         "text": "emu",
+         "tail": "",
+         "hl": false,
+         "start": 87.069,
+         "end": 87.22
+        },
+        {
+         "text": "power",
+         "tail": "",
+         "hl": false,
+         "start": 87.278,
+         "end": 87.498
+        },
+        {
+         "text": "capacity",
+         "tail": ",",
+         "hl": false,
+         "start": 87.545,
+         "end": 88.079
+        }
+       ]
+      },
+      {
+       "start": 88.102,
+       "end": 89.704,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 88.102,
+         "end": 88.195
+        },
+        {
+         "text": "adb",
+         "tail": "",
+         "hl": false,
+         "start": 88.265,
+         "end": 88.52
+        },
+        {
+         "text": "emu",
+         "tail": "",
+         "hl": false,
+         "start": 88.601,
+         "end": 88.787
+        },
+        {
+         "text": "SMS",
+         "tail": "",
+         "hl": false,
+         "cue": "sms",
+         "start": 88.857,
+         "end": 89.205
+        },
+        {
+         "text": "send",
+         "tail": ".",
+         "hl": false,
+         "start": 89.263,
+         "end": 89.704
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "HOW TO RUN IT",
+    "title": "emulator",
+    "command": "adb emu gsm call 5551234",
+    "cue": "gsm",
+    "lines": [
+     {
+      "text": "OK",
+      "tone": "good"
+     },
+     {
+      "text": "$ adb emu power capacity 5",
+      "tone": "normal"
+     },
+     {
+      "text": "OK",
+      "tone": "good"
+     },
+     {
+      "text": "$ adb emu sms send 5551234 \"OTP 482913\"",
+      "tone": "normal"
+     },
+     {
+      "text": "OK",
+      "tone": "good"
+     }
+    ],
+    "badge": {
+     "text": "Emulator console",
+     "cue": "sms"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 90.567,
+   "end": 95.274,
+   "sentences": [
+    {
+     "start": 90.567,
+     "end": 91.974,
+     "chunks": [
+      {
+       "start": 90.567,
+       "end": 92.14,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 90.567,
+         "end": 90.852
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 90.921,
+         "end": 91.026
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 91.072,
+         "end": 91.246
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 91.281,
+         "end": 91.606
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 91.641,
+         "end": 92.14
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

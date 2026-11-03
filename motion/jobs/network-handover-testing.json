@@ -1,0 +1,151 @@
+{
+  "id": "network-handover-testing",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "journey",
+        "label": "NETWORK HANDOVER",
+        "headline": "Does your app survive the train ride?",
+        "highlight": "survive",
+        "stops": [
+          { "name": "5G", "sub": "fast", "icon": "signal", "cue": "s1" },
+          { "name": "2G", "sub": "slow", "icon": "signal", "cue": "s2" },
+          { "name": "Dead zone", "sub": "no signal", "icon": "unlink", "cue": "s3", "tone": "bad" },
+          { "name": "Wi-Fi", "sub": "new network", "icon": "wifi", "cue": "s4" }
+        ],
+        "note": { "text": "Most apps break somewhere here", "cue": "break" }
+      },
+      "sentences": [
+        { "caption": "Your user gets on a *train*." },
+        { "caption": "In two minutes, their phone goes from 5G,#s1 | to 2G,#s2 to no#s3 signal, | to Wi-Fi.#s4" },
+        { "caption": "Most apps *break*#break | somewhere along the way." }
+      ]
+    },
+    {
+      "id": "tools",
+      "visual": {
+        "type": "steps",
+        "label": "HOW TO SIMULATE",
+        "title": "Simulate the handover",
+        "steps": [
+          { "label": "Android Emulator", "sub": "network type + signal, live", "icon": "grid", "cue": "emu" },
+          { "label": "adb on real devices", "sub": "svc wifi / svc data", "icon": "terminal", "cue": "adb" },
+          { "label": "Throttle tools", "sub": "Link Conditioner, proxy", "icon": "cloud", "cue": "nlc" }
+        ]
+      },
+      "sentences": [
+        { "caption": "On Android, the *emulator*#emu lets you switch | the network type and signal strength live." },
+        { "caption": "On real devices, *adb*#adb commands | turn Wi-Fi and mobile data on and off." },
+        { "caption": "And tools like Network#nlc Link Conditioner, | or a *proxy*, | throttle speed and add latency." }
+      ]
+    },
+    {
+      "id": "slow",
+      "visual": {
+        "type": "reason",
+        "label": "STAGE 1",
+        "number": 1,
+        "title": "5G to 2G",
+        "highlight": "2G",
+        "icon": "signal",
+        "points": [
+          { "text": "Timeouts not too short", "cue": "timeout" },
+          { "text": "Loading states, not frozen", "cue": "loading" }
+        ]
+      },
+      "sentences": [
+        { "caption": "First: *5G* to *2G*. | Speed drops, | and latency jumps." },
+        { "caption": "Check that requests don't time#timeout out too early, | and the app shows loading#loading states, | not a frozen screen." }
+      ]
+    },
+    {
+      "id": "dead",
+      "visual": {
+        "type": "reason",
+        "label": "STAGE 2",
+        "number": 2,
+        "title": "Dead zone",
+        "highlight": "Dead",
+        "icon": "unlink",
+        "points": [
+          { "text": "Cached data + offline banner", "cue": "cached" },
+          { "text": "Queue user actions", "cue": "queue" },
+          { "text": "No crash, no endless spinner", "cue": "crash" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Second: *dead* *zone*. | No connection at all." },
+        { "caption": "The app should show cached#cached data and an offline banner, | and queue#queue the user's actions for later." },
+        { "caption": "No *crashes*,#crash | and no spinner that never ends." }
+      ]
+    },
+    {
+      "id": "wifi",
+      "visual": {
+        "type": "reason",
+        "label": "STAGE 3",
+        "number": 3,
+        "title": "Wi-Fi switch",
+        "highlight": "switch",
+        "icon": "wifi",
+        "points": [
+          { "text": "Reconnect + resume uploads", "cue": "reconnect" },
+          { "text": "Sync queue, no duplicates", "cue": "duplicate" },
+          { "text": "Captive portal check", "cue": "captive" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Third: *Wi-Fi*. | The network switches, | and the IP address changes." },
+        { "caption": "Open connections drop, | so the app must reconnect,#reconnect resume uploads, | and sync the queue without *duplicate*#duplicate actions." },
+        { "caption": "Also watch for *captive*#captive portals: | Wi-Fi is connected, | but there's no internet." }
+      ]
+    },
+    {
+      "id": "fix",
+      "visual": {
+        "type": "editor",
+        "label": "THE FIX",
+        "file": "NetworkMonitor.kt",
+        "lines": [
+          { "text": "object : NetworkCallback() {", "cue": "cb" },
+          { "text": "  override fun onCapabilitiesChanged(", "cue": "cb" },
+          { "text": "    n: Network, c: NetworkCapabilities", "cue": "cb" },
+          { "text": "  ) {", "cue": "cb" },
+          { "text": "    online = c.hasCapability(", "cue": "val", "hl": true },
+          { "text": "      NET_CAPABILITY_VALIDATED)", "cue": "val", "hl": true },
+          { "text": "  }", "cue": "cb" },
+          { "text": "}", "cue": "cb" }
+        ],
+        "toast": { "text": "Retry with exponential backoff", "cue": "backoff" }
+      },
+      "sentences": [
+        { "caption": "Listen with *NetworkCallback*,#cb | and check that the network | is actually *validated*.#val" },
+        { "caption": "Retry with exponential *backoff*,#backoff | not a retry storm." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

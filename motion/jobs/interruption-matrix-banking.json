@@ -1,0 +1,158 @@
+{
+  "id": "interruption-matrix-banking",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "INTERRUPTION MATRIX",
+        "kicker": "BANKING PAYMENT SCREEN",
+        "headline": "Tap Pay. The phone rings.",
+        "highlight": "rings",
+        "icon": "dollar",
+        "sub": { "text": "Once, twice, or not at all?", "cue": "once" }
+      },
+      "sentences": [
+        { "caption": "A user taps *Pay* in their banking app." },
+        { "caption": "Then the phone *rings*." },
+        { "caption": "Did the money go once,#once twice, | or not at all?" }
+      ]
+    },
+    {
+      "id": "matrix",
+      "visual": {
+        "type": "editor",
+        "label": "THE MATRIX",
+        "file": "interruption-matrix.md",
+        "lines": [
+          { "text": "Scenario: <interruption>" },
+          { "text": "" },
+          { "text": "trigger:   what interrupts", "cue": "t", "hl": true },
+          { "text": "moment:    when it hits", "cue": "m", "hl": true },
+          { "text": "expected:  correct behavior", "cue": "e", "hl": true },
+          { "text": "risk:      what breaks if not", "cue": "r", "hl": true }
+        ]
+      },
+      "sentences": [
+        { "caption": "A good interruption test *matrix* | has four columns for every scenario:" },
+        { "caption": "the trigger,#t the moment#m it hits, | the expected#e result, | and the *risk*#r if it fails." }
+      ]
+    },
+    {
+      "id": "call",
+      "visual": {
+        "type": "trio",
+        "label": "SCENARIO 1",
+        "title": "01 · Incoming call",
+        "rows": [
+          { "kicker": "TRIGGER", "text": "Call right after tapping Pay", "icon": "phone", "cue": "t" },
+          { "kicker": "EXPECTED", "text": "Paid exactly once, status shown", "icon": "check", "cue": "e" },
+          { "kicker": "RISK", "text": "Double debit, stuck processing", "icon": "flame", "cue": "r", "tone": "bad" }
+        ]
+      },
+      "sentences": [
+        { "caption": "First: incoming *call*. | Trigger:#t a call arrives right after the user taps Pay, | while the request is still in flight." },
+        { "caption": "Expected:#e the payment completes or fails exactly *once*, | and on return, the app shows the final status." },
+        { "caption": "Risk:#r a *double* debit, | or a stuck processing screen." }
+      ]
+    },
+    {
+      "id": "battery",
+      "visual": {
+        "type": "trio",
+        "label": "SCENARIO 2",
+        "title": "02 · Critical low battery",
+        "rows": [
+          { "kicker": "TRIGGER", "text": "5% warning on the confirm screen", "icon": "battery", "cue": "t" },
+          { "kicker": "EXPECTED", "text": "Input kept, server checked on reboot", "icon": "check", "cue": "e" },
+          { "kicker": "RISK", "text": "Lost input, hidden payment", "icon": "flame", "cue": "r", "tone": "bad" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Second: critical low *battery*. | Trigger:#t the 5 percent warning | pops up on the confirm screen." },
+        { "caption": "Expected:#e the amount and payee stay filled in. | If the phone dies, | the app checks the *server* after reboot." },
+        { "caption": "Risk:#r lost input, | or a payment the user thinks failed, | but actually went *through*." }
+      ]
+    },
+    {
+      "id": "minimize",
+      "visual": {
+        "type": "trio",
+        "label": "SCENARIO 3",
+        "title": "03 · App minimized",
+        "rows": [
+          { "kicker": "TRIGGER", "text": "Home pressed, back in 30s / 5 min", "icon": "arrowDown", "cue": "t" },
+          { "kicker": "EXPECTED", "text": "Preview hidden, long break = login", "icon": "eyeOff", "cue": "e" },
+          { "kicker": "RISK", "text": "Leak in switcher, endless session", "icon": "flame", "cue": "r", "tone": "bad" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Third: app *minimized*. | Trigger:#t the user presses Home on the confirm screen, | then returns after 30 seconds, | and again after 5 minutes." },
+        { "caption": "Expected:#e the recents preview is *hidden*. | A short break keeps the data. | A long one forces login again." },
+        { "caption": "Risk:#r account details leaking in the app switcher, | or a session that never *expires*." }
+      ]
+    },
+    {
+      "id": "notification",
+      "visual": {
+        "type": "trio",
+        "label": "SCENARIO 4",
+        "title": "04 · System notification",
+        "rows": [
+          { "kicker": "TRIGGER", "text": "OTP SMS arrives, user taps it", "icon": "bell", "cue": "t" },
+          { "kicker": "EXPECTED", "text": "OTP autofills, screen stays", "icon": "check", "cue": "e" },
+          { "kicker": "RISK", "text": "Flow restarts, OTP expires", "icon": "flame", "cue": "r", "tone": "bad" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Fourth: system *notification*. | Trigger:#t the bank's OTP SMS arrives, | and the user taps the notification." },
+        { "caption": "Expected:#e the OTP fills in *automatically*, | and the payment screen stays in place." },
+        { "caption": "Risk:#r the flow *restarts*, | and the OTP expires." }
+      ]
+    },
+    {
+      "id": "run",
+      "visual": {
+        "type": "terminal",
+        "label": "HOW TO RUN IT",
+        "title": "emulator",
+        "command": "adb emu gsm call 5551234",
+        "cue": "gsm",
+        "lines": [
+          { "text": "OK", "tone": "good" },
+          { "text": "$ adb emu power capacity 5", "tone": "normal" },
+          { "text": "OK", "tone": "good" },
+          { "text": "$ adb emu sms send 5551234 \"OTP 482913\"", "tone": "normal" },
+          { "text": "OK", "tone": "good" }
+        ],
+        "badge": { "text": "Emulator console", "cue": "sms" }
+      },
+      "sentences": [
+        { "caption": "On the *emulator*, | use adb#gsm emu gsm call, | adb emu power capacity, | and adb emu SMS#sms send." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

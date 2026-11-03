@@ -1,0 +1,114 @@
+{
+  "id": "oracle-free-ai-server",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 2.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "stat",
+        "label": "FREE AI SERVER",
+        "kicker": "YOUR OWN AI SERVER · 24/7",
+        "value": 0,
+        "from": 20,
+        "prefix": "$",
+        "suffix": "/mo",
+        "caption": "Running 24/7",
+        "icon": "cloud",
+        "cue": "zero"
+      },
+      "sentences": [
+        { "caption": "What if you had your own *AI* *server*, | running 24/7, | for *zero*#zero dollars a month?" }
+      ]
+    },
+    {
+      "id": "offer",
+      "visual": {
+        "type": "receipt",
+        "label": "ORACLE CLOUD",
+        "title": "ORACLE ALWAYS FREE",
+        "startTotal": 0,
+        "rows": [
+          { "name": "12 GB RAM", "role": "Arm compute", "price": 0, "icon": "layers", "cue": "r1" },
+          { "name": "200 GB storage", "role": "block volume", "price": 0, "icon": "db", "cue": "r2" },
+          { "name": "10 TB bandwidth", "role": "outbound / month", "price": 0, "icon": "cloud", "cue": "r3" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Oracle Cloud's *Always* *Free* tier gives you a server | with 12#r1 gigabytes of RAM, | 200#r2 gigabytes of storage, | and 10#r3 terabytes of bandwidth." },
+        { "caption": "Every *month*." }
+      ]
+    },
+    {
+      "id": "ollama",
+      "visual": {
+        "type": "terminal",
+        "label": "RUN YOUR MODEL",
+        "title": "oracle",
+        "command": "ollama run llama3.2",
+        "cue": "cmd",
+        "lines": [
+          { "text": "pulling manifest", "tone": "dim" },
+          { "text": "pulling model  100% ████████  2.0 GB", "tone": "dim" },
+          { "text": "success", "tone": "good" },
+          { "text": ">>> hello", "tone": "normal" },
+          { "text": "Hi! How can I help you today?", "tone": "good" }
+        ],
+        "badge": { "text": "Live 24/7", "cue": "live" }
+      },
+      "sentences": [
+        { "caption": "Install *Ollama*,#cmd pull a model, | and your own AI is *live*.#live" }
+      ]
+    },
+    {
+      "id": "connect",
+      "visual": {
+        "type": "chips",
+        "label": "CONNECT YOUR APPS",
+        "hub": { "text": "AI server", "sub": "OLLAMA API · :11434", "icon": "cloud" },
+        "chips": [
+          { "text": "Chatbots", "cue": "m1" },
+          { "text": "Agents", "cue": "m2" },
+          { "text": "Automations", "cue": "m3" }
+        ]
+      },
+      "sentences": [
+        { "caption": "Then plug your own apps into its *API*: | chatbots,#m1 agents,#m2 automations.#m3" }
+      ]
+    },
+    {
+      "id": "catch",
+      "visual": {
+        "type": "compare",
+        "label": "ONE CATCH",
+        "left": { "kicker": "CPU ONLY · NO GPU", "title": "Too heavy", "items": ["70B models", "Image generation"], "cue": "left" },
+        "right": { "kicker": "RUNS GREAT", "title": "Small models", "items": ["Llama 3.2", "Qwen", "3B to 8B size"], "cue": "right" }
+      },
+      "sentences": [
+        { "caption": "One catch: it's *CPU*#left only, | so stick to small#right *models* | like Llama 3.2 or Qwen." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More free AI setups",
+        "highlight": "free",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL AI DEV TIPS",
+        "cue": "follow",
+        "sub": { "text": "Save this for later", "cue": "save" }
+      },
+      "sentences": [
+        { "caption": "*Save*#save this, | and *follow*#follow for more free AI setups." }
+      ]
+    }
+  ]
+}

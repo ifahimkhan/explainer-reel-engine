@@ -1,0 +1,111 @@
+{
+  "id": "emulator-vs-simulator",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "EMULATOR VS SIMULATOR",
+        "kicker": "EMULATOR VS SIMULATOR",
+        "headline": "Not the same thing",
+        "highlight": "Not",
+        "icon": "layers",
+        "sub": { "text": "Most devs mix them up", "cue": "dont" }
+      },
+      "sentences": [
+        { "caption": "Most developers use these two *words* | like they mean the same thing." },
+        { "caption": "They *don't*.#dont" }
+      ]
+    },
+    {
+      "id": "emulator",
+      "visual": {
+        "type": "steps",
+        "label": "EMULATOR",
+        "title": "Copies hardware + software",
+        "steps": [
+          { "label": "Hardware copied", "sub": "CPU, memory, devices", "icon": "layers", "cue": "hw" },
+          { "label": "Real machine code", "sub": "instructions translated", "icon": "code", "cue": "mc" },
+          { "label": "Your actual binary", "sub": "same app as on device", "icon": "file", "cue": "bin" },
+          { "label": "Android Emulator", "sub": "full system image", "icon": "grid", "cue": "ae" }
+        ]
+      },
+      "sentences": [
+        { "caption": "An *emulator* copies the hardware#hw | *and* the software." },
+        { "caption": "It translates real machine#mc instructions, | so your actual app binary#bin runs | like it would on the *device*." },
+        { "caption": "Example: | the *Android*#ae Emulator, | which runs a full Android system image." }
+      ]
+    },
+    {
+      "id": "simulator",
+      "visual": {
+        "type": "cards",
+        "label": "SIMULATOR",
+        "title": "Copies behavior only",
+        "cards": [
+          { "title": "Behavior only", "sub": "no real hardware", "icon": "wand", "cue": "beh" },
+          { "title": "Your computer's CPU", "sub": "not the phone's", "icon": "terminal", "cue": "cpu" },
+          { "title": "iOS Simulator", "sub": "runs on macOS", "icon": "grid", "cue": "ios" }
+        ]
+      },
+      "sentences": [
+        { "caption": "A *simulator* only copies the *behavior*#beh | of the environment." },
+        { "caption": "Your app is built for your computer's processor,#cpu | not the phone's." },
+        { "caption": "Example: | the *iOS*#ios Simulator, | which runs on macOS." }
+      ]
+    },
+    {
+      "id": "tradeoff",
+      "visual": {
+        "type": "compare",
+        "label": "THE TRADE-OFF",
+        "left": { "kicker": "EMULATOR", "title": "Closer to real", "items": ["More accurate", "Heavier", "Slower"], "cue": "emu" },
+        "right": { "kicker": "SIMULATOR", "title": "Fast & light", "items": ["Quick to launch", "Can hide hardware bugs"], "cue": "sim" }
+      },
+      "sentences": [
+        { "caption": "Emulator:#emu | closer to the *real* device, | but heavier and slower." },
+        { "caption": "Simulator:#sim | *fast* and light, | but it can hide hardware bugs." },
+        { "caption": "Neither one catches *everything*: | camera, sensors, | real memory limits, | and real performance." }
+      ]
+    },
+    {
+      "id": "rule",
+      "visual": {
+        "type": "steps",
+        "label": "THE RULE",
+        "title": "How to use both",
+        "steps": [
+          { "label": "Build fast", "sub": "simulator or emulator", "icon": "sparkle", "cue": "build" },
+          { "label": "Final test", "sub": "on a real device", "icon": "check", "cue": "real" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Build*#build fast | on a simulator or emulator." },
+        { "caption": "Always do a final test | on a *real*#real *device*." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

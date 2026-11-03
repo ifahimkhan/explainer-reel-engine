@@ -1,0 +1,1695 @@
+{
+ "id": "android-rotation-risk",
+ "durationS": 66.802,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 9.108,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 4.056,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.204,
+       "words": [
+        {
+         "text": "You're",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.206
+        },
+        {
+         "text": "filling",
+         "tail": "",
+         "hl": false,
+         "start": 0.241,
+         "end": 0.508
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 0.554,
+         "end": 0.577
+        },
+        {
+         "text": "long",
+         "tail": "",
+         "hl": false,
+         "start": 0.635,
+         "end": 0.844
+        },
+        {
+         "text": "form",
+         "tail": ".",
+         "hl": true,
+         "start": 0.925,
+         "end": 1.204
+        }
+       ]
+      },
+      {
+       "start": 1.227,
+       "end": 2.609,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 1.227,
+         "end": 1.32
+        },
+        {
+         "text": "turn",
+         "tail": "",
+         "hl": false,
+         "start": 1.39,
+         "end": 1.564
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 1.61,
+         "end": 1.715
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 1.738,
+         "end": 2.028
+        },
+        {
+         "text": "sideways",
+         "tail": ".",
+         "hl": false,
+         "start": 2.075,
+         "end": 2.609
+        }
+       ]
+      },
+      {
+       "start": 2.644,
+       "end": 4.234,
+       "words": [
+        {
+         "text": "Everything",
+         "tail": "",
+         "hl": false,
+         "start": 2.644,
+         "end": 3.038
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 3.073,
+         "end": 3.143
+        },
+        {
+         "text": "typed",
+         "tail": "",
+         "hl": false,
+         "start": 3.212,
+         "end": 3.503
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 3.549,
+         "end": 3.642
+        },
+        {
+         "text": "gone",
+         "tail": ".",
+         "hl": true,
+         "start": 3.712,
+         "end": 4.234
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 4.656,
+     "end": 8.108,
+     "chunks": [
+      {
+       "start": 4.656,
+       "end": 5.586,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 4.656,
+         "end": 4.866
+        },
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 4.901,
+         "end": 5.052
+        },
+        {
+         "text": "bad",
+         "tail": "",
+         "hl": false,
+         "start": 5.099,
+         "end": 5.308
+        },
+        {
+         "text": "luck",
+         "tail": ".",
+         "hl": false,
+         "start": 5.366,
+         "end": 5.586
+        }
+       ]
+      },
+      {
+       "start": 5.633,
+       "end": 8.28,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 5.633,
+         "end": 5.807
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 5.865,
+         "end": 6.028
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 6.051,
+         "end": 6.109
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 6.167,
+         "end": 6.237
+        },
+        {
+         "text": "most",
+         "tail": "",
+         "hl": false,
+         "start": 6.306,
+         "end": 6.515
+        },
+        {
+         "text": "common",
+         "tail": "",
+         "hl": false,
+         "start": 6.573,
+         "end": 6.864
+        },
+        {
+         "text": "bugs",
+         "tail": "",
+         "hl": true,
+         "cue": "bug",
+         "start": 6.91,
+         "end": 7.142
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 7.2,
+         "end": 7.282
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 7.351,
+         "end": 7.734
+        },
+        {
+         "text": "apps",
+         "tail": ".",
+         "hl": false,
+         "start": 7.792,
+         "end": 8.28
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ANDROID BUG",
+    "kicker": "PORTRAIT → LANDSCAPE",
+    "headline": "Rotate the phone, lose your data",
+    "highlight": "lose",
+    "icon": "flame",
+    "sub": {
+     "text": "One of the most common Android bugs",
+     "cue": "bug"
+    }
+   }
+  },
+  {
+   "id": "recreate",
+   "start": 9.108,
+   "end": 18.671,
+   "sentences": [
+    {
+     "start": 9.108,
+     "end": 12.135,
+     "chunks": [
+      {
+       "start": 9.108,
+       "end": 10.366,
+       "words": [
+        {
+         "text": "When",
+         "tail": "",
+         "hl": false,
+         "start": 9.108,
+         "end": 9.252
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 9.298,
+         "end": 9.379
+        },
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 9.426,
+         "end": 9.751
+        },
+        {
+         "text": "rotates",
+         "tail": ",",
+         "hl": false,
+         "start": 9.821,
+         "end": 10.366
+        }
+       ]
+      },
+      {
+       "start": 10.401,
+       "end": 12.317,
+       "words": [
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 10.401,
+         "end": 10.715
+        },
+        {
+         "text": "doesn't",
+         "tail": "",
+         "hl": false,
+         "start": 10.738,
+         "end": 10.97
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 11.016,
+         "end": 11.167
+        },
+        {
+         "text": "stretch",
+         "tail": "",
+         "hl": false,
+         "start": 11.191,
+         "end": 11.527
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 11.585,
+         "end": 11.678
+        },
+        {
+         "text": "screen",
+         "tail": ".",
+         "hl": true,
+         "start": 11.725,
+         "end": 12.317
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 12.735,
+     "end": 15.442,
+     "chunks": [
+      {
+       "start": 12.735,
+       "end": 13.982,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 12.735,
+         "end": 12.879
+        },
+        {
+         "text": "destroys",
+         "tail": "",
+         "hl": true,
+         "cue": "destroy",
+         "start": 12.937,
+         "end": 13.32
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 13.355,
+         "end": 13.459
+        },
+        {
+         "text": "Activity",
+         "tail": ",",
+         "hl": false,
+         "start": 13.505,
+         "end": 13.982
+        }
+       ]
+      },
+      {
+       "start": 14.005,
+       "end": 15.642,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 14.005,
+         "end": 14.075
+        },
+        {
+         "text": "creates",
+         "tail": "",
+         "hl": true,
+         "cue": "create",
+         "start": 14.121,
+         "end": 14.4
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 14.446,
+         "end": 14.516
+        },
+        {
+         "text": "again",
+         "tail": "",
+         "hl": false,
+         "start": 14.551,
+         "end": 14.76
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 14.806,
+         "end": 14.945
+        },
+        {
+         "text": "scratch",
+         "tail": ".",
+         "hl": false,
+         "start": 15.003,
+         "end": 15.642
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 16.042,
+     "end": 17.671,
+     "chunks": [
+      {
+       "start": 16.042,
+       "end": 17.145,
+       "words": [
+        {
+         "text": "Anything",
+         "tail": "",
+         "hl": false,
+         "start": 16.042,
+         "end": 16.437
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 16.483,
+         "end": 16.553
+        },
+        {
+         "text": "didn't",
+         "tail": "",
+         "hl": false,
+         "start": 16.599,
+         "end": 16.843
+        },
+        {
+         "text": "save",
+         "tail": ",",
+         "hl": true,
+         "start": 16.878,
+         "end": 17.145
+        }
+       ]
+      },
+      {
+       "start": 17.168,
+       "end": 17.853,
+       "words": [
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 17.168,
+         "end": 17.249
+        },
+        {
+         "text": "lost",
+         "tail": ".",
+         "hl": false,
+         "start": 17.307,
+         "end": 17.853
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "WHAT REALLY HAPPENS",
+    "left": {
+     "kicker": "PORTRAIT",
+     "title": "Activity destroyed",
+     "items": [
+      "onPause",
+      "onStop",
+      "onDestroy"
+     ],
+     "cue": "destroy"
+    },
+    "right": {
+     "kicker": "LANDSCAPE",
+     "title": "Created again",
+     "items": [
+      "onCreate",
+      "Fresh state",
+      "Unsaved data lost"
+     ],
+     "cue": "create"
+    }
+   }
+  },
+  {
+   "id": "risks",
+   "start": 18.671,
+   "end": 38.676,
+   "sentences": [
+    {
+     "start": 18.671,
+     "end": 22.958,
+     "chunks": [
+      {
+       "start": 18.671,
+       "end": 19.472,
+       "words": [
+        {
+         "text": "One",
+         "tail": ":",
+         "hl": false,
+         "start": 18.671,
+         "end": 18.903
+        },
+        {
+         "text": "data",
+         "tail": "",
+         "hl": true,
+         "cue": "r1",
+         "start": 18.938,
+         "end": 19.159
+        },
+        {
+         "text": "loss",
+         "tail": ".",
+         "hl": true,
+         "start": 19.205,
+         "end": 19.472
+        }
+       ]
+      },
+      {
+       "start": 19.588,
+       "end": 22.281,
+       "words": [
+        {
+         "text": "Typed",
+         "tail": "",
+         "hl": false,
+         "start": 19.588,
+         "end": 19.924
+        },
+        {
+         "text": "text",
+         "tail": ",",
+         "hl": false,
+         "start": 20.017,
+         "end": 20.424
+        },
+        {
+         "text": "scroll",
+         "tail": "",
+         "hl": false,
+         "start": 20.47,
+         "end": 20.76
+        },
+        {
+         "text": "position",
+         "tail": ",",
+         "hl": false,
+         "start": 20.818,
+         "end": 21.376
+        },
+        {
+         "text": "selections",
+         "tail": ",",
+         "hl": false,
+         "start": 21.55,
+         "end": 22.281
+        }
+       ]
+      },
+      {
+       "start": 22.339,
+       "end": 23.129,
+       "words": [
+        {
+         "text": "all",
+         "tail": "",
+         "hl": false,
+         "start": 22.339,
+         "end": 22.513
+        },
+        {
+         "text": "reset",
+         "tail": ".",
+         "hl": false,
+         "start": 22.583,
+         "end": 23.129
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 23.558,
+     "end": 27.822,
+     "chunks": [
+      {
+       "start": 23.558,
+       "end": 24.895,
+       "words": [
+        {
+         "text": "Two",
+         "tail": ":",
+         "hl": false,
+         "start": 23.558,
+         "end": 23.781
+        },
+        {
+         "text": "duplicate",
+         "tail": "",
+         "hl": true,
+         "cue": "r2",
+         "start": 23.851,
+         "end": 24.385
+        },
+        {
+         "text": "actions",
+         "tail": ".",
+         "hl": false,
+         "start": 24.42,
+         "end": 24.895
+        }
+       ]
+      },
+      {
+       "start": 24.942,
+       "end": 26.381,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 24.942,
+         "end": 24.988
+        },
+        {
+         "text": "network",
+         "tail": "",
+         "hl": false,
+         "start": 25.069,
+         "end": 25.418
+        },
+        {
+         "text": "call",
+         "tail": "",
+         "hl": false,
+         "start": 25.476,
+         "end": 25.65
+        },
+        {
+         "text": "fires",
+         "tail": "",
+         "hl": false,
+         "start": 25.708,
+         "end": 26.01
+        },
+        {
+         "text": "again",
+         "tail": ",",
+         "hl": false,
+         "start": 26.045,
+         "end": 26.381
+        }
+       ]
+      },
+      {
+       "start": 26.428,
+       "end": 28.018,
+       "words": [
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 26.428,
+         "end": 26.509
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 26.567,
+         "end": 26.939
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 26.985,
+         "end": 27.148
+        },
+        {
+         "text": "go",
+         "tail": "",
+         "hl": false,
+         "start": 27.206,
+         "end": 27.333
+        },
+        {
+         "text": "twice",
+         "tail": ".",
+         "hl": true,
+         "start": 27.38,
+         "end": 28.018
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.422,
+     "end": 33.094,
+     "chunks": [
+      {
+       "start": 28.422,
+       "end": 29.326,
+       "words": [
+        {
+         "text": "Three",
+         "tail": ":",
+         "hl": false,
+         "start": 28.422,
+         "end": 28.711
+        },
+        {
+         "text": "crashes",
+         "tail": ".",
+         "hl": true,
+         "cue": "r3",
+         "start": 28.746,
+         "end": 29.326
+        }
+       ]
+      },
+      {
+       "start": 29.5,
+       "end": 31.915,
+       "words": [
+        {
+         "text": "Dialogs",
+         "tail": "",
+         "hl": false,
+         "start": 29.5,
+         "end": 30.081
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 30.115,
+         "end": 30.208
+        },
+        {
+         "text": "fragments",
+         "tail": "",
+         "hl": false,
+         "start": 30.266,
+         "end": 30.847
+        },
+        {
+         "text": "update",
+         "tail": "",
+         "hl": false,
+         "start": 30.928,
+         "end": 31.416
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 31.451,
+         "end": 31.474
+        },
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 31.532,
+         "end": 31.915
+        }
+       ]
+      },
+      {
+       "start": 31.985,
+       "end": 33.297,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 31.985,
+         "end": 32.124
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 32.182,
+         "end": 32.287
+        },
+        {
+         "text": "longer",
+         "tail": "",
+         "hl": false,
+         "start": 32.345,
+         "end": 32.623
+        },
+        {
+         "text": "exists",
+         "tail": ".",
+         "hl": false,
+         "start": 32.681,
+         "end": 33.297
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.694,
+     "end": 37.676,
+     "chunks": [
+      {
+       "start": 33.694,
+       "end": 34.837,
+       "words": [
+        {
+         "text": "Four",
+         "tail": ":",
+         "hl": false,
+         "start": 33.694,
+         "end": 34.001
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": true,
+         "cue": "r4",
+         "start": 34.06,
+         "end": 34.327
+        },
+        {
+         "text": "leaks",
+         "tail": ".",
+         "hl": true,
+         "start": 34.373,
+         "end": 34.837
+        }
+       ]
+      },
+      {
+       "start": 34.988,
+       "end": 36.811,
+       "words": [
+        {
+         "text": "Background",
+         "tail": "",
+         "hl": false,
+         "start": 34.988,
+         "end": 35.452
+        },
+        {
+         "text": "tasks",
+         "tail": "",
+         "hl": false,
+         "start": 35.487,
+         "end": 35.87
+        },
+        {
+         "text": "hold",
+         "tail": "",
+         "hl": false,
+         "start": 35.928,
+         "end": 36.172
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 36.219,
+         "end": 36.3
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 36.335,
+         "end": 36.393
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 36.439,
+         "end": 36.509
+        },
+        {
+         "text": "old",
+         "tail": ",",
+         "hl": false,
+         "start": 36.578,
+         "end": 36.811
+        }
+       ]
+      },
+      {
+       "start": 36.845,
+       "end": 37.867,
+       "words": [
+        {
+         "text": "dead",
+         "tail": "",
+         "hl": false,
+         "start": 36.845,
+         "end": 37.031
+        },
+        {
+         "text": "Activity",
+         "tail": ".",
+         "hl": false,
+         "start": 37.078,
+         "end": 37.867
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "THE RISKS",
+    "title": "4 ways rotation breaks apps",
+    "cards": [
+     {
+      "title": "Data loss",
+      "sub": "text, scroll, selection",
+      "icon": "eyeOff",
+      "cue": "r1"
+     },
+     {
+      "title": "Duplicate actions",
+      "sub": "API call or payment twice",
+      "icon": "dollar",
+      "cue": "r2"
+     },
+     {
+      "title": "Crashes",
+      "sub": "dialogs on a dead screen",
+      "icon": "flame",
+      "cue": "r3"
+     },
+     {
+      "title": "Memory leaks",
+      "sub": "old Activity held",
+      "icon": "unlink",
+      "cue": "r4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "triggers",
+   "start": 38.676,
+   "end": 49.372,
+   "sentences": [
+    {
+     "start": 38.676,
+     "end": 44.493,
+     "chunks": [
+      {
+       "start": 38.676,
+       "end": 40.139,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 38.676,
+         "end": 38.873
+        },
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 38.943,
+         "end": 39.117
+        },
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 39.198,
+         "end": 39.361
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 39.407,
+         "end": 39.57
+        },
+        {
+         "text": "rotation",
+         "tail": ".",
+         "hl": true,
+         "start": 39.616,
+         "end": 40.139
+        }
+       ]
+      },
+      {
+       "start": 40.162,
+       "end": 42.531,
+       "words": [
+        {
+         "text": "Split",
+         "tail": "",
+         "hl": false,
+         "cue": "t1",
+         "start": 40.162,
+         "end": 40.464
+        },
+        {
+         "text": "screen",
+         "tail": ",",
+         "hl": false,
+         "start": 40.499,
+         "end": 40.917
+        },
+        {
+         "text": "foldables",
+         "tail": ",",
+         "hl": false,
+         "cue": "t2",
+         "start": 40.963,
+         "end": 41.706
+        },
+        {
+         "text": "dark",
+         "tail": "",
+         "hl": false,
+         "cue": "t3",
+         "start": 41.753,
+         "end": 42.055
+        },
+        {
+         "text": "mode",
+         "tail": ",",
+         "hl": false,
+         "start": 42.148,
+         "end": 42.531
+        }
+       ]
+      },
+      {
+       "start": 42.6,
+       "end": 43.483,
+       "words": [
+        {
+         "text": "language",
+         "tail": "",
+         "hl": false,
+         "cue": "t4",
+         "start": 42.6,
+         "end": 43.007
+        },
+        {
+         "text": "changes",
+         "tail": ",",
+         "hl": false,
+         "start": 43.042,
+         "end": 43.483
+        }
+       ]
+      },
+      {
+       "start": 43.506,
+       "end": 44.667,
+       "words": [
+        {
+         "text": "trigger",
+         "tail": "",
+         "hl": false,
+         "start": 43.506,
+         "end": 43.796
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 43.843,
+         "end": 43.912
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "start": 43.959,
+         "end": 44.179
+        },
+        {
+         "text": "thing",
+         "tail": ".",
+         "hl": false,
+         "start": 44.214,
+         "end": 44.667
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 45.093,
+     "end": 48.372,
+     "chunks": [
+      {
+       "start": 45.093,
+       "end": 46.378,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 45.093,
+         "end": 45.252
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 45.31,
+         "end": 45.461
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "cue": "t5",
+         "start": 45.542,
+         "end": 45.878
+        },
+        {
+         "text": "16",
+         "tail": ",",
+         "hl": false,
+         "start": 45.925,
+         "end": 46.378
+        }
+       ]
+      },
+      {
+       "start": 46.436,
+       "end": 48.619,
+       "words": [
+        {
+         "text": "large",
+         "tail": "",
+         "hl": false,
+         "start": 46.436,
+         "end": 46.703
+        },
+        {
+         "text": "screens",
+         "tail": "",
+         "hl": false,
+         "start": 46.726,
+         "end": 47.063
+        },
+        {
+         "text": "ignore",
+         "tail": "",
+         "hl": true,
+         "start": 47.121,
+         "end": 47.446
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 47.481,
+         "end": 47.585
+        },
+        {
+         "text": "orientation",
+         "tail": "",
+         "hl": false,
+         "start": 47.632,
+         "end": 48.143
+        },
+        {
+         "text": "lock",
+         "tail": ".",
+         "hl": false,
+         "start": 48.201,
+         "end": 48.619
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chips",
+    "label": "NOT ONLY ROTATION",
+    "hub": {
+     "text": "Recreated",
+     "sub": "ON CONFIG CHANGE",
+     "icon": "layers"
+    },
+    "chips": [
+     {
+      "text": "Split screen",
+      "cue": "t1"
+     },
+     {
+      "text": "Foldables",
+      "cue": "t2"
+     },
+     {
+      "text": "Dark mode",
+      "cue": "t3"
+     },
+     {
+      "text": "Language",
+      "cue": "t4"
+     },
+     {
+      "text": "Android 16",
+      "cue": "t5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fix",
+   "start": 49.372,
+   "end": 59.77,
+   "sentences": [
+    {
+     "start": 49.372,
+     "end": 51.177,
+     "chunks": [
+      {
+       "start": 49.372,
+       "end": 49.859,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 49.372,
+         "end": 49.522
+        },
+        {
+         "text": "fix",
+         "tail": ":",
+         "hl": false,
+         "start": 49.58,
+         "end": 49.859
+        }
+       ]
+      },
+      {
+       "start": 49.917,
+       "end": 51.368,
+       "words": [
+        {
+         "text": "keep",
+         "tail": "",
+         "hl": false,
+         "start": 49.917,
+         "end": 50.126
+        },
+        {
+         "text": "state",
+         "tail": "",
+         "hl": false,
+         "start": 50.172,
+         "end": 50.439
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 50.462,
+         "end": 50.52
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 50.567,
+         "end": 50.59
+        },
+        {
+         "text": "ViewModel",
+         "tail": ".",
+         "hl": true,
+         "cue": "vm",
+         "start": 50.636,
+         "end": 51.368
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 51.777,
+     "end": 54.925,
+     "chunks": [
+      {
+       "start": 51.777,
+       "end": 53.89,
+       "words": [
+        {
+         "text": "Save",
+         "tail": "",
+         "hl": false,
+         "start": 51.777,
+         "end": 52.102
+        },
+        {
+         "text": "UI",
+         "tail": "",
+         "hl": false,
+         "start": 52.149,
+         "end": 52.392
+        },
+        {
+         "text": "state",
+         "tail": "",
+         "hl": false,
+         "start": 52.45,
+         "end": 52.741
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 52.764,
+         "end": 52.903
+        },
+        {
+         "text": "SavedStateHandle",
+         "tail": "",
+         "hl": true,
+         "cue": "ssh",
+         "start": 52.95,
+         "end": 53.89
+        }
+       ]
+      },
+      {
+       "start": 53.937,
+       "end": 55.121,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 53.937,
+         "end": 54.018
+        },
+        {
+         "text": "rememberSaveable",
+         "tail": ".",
+         "hl": true,
+         "cue": "rs",
+         "start": 54.064,
+         "end": 55.121
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 55.525,
+     "end": 58.77,
+     "chunks": [
+      {
+       "start": 55.525,
+       "end": 57.092,
+       "words": [
+        {
+         "text": "Use",
+         "tail": "",
+         "hl": false,
+         "start": 55.525,
+         "end": 55.78
+        },
+        {
+         "text": "lifecycle-aware",
+         "tail": "",
+         "hl": false,
+         "cue": "lc",
+         "start": 55.827,
+         "end": 56.581
+        },
+        {
+         "text": "collection",
+         "tail": ",",
+         "hl": false,
+         "start": 56.616,
+         "end": 57.092
+        }
+       ]
+      },
+      {
+       "start": 57.115,
+       "end": 58.961,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 57.115,
+         "end": 57.22
+        },
+        {
+         "text": "don't",
+         "tail": "",
+         "hl": false,
+         "start": 57.278,
+         "end": 57.498
+        },
+        {
+         "text": "hide",
+         "tail": "",
+         "hl": false,
+         "start": 57.533,
+         "end": 57.719
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 57.742,
+         "end": 57.8
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 57.835,
+         "end": 57.974
+        },
+        {
+         "text": "configChanges",
+         "tail": ".",
+         "hl": true,
+         "cue": "cc",
+         "start": 58.009,
+         "end": 58.961
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE FIX",
+    "file": "FormViewModel.kt",
+    "lines": [
+     {
+      "text": "class FormViewModel(",
+      "cue": "vm"
+     },
+     {
+      "text": "  val state: SavedStateHandle",
+      "cue": "ssh",
+      "hl": true
+     },
+     {
+      "text": ") : ViewModel() {",
+      "cue": "vm"
+     },
+     {
+      "text": "  val form = state.getStateFlow(..)",
+      "cue": "ssh"
+     },
+     {
+      "text": "}",
+      "cue": "vm"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "var text by rememberSaveable { .. }",
+      "cue": "rs",
+      "hl": true
+     },
+     {
+      "text": "form.collectAsStateWithLifecycle()",
+      "cue": "lc"
+     }
+    ],
+    "note": {
+     "text": "Don't hide it with configChanges",
+     "cue": "cc"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 59.77,
+   "end": 66.802,
+   "sentences": [
+    {
+     "start": 59.77,
+     "end": 61.495,
+     "chunks": [
+      {
+       "start": 59.77,
+       "end": 60.885,
+       "words": [
+        {
+         "text": "Rotate",
+         "tail": "",
+         "hl": true,
+         "cue": "rotate",
+         "start": 59.77,
+         "end": 60.176
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 60.2,
+         "end": 60.304
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 60.362,
+         "end": 60.478
+        },
+        {
+         "text": "right",
+         "tail": "",
+         "hl": false,
+         "start": 60.536,
+         "end": 60.699
+        },
+        {
+         "text": "now",
+         "tail": ",",
+         "hl": false,
+         "start": 60.745,
+         "end": 60.885
+        }
+       ]
+      },
+      {
+       "start": 60.908,
+       "end": 61.674,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 60.908,
+         "end": 61.012
+        },
+        {
+         "text": "test",
+         "tail": "",
+         "hl": false,
+         "start": 61.059,
+         "end": 61.291
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 61.338,
+         "end": 61.674
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 62.095,
+     "end": 63.502,
+     "chunks": [
+      {
+       "start": 62.095,
+       "end": 63.667,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 62.095,
+         "end": 62.379
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 62.448,
+         "end": 62.553
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 62.599,
+         "end": 62.773
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 62.808,
+         "end": 63.133
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 63.168,
+         "end": 63.667
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow",
+    "sub": {
+     "text": "Rotate your app & test it",
+     "cue": "rotate"
+    }
+   }
+  }
+ ]
+}

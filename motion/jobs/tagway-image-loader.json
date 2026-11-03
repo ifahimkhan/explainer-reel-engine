@@ -1,0 +1,195 @@
+{
+  "id": "tagway-image-loader",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_v3",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "loader",
+      "visual": {
+        "type": "layers",
+        "label": "TAGWAY · IMAGE LOADER",
+        "app": "Tagway · #android-team",
+        "status": "image-loader v0.1",
+        "layers": [
+          { "name": "Bitmap pool", "cue": "pool" },
+          { "name": "Task manager", "cue": "task" },
+          { "name": "Downsampling", "cue": "down" },
+          { "name": "Memory cache", "cue": "mem" },
+          { "name": "Disk cache", "cue": "disk" }
+        ],
+        "warn": [{ "index": 2, "cue": "orig" }],
+        "chat": [
+          { "from": "user", "text": "QA: I scrolled fast.", "cue": "qa" },
+          {
+            "from": "ai", "text": "Scroll stutters. App crashes.", "tone": "bad", "tag": "v0.1 · naive loader", "cue": "crash",
+            "update": { "text": "Smooth scroll. Fewer GC pauses.", "tone": "good", "tag": "bitmap pool", "cue": "smooth" }
+          },
+          { "from": "user", "text": "PM: 1,000 images. Users jump to the last one.", "cue": "pm" },
+          {
+            "from": "ai", "text": "Wait: 1,000 seconds.", "tone": "bad", "tag": "downloads everything", "cue": "wait",
+            "update": { "text": "Last image in about 1 second.", "tone": "good", "tag": "task manager", "cue": "fast" }
+          },
+          { "from": "user", "text": "Crash report: OutOfMemoryError", "cue": "oom" },
+          {
+            "from": "ai", "text": "1000px x 1000px photo = 4MB", "tone": "bad", "tag": "full size in memory", "cue": "fourmb",
+            "update": { "text": "200px x 200px = 160KB. 25x less.", "tone": "good", "tag": "downsampling", "cue": "small" }
+          },
+          { "from": "user", "text": "User: scrolled back up.", "cue": "back" },
+          {
+            "from": "ai", "text": "Downloading again...", "tone": "bad", "tag": "no cache", "cue": "again",
+            "update": { "text": "Instant.", "tone": "good", "tag": "memory cache", "cue": "instant" }
+          },
+          { "from": "user", "text": "User: reopened the app.", "cue": "reopen" },
+          {
+            "from": "ai", "text": "RAM wiped. Downloading again...", "tone": "bad", "tag": "cache lost", "cue": "wiped",
+            "update": { "text": "No second download.", "tone": "good", "tag": "disk cache", "cue": "nosecond" }
+          },
+          { "from": "user", "text": "QA: I scrolled fast.", "cue": "qa2" },
+          { "from": "ai", "text": "Scroll stutters. App crashes.", "tone": "bad", "tag": "original size", "cue": "crash2" }
+        ],
+        "diagrams": [
+          { "kind": "big", "text": "5 layers", "highlight": "5", "sub": "Tagway's own image loader" },
+          {
+            "kind": "flow", "cue": "naive",
+            "nodes": [
+              { "text": "Network", "icon": "cloud" },
+              { "text": "Decode", "icon": "code" },
+              { "text": "New Bitmap", "icon": "image" },
+              { "text": "ImageView", "icon": "phone", "cue": "crash", "tone": "bad" }
+            ],
+            "note": { "text": "Stutters. Then crashes.", "cue": "crash", "tone": "bad" }
+          },
+          { "kind": "big", "cue": "gcbig", "text": "GC pauses", "tone": "bad", "sub": "every pause steals frames" },
+          {
+            "kind": "flow", "cue": "pool",
+            "nodes": [
+              { "text": "Row off screen", "icon": "phone", "cue": "rowoff" },
+              { "text": "Bitmap pool", "icon": "layers", "cue": "topool", "tone": "good" },
+              { "text": "Next image", "icon": "image", "cue": "nextimg", "tone": "good" }
+            ],
+            "note": { "text": "Same memory, reused", "cue": "same", "tone": "good" }
+          },
+          {
+            "kind": "bill", "cue": "pm",
+            "bubbles": { "count": 16, "cue": "pm", "text": "img", "flip": "cancel", "keep": 2 },
+            "kicker": "wait for the last image (example)",
+            "prefix": "",
+            "suffix": " s",
+            "start": { "value": 1000, "cue": "wait" },
+            "steps": [{ "value": 1, "cue": "cancel", "chip": "cancel off-screen downloads" }]
+          },
+          { "kind": "big", "cue": "oom", "text": "OutOfMemoryError", "tone": "bad", "sub": "full-size photos fill the memory" },
+          {
+            "kind": "flow", "cue": "fourmb",
+            "nodes": [
+              { "text": "4MB", "sub": "1000px x 1000px", "icon": "image", "tone": "bad" },
+              { "text": "Downsample", "icon": "wand", "cue": "down", "tone": "good" },
+              { "text": "160KB", "sub": "200px x 200px", "icon": "image", "cue": "small", "tone": "good" }
+            ],
+            "note": { "text": "25x less memory", "cue": "small", "tone": "good" }
+          },
+          {
+            "kind": "flow", "cue": "mem",
+            "nodes": [
+              { "text": "Request", "icon": "send" },
+              { "text": "RAM", "sub": "fastest", "icon": "flame", "cue": "ram", "tone": "good" }
+            ],
+            "note": { "text": "Scrolling back is instant", "cue": "instant", "tone": "good" }
+          },
+          {
+            "kind": "flow", "cue": "disk", "title": "check in this order",
+            "nodes": [
+              { "text": "RAM", "icon": "flame", "cue": "chkram", "tone": "good" },
+              { "text": "Disk", "sub": "survives restart", "icon": "db", "cue": "chkdisk", "tone": "good" },
+              { "text": "Network", "sub": "last resort", "icon": "cloud", "cue": "chknet" }
+            ],
+            "note": { "text": "Saved to RAM + disk", "cue": "both", "tone": "good" }
+          },
+          {
+            "kind": "flow", "cue": "full", "title": "the full flow",
+            "nodes": [
+              { "text": "Download", "icon": "download", "cue": "f1" },
+              { "text": "Downsample", "icon": "wand", "cue": "f2" },
+              { "text": "Cache", "icon": "db", "cue": "f3" },
+              { "text": "Display", "icon": "phone", "cue": "f4", "tone": "good" }
+            ]
+          },
+          {
+            "kind": "badges", "cue": "weeks",
+            "chips": [
+              { "text": "smooth", "cue": "b1" },
+              { "text": "fast", "cue": "b2" },
+              { "text": "memory-safe", "cue": "b3" }
+            ],
+            "swap": { "from": "view size", "to": "original size", "cue": "orig" },
+            "fade": { "cue": "orig" },
+            "note": { "text": "OutOfMemoryError", "cue": "crash2", "tone": "bad" }
+          }
+        ]
+      },
+      "sentences": [
+        { "caption": "Tagway doesn't want *Glide*. | They want their own image loading library. | And your job is to *build* it." },
+        { "caption": "It takes *five layers*. | And every layer fixes a *problem*." },
+        { "caption": "You start simple:#naive | for every row, download the image, | decode a new bitmap, | and show it." },
+        { "caption": "QA tests it:#qa | \"I scrolled fast. | The scroll *stutters*.#crash | Then the app *crashes*.\"" },
+        { "caption": "Here's why. | Every new image allocates new *memory*, | and old bitmaps become garbage." },
+        { "caption": "So garbage collection#gcbig runs again and again, | and every pause steals *frames* from your scroll." },
+        { "caption": "So you add a *bitmap pool*.#pool | Like washing plates instead of buying new ones." },
+        { "caption": "When a row scrolls off,#rowoff | its bitmap goes back to the pool,#topool | and the next image#nextimg is decoded | into that *same memory*.#same" },
+        { "caption": "\"No new memory. | Fewer GC pauses. | *Smooth*#smooth scroll.\"" },
+        { "caption": "Then the product manager#pm says, | \"Our gallery has a *thousand* images. | Users jump straight to the last one.\"" },
+        { "caption": "At one megabyte per second, | with one megabyte per image, | that's a *thousand seconds*#wait of waiting." },
+        { "caption": "So you add *task management*.#task | Every request is tied to its view. | When a view leaves the screen, | its download is *cancelled*.#cancel" },
+        { "caption": "The network is free, | and only *visible* images download." },
+        { "caption": "\"The last image loads | in about a *second*.\"#fast" },
+        { "caption": "Then crash reports#oom come in: | \"*OutOfMemoryError*.\"" },
+        {
+          "caption": "A photo is *1000px x 1000px*, | but the ImageView is only *200px x 200px*.",
+          "say": "A photo is a thousand by a thousand pixels, but the ImageView is only two hundred by two hundred."
+        },
+        {
+          "caption": "At four bytes per pixel, | the full photo#fourmb needs *4MB* of memory.",
+          "say": "At four bytes per pixel, the full photo needs four megabytes of memory."
+        },
+        { "caption": "So you add *downsampling*.#down | Decode the image at the size of the view." },
+        {
+          "caption": "200px x 200px needs#small only *160KB*. | *25x less*.",
+          "say": "Two hundred by two hundred needs only a hundred and sixty kilobytes. Twenty-five times less."
+        },
+        { "caption": "\"No more *crashes*.\"" },
+        { "caption": "Then a user scrolls back up,#back | and every image downloads *again*.#again" },
+        { "caption": "So you add a *memory cache*,#mem | in RAM.#ram | The fastest place to read from." },
+        { "caption": "\"Scrolling back is *instant*.\"#instant" },
+        { "caption": "Then the user closes the app#reopen | and opens it again." },
+        { "caption": "RAM is *wiped*,#wiped | and every image downloads again." },
+        { "caption": "So you add a *disk cache*.#disk | It survives restarts." },
+        { "caption": "Now every request checks RAM#chkram first, | then disk,#chkdisk | and only then the network.#chknet | And every downloaded image is saved to *both*.#both" },
+        { "caption": "\"No second *download*.\"#nosecond" },
+        { "caption": "So the full flow#full is: | download,#f1 downsample,#f2 | cache,#f3 and display.#f4" },
+        { "caption": "After weeks#weeks of work, | Tagway's library is smooth,#b1 fast,#b2 | and *memory-safe*.#b3" },
+        { "caption": "Then one day, | someone wants sharper images, | and loads every photo at its *original size*.#orig" },
+        { "caption": "QA scrolls fast.#qa2" },
+        { "caption": "\"The scroll *stutters*.#crash2 | Then the app crashes.\"" }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "MORE TIPS",
+        "headline": "More Android system design tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [{ "caption": "*Follow*#follow for more Android system design tips like this." }]
+    }
+  ]
+}

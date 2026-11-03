@@ -1,0 +1,1794 @@
+{
+ "id": "trading-agents",
+ "durationS": 71.154,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 3.88,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.88,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.0,
+       "words": [
+        {
+         "text": "Stop",
+         "tail": "",
+         "hl": true,
+         "start": 0.0,
+         "end": 0.24
+        },
+        {
+         "text": "asking",
+         "tail": "",
+         "hl": false,
+         "start": 0.286,
+         "end": 0.56
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 0.6,
+         "end": 0.64
+        },
+        {
+         "text": "single",
+         "tail": "",
+         "hl": false,
+         "start": 0.686,
+         "end": 0.96
+        },
+        {
+         "text": "ChatGPT",
+         "tail": "",
+         "hl": false,
+         "start": 1.04,
+         "end": 1.68
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": false,
+         "start": 1.726,
+         "end": 2.0
+        }
+       ]
+      },
+      {
+       "start": 2.02,
+       "end": 2.88,
+       "words": [
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 2.02,
+         "end": 2.08
+        },
+        {
+         "text": "stock",
+         "tail": "",
+         "hl": false,
+         "start": 2.133,
+         "end": 2.4
+        },
+        {
+         "text": "picks",
+         "tail": ".",
+         "hl": false,
+         "start": 2.467,
+         "end": 2.88
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "punch",
+    "label": "AI TRADING",
+    "word": "STOP",
+    "headline": "Don't use 1 prompt for trading",
+    "highlight": "1 prompt",
+    "kicker": "CHATGPT: BUY AAPL?",
+    "icon": "flame"
+   }
+  },
+  {
+   "id": "crash",
+   "start": 3.88,
+   "end": 6.938,
+   "sentences": [
+    {
+     "start": 3.88,
+     "end": 5.938,
+     "chunks": [
+      {
+       "start": 3.88,
+       "end": 4.898,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 3.88,
+         "end": 4.098
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 4.118,
+         "end": 4.178
+        },
+        {
+         "text": "retail",
+         "tail": "",
+         "hl": false,
+         "cue": "start",
+         "start": 4.224,
+         "end": 4.498
+        },
+        {
+         "text": "traders",
+         "tail": "",
+         "hl": false,
+         "start": 4.548,
+         "end": 4.898
+        }
+       ]
+      },
+      {
+       "start": 4.946,
+       "end": 5.938,
+       "words": [
+        {
+         "text": "blow",
+         "tail": "",
+         "hl": true,
+         "start": 4.946,
+         "end": 5.138
+        },
+        {
+         "text": "up",
+         "tail": "",
+         "hl": false,
+         "cue": "blow",
+         "start": 5.165,
+         "end": 5.218
+        },
+        {
+         "text": "accounts",
+         "tail": ".",
+         "hl": false,
+         "start": 5.28,
+         "end": 5.938
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chart",
+    "label": "BLOWN ACCOUNT",
+    "transition": "whip",
+    "title": "Account balance (illustrative)",
+    "points": [
+     100,
+     104,
+     99,
+     108,
+     112,
+     97,
+     90,
+     94,
+     76,
+     63,
+     67,
+     44,
+     30,
+     14,
+     5
+    ],
+    "yMax": 120,
+    "unit": "%",
+    "start": "start",
+    "end": "blow",
+    "dropLabel": "LOSS",
+    "dropMin": 17,
+    "limit": {
+     "value": 25,
+     "label": "Margin call"
+    },
+    "glitch": [
+     {
+      "cue": "blow",
+      "text": "MARGIN CALL: ACCOUNT LIQUIDATED"
+     }
+    ]
+   }
+  },
+  {
+   "id": "repo",
+   "start": 6.938,
+   "end": 10.231,
+   "sentences": [
+    {
+     "start": 6.938,
+     "end": 9.231,
+     "chunks": [
+      {
+       "start": 6.938,
+       "end": 9.231,
+       "words": [
+        {
+         "text": "Instead",
+         "tail": ",",
+         "hl": false,
+         "start": 6.938,
+         "end": 7.551
+        },
+        {
+         "text": "check",
+         "tail": "",
+         "hl": false,
+         "start": 7.591,
+         "end": 7.791
+        },
+        {
+         "text": "out",
+         "tail": "",
+         "hl": false,
+         "start": 7.831,
+         "end": 7.951
+        },
+        {
+         "text": "TradingAgents",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 8.031,
+         "end": 9.231
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "screenshot",
+    "label": "OPEN SOURCE",
+    "title": "github.com/TauricResearch",
+    "transition": "whip",
+    "src": "trading-agents/s185011.png",
+    "width": 1233,
+    "height": 651,
+    "focus": {
+     "x": 190,
+     "y": 0,
+     "w": 430,
+     "h": 90,
+     "cue": "repo"
+    },
+    "viewH": 700
+   }
+  },
+  {
+   "id": "stars",
+   "start": 10.231,
+   "end": 18.092,
+   "sentences": [
+    {
+     "start": 10.231,
+     "end": 17.092,
+     "chunks": [
+      {
+       "start": 10.231,
+       "end": 13.639,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 10.231,
+         "end": 10.458
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 10.458,
+         "end": 10.685
+        },
+        {
+         "text": "open-source",
+         "tail": "",
+         "hl": true,
+         "start": 10.685,
+         "end": 11.594
+        },
+        {
+         "text": "framework",
+         "tail": "",
+         "hl": false,
+         "start": 11.594,
+         "end": 12.276
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 12.276,
+         "end": 12.503
+        },
+        {
+         "text": "over",
+         "tail": "",
+         "hl": false,
+         "start": 12.503,
+         "end": 12.957
+        },
+        {
+         "text": "100,000",
+         "tail": "",
+         "hl": false,
+         "cue": "stars",
+         "start": 12.957,
+         "end": 13.412
+        },
+        {
+         "text": "stars",
+         "tail": "",
+         "hl": false,
+         "start": 13.412,
+         "end": 13.639
+        }
+       ]
+      },
+      {
+       "start": 13.639,
+       "end": 17.092,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 13.639,
+         "end": 13.866
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 13.866,
+         "end": 14.093
+        },
+        {
+         "text": "LLMs",
+         "tail": "",
+         "hl": false,
+         "start": 14.093,
+         "end": 14.32
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 14.32,
+         "end": 14.775
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 14.775,
+         "end": 15.002
+        },
+        {
+         "text": "entire",
+         "tail": "",
+         "hl": false,
+         "start": 15.002,
+         "end": 15.684
+        },
+        {
+         "text": "virtual",
+         "tail": "",
+         "hl": true,
+         "start": 15.684,
+         "end": 16.138
+        },
+        {
+         "text": "trading",
+         "tail": "",
+         "hl": false,
+         "start": 16.138,
+         "end": 16.592
+        },
+        {
+         "text": "floor",
+         "tail": ".",
+         "hl": false,
+         "start": 16.592,
+         "end": 17.092
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "TRADINGAGENTS",
+    "kicker": "GITHUB STARS",
+    "value": 100000,
+    "suffix": "+",
+    "caption": "LLMs as a virtual trading floor",
+    "icon": "star",
+    "cue": "stars"
+   }
+  },
+  {
+   "id": "cli",
+   "start": 18.092,
+   "end": 21.511,
+   "sentences": [
+    {
+     "start": 18.092,
+     "end": 20.511,
+     "chunks": [
+      {
+       "start": 18.092,
+       "end": 19.151,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 18.092,
+         "end": 18.191
+        },
+        {
+         "text": "configure",
+         "tail": "",
+         "hl": false,
+         "start": 18.239,
+         "end": 18.671
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 18.703,
+         "end": 18.831
+        },
+        {
+         "text": "ticker",
+         "tail": "",
+         "hl": true,
+         "cue": "ticker",
+         "start": 18.877,
+         "end": 19.151
+        }
+       ]
+      },
+      {
+       "start": 19.191,
+       "end": 20.511,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 19.191,
+         "end": 19.311
+        },
+        {
+         "text": "models",
+         "tail": "",
+         "hl": false,
+         "cue": "models",
+         "start": 19.368,
+         "end": 19.711
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 19.738,
+         "end": 19.791
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 19.811,
+         "end": 19.871
+        },
+        {
+         "text": "terminal",
+         "tail": ",",
+         "hl": false,
+         "start": 19.933,
+         "end": 20.511
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "screenshot",
+    "label": "INTERACTIVE CLI",
+    "title": "tradingagents · setup",
+    "src": "trading-agents/s184931.png",
+    "width": 922,
+    "height": 727,
+    "viewH": 700,
+    "focus": {
+     "x": 250,
+     "y": 158,
+     "w": 410,
+     "h": 48,
+     "cue": "ticker"
+    },
+    "pans": [
+     {
+      "x": 0,
+      "y": 525,
+      "w": 480,
+      "h": 195,
+      "cue": "models"
+     }
+    ],
+    "highlights": [
+     {
+      "x": 581,
+      "y": 168,
+      "w": 58,
+      "h": 28,
+      "cue": "ticker"
+     }
+    ]
+   }
+  },
+  {
+   "id": "chain",
+   "start": 21.511,
+   "end": 26.372,
+   "sentences": [
+    {
+     "start": 21.511,
+     "end": 25.372,
+     "chunks": [
+      {
+       "start": 21.511,
+       "end": 24.012,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 21.511,
+         "end": 21.532
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 21.585,
+         "end": 21.692
+        },
+        {
+         "text": "kicks",
+         "tail": "",
+         "hl": false,
+         "cue": "a1",
+         "start": 21.745,
+         "end": 22.012
+        },
+        {
+         "text": "off",
+         "tail": "",
+         "hl": false,
+         "start": 22.072,
+         "end": 22.252
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 22.292,
+         "end": 22.332
+        },
+        {
+         "text": "chain",
+         "tail": "",
+         "hl": true,
+         "cue": "a2",
+         "start": 22.385,
+         "end": 22.652
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 22.679,
+         "end": 22.732
+        },
+        {
+         "text": "specialized",
+         "tail": "",
+         "hl": false,
+         "cue": "a3",
+         "start": 22.785,
+         "end": 23.372
+        },
+        {
+         "text": "agents",
+         "tail": "",
+         "hl": false,
+         "start": 23.463,
+         "end": 24.012
+        }
+       ]
+      },
+      {
+       "start": 24.052,
+       "end": 25.372,
+       "words": [
+        {
+         "text": "running",
+         "tail": "",
+         "hl": false,
+         "start": 24.052,
+         "end": 24.332
+        },
+        {
+         "text": "simultaneously",
+         "tail": ".",
+         "hl": true,
+         "cue": "a4",
+         "start": 24.391,
+         "end": 25.372
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "sequence",
+    "label": "MULTI-AGENT PIPELINE",
+    "transition": "slide",
+    "title": "A chain of specialist agents",
+    "lanes": [
+     {
+      "name": "Analysts",
+      "icon": "grid"
+     },
+     {
+      "name": "Researchers",
+      "icon": "chat"
+     },
+     {
+      "name": "Trader",
+      "icon": "dollar"
+     },
+     {
+      "name": "Risk",
+      "icon": "lock"
+     }
+    ],
+    "messages": [
+     {
+      "from": 0,
+      "to": 1,
+      "text": "4 data reports",
+      "cue": "a1"
+     },
+     {
+      "from": 1,
+      "to": 2,
+      "text": "bull vs bear verdict",
+      "cue": "a2"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "text": "trade proposal",
+      "cue": "a3"
+     },
+     {
+      "from": 3,
+      "to": 2,
+      "text": "approved",
+      "cue": "a4",
+      "tone": "good"
+     }
+    ]
+   }
+  },
+  {
+   "id": "parallel",
+   "start": 26.372,
+   "end": 35.65,
+   "sentences": [
+    {
+     "start": 26.372,
+     "end": 34.65,
+     "chunks": [
+      {
+       "start": 26.372,
+       "end": 28.921,
+       "words": [
+        {
+         "text": "One",
+         "tail": "",
+         "hl": false,
+         "cue": "one",
+         "start": 26.372,
+         "end": 26.521
+        },
+        {
+         "text": "agent",
+         "tail": "",
+         "hl": false,
+         "start": 26.574,
+         "end": 26.841
+        },
+        {
+         "text": "parses",
+         "tail": "",
+         "hl": false,
+         "start": 26.921,
+         "end": 27.401
+        },
+        {
+         "text": "SEC",
+         "tail": "",
+         "hl": true,
+         "cue": "fund",
+         "start": 27.521,
+         "end": 27.881
+        },
+        {
+         "text": "balance",
+         "tail": "",
+         "hl": false,
+         "start": 27.921,
+         "end": 28.201
+        },
+        {
+         "text": "sheets",
+         "tail": ",",
+         "hl": false,
+         "start": 28.258,
+         "end": 28.921
+        }
+       ]
+      },
+      {
+       "start": 28.961,
+       "end": 31.801,
+       "words": [
+        {
+         "text": "another",
+         "tail": "",
+         "hl": false,
+         "start": 28.961,
+         "end": 29.241
+        },
+        {
+         "text": "calculates",
+         "tail": "",
+         "hl": false,
+         "start": 29.299,
+         "end": 29.881
+        },
+        {
+         "text": "RSI",
+         "tail": "",
+         "hl": true,
+         "cue": "tech",
+         "start": 30.041,
+         "end": 30.441
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 30.501,
+         "end": 30.681
+        },
+        {
+         "text": "moving",
+         "tail": "",
+         "hl": false,
+         "start": 30.727,
+         "end": 31.001
+        },
+        {
+         "text": "averages",
+         "tail": ",",
+         "hl": false,
+         "start": 31.054,
+         "end": 31.801
+        }
+       ]
+      },
+      {
+       "start": 31.828,
+       "end": 33.401,
+       "words": [
+        {
+         "text": "while",
+         "tail": "",
+         "hl": false,
+         "start": 31.828,
+         "end": 31.961
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 32.001,
+         "end": 32.041
+        },
+        {
+         "text": "third",
+         "tail": "",
+         "hl": false,
+         "start": 32.094,
+         "end": 32.361
+        },
+        {
+         "text": "scans",
+         "tail": "",
+         "hl": false,
+         "start": 32.428,
+         "end": 32.761
+        },
+        {
+         "text": "live",
+         "tail": "",
+         "hl": false,
+         "start": 32.825,
+         "end": 33.081
+        },
+        {
+         "text": "news",
+         "tail": "",
+         "hl": false,
+         "cue": "news",
+         "start": 33.145,
+         "end": 33.401
+        }
+       ]
+      },
+      {
+       "start": 33.441,
+       "end": 34.681,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 33.441,
+         "end": 33.561
+        },
+        {
+         "text": "market",
+         "tail": "",
+         "hl": false,
+         "start": 33.618,
+         "end": 33.961
+        },
+        {
+         "text": "sentiment",
+         "tail": ".",
+         "hl": false,
+         "cue": "sent",
+         "start": 34.017,
+         "end": 34.681
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "screenshot",
+    "label": "4 SPECIALISTS",
+    "title": "Analyst Team · live progress",
+    "src": "trading-agents/s184948.png",
+    "width": 1797,
+    "height": 532,
+    "focus": {
+     "x": 270,
+     "y": 118,
+     "w": 450,
+     "h": 150,
+     "cue": "one"
+    },
+    "highlights": [
+     {
+      "x": 296,
+      "y": 220,
+      "w": 400,
+      "h": 48,
+      "cue": "fund"
+     },
+     {
+      "x": 296,
+      "y": 130,
+      "w": 400,
+      "h": 26,
+      "cue": "tech"
+     },
+     {
+      "x": 296,
+      "y": 199,
+      "w": 400,
+      "h": 23,
+      "cue": "news"
+     },
+     {
+      "x": 296,
+      "y": 155,
+      "w": 400,
+      "h": 45,
+      "cue": "sent"
+     }
+    ],
+    "viewH": 700
+   }
+  },
+  {
+   "id": "debate",
+   "start": 35.65,
+   "end": 45.468,
+   "sentences": [
+    {
+     "start": 35.65,
+     "end": 44.468,
+     "chunks": [
+      {
+       "start": 35.65,
+       "end": 37.268,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 35.65,
+         "end": 35.828
+        },
+        {
+         "text": "comes",
+         "tail": "",
+         "hl": false,
+         "start": 35.868,
+         "end": 36.068
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 36.108,
+         "end": 36.228
+        },
+        {
+         "text": "craziest",
+         "tail": "",
+         "hl": true,
+         "start": 36.288,
+         "end": 36.788
+        },
+        {
+         "text": "part",
+         "tail": ":",
+         "hl": false,
+         "start": 36.836,
+         "end": 37.268
+        }
+       ]
+      },
+      {
+       "start": 37.288,
+       "end": 40.308,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 37.288,
+         "end": 37.348
+        },
+        {
+         "text": "Bull",
+         "tail": "",
+         "hl": false,
+         "cue": "bull",
+         "start": 37.412,
+         "end": 37.668
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 37.708,
+         "end": 37.828
+        },
+        {
+         "text": "Bear",
+         "tail": "",
+         "hl": false,
+         "cue": "bear",
+         "start": 37.876,
+         "end": 38.068
+        },
+        {
+         "text": "agents",
+         "tail": "",
+         "hl": false,
+         "start": 38.137,
+         "end": 38.548
+        },
+        {
+         "text": "enter",
+         "tail": "",
+         "hl": false,
+         "start": 38.601,
+         "end": 38.868
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 38.948,
+         "end": 39.028
+        },
+        {
+         "text": "dialectical",
+         "tail": "",
+         "hl": false,
+         "start": 39.088,
+         "end": 39.668
+        },
+        {
+         "text": "debate",
+         "tail": ",",
+         "hl": false,
+         "start": 39.725,
+         "end": 40.308
+        }
+       ]
+      },
+      {
+       "start": 40.37,
+       "end": 42.708,
+       "words": [
+        {
+         "text": "actively",
+         "tail": "",
+         "hl": false,
+         "start": 40.37,
+         "end": 40.868
+        },
+        {
+         "text": "stress-testing",
+         "tail": "",
+         "hl": false,
+         "start": 40.925,
+         "end": 41.748
+        },
+        {
+         "text": "each",
+         "tail": "",
+         "hl": false,
+         "start": 41.796,
+         "end": 41.988
+        },
+        {
+         "text": "other's",
+         "tail": "",
+         "hl": false,
+         "start": 42.028,
+         "end": 42.308
+        },
+        {
+         "text": "thesis",
+         "tail": "",
+         "hl": false,
+         "start": 42.365,
+         "end": 42.708
+        }
+       ]
+      },
+      {
+       "start": 42.761,
+       "end": 44.468,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 42.761,
+         "end": 42.868
+        },
+        {
+         "text": "spot",
+         "tail": "",
+         "hl": false,
+         "start": 42.932,
+         "end": 43.188
+        },
+        {
+         "text": "valuation",
+         "tail": "",
+         "hl": true,
+         "start": 43.244,
+         "end": 43.748
+        },
+        {
+         "text": "traps",
+         "tail": ".",
+         "hl": false,
+         "cue": "traps",
+         "start": 43.841,
+         "end": 44.468
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "BULL VS BEAR",
+    "transition": "zoom",
+    "left": {
+     "kicker": "BULL AGENT",
+     "title": "Growth case",
+     "items": [
+      "Revenue +105.9% YoY",
+      "Margins expanding",
+      "$62B+ cash"
+     ],
+     "cue": "bull"
+    },
+    "right": {
+     "kicker": "BEAR AGENT",
+     "title": "Risk case",
+     "items": [
+      "Receivables +55%",
+      "Debt up to $38.4B",
+      "Beta 2.22"
+     ],
+     "cue": "bear"
+    },
+    "glitch": [
+     {
+      "cue": "traps",
+      "text": "VALUATION TRAP DETECTED"
+     }
+    ]
+   }
+  },
+  {
+   "id": "report",
+   "start": 45.468,
+   "end": 54.773,
+   "sentences": [
+    {
+     "start": 45.468,
+     "end": 53.773,
+     "chunks": [
+      {
+       "start": 45.468,
+       "end": 47.127,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 45.468,
+         "end": 45.468
+        },
+        {
+         "text": "result",
+         "tail": "",
+         "hl": false,
+         "start": 45.504,
+         "end": 45.847
+        },
+        {
+         "text": "isn't",
+         "tail": "",
+         "hl": false,
+         "start": 45.887,
+         "end": 46.087
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 46.127,
+         "end": 46.167
+        },
+        {
+         "text": "vague",
+         "tail": "",
+         "hl": false,
+         "start": 46.22,
+         "end": 46.487
+        },
+        {
+         "text": "paragraph",
+         "tail": ",",
+         "hl": false,
+         "start": 46.535,
+         "end": 47.127
+        }
+       ]
+      },
+      {
+       "start": 47.18,
+       "end": 48.487,
+       "words": [
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 47.18,
+         "end": 47.367
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 47.394,
+         "end": 47.447
+        },
+        {
+         "text": "institutional",
+         "tail": "",
+         "hl": true,
+         "start": 47.493,
+         "end": 48.087
+        },
+        {
+         "text": "report",
+         "tail": "",
+         "hl": false,
+         "start": 48.144,
+         "end": 48.487
+        }
+       ]
+      },
+      {
+       "start": 48.535,
+       "end": 50.487,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 48.535,
+         "end": 48.727
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 48.754,
+         "end": 48.807
+        },
+        {
+         "text": "explicit",
+         "tail": "",
+         "hl": false,
+         "start": 48.878,
+         "end": 49.447
+        },
+        {
+         "text": "trade",
+         "tail": "",
+         "hl": false,
+         "start": 49.5,
+         "end": 49.767
+        },
+        {
+         "text": "signal",
+         "tail": ",",
+         "hl": false,
+         "cue": "signal",
+         "start": 49.813,
+         "end": 50.487
+        }
+       ]
+      },
+      {
+       "start": 50.533,
+       "end": 52.167,
+       "words": [
+        {
+         "text": "target",
+         "tail": "",
+         "hl": false,
+         "start": 50.533,
+         "end": 50.807
+        },
+        {
+         "text": "allocation",
+         "tail": "",
+         "hl": false,
+         "cue": "alloc",
+         "start": 50.858,
+         "end": 51.367
+        },
+        {
+         "text": "percentage",
+         "tail": ",",
+         "hl": false,
+         "start": 51.418,
+         "end": 52.167
+        }
+       ]
+      },
+      {
+       "start": 52.207,
+       "end": 53.927,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 52.207,
+         "end": 52.327
+        },
+        {
+         "text": "hard",
+         "tail": "",
+         "hl": false,
+         "start": 52.391,
+         "end": 52.647
+        },
+        {
+         "text": "stop-loss",
+         "tail": "",
+         "hl": true,
+         "cue": "stop",
+         "start": 52.711,
+         "end": 53.207
+        },
+        {
+         "text": "levels",
+         "tail": ".",
+         "hl": false,
+         "start": 53.276,
+         "end": 53.927
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "screenshot",
+    "label": "FINAL ACTION PLAN",
+    "title": "Portfolio Management Decision",
+    "src": "trading-agents/s185125.png",
+    "width": 1220,
+    "height": 547,
+    "focus": {
+     "x": 20,
+     "y": 40,
+     "w": 440,
+     "h": 80,
+     "cue": "signal"
+    },
+    "pans": [
+     {
+      "x": 300,
+      "y": 118,
+      "w": 560,
+      "h": 80,
+      "cue": "alloc"
+     },
+     {
+      "x": 30,
+      "y": 150,
+      "w": 560,
+      "h": 75,
+      "cue": "stop"
+     }
+    ],
+    "highlights": [
+     {
+      "x": 32,
+      "y": 88,
+      "w": 142,
+      "h": 26,
+      "cue": "signal"
+     },
+     {
+      "x": 460,
+      "y": 134,
+      "w": 282,
+      "h": 24,
+      "cue": "alloc"
+     },
+     {
+      "x": 88,
+      "y": 178,
+      "w": 302,
+      "h": 24,
+      "cue": "stop"
+     }
+    ],
+    "viewH": 700
+   }
+  },
+  {
+   "id": "risk",
+   "start": 54.773,
+   "end": 62.089,
+   "sentences": [
+    {
+     "start": 54.773,
+     "end": 61.089,
+     "chunks": [
+      {
+       "start": 54.773,
+       "end": 57.969,
+       "words": [
+        {
+         "text": "Even",
+         "tail": "",
+         "hl": false,
+         "start": 54.773,
+         "end": 55.009
+        },
+        {
+         "text": "better",
+         "tail": ",",
+         "hl": false,
+         "start": 55.055,
+         "end": 55.649
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 55.669,
+         "end": 55.729
+        },
+        {
+         "text": "Risk",
+         "tail": "",
+         "hl": true,
+         "start": 55.777,
+         "end": 55.969
+        },
+        {
+         "text": "Manager",
+         "tail": "",
+         "hl": false,
+         "cue": "risk",
+         "start": 56.019,
+         "end": 56.369
+        },
+        {
+         "text": "has",
+         "tail": "",
+         "hl": false,
+         "start": 56.449,
+         "end": 56.689
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 56.742,
+         "end": 56.849
+        },
+        {
+         "text": "approve",
+         "tail": "",
+         "hl": false,
+         "start": 56.899,
+         "end": 57.249
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 57.269,
+         "end": 57.329
+        },
+        {
+         "text": "proposal",
+         "tail": "",
+         "hl": false,
+         "cue": "proposal",
+         "start": 57.4,
+         "end": 57.969
+        }
+       ]
+      },
+      {
+       "start": 58.009,
+       "end": 59.169,
+       "words": [
+        {
+         "text": "against",
+         "tail": "",
+         "hl": false,
+         "start": 58.009,
+         "end": 58.289
+        },
+        {
+         "text": "drawdown",
+         "tail": "",
+         "hl": false,
+         "start": 58.353,
+         "end": 58.769
+        },
+        {
+         "text": "limits",
+         "tail": "",
+         "hl": false,
+         "cue": "drawdown",
+         "start": 58.826,
+         "end": 59.169
+        }
+       ]
+      },
+      {
+       "start": 59.226,
+       "end": 61.089,
+       "words": [
+        {
+         "text": "before",
+         "tail": "",
+         "hl": false,
+         "start": 59.226,
+         "end": 59.569
+        },
+        {
+         "text": "anything",
+         "tail": "",
+         "hl": false,
+         "start": 59.631,
+         "end": 60.129
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 60.182,
+         "end": 60.289
+        },
+        {
+         "text": "executed",
+         "tail": ".",
+         "hl": true,
+         "cue": "executed",
+         "start": 60.369,
+         "end": 61.089
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chart",
+    "label": "RISK MANAGER",
+    "transition": "zoom",
+    "title": "Drawdown vs limit (illustrative)",
+    "points": [
+     0,
+     1.2,
+     2.6,
+     1.9,
+     3.4,
+     4.2,
+     3.1,
+     4.7,
+     5.3,
+     4.0,
+     4.6,
+     3.2
+    ],
+    "yMax": 10,
+    "unit": "%",
+    "decimals": 1,
+    "start": "proposal",
+    "end": "executed",
+    "dropMin": 50,
+    "limit": {
+     "value": 8,
+     "label": "Drawdown limit"
+    },
+    "note": {
+     "text": "Risk sign-off: APPROVED",
+     "cue": "executed"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 62.089,
+   "end": 71.154,
+   "sentences": [
+    {
+     "start": 62.089,
+     "end": 63.946,
+     "chunks": [
+      {
+       "start": 62.089,
+       "end": 63.946,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 62.089,
+         "end": 62.315
+        },
+        {
+         "text": "100%",
+         "tail": "",
+         "hl": true,
+         "start": 62.315,
+         "end": 62.768
+        },
+        {
+         "text": "open",
+         "tail": "",
+         "hl": false,
+         "start": 62.768,
+         "end": 63.221
+        },
+        {
+         "text": "source",
+         "tail": ".",
+         "hl": false,
+         "start": 63.221,
+         "end": 63.946
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 64.546,
+     "end": 67.854,
+     "chunks": [
+      {
+       "start": 64.546,
+       "end": 65.454,
+       "words": [
+        {
+         "text": "Comment",
+         "tail": "",
+         "hl": false,
+         "start": 64.546,
+         "end": 64.734
+        },
+        {
+         "text": "AGENT",
+         "tail": "",
+         "hl": true,
+         "cue": "agent",
+         "start": 64.841,
+         "end": 65.134
+        },
+        {
+         "text": "below",
+         "tail": "",
+         "hl": false,
+         "start": 65.187,
+         "end": 65.454
+        }
+       ]
+      },
+      {
+       "start": 65.514,
+       "end": 67.854,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 65.514,
+         "end": 65.694
+        },
+        {
+         "text": "I'll",
+         "tail": "",
+         "hl": false,
+         "start": 65.734,
+         "end": 65.854
+        },
+        {
+         "text": "DM",
+         "tail": "",
+         "hl": false,
+         "cue": "dm",
+         "start": 65.961,
+         "end": 66.174
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 66.194,
+         "end": 66.254
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 66.294,
+         "end": 66.414
+        },
+        {
+         "text": "repo",
+         "tail": "",
+         "hl": false,
+         "start": 66.478,
+         "end": 66.734
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 66.794,
+         "end": 66.974
+        },
+        {
+         "text": "setup",
+         "tail": "",
+         "hl": false,
+         "start": 67.041,
+         "end": 67.374
+        },
+        {
+         "text": "guide",
+         "tail": ".",
+         "hl": false,
+         "start": 67.414,
+         "end": 67.854
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "comment",
+    "label": "GET THE REPO",
+    "transition": "slide",
+    "headline": "Comment AGENT for the repo link",
+    "highlight": "AGENT",
+    "keyword": "AGENT",
+    "cue": "agent",
+    "sub": {
+     "text": "git clone TauricResearch/TradingAgents",
+     "cue": "dm"
+    }
+   }
+  }
+ ]
+}

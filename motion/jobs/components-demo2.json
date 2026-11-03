@@ -1,0 +1,61 @@
+{
+  "id": "components-demo2",
+  "voice": "am_michael",
+  "lang": "a",
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 1.5,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "quiz",
+      "visual": {
+        "type": "quiz", "label": "QUIZ", "question": "Which one freezes your app?", "highlight": "freezes",
+        "options": ["Glide", "Coroutines on IO", "Network on main thread", "WorkManager"],
+        "answer": 2, "seconds": 3, "ask": "ask", "reveal": "reveal"
+      },
+      "sentences": [
+        { "caption": "Which one *freezes* your app?" },
+        { "caption": "You have 3#ask seconds. | Think." },
+        { "caption": "It's network#reveal on the *main thread*." }
+      ]
+    },
+    {
+      "id": "phone",
+      "visual": {
+        "type": "phoneapp", "label": "PHONE APP", "title": "Tagway Feed", "transition": "whip",
+        "jank": { "cue": "jank" },
+        "dialog": { "cue": "anr", "title": "Tagway isn't responding", "body": "Do you want to close the app?", "buttons": ["Close app", "Wait"] },
+        "glitch": [{ "cue": "anr", "text": "ANR: main thread blocked for 5 seconds" }]
+      },
+      "sentences": [
+        { "caption": "The feed scrolls *smoothly* at 60 frames a second." },
+        { "caption": "Then a network call#jank runs on the main thread, | and every frame takes 100 milliseconds." },
+        { "caption": "After 5 seconds,#anr | Android shows the *ANR* dialog." }
+      ]
+    },
+    {
+      "id": "fix",
+      "visual": {
+        "type": "diff", "label": "THE FIX", "file": "FeedViewModel.kt", "transition": "zoom",
+        "lines": [
+          { "text": "fun load() {" },
+          { "text": "  val feed = api.fetch()", "kind": "del", "cue": "del" },
+          { "text": "  viewModelScope.launch {", "kind": "add", "cue": "add" },
+          { "text": "    val feed = withContext(IO) {", "kind": "add", "cue": "add2" },
+          { "text": "      api.fetch()", "kind": "add", "cue": "add2" },
+          { "text": "    }", "kind": "add", "cue": "add2" },
+          { "text": "    show(feed)", "kind": "add", "cue": "show" },
+          { "text": "  }", "kind": "add", "cue": "show" },
+          { "text": "}" }
+        ],
+        "note": { "text": "Main thread stays free", "cue": "free" }
+      },
+      "sentences": [
+        { "caption": "The fix:#del remove the blocking call." },
+        { "caption": "Launch#add a coroutine, | fetch on the IO#add2 dispatcher, | and show#show the result." },
+        { "caption": "The main thread stays *free*.#free" }
+      ]
+    }
+  ]
+}

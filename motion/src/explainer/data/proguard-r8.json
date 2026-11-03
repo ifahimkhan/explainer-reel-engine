@@ -1,0 +1,1488 @@
+{
+ "id": "proguard-r8",
+ "durationS": 56.41,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.316,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.635,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.828,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.145
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 0.203,
+         "end": 0.343
+        },
+        {
+         "text": "ships",
+         "tail": "",
+         "hl": false,
+         "start": 0.401,
+         "end": 0.621
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 0.668,
+         "end": 0.9
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 0.923,
+         "end": 0.969
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 1.016,
+         "end": 1.213
+        },
+        {
+         "text": "uses",
+         "tail": ".",
+         "hl": true,
+         "start": 1.283,
+         "end": 1.828
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.235,
+     "end": 3.316,
+     "chunks": [
+      {
+       "start": 2.235,
+       "end": 3.524,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 2.235,
+         "end": 2.387
+        },
+        {
+         "text": "anyone",
+         "tail": "",
+         "hl": false,
+         "start": 2.456,
+         "end": 2.793
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 2.828,
+         "end": 2.955
+        },
+        {
+         "text": "read",
+         "tail": "",
+         "hl": true,
+         "cue": "read",
+         "start": 3.013,
+         "end": 3.199
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 3.234,
+         "end": 3.524
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "PROGUARD / R8",
+    "kicker": "RELEASE BUILDS",
+    "headline": "Your APK ships dead weight",
+    "highlight": "dead",
+    "icon": "layers",
+    "sub": {
+     "text": "And anyone can read it",
+     "cue": "read"
+    }
+   }
+  },
+  {
+   "id": "what",
+   "start": 4.316,
+   "end": 14.937,
+   "sentences": [
+    {
+     "start": 4.316,
+     "end": 7.35,
+     "chunks": [
+      {
+       "start": 4.316,
+       "end": 5.644,
+       "words": [
+        {
+         "text": "ProGuard",
+         "tail": "",
+         "hl": true,
+         "cue": "pg",
+         "start": 4.316,
+         "end": 4.681
+        },
+        {
+         "text": "was",
+         "tail": "",
+         "hl": false,
+         "start": 4.716,
+         "end": 4.82
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 4.855,
+         "end": 4.925
+        },
+        {
+         "text": "original",
+         "tail": "",
+         "hl": false,
+         "start": 4.971,
+         "end": 5.331
+        },
+        {
+         "text": "tool",
+         "tail": "",
+         "hl": false,
+         "start": 5.4,
+         "end": 5.644
+        }
+       ]
+      },
+      {
+       "start": 5.702,
+       "end": 7.536,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 5.702,
+         "end": 5.83
+        },
+        {
+         "text": "shrinks",
+         "tail": "",
+         "hl": false,
+         "start": 5.888,
+         "end": 6.236
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 6.283,
+         "end": 6.364
+        },
+        {
+         "text": "protects",
+         "tail": "",
+         "hl": false,
+         "start": 6.41,
+         "end": 6.747
+        },
+        {
+         "text": "Java",
+         "tail": "",
+         "hl": false,
+         "start": 6.817,
+         "end": 7.06
+        },
+        {
+         "text": "code",
+         "tail": ".",
+         "hl": false,
+         "start": 7.107,
+         "end": 7.536
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 7.95,
+     "end": 11.648,
+     "chunks": [
+      {
+       "start": 7.95,
+       "end": 9.413,
+       "words": [
+        {
+         "text": "R8",
+         "tail": "",
+         "hl": true,
+         "cue": "r8",
+         "start": 7.95,
+         "end": 8.252
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 8.31,
+         "end": 8.38
+        },
+        {
+         "text": "Google's",
+         "tail": "",
+         "hl": false,
+         "start": 8.438,
+         "end": 8.774
+        },
+        {
+         "text": "replacement",
+         "tail": ",",
+         "hl": false,
+         "start": 8.821,
+         "end": 9.413
+        }
+       ]
+      },
+      {
+       "start": 9.447,
+       "end": 11.804,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 9.447,
+         "end": 9.54
+        },
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 9.587,
+         "end": 9.738
+        },
+        {
+         "text": "now",
+         "tail": "",
+         "hl": false,
+         "start": 9.796,
+         "end": 9.947
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 10.016,
+         "end": 10.086
+        },
+        {
+         "text": "default",
+         "tail": "",
+         "hl": true,
+         "start": 10.144,
+         "end": 10.62
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 10.678,
+         "end": 10.748
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 10.829,
+         "end": 11.201
+        },
+        {
+         "text": "builds",
+         "tail": ".",
+         "hl": false,
+         "start": 11.259,
+         "end": 11.804
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 12.248,
+     "end": 13.937,
+     "chunks": [
+      {
+       "start": 12.248,
+       "end": 14.218,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 12.248,
+         "end": 12.36
+        },
+        {
+         "text": "even",
+         "tail": "",
+         "hl": false,
+         "start": 12.418,
+         "end": 12.593
+        },
+        {
+         "text": "reads",
+         "tail": "",
+         "hl": false,
+         "start": 12.651,
+         "end": 12.883
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.918,
+         "end": 12.987
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "start": 13.022,
+         "end": 13.231
+        },
+        {
+         "text": "ProGuard",
+         "tail": "",
+         "hl": false,
+         "start": 13.254,
+         "end": 13.637
+        },
+        {
+         "text": "rules",
+         "tail": ".",
+         "hl": true,
+         "cue": "rules",
+         "start": 13.684,
+         "end": 14.218
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "merge",
+    "label": "WHAT IT IS",
+    "headline": "R8 replaced ProGuard",
+    "highlight": "R8",
+    "items": [
+     {
+      "text": "ProGuard",
+      "icon": "file",
+      "cue": "pg"
+     },
+     {
+      "text": "ProGuard rules",
+      "icon": "code",
+      "cue": "rules"
+     }
+    ],
+    "result": {
+     "text": "R8",
+     "sub": "DEFAULT IN ANDROID BUILDS",
+     "cue": "r8"
+    }
+   }
+  },
+  {
+   "id": "does",
+   "start": 14.937,
+   "end": 32.41,
+   "sentences": [
+    {
+     "start": 14.937,
+     "end": 18.363,
+     "chunks": [
+      {
+       "start": 14.937,
+       "end": 15.699,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 14.937,
+         "end": 15.235
+        },
+        {
+         "text": "shrinking",
+         "tail": ".",
+         "hl": true,
+         "cue": "c1",
+         "start": 15.258,
+         "end": 15.699
+        }
+       ]
+      },
+      {
+       "start": 15.722,
+       "end": 18.556,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 15.722,
+         "end": 15.804
+        },
+        {
+         "text": "removes",
+         "tail": "",
+         "hl": false,
+         "start": 15.862,
+         "end": 16.199
+        },
+        {
+         "text": "unused",
+         "tail": "",
+         "hl": false,
+         "start": 16.257,
+         "end": 16.57
+        },
+        {
+         "text": "classes",
+         "tail": ",",
+         "hl": false,
+         "start": 16.593,
+         "end": 17.104
+        },
+        {
+         "text": "methods",
+         "tail": "",
+         "hl": false,
+         "start": 17.174,
+         "end": 17.58
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 17.615,
+         "end": 17.708
+        },
+        {
+         "text": "resources",
+         "tail": ".",
+         "hl": false,
+         "start": 17.754,
+         "end": 18.556
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 18.963,
+     "end": 22.832,
+     "chunks": [
+      {
+       "start": 18.963,
+       "end": 20.31,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 18.963,
+         "end": 19.369
+        },
+        {
+         "text": "optimization",
+         "tail": ".",
+         "hl": true,
+         "cue": "c2",
+         "start": 19.416,
+         "end": 20.31
+        }
+       ]
+      },
+      {
+       "start": 20.368,
+       "end": 23.003,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 20.368,
+         "end": 20.507
+        },
+        {
+         "text": "rewrites",
+         "tail": "",
+         "hl": false,
+         "start": 20.588,
+         "end": 21.03
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 21.076,
+         "end": 21.204
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 21.262,
+         "end": 21.506
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 21.54,
+         "end": 21.61
+        },
+        {
+         "text": "be",
+         "tail": "",
+         "hl": false,
+         "start": 21.668,
+         "end": 21.773
+        },
+        {
+         "text": "smaller",
+         "tail": "",
+         "hl": false,
+         "start": 21.807,
+         "end": 22.156
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 22.202,
+         "end": 22.283
+        },
+        {
+         "text": "faster",
+         "tail": ".",
+         "hl": false,
+         "start": 22.33,
+         "end": 23.003
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 23.432,
+     "end": 28.173,
+     "chunks": [
+      {
+       "start": 23.432,
+       "end": 24.731,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 23.432,
+         "end": 23.756
+        },
+        {
+         "text": "obfuscation",
+         "tail": ".",
+         "hl": true,
+         "cue": "c3",
+         "start": 23.837,
+         "end": 24.731
+        }
+       ]
+      },
+      {
+       "start": 24.859,
+       "end": 26.658,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 24.859,
+         "end": 25.033
+        },
+        {
+         "text": "renames",
+         "tail": "",
+         "hl": false,
+         "start": 25.102,
+         "end": 25.59
+        },
+        {
+         "text": "classes",
+         "tail": "",
+         "hl": false,
+         "start": 25.66,
+         "end": 26.101
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 26.159,
+         "end": 26.252
+        },
+        {
+         "text": "methods",
+         "tail": "",
+         "hl": false,
+         "start": 26.322,
+         "end": 26.658
+        }
+       ]
+      },
+      {
+       "start": 26.705,
+       "end": 28.365,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 26.705,
+         "end": 26.774
+        },
+        {
+         "text": "short",
+         "tail": "",
+         "hl": false,
+         "start": 26.844,
+         "end": 27.088
+        },
+        {
+         "text": "names",
+         "tail": "",
+         "hl": false,
+         "start": 27.157,
+         "end": 27.378
+        },
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 27.424,
+         "end": 27.599
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 27.645,
+         "end": 27.773
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 27.831,
+         "end": 27.935
+        },
+        {
+         "text": "b",
+         "tail": ".",
+         "hl": false,
+         "start": 27.982,
+         "end": 28.365
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.773,
+     "end": 31.41,
+     "chunks": [
+      {
+       "start": 28.773,
+       "end": 29.322,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 28.773,
+         "end": 28.893
+        },
+        {
+         "text": "result",
+         "tail": ":",
+         "hl": false,
+         "start": 28.951,
+         "end": 29.322
+        }
+       ]
+      },
+      {
+       "start": 29.345,
+       "end": 29.95,
+       "words": [
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 29.345,
+         "end": 29.38
+        },
+        {
+         "text": "smaller",
+         "tail": "",
+         "hl": true,
+         "cue": "c4",
+         "start": 29.427,
+         "end": 29.787
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 29.845,
+         "end": 29.95
+        }
+       ]
+      },
+      {
+       "start": 29.996,
+       "end": 31.645,
+       "words": [
+        {
+         "text": "that's",
+         "tail": "",
+         "hl": false,
+         "start": 29.996,
+         "end": 30.182
+        },
+        {
+         "text": "harder",
+         "tail": "",
+         "hl": false,
+         "start": 30.24,
+         "end": 30.507
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 30.553,
+         "end": 30.623
+        },
+        {
+         "text": "reverse",
+         "tail": "",
+         "hl": false,
+         "start": 30.681,
+         "end": 30.983
+        },
+        {
+         "text": "engineer",
+         "tail": ".",
+         "hl": false,
+         "start": 31.018,
+         "end": 31.645
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "WHAT R8 DOES",
+    "cards": [
+     {
+      "title": "Shrinking",
+      "sub": "unused code removed",
+      "icon": "layers",
+      "cue": "c1"
+     },
+     {
+      "title": "Optimization",
+      "sub": "smaller, faster code",
+      "icon": "sparkle",
+      "cue": "c2"
+     },
+     {
+      "title": "Obfuscation",
+      "sub": "names become a, b",
+      "icon": "eyeOff",
+      "cue": "c3"
+     },
+     {
+      "title": "Smaller app",
+      "sub": "harder to reverse",
+      "icon": "download",
+      "cue": "c4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "catch",
+   "start": 32.41,
+   "end": 45.935,
+   "sentences": [
+    {
+     "start": 32.41,
+     "end": 34.744,
+     "chunks": [
+      {
+       "start": 32.41,
+       "end": 33.374,
+       "words": [
+        {
+         "text": "R8",
+         "tail": "",
+         "hl": false,
+         "start": 32.41,
+         "end": 32.735
+        },
+        {
+         "text": "can't",
+         "tail": "",
+         "hl": false,
+         "start": 32.793,
+         "end": 33.014
+        },
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 33.037,
+         "end": 33.153
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 33.188,
+         "end": 33.374
+        }
+       ]
+      },
+      {
+       "start": 33.397,
+       "end": 34.918,
+       "words": [
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 33.397,
+         "end": 33.478
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 33.536,
+         "end": 33.71
+        },
+        {
+         "text": "reach",
+         "tail": "",
+         "hl": false,
+         "start": 33.768,
+         "end": 33.954
+        },
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 33.989,
+         "end": 34.186
+        },
+        {
+         "text": "reflection",
+         "tail": ".",
+         "hl": true,
+         "cue": "reflection",
+         "start": 34.221,
+         "end": 34.918
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.344,
+     "end": 37.955,
+     "chunks": [
+      {
+       "start": 35.344,
+       "end": 37.074,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 35.344,
+         "end": 35.484
+        },
+        {
+         "text": "JSON",
+         "tail": "",
+         "hl": false,
+         "start": 35.542,
+         "end": 35.867
+        },
+        {
+         "text": "models",
+         "tail": "",
+         "hl": false,
+         "start": 35.913,
+         "end": 36.273
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 36.308,
+         "end": 36.389
+        },
+        {
+         "text": "some",
+         "tail": "",
+         "hl": false,
+         "start": 36.436,
+         "end": 36.61
+        },
+        {
+         "text": "libraries",
+         "tail": "",
+         "hl": false,
+         "start": 36.645,
+         "end": 37.074
+        }
+       ]
+      },
+      {
+       "start": 37.144,
+       "end": 38.119,
+       "words": [
+        {
+         "text": "break",
+         "tail": "",
+         "hl": true,
+         "cue": "break",
+         "start": 37.144,
+         "end": 37.388
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 37.434,
+         "end": 37.492
+        },
+        {
+         "text": "runtime",
+         "tail": ".",
+         "hl": false,
+         "start": 37.55,
+         "end": 38.119
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 38.555,
+     "end": 41.044,
+     "chunks": [
+      {
+       "start": 38.555,
+       "end": 39.812,
+       "words": [
+        {
+         "text": "Fix",
+         "tail": "",
+         "hl": false,
+         "start": 38.555,
+         "end": 38.779
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 38.86,
+         "end": 38.93
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 38.977,
+         "end": 39.139
+        },
+        {
+         "text": "keep",
+         "tail": "",
+         "hl": true,
+         "cue": "keep",
+         "start": 39.197,
+         "end": 39.395
+        },
+        {
+         "text": "rules",
+         "tail": ",",
+         "hl": false,
+         "start": 39.476,
+         "end": 39.812
+        }
+       ]
+      },
+      {
+       "start": 39.835,
+       "end": 41.24,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 39.835,
+         "end": 39.928
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 39.975,
+         "end": 40.056
+        },
+        {
+         "text": "at-Keep",
+         "tail": "",
+         "hl": false,
+         "start": 40.102,
+         "end": 40.439
+        },
+        {
+         "text": "annotation",
+         "tail": ".",
+         "hl": false,
+         "start": 40.486,
+         "end": 41.24
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 41.644,
+     "end": 44.935,
+     "chunks": [
+      {
+       "start": 41.644,
+       "end": 43.063,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 41.644,
+         "end": 41.798
+        },
+        {
+         "text": "upload",
+         "tail": "",
+         "hl": false,
+         "start": 41.856,
+         "end": 42.146
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 42.181,
+         "end": 42.274
+        },
+        {
+         "text": "mapping",
+         "tail": "",
+         "hl": true,
+         "start": 42.32,
+         "end": 42.668
+        },
+        {
+         "text": "file",
+         "tail": ",",
+         "hl": false,
+         "start": 42.738,
+         "end": 43.063
+        }
+       ]
+      },
+      {
+       "start": 43.098,
+       "end": 45.118,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 43.098,
+         "end": 43.202
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 43.26,
+         "end": 43.365
+        },
+        {
+         "text": "crash",
+         "tail": "",
+         "hl": false,
+         "start": 43.399,
+         "end": 43.655
+        },
+        {
+         "text": "reports",
+         "tail": "",
+         "hl": false,
+         "start": 43.69,
+         "end": 44.015
+        },
+        {
+         "text": "become",
+         "tail": "",
+         "hl": false,
+         "start": 44.05,
+         "end": 44.305
+        },
+        {
+         "text": "unreadable",
+         "tail": ".",
+         "hl": true,
+         "cue": "unreadable",
+         "start": 44.34,
+         "end": 45.118
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "THE CATCH",
+    "title": "logcat",
+    "command": "adb logcat",
+    "cue": "reflection",
+    "lines": [
+     {
+      "text": "FATAL EXCEPTION: main",
+      "tone": "dim",
+      "flag": "break"
+     },
+     {
+      "text": "ClassNotFoundException: a.b",
+      "tone": "dim",
+      "flag": "break"
+     },
+     {
+      "text": "  at a.c.d(Unknown Source)",
+      "tone": "dim",
+      "flag": "unreadable"
+     },
+     {
+      "text": "  at a.e.f(Unknown Source)",
+      "tone": "dim",
+      "flag": "unreadable"
+     }
+    ],
+    "badge": {
+     "text": "-keep rules + mapping.txt",
+     "cue": "keep"
+    }
+   }
+  },
+  {
+   "id": "rule",
+   "start": 45.935,
+   "end": 51.703,
+   "sentences": [
+    {
+     "start": 45.935,
+     "end": 48.253,
+     "chunks": [
+      {
+       "start": 45.935,
+       "end": 47.588,
+       "words": [
+        {
+         "text": "Enable",
+         "tail": "",
+         "hl": false,
+         "start": 45.935,
+         "end": 46.333
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 46.368,
+         "end": 46.461
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 46.496,
+         "end": 46.635
+        },
+        {
+         "text": "isMinifyEnabled",
+         "tail": "",
+         "hl": true,
+         "cue": "gradle",
+         "start": 46.67,
+         "end": 47.588
+        }
+       ]
+      },
+      {
+       "start": 47.622,
+       "end": 48.435,
+       "words": [
+        {
+         "text": "set",
+         "tail": "",
+         "hl": false,
+         "start": 47.622,
+         "end": 47.808
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 47.855,
+         "end": 47.936
+        },
+        {
+         "text": "true",
+         "tail": ".",
+         "hl": false,
+         "start": 47.994,
+         "end": 48.435
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 48.853,
+     "end": 50.703,
+     "chunks": [
+      {
+       "start": 48.853,
+       "end": 50.068,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 48.853,
+         "end": 49.023
+        },
+        {
+         "text": "test",
+         "tail": "",
+         "hl": false,
+         "start": 49.093,
+         "end": 49.348
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 49.371,
+         "end": 49.441
+        },
+        {
+         "text": "release",
+         "tail": "",
+         "hl": true,
+         "cue": "release",
+         "start": 49.488,
+         "end": 49.824
+        },
+        {
+         "text": "build",
+         "tail": ",",
+         "hl": false,
+         "start": 49.859,
+         "end": 50.068
+        }
+       ]
+      },
+      {
+       "start": 50.091,
+       "end": 50.892,
+       "words": [
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 50.091,
+         "end": 50.219
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 50.254,
+         "end": 50.381
+        },
+        {
+         "text": "debug",
+         "tail": ".",
+         "hl": false,
+         "start": 50.416,
+         "end": 50.892
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE RULE",
+    "file": "build.gradle.kts",
+    "lines": [
+     {
+      "text": "buildTypes {"
+     },
+     {
+      "text": "  release {"
+     },
+     {
+      "text": "    isMinifyEnabled = true",
+      "cue": "gradle",
+      "hl": true
+     },
+     {
+      "text": "    isShrinkResources = true",
+      "cue": "gradle",
+      "hl": true
+     },
+     {
+      "text": "  }"
+     },
+     {
+      "text": "}"
+     }
+    ],
+    "toast": {
+     "text": "Test the release build",
+     "cue": "release"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 51.703,
+   "end": 56.41,
+   "sentences": [
+    {
+     "start": 51.703,
+     "end": 53.11,
+     "chunks": [
+      {
+       "start": 51.703,
+       "end": 53.276,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 51.703,
+         "end": 51.988
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 52.057,
+         "end": 52.162
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 52.208,
+         "end": 52.382
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 52.417,
+         "end": 52.742
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 52.777,
+         "end": 53.276
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

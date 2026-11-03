@@ -1,0 +1,1999 @@
+{
+ "id": "open-higgsfield",
+ "durationS": 81.099,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.848,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 4.262,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 3.018,
+       "words": [
+        {
+         "text": "Higgsfield",
+         "tail": "",
+         "hl": true,
+         "cue": "left",
+         "start": 0.0,
+         "end": 0.538
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 0.618,
+         "end": 1.018
+        },
+        {
+         "text": "puts",
+         "tail": "",
+         "hl": false,
+         "start": 1.178,
+         "end": 1.418
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 1.578,
+         "end": 1.738
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 1.818,
+         "end": 2.058
+        },
+        {
+         "text": "video",
+         "tail": "",
+         "hl": false,
+         "start": 2.138,
+         "end": 2.458
+        },
+        {
+         "text": "studio",
+         "tail": "",
+         "hl": false,
+         "start": 2.538,
+         "end": 3.018
+        }
+       ]
+      },
+      {
+       "start": 3.138,
+       "end": 4.458,
+       "words": [
+        {
+         "text": "behind",
+         "tail": "",
+         "hl": false,
+         "start": 3.138,
+         "end": 3.338
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 3.418,
+         "end": 3.498
+        },
+        {
+         "text": "subscription",
+         "tail": ".",
+         "hl": true,
+         "start": 3.858,
+         "end": 4.458
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 4.382,
+     "end": 7.628,
+     "chunks": [
+      {
+       "start": 4.382,
+       "end": 5.963,
+       "words": [
+        {
+         "text": "This",
+         "tail": "",
+         "hl": false,
+         "start": 4.382,
+         "end": 4.603
+        },
+        {
+         "text": "GitHub",
+         "tail": "",
+         "hl": false,
+         "start": 4.683,
+         "end": 5.003
+        },
+        {
+         "text": "repo",
+         "tail": "",
+         "hl": false,
+         "start": 5.083,
+         "end": 5.483
+        },
+        {
+         "text": "gives",
+         "tail": "",
+         "hl": false,
+         "start": 5.563,
+         "end": 5.803
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 5.883,
+         "end": 5.963
+        }
+       ]
+      },
+      {
+       "start": 6.083,
+       "end": 7.723,
+       "words": [
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 6.083,
+         "end": 6.203
+        },
+        {
+         "text": "open-source",
+         "tail": "",
+         "hl": true,
+         "cue": "right",
+         "start": 6.283,
+         "end": 6.843
+        },
+        {
+         "text": "version",
+         "tail": "",
+         "hl": false,
+         "start": 7.003,
+         "end": 7.163
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 7.243,
+         "end": 7.323
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 7.443,
+         "end": 7.723
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "THE PROBLEM",
+    "left": {
+     "kicker": "HIGGSFIELD AI",
+     "title": "Subscription",
+     "items": [
+      "Closed platform",
+      "Paid plans"
+     ],
+     "cue": "left"
+    },
+    "right": {
+     "kicker": "OPEN HIGGSFIELD",
+     "title": "Open source",
+     "items": [
+      "Free app",
+      "Self-hostable"
+     ],
+     "cue": "right"
+    }
+   }
+  },
+  {
+   "id": "stars",
+   "start": 7.848,
+   "end": 14.701,
+   "sentences": [
+    {
+     "start": 7.848,
+     "end": 14.481,
+     "chunks": [
+      {
+       "start": 7.848,
+       "end": 10.458,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 7.848,
+         "end": 8.018
+        },
+        {
+         "text": "called",
+         "tail": "",
+         "hl": false,
+         "start": 8.058,
+         "end": 8.298
+        },
+        {
+         "text": "Open",
+         "tail": "",
+         "hl": true,
+         "start": 8.538,
+         "end": 8.858
+        },
+        {
+         "text": "Higgsfield",
+         "tail": "",
+         "hl": true,
+         "start": 8.938,
+         "end": 9.498
+        },
+        {
+         "text": "AI",
+         "tail": ",",
+         "hl": false,
+         "start": 9.578,
+         "end": 10.458
+        }
+       ]
+      },
+      {
+       "start": 10.538,
+       "end": 14.698,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 10.538,
+         "end": 10.618
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 10.698,
+         "end": 10.858
+        },
+        {
+         "text": "already",
+         "tail": "",
+         "hl": false,
+         "start": 11.098,
+         "end": 11.338
+        },
+        {
+         "text": "has",
+         "tail": "",
+         "hl": false,
+         "start": 11.418,
+         "end": 11.738
+        },
+        {
+         "text": "over",
+         "tail": "",
+         "hl": false,
+         "start": 11.818,
+         "end": 12.058
+        },
+        {
+         "text": "1,500",
+         "tail": "",
+         "hl": false,
+         "cue": "stars",
+         "start": 12.218,
+         "end": 13.738
+        },
+        {
+         "text": "stars",
+         "tail": ".",
+         "hl": true,
+         "start": 13.898,
+         "end": 14.698
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "THE REPO",
+    "kicker": "OPEN HIGGSFIELD AI",
+    "value": 1500,
+    "suffix": "+",
+    "caption": "GitHub stars",
+    "icon": "star",
+    "cue": "stars"
+   }
+  },
+  {
+   "id": "studios",
+   "start": 14.701,
+   "end": 20.578,
+   "sentences": [
+    {
+     "start": 14.701,
+     "end": 20.358,
+     "chunks": [
+      {
+       "start": 14.701,
+       "end": 17.22,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 14.701,
+         "end": 14.9
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 14.98,
+         "end": 15.14
+        },
+        {
+         "text": "studio",
+         "tail": "",
+         "hl": false,
+         "start": 15.22,
+         "end": 15.7
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 15.78,
+         "end": 15.94
+        },
+        {
+         "text": "four",
+         "tail": "",
+         "hl": true,
+         "start": 16.02,
+         "end": 16.26
+        },
+        {
+         "text": "tabs",
+         "tail": ":",
+         "hl": false,
+         "start": 16.34,
+         "end": 17.22
+        }
+       ]
+      },
+      {
+       "start": 17.3,
+       "end": 19.54,
+       "words": [
+        {
+         "text": "Image",
+         "tail": ",",
+         "hl": false,
+         "cue": "c1",
+         "start": 17.3,
+         "end": 17.86
+        },
+        {
+         "text": "Video",
+         "tail": ",",
+         "hl": false,
+         "cue": "c2",
+         "start": 18.02,
+         "end": 18.66
+        },
+        {
+         "text": "Lip",
+         "tail": "",
+         "hl": false,
+         "cue": "c3",
+         "start": 18.82,
+         "end": 18.98
+        },
+        {
+         "text": "Sync",
+         "tail": ",",
+         "hl": false,
+         "start": 19.06,
+         "end": 19.54
+        }
+       ]
+      },
+      {
+       "start": 19.66,
+       "end": 20.58,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 19.66,
+         "end": 19.78
+        },
+        {
+         "text": "Cinema",
+         "tail": ".",
+         "hl": true,
+         "cue": "c4",
+         "start": 19.94,
+         "end": 20.58
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "4 STUDIOS",
+    "title": "4 STUDIOS IN 1",
+    "cards": [
+     {
+      "title": "Image",
+      "sub": "text or photo to image",
+      "icon": "image",
+      "cue": "c1"
+     },
+     {
+      "title": "Video",
+      "sub": "text or image to video",
+      "icon": "video",
+      "cue": "c2"
+     },
+     {
+      "title": "Lip Sync",
+      "sub": "portrait + audio",
+      "icon": "mic",
+      "cue": "c3"
+     },
+     {
+      "title": "Cinema",
+      "sub": "pro camera controls",
+      "icon": "camera",
+      "cue": "c4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "models",
+   "start": 20.578,
+   "end": 29.314,
+   "sentences": [
+    {
+     "start": 20.578,
+     "end": 29.094,
+     "chunks": [
+      {
+       "start": 20.578,
+       "end": 24.178,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 20.578,
+         "end": 20.738
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 20.858,
+         "end": 20.978
+        },
+        {
+         "text": "200+",
+         "tail": "",
+         "hl": true,
+         "start": 21.058,
+         "end": 21.538
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 21.698,
+         "end": 22.338
+        },
+        {
+         "text": "models",
+         "tail": "",
+         "hl": false,
+         "start": 22.418,
+         "end": 22.818
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 22.938,
+         "end": 23.058
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 23.138,
+         "end": 23.298
+        },
+        {
+         "text": "place",
+         "tail": ":",
+         "hl": false,
+         "start": 23.378,
+         "end": 24.178
+        }
+       ]
+      },
+      {
+       "start": 24.258,
+       "end": 26.578,
+       "words": [
+        {
+         "text": "Flux",
+         "tail": ",",
+         "hl": false,
+         "cue": "m1",
+         "start": 24.258,
+         "end": 24.858
+        },
+        {
+         "text": "Midjourney",
+         "tail": ",",
+         "hl": false,
+         "cue": "m2",
+         "start": 24.978,
+         "end": 25.738
+        },
+        {
+         "text": "Kling",
+         "tail": ",",
+         "hl": false,
+         "cue": "m3",
+         "start": 25.858,
+         "end": 26.578
+        }
+       ]
+      },
+      {
+       "start": 26.738,
+       "end": 29.298,
+       "words": [
+        {
+         "text": "Sora",
+         "tail": ",",
+         "hl": false,
+         "cue": "m4",
+         "start": 26.738,
+         "end": 27.458
+        },
+        {
+         "text": "Veo",
+         "tail": ",",
+         "hl": false,
+         "cue": "m5",
+         "start": 27.618,
+         "end": 28.178
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 28.258,
+         "end": 28.338
+        },
+        {
+         "text": "Seedance",
+         "tail": ".",
+         "hl": true,
+         "cue": "m6",
+         "start": 28.418,
+         "end": 29.298
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chips",
+    "label": "200+ MODELS",
+    "hub": {
+     "text": "200+",
+     "sub": "AI MODELS",
+     "icon": "sparkle"
+    },
+    "chips": [
+     {
+      "text": "Flux",
+      "cue": "m1"
+     },
+     {
+      "text": "Midjourney",
+      "cue": "m2"
+     },
+     {
+      "text": "Kling",
+      "cue": "m3"
+     },
+     {
+      "text": "Sora",
+      "cue": "m4"
+     },
+     {
+      "text": "Veo",
+      "cue": "m5"
+     },
+     {
+      "text": "Seedance",
+      "cue": "m6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cinema",
+   "start": 29.314,
+   "end": 35.542,
+   "sentences": [
+    {
+     "start": 29.314,
+     "end": 35.322,
+     "chunks": [
+      {
+       "start": 29.314,
+       "end": 31.622,
+       "words": [
+        {
+         "text": "Cinema",
+         "tail": "",
+         "hl": true,
+         "start": 29.314,
+         "end": 29.622
+        },
+        {
+         "text": "Studio",
+         "tail": "",
+         "hl": false,
+         "start": 29.702,
+         "end": 30.102
+        },
+        {
+         "text": "lets",
+         "tail": "",
+         "hl": false,
+         "start": 30.182,
+         "end": 30.422
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 30.462,
+         "end": 30.502
+        },
+        {
+         "text": "pick",
+         "tail": "",
+         "hl": false,
+         "start": 30.582,
+         "end": 30.742
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 30.822,
+         "end": 30.902
+        },
+        {
+         "text": "camera",
+         "tail": ",",
+         "hl": false,
+         "cue": "c1",
+         "start": 31.142,
+         "end": 31.622
+        }
+       ]
+      },
+      {
+       "start": 31.702,
+       "end": 34.262,
+       "words": [
+        {
+         "text": "lens",
+         "tail": ",",
+         "hl": false,
+         "cue": "c2",
+         "start": 31.702,
+         "end": 32.422
+        },
+        {
+         "text": "focal",
+         "tail": "",
+         "hl": false,
+         "cue": "c3",
+         "start": 32.462,
+         "end": 32.742
+        },
+        {
+         "text": "length",
+         "tail": ",",
+         "hl": false,
+         "start": 32.822,
+         "end": 33.222
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 33.342,
+         "end": 33.462
+        },
+        {
+         "text": "aperture",
+         "tail": ",",
+         "hl": false,
+         "cue": "c4",
+         "start": 33.542,
+         "end": 34.262
+        }
+       ]
+      },
+      {
+       "start": 34.342,
+       "end": 35.542,
+       "words": [
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 34.342,
+         "end": 34.502
+        },
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 34.582,
+         "end": 34.662
+        },
+        {
+         "text": "Higgsfield",
+         "tail": ".",
+         "hl": false,
+         "start": 34.702,
+         "end": 35.542
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "CINEMA STUDIO",
+    "title": "PRO CAMERA CONTROLS",
+    "cards": [
+     {
+      "title": "Camera",
+      "sub": "8K digital, 70mm film",
+      "icon": "camera",
+      "cue": "c1"
+     },
+     {
+      "title": "Lens",
+      "sub": "anamorphic, vintage",
+      "icon": "sparkle",
+      "cue": "c2"
+     },
+     {
+      "title": "Focal",
+      "sub": "8mm to 85mm",
+      "icon": "grid",
+      "cue": "c3"
+     },
+     {
+      "title": "Aperture",
+      "sub": "f/1.4 to f/11",
+      "icon": "aperture",
+      "cue": "c4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lipsync",
+   "start": 35.542,
+   "end": 40.229,
+   "sentences": [
+    {
+     "start": 35.542,
+     "end": 40.009,
+     "chunks": [
+      {
+       "start": 35.542,
+       "end": 38.69,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 35.542,
+         "end": 35.73
+        },
+        {
+         "text": "Lip",
+         "tail": "",
+         "hl": true,
+         "cue": "left",
+         "start": 35.77,
+         "end": 35.97
+        },
+        {
+         "text": "Sync",
+         "tail": "",
+         "hl": true,
+         "start": 36.05,
+         "end": 36.29
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 36.53,
+         "end": 36.85
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 36.89,
+         "end": 36.93
+        },
+        {
+         "text": "portrait",
+         "tail": "",
+         "hl": false,
+         "start": 37.01,
+         "end": 37.57
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 37.69,
+         "end": 37.81
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 37.89,
+         "end": 37.97
+        },
+        {
+         "text": "audio",
+         "tail": "",
+         "hl": false,
+         "start": 38.05,
+         "end": 38.29
+        },
+        {
+         "text": "clip",
+         "tail": "",
+         "hl": false,
+         "start": 38.37,
+         "end": 38.69
+        }
+       ]
+      },
+      {
+       "start": 38.77,
+       "end": 40.29,
+       "words": [
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 38.77,
+         "end": 39.01
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 39.05,
+         "end": 39.09
+        },
+        {
+         "text": "talking",
+         "tail": "",
+         "hl": false,
+         "cue": "right",
+         "start": 39.17,
+         "end": 39.49
+        },
+        {
+         "text": "video",
+         "tail": ".",
+         "hl": true,
+         "start": 39.57,
+         "end": 40.29
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "LIP SYNC",
+    "left": {
+     "kicker": "INPUT",
+     "title": "Portrait + audio",
+     "items": [
+      "1 photo",
+      "1 audio clip"
+     ],
+     "cue": "left"
+    },
+    "right": {
+     "kicker": "OUTPUT",
+     "title": "Talking video",
+     "items": [
+      "Lips synced to audio",
+      "Up to 1080p"
+     ],
+     "cue": "right"
+    }
+   }
+  },
+  {
+   "id": "why",
+   "start": 40.229,
+   "end": 45.14,
+   "sentences": [
+    {
+     "start": 40.229,
+     "end": 44.92,
+     "chunks": [
+      {
+       "start": 40.229,
+       "end": 42.856,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 40.229,
+         "end": 40.456
+        },
+        {
+         "text": "why",
+         "tail": "",
+         "hl": false,
+         "start": 40.776,
+         "end": 41.016
+        },
+        {
+         "text": "Open",
+         "tail": "",
+         "hl": true,
+         "start": 41.176,
+         "end": 41.496
+        },
+        {
+         "text": "Higgsfield",
+         "tail": "",
+         "hl": false,
+         "start": 41.576,
+         "end": 42.136
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 42.296,
+         "end": 42.856
+        }
+       ]
+      },
+      {
+       "start": 43.096,
+       "end": 45.176,
+       "words": [
+        {
+         "text": "instead",
+         "tail": "",
+         "hl": false,
+         "start": 43.096,
+         "end": 43.416
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 43.536,
+         "end": 43.656
+        },
+        {
+         "text": "Higgsfield",
+         "tail": "",
+         "hl": false,
+         "cue": "sub",
+         "start": 43.816,
+         "end": 44.296
+        },
+        {
+         "text": "AI",
+         "tail": "?",
+         "hl": false,
+         "start": 44.456,
+         "end": 45.176
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "WHY OPEN?",
+    "kicker": "THE REAL QUESTION",
+    "headline": "Why Open Higgsfield?",
+    "highlight": "Open",
+    "icon": "sparkle",
+    "sub": {
+     "text": "4 reasons",
+     "cue": "sub"
+    }
+   }
+  },
+  {
+   "id": "reason1",
+   "start": 45.14,
+   "end": 53.699,
+   "sentences": [
+    {
+     "start": 45.14,
+     "end": 47.137,
+     "chunks": [
+      {
+       "start": 45.14,
+       "end": 47.362,
+       "words": [
+        {
+         "text": "One",
+         "tail": ":",
+         "hl": false,
+         "start": 45.14,
+         "end": 46.002
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 46.162,
+         "end": 46.322
+        },
+        {
+         "text": "subscription",
+         "tail": ".",
+         "hl": true,
+         "start": 46.402,
+         "end": 47.362
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 47.257,
+     "end": 53.479,
+     "chunks": [
+      {
+       "start": 47.257,
+       "end": 49.467,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 47.257,
+         "end": 47.387
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 47.467,
+         "end": 47.627
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 47.707,
+         "end": 47.787
+        },
+        {
+         "text": "free",
+         "tail": "",
+         "hl": false,
+         "cue": "p1",
+         "start": 47.867,
+         "end": 48.187
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 48.267,
+         "end": 48.427
+        },
+        {
+         "text": "open",
+         "tail": "",
+         "hl": false,
+         "start": 48.507,
+         "end": 48.747
+        },
+        {
+         "text": "source",
+         "tail": ",",
+         "hl": false,
+         "start": 48.827,
+         "end": 49.467
+        }
+       ]
+      },
+      {
+       "start": 49.547,
+       "end": 51.867,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 49.547,
+         "end": 49.627
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 49.707,
+         "end": 49.867
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 49.947,
+         "end": 50.187
+        },
+        {
+         "text": "pay",
+         "tail": "",
+         "hl": false,
+         "start": 50.267,
+         "end": 50.427
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 50.507,
+         "end": 50.667
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 50.747,
+         "end": 50.827
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 50.907,
+         "end": 50.987
+        },
+        {
+         "text": "generate",
+         "tail": ",",
+         "hl": false,
+         "cue": "p2",
+         "start": 51.067,
+         "end": 51.867
+        }
+       ]
+      },
+      {
+       "start": 51.947,
+       "end": 53.707,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 51.947,
+         "end": 52.027
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 52.147,
+         "end": 52.267
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 52.347,
+         "end": 52.587
+        },
+        {
+         "text": "API",
+         "tail": "",
+         "hl": false,
+         "start": 52.667,
+         "end": 53.067
+        },
+        {
+         "text": "key",
+         "tail": ".",
+         "hl": false,
+         "start": 53.147,
+         "end": 53.707
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "REASON 1/4",
+    "number": 1,
+    "title": "No subscription",
+    "highlight": "subscription",
+    "icon": "dollar",
+    "points": [
+     {
+      "text": "Free and open source",
+      "cue": "p1"
+     },
+     {
+      "text": "Pay only per generation",
+      "cue": "p2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reason2",
+   "start": 53.699,
+   "end": 60.238,
+   "sentences": [
+    {
+     "start": 53.699,
+     "end": 55.512,
+     "chunks": [
+      {
+       "start": 53.699,
+       "end": 55.779,
+       "words": [
+        {
+         "text": "Two",
+         "tail": ":",
+         "hl": false,
+         "start": 53.699,
+         "end": 54.499
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 54.659,
+         "end": 54.819
+        },
+        {
+         "text": "lock-in",
+         "tail": ".",
+         "hl": true,
+         "start": 54.899,
+         "end": 55.779
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 55.632,
+     "end": 60.018,
+     "chunks": [
+      {
+       "start": 55.632,
+       "end": 57.894,
+       "words": [
+        {
+         "text": "Pick",
+         "tail": "",
+         "hl": false,
+         "start": 55.632,
+         "end": 55.814
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 55.934,
+         "end": 56.054
+        },
+        {
+         "text": "200+",
+         "tail": "",
+         "hl": false,
+         "cue": "p1",
+         "start": 56.134,
+         "end": 57.094
+        },
+        {
+         "text": "models",
+         "tail": ",",
+         "hl": false,
+         "start": 57.174,
+         "end": 57.894
+        }
+       ]
+      },
+      {
+       "start": 57.974,
+       "end": 60.214,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 57.974,
+         "end": 58.054
+        },
+        {
+         "text": "switch",
+         "tail": "",
+         "hl": false,
+         "cue": "p2",
+         "start": 58.134,
+         "end": 58.454
+        },
+        {
+         "text": "whenever",
+         "tail": "",
+         "hl": false,
+         "start": 58.534,
+         "end": 58.934
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 58.974,
+         "end": 59.014
+        },
+        {
+         "text": "better",
+         "tail": "",
+         "hl": false,
+         "start": 59.094,
+         "end": 59.254
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 59.334,
+         "end": 59.414
+        },
+        {
+         "text": "drops",
+         "tail": ".",
+         "hl": false,
+         "start": 59.494,
+         "end": 60.214
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "REASON 2/4",
+    "number": 2,
+    "title": "No lock-in",
+    "highlight": "No",
+    "icon": "unlink",
+    "points": [
+     {
+      "text": "200+ models to pick from",
+      "cue": "p1"
+     },
+     {
+      "text": "Switch any time",
+      "cue": "p2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reason3",
+   "start": 60.238,
+   "end": 69.036,
+   "sentences": [
+    {
+     "start": 60.238,
+     "end": 62.219,
+     "chunks": [
+      {
+       "start": 60.238,
+       "end": 62.414,
+       "words": [
+        {
+         "text": "Three",
+         "tail": ":",
+         "hl": false,
+         "start": 60.238,
+         "end": 61.054
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 61.214,
+         "end": 61.454
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": true,
+         "start": 61.614,
+         "end": 61.854
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 61.934,
+         "end": 62.414
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 62.339,
+     "end": 68.816,
+     "chunks": [
+      {
+       "start": 62.339,
+       "end": 63.619,
+       "words": [
+        {
+         "text": "Self-host",
+         "tail": "",
+         "hl": false,
+         "cue": "p1",
+         "start": 62.339,
+         "end": 62.979
+        },
+        {
+         "text": "it",
+         "tail": ",",
+         "hl": false,
+         "start": 63.059,
+         "end": 63.619
+        }
+       ]
+      },
+      {
+       "start": 63.699,
+       "end": 66.499,
+       "words": [
+        {
+         "text": "run",
+         "tail": "",
+         "hl": false,
+         "start": 63.699,
+         "end": 63.859
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 63.939,
+         "end": 64.019
+        },
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 64.099,
+         "end": 64.179
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 64.219,
+         "end": 64.259
+        },
+        {
+         "text": "desktop",
+         "tail": "",
+         "hl": false,
+         "start": 64.499,
+         "end": 64.739
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 64.819,
+         "end": 65.059
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 65.139,
+         "end": 65.219
+        },
+        {
+         "text": "Mac",
+         "tail": "",
+         "hl": false,
+         "cue": "p2",
+         "start": 65.299,
+         "end": 65.539
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 65.579,
+         "end": 65.619
+        },
+        {
+         "text": "Windows",
+         "tail": ",",
+         "hl": false,
+         "start": 65.699,
+         "end": 66.499
+        }
+       ]
+      },
+      {
+       "start": 66.579,
+       "end": 69.059,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 66.579,
+         "end": 66.739
+        },
+        {
+         "text": "change",
+         "tail": "",
+         "hl": false,
+         "start": 66.899,
+         "end": 67.139
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 67.219,
+         "end": 67.299
+        },
+        {
+         "text": "UI",
+         "tail": "",
+         "hl": false,
+         "cue": "p3",
+         "start": 67.379,
+         "end": 67.699
+        },
+        {
+         "text": "however",
+         "tail": "",
+         "hl": false,
+         "start": 67.859,
+         "end": 68.259
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 68.339,
+         "end": 68.419
+        },
+        {
+         "text": "want",
+         "tail": ".",
+         "hl": false,
+         "start": 68.499,
+         "end": 69.059
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "REASON 3/4",
+    "number": 3,
+    "title": "You own it",
+    "highlight": "own",
+    "icon": "download",
+    "points": [
+     {
+      "text": "Self-host it",
+      "cue": "p1"
+     },
+     {
+      "text": "Mac and Windows app",
+      "cue": "p2"
+     },
+     {
+      "text": "Change the UI",
+      "cue": "p3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reason4",
+   "start": 69.036,
+   "end": 75.122,
+   "sentences": [
+    {
+     "start": 69.036,
+     "end": 71.075,
+     "chunks": [
+      {
+       "start": 69.036,
+       "end": 71.308,
+       "words": [
+        {
+         "text": "Four",
+         "tail": ":",
+         "hl": false,
+         "start": 69.036,
+         "end": 69.668
+        },
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 69.868,
+         "end": 70.108
+        },
+        {
+         "text": "extensible",
+         "tail": ".",
+         "hl": true,
+         "start": 70.188,
+         "end": 71.308
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 71.195,
+     "end": 74.902,
+     "chunks": [
+      {
+       "start": 71.195,
+       "end": 72.465,
+       "words": [
+        {
+         "text": "Add",
+         "tail": "",
+         "hl": false,
+         "cue": "p1",
+         "start": 71.195,
+         "end": 71.385
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 71.425,
+         "end": 71.635
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 71.665,
+         "end": 71.852
+        },
+        {
+         "text": "models",
+         "tail": "",
+         "hl": false,
+         "start": 71.905,
+         "end": 72.465
+        }
+       ]
+      },
+      {
+       "start": 72.625,
+       "end": 75.105,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 72.625,
+         "end": 72.785
+        },
+        {
+         "text": "build",
+         "tail": "",
+         "hl": false,
+         "cue": "p2",
+         "start": 72.865,
+         "end": 73.105
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 73.225,
+         "end": 73.345
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 73.425,
+         "end": 73.585
+        },
+        {
+         "text": "product",
+         "tail": "",
+         "hl": false,
+         "start": 73.665,
+         "end": 74.065
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 74.145,
+         "end": 74.225
+        },
+        {
+         "text": "top",
+         "tail": "",
+         "hl": false,
+         "start": 74.305,
+         "end": 74.465
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 74.545,
+         "end": 74.625
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 74.745,
+         "end": 75.105
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "REASON 4/4",
+    "number": 4,
+    "title": "Extensible",
+    "highlight": "Extensible",
+    "icon": "code",
+    "points": [
+     {
+      "text": "Add your own models",
+      "cue": "p1"
+     },
+     {
+      "text": "Build your own product",
+      "cue": "p2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 75.122,
+   "end": 81.099,
+   "sentences": [
+    {
+     "start": 75.122,
+     "end": 76.744,
+     "chunks": [
+      {
+       "start": 75.122,
+       "end": 77.012,
+       "words": [
+        {
+         "text": "Want",
+         "tail": "",
+         "hl": false,
+         "start": 75.122,
+         "end": 75.332
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 75.412,
+         "end": 75.492
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 75.612,
+         "end": 75.732
+        },
+        {
+         "text": "setup",
+         "tail": "",
+         "hl": false,
+         "start": 75.812,
+         "end": 76.132
+        },
+        {
+         "text": "tutorial",
+         "tail": "?",
+         "hl": true,
+         "start": 76.412,
+         "end": 77.012
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 76.864,
+     "end": 79.679,
+     "chunks": [
+      {
+       "start": 76.864,
+       "end": 78.259,
+       "words": [
+        {
+         "text": "Comment",
+         "tail": "",
+         "hl": false,
+         "start": 76.864,
+         "end": 77.139
+        },
+        {
+         "text": "TUTORIAL",
+         "tail": "",
+         "hl": true,
+         "cue": "type",
+         "start": 77.379,
+         "end": 77.619
+        },
+        {
+         "text": "below",
+         "tail": ",",
+         "hl": false,
+         "start": 77.699,
+         "end": 78.259
+        }
+       ]
+      },
+      {
+       "start": 78.339,
+       "end": 79.859,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 78.339,
+         "end": 78.579
+        },
+        {
+         "text": "I'll",
+         "tail": "",
+         "hl": false,
+         "start": 78.739,
+         "end": 78.899
+        },
+        {
+         "text": "make",
+         "tail": "",
+         "hl": false,
+         "start": 78.979,
+         "end": 79.059
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 79.139,
+         "end": 79.219
+        },
+        {
+         "text": "next",
+         "tail": ".",
+         "hl": false,
+         "cue": "sub",
+         "start": 79.419,
+         "end": 79.859
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "comment",
+    "label": "COMMENT",
+    "headline": "Want the full tutorial?",
+    "highlight": "tutorial",
+    "keyword": "TUTORIAL",
+    "cue": "type",
+    "sub": {
+     "text": "Full setup tutorial next",
+     "cue": "sub"
+    }
+   }
+  }
+ ]
+}

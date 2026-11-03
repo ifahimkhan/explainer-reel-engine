@@ -1,0 +1,3859 @@
+{
+ "id": "upi-layers",
+ "durationS": 150.033,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.95,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 4.95,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.87,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.31
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": false,
+         "start": 0.43,
+         "end": 0.79
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 0.85,
+         "end": 1.27
+        },
+        {
+         "text": "passes",
+         "tail": "",
+         "hl": false,
+         "start": 1.339,
+         "end": 1.75
+        },
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 1.79,
+         "end": 2.07
+        },
+        {
+         "text": "seven",
+         "tail": "",
+         "hl": true,
+         "start": 2.11,
+         "end": 2.31
+        },
+        {
+         "text": "layers",
+         "tail": ".",
+         "hl": false,
+         "start": 2.367,
+         "end": 2.87
+        }
+       ]
+      },
+      {
+       "start": 2.93,
+       "end": 4.95,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 2.93,
+         "end": 3.11
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 3.163,
+         "end": 3.43
+        },
+        {
+         "text": "layer",
+         "tail": "",
+         "hl": false,
+         "start": 3.483,
+         "end": 3.75
+        },
+        {
+         "text": "fixes",
+         "tail": "",
+         "hl": false,
+         "start": 3.843,
+         "end": 4.31
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 4.35,
+         "end": 4.39
+        },
+        {
+         "text": "problem",
+         "tail": ".",
+         "hl": true,
+         "start": 4.45,
+         "end": 4.95
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "punch",
+    "label": "UPI · 7 LAYERS",
+    "word": "UPI",
+    "headline": "7 layers behind every payment",
+    "highlight": "7",
+    "kicker": "SYSTEM DESIGN",
+    "icon": "layers"
+   }
+  },
+  {
+   "id": "dayone",
+   "start": 5.95,
+   "end": 19.455,
+   "sentences": [
+    {
+     "start": 5.95,
+     "end": 8.583,
+     "chunks": [
+      {
+       "start": 5.95,
+       "end": 8.583,
+       "words": [
+        {
+         "text": "Day",
+         "tail": "",
+         "hl": false,
+         "start": 5.95,
+         "end": 6.146
+        },
+        {
+         "text": "one",
+         "tail": ":",
+         "hl": false,
+         "start": 6.146,
+         "end": 6.775
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 6.775,
+         "end": 6.972
+        },
+        {
+         "text": "want",
+         "tail": "",
+         "hl": false,
+         "start": 6.972,
+         "end": 7.168
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 7.168,
+         "end": 7.365
+        },
+        {
+         "text": "send",
+         "tail": "",
+         "hl": false,
+         "start": 7.365,
+         "end": 7.561
+        },
+        {
+         "text": "Rahul",
+         "tail": "",
+         "hl": false,
+         "start": 7.561,
+         "end": 7.955
+        },
+        {
+         "text": "₹500",
+         "tail": ".",
+         "hl": false,
+         "start": 7.955,
+         "end": 8.583
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.183,
+     "end": 12.526,
+     "chunks": [
+      {
+       "start": 9.183,
+       "end": 10.126,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 9.183,
+         "end": 9.246
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 9.306,
+         "end": 9.486
+        },
+        {
+         "text": "asks",
+         "tail": ",",
+         "hl": false,
+         "start": 9.598,
+         "end": 10.126
+        }
+       ]
+      },
+      {
+       "start": 10.246,
+       "end": 11.166,
+       "words": [
+        {
+         "text": "\"Account",
+         "tail": "",
+         "hl": false,
+         "start": 10.246,
+         "end": 10.686
+        },
+        {
+         "text": "number",
+         "tail": "?",
+         "hl": false,
+         "cue": "acct",
+         "start": 10.743,
+         "end": 11.166
+        }
+       ]
+      },
+      {
+       "start": 11.379,
+       "end": 12.526,
+       "words": [
+        {
+         "text": "IFSC",
+         "tail": "",
+         "hl": false,
+         "start": 11.379,
+         "end": 11.966
+        },
+        {
+         "text": "code?\"",
+         "tail": "",
+         "hl": false,
+         "cue": "ifsc",
+         "start": 12.03,
+         "end": 12.526
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 13.126,
+     "end": 16.112,
+     "chunks": [
+      {
+       "start": 13.126,
+       "end": 14.716,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 13.126,
+         "end": 13.32
+        },
+        {
+         "text": "type",
+         "tail": "",
+         "hl": false,
+         "start": 13.32,
+         "end": 13.708
+        },
+        {
+         "text": "16",
+         "tail": "",
+         "hl": false,
+         "start": 13.708,
+         "end": 14.096
+        },
+        {
+         "text": "digits",
+         "tail": ".",
+         "hl": false,
+         "start": 14.096,
+         "end": 14.716
+        }
+       ]
+      },
+      {
+       "start": 14.716,
+       "end": 16.112,
+       "words": [
+        {
+         "text": "One",
+         "tail": "",
+         "hl": false,
+         "start": 14.716,
+         "end": 15.104
+        },
+        {
+         "text": "digit",
+         "tail": "",
+         "hl": false,
+         "start": 15.104,
+         "end": 15.492
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 15.492,
+         "end": 15.686
+        },
+        {
+         "text": "wrong",
+         "tail": ".",
+         "hl": true,
+         "cue": "wrong",
+         "start": 15.686,
+         "end": 16.112
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 16.712,
+     "end": 18.455,
+     "chunks": [
+      {
+       "start": 16.712,
+       "end": 17.415,
+       "words": [
+        {
+         "text": "\"Money",
+         "tail": "",
+         "hl": false,
+         "start": 16.712,
+         "end": 16.935
+        },
+        {
+         "text": "sent",
+         "tail": ".",
+         "hl": false,
+         "cue": "sent",
+         "start": 17.015,
+         "end": 17.415
+        }
+       ]
+      },
+      {
+       "start": 17.495,
+       "end": 18.455,
+       "words": [
+        {
+         "text": "To",
+         "tail": "",
+         "hl": false,
+         "start": 17.495,
+         "end": 17.655
+        },
+        {
+         "text": "someone",
+         "tail": "",
+         "hl": true,
+         "start": 17.695,
+         "end": 17.975
+        },
+        {
+         "text": "else.\"",
+         "tail": "",
+         "hl": false,
+         "start": 18.039,
+         "end": 18.455
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "DAY ONE",
+    "headline": "The old way",
+    "highlight": "old",
+    "stops": [
+     {
+      "name": "Account no.",
+      "sub": "16 digits",
+      "icon": "file",
+      "cue": "acct"
+     },
+     {
+      "name": "IFSC code",
+      "icon": "db",
+      "cue": "ifsc"
+     },
+     {
+      "name": "Wrong digit",
+      "sub": "1 of 16",
+      "icon": "unlink",
+      "cue": "wrong",
+      "tone": "bad"
+     },
+     {
+      "name": "Stranger",
+      "sub": "money gone",
+      "icon": "user",
+      "cue": "sent",
+      "tone": "bad"
+     }
+    ],
+    "glitch": [
+     {
+      "cue": "sent",
+      "text": "Money sent to the wrong account"
+     }
+    ]
+   }
+  },
+  {
+   "id": "upiid",
+   "start": 19.455,
+   "end": 30.485,
+   "sentences": [
+    {
+     "start": 19.455,
+     "end": 25.243,
+     "chunks": [
+      {
+       "start": 19.455,
+       "end": 22.123,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 19.455,
+         "end": 19.483
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": false,
+         "start": 19.603,
+         "end": 19.963
+        },
+        {
+         "text": "gives",
+         "tail": "",
+         "hl": false,
+         "start": 20.016,
+         "end": 20.283
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 20.35,
+         "end": 20.683
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 20.747,
+         "end": 21.003
+        },
+        {
+         "text": "account",
+         "tail": "",
+         "hl": false,
+         "start": 21.053,
+         "end": 21.403
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 21.43,
+         "end": 21.483
+        },
+        {
+         "text": "address",
+         "tail": ",",
+         "hl": true,
+         "start": 21.543,
+         "end": 22.123
+        }
+       ]
+      },
+      {
+       "start": 22.155,
+       "end": 23.763,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 22.155,
+         "end": 22.283
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 22.336,
+         "end": 22.443
+        },
+        {
+         "text": "email",
+         "tail": "",
+         "hl": false,
+         "start": 22.496,
+         "end": 22.763
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 22.803,
+         "end": 22.923
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 22.939,
+         "end": 23.003
+        },
+        {
+         "text": "bank",
+         "tail": ".",
+         "hl": false,
+         "start": 23.083,
+         "end": 23.763
+        }
+       ]
+      },
+      {
+       "start": 23.823,
+       "end": 25.243,
+       "words": [
+        {
+         "text": "Rahul",
+         "tail": "",
+         "hl": false,
+         "start": 23.823,
+         "end": 24.123
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 24.23,
+         "end": 24.443
+        },
+        {
+         "text": "okbank",
+         "tail": ".",
+         "hl": false,
+         "cue": "upiid",
+         "start": 24.576,
+         "end": 25.243
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 25.843,
+     "end": 29.485,
+     "chunks": [
+      {
+       "start": 25.843,
+       "end": 27.165,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 25.843,
+         "end": 25.885
+        },
+        {
+         "text": "type",
+         "tail": "",
+         "hl": false,
+         "start": 25.933,
+         "end": 26.125
+        },
+        {
+         "text": "his",
+         "tail": "",
+         "hl": false,
+         "start": 26.165,
+         "end": 26.285
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": false,
+         "start": 26.365,
+         "end": 26.685
+        },
+        {
+         "text": "ID",
+         "tail": ",",
+         "hl": false,
+         "start": 26.792,
+         "end": 27.165
+        }
+       ]
+      },
+      {
+       "start": 27.185,
+       "end": 28.685,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 27.185,
+         "end": 27.245
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 27.285,
+         "end": 27.405
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 27.465,
+         "end": 27.645
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "start": 27.698,
+         "end": 27.965
+        },
+        {
+         "text": "his",
+         "tail": "",
+         "hl": false,
+         "start": 28.005,
+         "end": 28.125
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": false,
+         "start": 28.173,
+         "end": 28.365
+        },
+        {
+         "text": "name",
+         "tail": "",
+         "hl": false,
+         "cue": "lookup",
+         "start": 28.429,
+         "end": 28.685
+        }
+       ]
+      },
+      {
+       "start": 28.731,
+       "end": 29.485,
+       "words": [
+        {
+         "text": "before",
+         "tail": "",
+         "hl": false,
+         "start": 28.731,
+         "end": 29.005
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 29.025,
+         "end": 29.085
+        },
+        {
+         "text": "pay",
+         "tail": ".",
+         "hl": false,
+         "cue": "name",
+         "start": 29.165,
+         "end": 29.485
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "LAYER 1 · UPI ID",
+    "transition": "slide",
+    "headline": "An address for your bank",
+    "highlight": "address",
+    "stops": [
+     {
+      "name": "rahul@okbank",
+      "icon": "user",
+      "cue": "upiid"
+     },
+     {
+      "name": "Name lookup",
+      "icon": "auth",
+      "cue": "lookup"
+     },
+     {
+      "name": "Rahul Sharma",
+      "sub": "verified",
+      "icon": "check",
+      "cue": "name",
+      "tone": "good"
+     }
+    ],
+    "note": {
+     "text": "Check the name before you pay",
+     "cue": "name"
+    }
+   }
+  },
+  {
+   "id": "guess",
+   "start": 30.485,
+   "end": 38.251,
+   "sentences": [
+    {
+     "start": 30.485,
+     "end": 32.892,
+     "chunks": [
+      {
+       "start": 30.485,
+       "end": 32.892,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 30.485,
+         "end": 30.572
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 30.604,
+         "end": 30.732
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 30.812,
+         "end": 31.132
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 31.152,
+         "end": 31.212
+        },
+        {
+         "text": "Rahul's",
+         "tail": "",
+         "hl": false,
+         "start": 31.265,
+         "end": 31.612
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 31.66,
+         "end": 31.852
+        },
+        {
+         "text": "are",
+         "tail": "",
+         "hl": false,
+         "start": 31.892,
+         "end": 32.012
+        },
+        {
+         "text": "different",
+         "tail": "",
+         "hl": true,
+         "start": 32.044,
+         "end": 32.332
+        },
+        {
+         "text": "banks",
+         "tail": ".",
+         "hl": false,
+         "start": 32.412,
+         "end": 32.892
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.492,
+     "end": 35.36,
+     "chunks": [
+      {
+       "start": 33.492,
+       "end": 34.56,
+       "words": [
+        {
+         "text": "Pause",
+         "tail": "",
+         "hl": false,
+         "start": 33.492,
+         "end": 33.68
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 33.7,
+         "end": 33.76
+        },
+        {
+         "text": "guess",
+         "tail": ":",
+         "hl": false,
+         "cue": "ask",
+         "start": 33.813,
+         "end": 34.56
+        }
+       ]
+      },
+      {
+       "start": 34.58,
+       "end": 35.36,
+       "words": [
+        {
+         "text": "who",
+         "tail": "",
+         "hl": false,
+         "start": 34.58,
+         "end": 34.64
+        },
+        {
+         "text": "connects",
+         "tail": "",
+         "hl": true,
+         "start": 34.684,
+         "end": 35.04
+        },
+        {
+         "text": "them",
+         "tail": "?",
+         "hl": false,
+         "start": 35.072,
+         "end": 35.36
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.96,
+     "end": 37.251,
+     "chunks": [
+      {
+       "start": 35.96,
+       "end": 37.251,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 35.96,
+         "end": 36.051
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 36.091,
+         "end": 36.211
+        },
+        {
+         "text": "NPCI",
+         "tail": "",
+         "hl": false,
+         "cue": "reveal",
+         "start": 36.331,
+         "end": 36.771
+        },
+        {
+         "text": "switch",
+         "tail": ".",
+         "hl": true,
+         "start": 36.828,
+         "end": 37.251
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "quiz",
+    "label": "QUICK GUESS",
+    "question": "Who connects the two banks?",
+    "highlight": "connects",
+    "options": [
+     "RBI",
+     "NPCI",
+     "Google Pay",
+     "Visa"
+    ],
+    "answer": 1,
+    "seconds": 3,
+    "ask": "ask",
+    "reveal": "reveal"
+   }
+  },
+  {
+   "id": "npci",
+   "start": 38.251,
+   "end": 52.989,
+   "sentences": [
+    {
+     "start": 38.251,
+     "end": 40.595,
+     "chunks": [
+      {
+       "start": 38.251,
+       "end": 40.595,
+       "words": [
+        {
+         "text": "Think",
+         "tail": "",
+         "hl": false,
+         "start": 38.251,
+         "end": 38.355
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 38.408,
+         "end": 38.515
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 38.568,
+         "end": 38.675
+        },
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 38.702,
+         "end": 38.755
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 38.795,
+         "end": 38.835
+        },
+        {
+         "text": "telephone",
+         "tail": "",
+         "hl": true,
+         "start": 38.883,
+         "end": 39.315
+        },
+        {
+         "text": "exchange",
+         "tail": "",
+         "hl": false,
+         "cue": "exch",
+         "start": 39.368,
+         "end": 39.795
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 39.835,
+         "end": 39.955
+        },
+        {
+         "text": "banks",
+         "tail": ".",
+         "hl": false,
+         "start": 40.048,
+         "end": 40.595
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 41.195,
+     "end": 47.257,
+     "chunks": [
+      {
+       "start": 41.195,
+       "end": 42.617,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 41.195,
+         "end": 41.257
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 41.337,
+         "end": 41.577
+        },
+        {
+         "text": "asks",
+         "tail": "",
+         "hl": false,
+         "cue": "m1",
+         "start": 41.641,
+         "end": 41.897
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 41.929,
+         "end": 42.057
+        },
+        {
+         "text": "bank",
+         "tail": ".",
+         "hl": false,
+         "start": 42.121,
+         "end": 42.617
+        }
+       ]
+      },
+      {
+       "start": 42.665,
+       "end": 44.457,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 42.665,
+         "end": 42.857
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 42.921,
+         "end": 43.177
+        },
+        {
+         "text": "routes",
+         "tail": "",
+         "hl": false,
+         "cue": "m2",
+         "start": 43.223,
+         "end": 43.497
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 43.524,
+         "end": 43.577
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 43.604,
+         "end": 43.657
+        },
+        {
+         "text": "NPCI",
+         "tail": ".",
+         "hl": false,
+         "start": 43.797,
+         "end": 44.457
+        }
+       ]
+      },
+      {
+       "start": 44.697,
+       "end": 47.257,
+       "words": [
+        {
+         "text": "NPCI",
+         "tail": "",
+         "hl": false,
+         "start": 44.697,
+         "end": 45.497
+        },
+        {
+         "text": "asks",
+         "tail": "",
+         "hl": false,
+         "start": 45.577,
+         "end": 45.897
+        },
+        {
+         "text": "Rahul's",
+         "tail": "",
+         "hl": false,
+         "start": 45.964,
+         "end": 46.377
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "cue": "m3",
+         "start": 46.425,
+         "end": 46.617
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 46.644,
+         "end": 46.697
+        },
+        {
+         "text": "credit",
+         "tail": ".",
+         "hl": false,
+         "start": 46.754,
+         "end": 47.257
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 47.857,
+     "end": 51.989,
+     "chunks": [
+      {
+       "start": 47.857,
+       "end": 49.269,
+       "words": [
+        {
+         "text": "Rahul's",
+         "tail": "",
+         "hl": false,
+         "start": 47.857,
+         "end": 48.149
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 48.213,
+         "end": 48.469
+        },
+        {
+         "text": "confirms",
+         "tail": ",",
+         "hl": false,
+         "cue": "m4",
+         "start": 48.54,
+         "end": 49.269
+        }
+       ]
+      },
+      {
+       "start": 49.309,
+       "end": 50.709,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 49.309,
+         "end": 49.429
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 49.461,
+         "end": 49.589
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 49.649,
+         "end": 49.829
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "cue": "m5",
+         "start": 49.882,
+         "end": 50.149
+        },
+        {
+         "text": "paid",
+         "tail": ".",
+         "hl": true,
+         "start": 50.213,
+         "end": 50.709
+        }
+       ]
+      },
+      {
+       "start": 50.749,
+       "end": 51.989,
+       "words": [
+        {
+         "text": "All",
+         "tail": "",
+         "hl": false,
+         "start": 50.749,
+         "end": 50.869
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 50.896,
+         "end": 50.949
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 50.989,
+         "end": 51.029
+        },
+        {
+         "text": "few",
+         "tail": "",
+         "hl": false,
+         "start": 51.089,
+         "end": 51.269
+        },
+        {
+         "text": "seconds",
+         "tail": ".",
+         "hl": false,
+         "cue": "secs",
+         "start": 51.329,
+         "end": 51.989
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "sequence",
+    "label": "LAYER 2 · NPCI SWITCH",
+    "title": "One UPI payment",
+    "transition": "whip",
+    "lanes": [
+     {
+      "name": "App",
+      "icon": "phone"
+     },
+     {
+      "name": "Your bank",
+      "icon": "db"
+     },
+     {
+      "name": "NPCI",
+      "icon": "share"
+     },
+     {
+      "name": "Rahul's bank",
+      "icon": "db"
+     }
+    ],
+    "messages": [
+     {
+      "from": 0,
+      "to": 1,
+      "text": "pay ₹500",
+      "cue": "m1"
+     },
+     {
+      "from": 1,
+      "to": 2,
+      "text": "debit + route",
+      "cue": "m2"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "text": "credit ₹500",
+      "cue": "m3"
+     },
+     {
+      "from": 3,
+      "to": 2,
+      "text": "credited",
+      "cue": "m4",
+      "tone": "good"
+     },
+     {
+      "from": 2,
+      "to": 0,
+      "text": "Paid ₹500",
+      "cue": "m5",
+      "tone": "good"
+     }
+    ],
+    "note": {
+     "text": "All in a few seconds",
+     "cue": "secs"
+    },
+    "camera": [
+     {
+      "cue": "exch",
+      "zoom": 1.15,
+      "x": 540,
+      "y": 480
+     },
+     {
+      "cue": "m1",
+      "zoom": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "device",
+   "start": 52.989,
+   "end": 69.57,
+   "sentences": [
+    {
+     "start": 52.989,
+     "end": 55.83,
+     "chunks": [
+      {
+       "start": 52.989,
+       "end": 55.83,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 52.989,
+         "end": 53.11
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 53.15,
+         "end": 53.19
+        },
+        {
+         "text": "fraudster",
+         "tail": "",
+         "hl": false,
+         "cue": "fraud",
+         "start": 53.243,
+         "end": 53.83
+        },
+        {
+         "text": "installs",
+         "tail": "",
+         "hl": false,
+         "start": 53.901,
+         "end": 54.47
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 54.502,
+         "end": 54.63
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 54.71,
+         "end": 54.95
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 55.03,
+         "end": 55.19
+        },
+        {
+         "text": "their",
+         "tail": "",
+         "hl": false,
+         "start": 55.217,
+         "end": 55.35
+        },
+        {
+         "text": "phone",
+         "tail": ".",
+         "hl": false,
+         "start": 55.417,
+         "end": 55.83
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 56.43,
+     "end": 62.328,
+     "chunks": [
+      {
+       "start": 56.43,
+       "end": 57.935,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 56.43,
+         "end": 56.495
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": false,
+         "start": 56.615,
+         "end": 56.975
+        },
+        {
+         "text": "binds",
+         "tail": "",
+         "hl": false,
+         "start": 57.042,
+         "end": 57.375
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 57.391,
+         "end": 57.455
+        },
+        {
+         "text": "account",
+         "tail": "",
+         "hl": false,
+         "start": 57.515,
+         "end": 57.935
+        }
+       ]
+      },
+      {
+       "start": 57.962,
+       "end": 59.135,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 57.962,
+         "end": 58.015
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 58.063,
+         "end": 58.255
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "cue": "yours",
+         "start": 58.308,
+         "end": 58.575
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 58.615,
+         "end": 58.735
+        },
+        {
+         "text": "SIM",
+         "tail": ".",
+         "hl": false,
+         "start": 58.815,
+         "end": 59.135
+        }
+       ]
+      },
+      {
+       "start": 59.202,
+       "end": 60.735,
+       "words": [
+        {
+         "text": "Their",
+         "tail": "",
+         "hl": false,
+         "start": 59.202,
+         "end": 59.535
+        },
+        {
+         "text": "request",
+         "tail": "",
+         "hl": false,
+         "start": 59.595,
+         "end": 60.015
+        },
+        {
+         "text": "comes",
+         "tail": "",
+         "hl": false,
+         "start": 60.068,
+         "end": 60.335
+        },
+        {
+         "text": "back",
+         "tail": ":",
+         "hl": false,
+         "cue": "blocked",
+         "start": 60.367,
+         "end": 60.735
+        }
+       ]
+      },
+      {
+       "start": 60.775,
+       "end": 62.415,
+       "words": [
+        {
+         "text": "\"Unknown",
+         "tail": "",
+         "hl": false,
+         "start": 60.775,
+         "end": 61.135
+        },
+        {
+         "text": "device",
+         "tail": ".",
+         "hl": false,
+         "start": 61.204,
+         "end": 61.895
+        },
+        {
+         "text": "Blocked.\"",
+         "tail": "",
+         "hl": true,
+         "start": 61.93,
+         "end": 62.415
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 62.928,
+     "end": 68.57,
+     "chunks": [
+      {
+       "start": 62.928,
+       "end": 65.408,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 62.928,
+         "end": 63.008
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 63.075,
+         "end": 63.408
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 63.468,
+         "end": 63.888
+        },
+        {
+         "text": "needs",
+         "tail": "",
+         "hl": false,
+         "start": 63.968,
+         "end": 64.368
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 64.4,
+         "end": 64.528
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": true,
+         "start": 64.648,
+         "end": 65.008
+        },
+        {
+         "text": "PIN",
+         "tail": ",",
+         "hl": false,
+         "cue": "pin",
+         "start": 65.068,
+         "end": 65.408
+        }
+       ]
+      },
+      {
+       "start": 65.461,
+       "end": 67.008,
+       "words": [
+        {
+         "text": "typed",
+         "tail": "",
+         "hl": false,
+         "start": 65.461,
+         "end": 65.728
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 65.776,
+         "end": 65.968
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 66.008,
+         "end": 66.048
+        },
+        {
+         "text": "secure",
+         "tail": "",
+         "hl": false,
+         "start": 66.128,
+         "end": 66.608
+        },
+        {
+         "text": "screen",
+         "tail": ".",
+         "hl": false,
+         "start": 66.654,
+         "end": 67.008
+        }
+       ]
+      },
+      {
+       "start": 67.088,
+       "end": 68.608,
+       "words": [
+        {
+         "text": "Even",
+         "tail": "",
+         "hl": false,
+         "start": 67.088,
+         "end": 67.408
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 67.428,
+         "end": 67.488
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "cue": "cant",
+         "start": 67.568,
+         "end": 67.808
+        },
+        {
+         "text": "can't",
+         "tail": "",
+         "hl": false,
+         "start": 67.848,
+         "end": 68.128
+        },
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 68.168,
+         "end": 68.288
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 68.341,
+         "end": 68.608
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "phoneflow",
+    "label": "LAYER 3 · DEVICE + PIN",
+    "phones": [
+     {
+      "owner": "Fraudster's phone",
+      "tone": "bad",
+      "screens": [
+       {
+        "cue": "fraud",
+        "kind": "pay",
+        "to": "Fraudster",
+        "amount": "₹5,000"
+       },
+       {
+        "cue": "blocked",
+        "kind": "status",
+        "tone": "bad",
+        "icon": "lock",
+        "title": "Unknown device",
+        "sub": "Request blocked"
+       }
+      ]
+     },
+     {
+      "owner": "Your phone",
+      "tone": "good",
+      "screens": [
+       {
+        "cue": "yours",
+        "kind": "pay",
+        "to": "Rahul Sharma",
+        "amount": "₹500"
+       },
+       {
+        "cue": "pin",
+        "kind": "pin",
+        "title": "Enter UPI PIN",
+        "sub": "SECURE SCREEN"
+       }
+      ]
+     }
+    ],
+    "note": {
+     "text": "Even the app can't see your PIN",
+     "cue": "cant"
+    }
+   }
+  },
+  {
+   "id": "txn",
+   "start": 69.57,
+   "end": 85.953,
+   "sentences": [
+    {
+     "start": 69.57,
+     "end": 72.342,
+     "chunks": [
+      {
+       "start": 69.57,
+       "end": 70.902,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 69.57,
+         "end": 69.702
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 69.722,
+         "end": 69.782
+        },
+        {
+         "text": "network",
+         "tail": "",
+         "hl": false,
+         "start": 69.832,
+         "end": 70.182
+        },
+        {
+         "text": "lags",
+         "tail": ",",
+         "hl": false,
+         "cue": "tap1",
+         "start": 70.262,
+         "end": 70.902
+        }
+       ]
+      },
+      {
+       "start": 70.942,
+       "end": 72.342,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 70.942,
+         "end": 71.062
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 71.102,
+         "end": 71.222
+        },
+        {
+         "text": "tap",
+         "tail": "",
+         "hl": false,
+         "start": 71.282,
+         "end": 71.462
+        },
+        {
+         "text": "Pay",
+         "tail": "",
+         "hl": false,
+         "start": 71.522,
+         "end": 71.702
+        },
+        {
+         "text": "twice",
+         "tail": ".",
+         "hl": true,
+         "cue": "tap2",
+         "start": 71.782,
+         "end": 72.342
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 72.942,
+     "end": 79.876,
+     "chunks": [
+      {
+       "start": 72.942,
+       "end": 76.142,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 72.942,
+         "end": 73.022
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 73.075,
+         "end": 73.342
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 73.412,
+         "end": 73.902
+        },
+        {
+         "text": "carries",
+         "tail": "",
+         "hl": false,
+         "start": 73.942,
+         "end": 74.222
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 74.262,
+         "end": 74.302
+        },
+        {
+         "text": "unique",
+         "tail": "",
+         "hl": false,
+         "start": 74.348,
+         "end": 74.622
+        },
+        {
+         "text": "transaction",
+         "tail": "",
+         "hl": true,
+         "start": 74.669,
+         "end": 75.182
+        },
+        {
+         "text": "ID",
+         "tail": ".",
+         "hl": false,
+         "start": 75.289,
+         "end": 76.142
+        }
+       ]
+      },
+      {
+       "start": 76.162,
+       "end": 78.302,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 76.162,
+         "end": 76.222
+        },
+        {
+         "text": "retry",
+         "tail": "",
+         "hl": false,
+         "start": 76.315,
+         "end": 76.782
+        },
+        {
+         "text": "has",
+         "tail": "",
+         "hl": false,
+         "start": 76.862,
+         "end": 77.102
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 77.142,
+         "end": 77.262
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "start": 77.326,
+         "end": 77.582
+        },
+        {
+         "text": "ID",
+         "tail": ",",
+         "hl": false,
+         "start": 77.689,
+         "end": 78.302
+        }
+       ]
+      },
+      {
+       "start": 78.322,
+       "end": 79.902,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 78.322,
+         "end": 78.382
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 78.402,
+         "end": 78.462
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 78.558,
+         "end": 78.942
+        },
+        {
+         "text": "ignores",
+         "tail": "",
+         "hl": false,
+         "start": 79.012,
+         "end": 79.502
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "cue": "ignore",
+         "start": 79.582,
+         "end": 79.902
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 80.476,
+     "end": 84.953,
+     "chunks": [
+      {
+       "start": 80.476,
+       "end": 81.996,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 80.476,
+         "end": 80.636
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 80.689,
+         "end": 80.796
+        },
+        {
+         "text": "money",
+         "tail": "",
+         "hl": false,
+         "start": 80.836,
+         "end": 81.036
+        },
+        {
+         "text": "leaves",
+         "tail": "",
+         "hl": false,
+         "start": 81.093,
+         "end": 81.436
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 81.468,
+         "end": 81.596
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 81.676,
+         "end": 81.996
+        }
+       ]
+      },
+      {
+       "start": 82.056,
+       "end": 83.596,
+       "words": [
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 82.056,
+         "end": 82.236
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 82.289,
+         "end": 82.556
+        },
+        {
+         "text": "reaches",
+         "tail": "",
+         "hl": false,
+         "start": 82.596,
+         "end": 82.876
+        },
+        {
+         "text": "Rahul",
+         "tail": ",",
+         "hl": false,
+         "cue": "fail",
+         "start": 82.956,
+         "end": 83.596
+        }
+       ]
+      },
+      {
+       "start": 83.649,
+       "end": 84.956,
+       "words": [
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 83.649,
+         "end": 83.956
+        },
+        {
+         "text": "reversed",
+         "tail": "",
+         "hl": true,
+         "cue": "reversed",
+         "start": 83.978,
+         "end": 84.156
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "start": 84.22,
+         "end": 84.476
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 84.529,
+         "end": 84.636
+        },
+        {
+         "text": "you",
+         "tail": ".",
+         "hl": false,
+         "start": 84.676,
+         "end": 84.956
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "sequence",
+    "label": "LAYER 4 · TRANSACTION ID",
+    "title": "Same ID = same payment",
+    "lanes": [
+     {
+      "name": "App",
+      "icon": "phone"
+     },
+     {
+      "name": "Your bank",
+      "icon": "db"
+     },
+     {
+      "name": "NPCI",
+      "icon": "share"
+     }
+    ],
+    "messages": [
+     {
+      "from": 0,
+      "to": 1,
+      "text": "pay ₹500 · txn 4821",
+      "cue": "tap1"
+     },
+     {
+      "from": 0,
+      "to": 1,
+      "text": "retry · txn 4821",
+      "cue": "tap2",
+      "tone": "bad"
+     },
+     {
+      "from": 1,
+      "to": 0,
+      "text": "same ID: ignored",
+      "cue": "ignore",
+      "tone": "good"
+     },
+     {
+      "from": 2,
+      "to": 1,
+      "text": "not credited",
+      "cue": "fail",
+      "tone": "bad"
+     },
+     {
+      "from": 1,
+      "to": 0,
+      "text": "₹500 reversed",
+      "cue": "reversed",
+      "tone": "good"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "tap2",
+      "zoom": 1.35,
+      "x": 470,
+      "y": 620
+     },
+     {
+      "cue": "fail",
+      "zoom": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "qr",
+   "start": 85.953,
+   "end": 100.925,
+   "sentences": [
+    {
+     "start": 85.953,
+     "end": 89.784,
+     "chunks": [
+      {
+       "start": 85.953,
+       "end": 87.464,
+       "words": [
+        {
+         "text": "Now",
+         "tail": "",
+         "hl": false,
+         "start": 85.953,
+         "end": 86.024
+        },
+        {
+         "text": "shops",
+         "tail": "",
+         "hl": false,
+         "start": 86.104,
+         "end": 86.504
+        },
+        {
+         "text": "want",
+         "tail": "",
+         "hl": false,
+         "start": 86.568,
+         "end": 86.824
+        },
+        {
+         "text": "UPI",
+         "tail": ".",
+         "hl": false,
+         "start": 86.944,
+         "end": 87.464
+        }
+       ]
+      },
+      {
+       "start": 87.484,
+       "end": 89.784,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 87.484,
+         "end": 87.544
+        },
+        {
+         "text": "nobody",
+         "tail": "",
+         "hl": false,
+         "start": 87.613,
+         "end": 88.024
+        },
+        {
+         "text": "types",
+         "tail": "",
+         "hl": false,
+         "start": 88.091,
+         "end": 88.424
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 88.451,
+         "end": 88.504
+        },
+        {
+         "text": "ID",
+         "tail": "",
+         "hl": false,
+         "start": 88.611,
+         "end": 88.824
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 88.877,
+         "end": 88.984
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 89.024,
+         "end": 89.064
+        },
+        {
+         "text": "chai",
+         "tail": "",
+         "hl": true,
+         "start": 89.112,
+         "end": 89.304
+        },
+        {
+         "text": "stall",
+         "tail": ".",
+         "hl": false,
+         "start": 89.357,
+         "end": 89.784
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 90.384,
+     "end": 96.387,
+     "chunks": [
+      {
+       "start": 90.384,
+       "end": 93.967,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 90.384,
+         "end": 90.447
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 90.467,
+         "end": 90.527
+        },
+        {
+         "text": "shop",
+         "tail": "",
+         "hl": false,
+         "start": 90.591,
+         "end": 90.847
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "start": 90.9,
+         "end": 91.167
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 91.247,
+         "end": 91.327
+        },
+        {
+         "text": "QR",
+         "tail": "",
+         "hl": false,
+         "start": 91.434,
+         "end": 91.647
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "cue": "scan",
+         "start": 91.711,
+         "end": 91.967
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 92.031,
+         "end": 92.287
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 92.347,
+         "end": 92.527
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": false,
+         "start": 92.647,
+         "end": 93.007
+        },
+        {
+         "text": "ID",
+         "tail": "",
+         "hl": false,
+         "start": 93.14,
+         "end": 93.407
+        },
+        {
+         "text": "inside",
+         "tail": ".",
+         "hl": false,
+         "start": 93.476,
+         "end": 93.967
+        }
+       ]
+      },
+      {
+       "start": 94.111,
+       "end": 96.527,
+       "words": [
+        {
+         "text": "Scan",
+         "tail": ",",
+         "hl": false,
+         "start": 94.111,
+         "end": 94.847
+        },
+        {
+         "text": "enter",
+         "tail": "",
+         "hl": false,
+         "start": 94.9,
+         "end": 95.167
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 95.199,
+         "end": 95.327
+        },
+        {
+         "text": "PIN",
+         "tail": ",",
+         "hl": false,
+         "cue": "pin2",
+         "start": 95.387,
+         "end": 95.887
+        },
+        {
+         "text": "done",
+         "tail": ".",
+         "hl": false,
+         "cue": "paid",
+         "start": 95.951,
+         "end": 96.527
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 96.987,
+     "end": 99.925,
+     "chunks": [
+      {
+       "start": 96.987,
+       "end": 98.959,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 96.987,
+         "end": 97.18
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 97.18,
+         "end": 97.373
+        },
+        {
+         "text": "speaker",
+         "tail": "",
+         "hl": false,
+         "cue": "sound",
+         "start": 97.373,
+         "end": 97.76
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 97.76,
+         "end": 97.953
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 97.953,
+         "end": 98.147
+        },
+        {
+         "text": "counter",
+         "tail": "",
+         "hl": false,
+         "start": 98.147,
+         "end": 98.533
+        },
+        {
+         "text": "says",
+         "tail": ",",
+         "hl": false,
+         "start": 98.533,
+         "end": 98.959
+        }
+       ]
+      },
+      {
+       "start": 98.959,
+       "end": 99.925,
+       "words": [
+        {
+         "text": "\"Received",
+         "tail": "",
+         "hl": false,
+         "start": 98.959,
+         "end": 99.539
+        },
+        {
+         "text": "₹50.\"",
+         "tail": "",
+         "hl": false,
+         "start": 99.539,
+         "end": 99.925
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "LAYER 5 · QR CODES",
+    "transition": "slide",
+    "headline": "Pay at any chai stall",
+    "highlight": "chai",
+    "stops": [
+     {
+      "name": "Scan QR",
+      "icon": "camera",
+      "cue": "scan"
+     },
+     {
+      "name": "Enter PIN",
+      "icon": "lock",
+      "cue": "pin2"
+     },
+     {
+      "name": "Paid",
+      "icon": "check",
+      "cue": "paid",
+      "tone": "good"
+     },
+     {
+      "name": "Speaker",
+      "sub": "Received ₹50",
+      "icon": "bell",
+      "cue": "sound",
+      "tone": "good"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lite",
+   "start": 100.925,
+   "end": 113.639,
+   "sentences": [
+    {
+     "start": 100.925,
+     "end": 106.639,
+     "chunks": [
+      {
+       "start": 100.925,
+       "end": 102.995,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 100.925,
+         "end": 101.15
+        },
+        {
+         "text": "millions",
+         "tail": "",
+         "hl": false,
+         "cue": "tea",
+         "start": 101.15,
+         "end": 101.6
+        },
+        {
+         "text": "pay",
+         "tail": "",
+         "hl": false,
+         "start": 101.6,
+         "end": 101.825
+        },
+        {
+         "text": "₹10",
+         "tail": "",
+         "hl": false,
+         "start": 101.825,
+         "end": 102.275
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 102.275,
+         "end": 102.5
+        },
+        {
+         "text": "tea",
+         "tail": ",",
+         "hl": false,
+         "start": 102.5,
+         "end": 102.995
+        }
+       ]
+      },
+      {
+       "start": 102.995,
+       "end": 106.639,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 102.995,
+         "end": 103.22
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 103.22,
+         "end": 103.895
+        },
+        {
+         "text": "tiny",
+         "tail": "",
+         "hl": false,
+         "start": 103.895,
+         "end": 104.344
+        },
+        {
+         "text": "payment",
+         "tail": "",
+         "hl": false,
+         "start": 104.344,
+         "end": 104.794
+        },
+        {
+         "text": "hits",
+         "tail": "",
+         "hl": false,
+         "start": 104.794,
+         "end": 105.019
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 105.019,
+         "end": 105.244
+        },
+        {
+         "text": "bank's",
+         "tail": "",
+         "hl": false,
+         "start": 105.244,
+         "end": 105.469
+        },
+        {
+         "text": "core",
+         "tail": "",
+         "hl": true,
+         "start": 105.469,
+         "end": 105.919
+        },
+        {
+         "text": "system",
+         "tail": ".",
+         "hl": false,
+         "start": 105.919,
+         "end": 106.639
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 107.239,
+     "end": 112.639,
+     "chunks": [
+      {
+       "start": 107.239,
+       "end": 109.279,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 107.239,
+         "end": 107.279
+        },
+        {
+         "text": "small",
+         "tail": "",
+         "hl": false,
+         "start": 107.332,
+         "end": 107.599
+        },
+        {
+         "text": "payments",
+         "tail": "",
+         "hl": false,
+         "start": 107.652,
+         "end": 108.079
+        },
+        {
+         "text": "go",
+         "tail": "",
+         "hl": false,
+         "start": 108.132,
+         "end": 108.239
+        },
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 108.259,
+         "end": 108.399
+        },
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": true,
+         "start": 108.519,
+         "end": 108.879
+        },
+        {
+         "text": "Lite",
+         "tail": ".",
+         "hl": false,
+         "start": 108.927,
+         "end": 109.279
+        }
+       ]
+      },
+      {
+       "start": 109.319,
+       "end": 110.919,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 109.319,
+         "end": 109.359
+        },
+        {
+         "text": "small",
+         "tail": "",
+         "hl": false,
+         "start": 109.412,
+         "end": 109.679
+        },
+        {
+         "text": "balance",
+         "tail": "",
+         "hl": false,
+         "start": 109.729,
+         "end": 110.079
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 110.132,
+         "end": 110.239
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 110.255,
+         "end": 110.319
+        },
+        {
+         "text": "phone",
+         "tail": ".",
+         "hl": false,
+         "start": 110.386,
+         "end": 110.919
+        }
+       ]
+      },
+      {
+       "start": 110.986,
+       "end": 112.639,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 110.986,
+         "end": 111.119
+        },
+        {
+         "text": "PIN",
+         "tail": "",
+         "hl": false,
+         "start": 111.199,
+         "end": 111.439
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 111.479,
+         "end": 111.599
+        },
+        {
+         "text": "tiny",
+         "tail": "",
+         "hl": false,
+         "start": 111.663,
+         "end": 111.919
+        },
+        {
+         "text": "amounts",
+         "tail": ".",
+         "hl": false,
+         "cue": "nopin",
+         "start": 111.979,
+         "end": 112.639
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chart",
+    "label": "LAYER 6 · UPI LITE",
+    "title": "Bank core load (example)",
+    "points": [
+     20,
+     28,
+     36,
+     44,
+     52,
+     60,
+     68,
+     76,
+     84,
+     90,
+     95,
+     30,
+     32,
+     31,
+     33,
+     30,
+     32
+    ],
+    "yMax": 100,
+    "unit": "%",
+    "dropMin": 40,
+    "dropLabel": "UPI Lite",
+    "start": "tea",
+    "end": "nopin",
+    "limit": {
+     "value": 80,
+     "label": "overload"
+    },
+    "note": {
+     "text": "Tiny payments stay on your phone",
+     "cue": "nopin"
+    }
+   }
+  },
+  {
+   "id": "fraud",
+   "start": 113.639,
+   "end": 126.32,
+   "sentences": [
+    {
+     "start": 113.639,
+     "end": 117.265,
+     "chunks": [
+      {
+       "start": 113.639,
+       "end": 115.507,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 113.639,
+         "end": 113.827
+        },
+        {
+         "text": "scammers",
+         "tail": "",
+         "hl": false,
+         "start": 113.88,
+         "end": 114.307
+        },
+        {
+         "text": "send",
+         "tail": "",
+         "hl": false,
+         "start": 114.339,
+         "end": 114.467
+        },
+        {
+         "text": "collect",
+         "tail": "",
+         "hl": false,
+         "start": 114.517,
+         "end": 114.867
+        },
+        {
+         "text": "requests",
+         "tail": ":",
+         "hl": false,
+         "cue": "collect",
+         "start": 114.92,
+         "end": 115.507
+        }
+       ]
+      },
+      {
+       "start": 115.547,
+       "end": 117.267,
+       "words": [
+        {
+         "text": "\"Enter",
+         "tail": "",
+         "hl": false,
+         "start": 115.547,
+         "end": 115.827
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 115.859,
+         "end": 115.987
+        },
+        {
+         "text": "PIN",
+         "tail": "",
+         "hl": false,
+         "cue": "receive",
+         "start": 116.067,
+         "end": 116.307
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 116.334,
+         "end": 116.387
+        },
+        {
+         "text": "receive",
+         "tail": "",
+         "hl": false,
+         "start": 116.437,
+         "end": 116.787
+        },
+        {
+         "text": "money.\"",
+         "tail": "",
+         "hl": false,
+         "start": 116.84,
+         "end": 117.267
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 117.865,
+     "end": 120.729,
+     "chunks": [
+      {
+       "start": 117.865,
+       "end": 119.449,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 117.865,
+         "end": 118.009
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 118.041,
+         "end": 118.169
+        },
+        {
+         "text": "PIN",
+         "tail": "",
+         "hl": false,
+         "start": 118.229,
+         "end": 118.409
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 118.462,
+         "end": 118.569
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 118.617,
+         "end": 118.809
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 118.849,
+         "end": 118.969
+        },
+        {
+         "text": "sending",
+         "tail": ".",
+         "hl": true,
+         "cue": "send",
+         "start": 119.019,
+         "end": 119.449
+        }
+       ]
+      },
+      {
+       "start": 119.542,
+       "end": 120.729,
+       "words": [
+        {
+         "text": "Never",
+         "tail": "",
+         "hl": false,
+         "start": 119.542,
+         "end": 120.009
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 120.049,
+         "end": 120.169
+        },
+        {
+         "text": "receiving",
+         "tail": ".",
+         "hl": false,
+         "start": 120.217,
+         "end": 120.729
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 121.329,
+     "end": 125.32,
+     "chunks": [
+      {
+       "start": 121.329,
+       "end": 123.64,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 121.329,
+         "end": 121.4
+        },
+        {
+         "text": "apps",
+         "tail": "",
+         "hl": false,
+         "start": 121.496,
+         "end": 121.88
+        },
+        {
+         "text": "flag",
+         "tail": "",
+         "hl": false,
+         "cue": "flag",
+         "start": 121.944,
+         "end": 122.2
+        },
+        {
+         "text": "risky",
+         "tail": "",
+         "hl": false,
+         "start": 122.267,
+         "end": 122.6
+        },
+        {
+         "text": "requests",
+         "tail": "",
+         "hl": false,
+         "start": 122.644,
+         "end": 123.0
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 123.04,
+         "end": 123.16
+        },
+        {
+         "text": "warn",
+         "tail": "",
+         "hl": false,
+         "start": 123.224,
+         "end": 123.48
+        },
+        {
+         "text": "you",
+         "tail": ":",
+         "hl": false,
+         "start": 123.52,
+         "end": 123.64
+        }
+       ]
+      },
+      {
+       "start": 123.72,
+       "end": 125.32,
+       "words": [
+        {
+         "text": "\"You",
+         "tail": "",
+         "hl": false,
+         "start": 123.72,
+         "end": 123.88
+        },
+        {
+         "text": "are",
+         "tail": "",
+         "hl": false,
+         "start": 123.9,
+         "end": 123.96
+        },
+        {
+         "text": "paying",
+         "tail": ",",
+         "hl": false,
+         "start": 124.017,
+         "end": 124.44
+        },
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 124.5,
+         "end": 124.68
+        },
+        {
+         "text": "receiving.\"",
+         "tail": "",
+         "hl": true,
+         "start": 124.728,
+         "end": 125.32
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "phoneflow",
+    "label": "LAYER 7 · FRAUD CHECKS",
+    "phones": [
+     {
+      "owner": "Your phone",
+      "screens": [
+       {
+        "cue": "collect",
+        "kind": "pay",
+        "to": "Scammer",
+        "amount": "₹2,000",
+        "button": "Enter PIN to receive",
+        "press": false
+       },
+       {
+        "cue": "receive",
+        "kind": "pin",
+        "title": "Enter PIN to receive",
+        "sub": "PIN = MONEY OUT",
+        "tone": "bad"
+       },
+       {
+        "cue": "flag",
+        "kind": "status",
+        "tone": "bad",
+        "icon": "bell",
+        "title": "Risky request",
+        "sub": "You are paying, not receiving"
+       }
+      ]
+     }
+    ],
+    "note": {
+     "text": "Your PIN is only for sending",
+     "cue": "send"
+    }
+   }
+  },
+  {
+   "id": "twist",
+   "start": 126.32,
+   "end": 144.413,
+   "sentences": [
+    {
+     "start": 126.32,
+     "end": 131.992,
+     "chunks": [
+      {
+       "start": 126.32,
+       "end": 127.752,
+       "words": [
+        {
+         "text": "After",
+         "tail": "",
+         "hl": false,
+         "start": 126.32,
+         "end": 126.632
+        },
+        {
+         "text": "years",
+         "tail": "",
+         "hl": false,
+         "start": 126.699,
+         "end": 127.032
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 127.085,
+         "end": 127.192
+        },
+        {
+         "text": "work",
+         "tail": ",",
+         "hl": false,
+         "start": 127.256,
+         "end": 127.752
+        }
+       ]
+      },
+      {
+       "start": 127.872,
+       "end": 130.072,
+       "words": [
+        {
+         "text": "UPI",
+         "tail": "",
+         "hl": false,
+         "start": 127.872,
+         "end": 128.312
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 128.392,
+         "end": 128.552
+        },
+        {
+         "text": "instant",
+         "tail": ",",
+         "hl": false,
+         "start": 128.612,
+         "end": 129.352
+        },
+        {
+         "text": "secure",
+         "tail": ",",
+         "hl": false,
+         "start": 129.421,
+         "end": 130.072
+        }
+       ]
+      },
+      {
+       "start": 130.112,
+       "end": 131.992,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 130.112,
+         "end": 130.232
+        },
+        {
+         "text": "works",
+         "tail": "",
+         "hl": false,
+         "start": 130.299,
+         "end": 130.632
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 130.685,
+         "end": 130.792
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 130.859,
+         "end": 131.192
+        },
+        {
+         "text": "chai",
+         "tail": "",
+         "hl": true,
+         "start": 131.256,
+         "end": 131.512
+        },
+        {
+         "text": "stall",
+         "tail": ".",
+         "hl": false,
+         "start": 131.579,
+         "end": 131.992
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 132.592,
+     "end": 137.235,
+     "chunks": [
+      {
+       "start": 132.592,
+       "end": 133.555,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 132.592,
+         "end": 132.675
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 132.715,
+         "end": 132.755
+        },
+        {
+         "text": "caller",
+         "tail": "",
+         "hl": false,
+         "cue": "call",
+         "start": 132.812,
+         "end": 133.155
+        },
+        {
+         "text": "says",
+         "tail": ",",
+         "hl": false,
+         "start": 133.219,
+         "end": 133.555
+        }
+       ]
+      },
+      {
+       "start": 133.675,
+       "end": 135.235,
+       "words": [
+        {
+         "text": "\"Sir",
+         "tail": ",",
+         "hl": false,
+         "start": 133.675,
+         "end": 134.035
+        },
+        {
+         "text": "I'm",
+         "tail": "",
+         "hl": false,
+         "start": 134.155,
+         "end": 134.395
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 134.419,
+         "end": 134.515
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 134.547,
+         "end": 134.675
+        },
+        {
+         "text": "bank",
+         "tail": ".",
+         "hl": false,
+         "start": 134.755,
+         "end": 135.235
+        }
+       ]
+      },
+      {
+       "start": 135.288,
+       "end": 137.235,
+       "words": [
+        {
+         "text": "Enter",
+         "tail": "",
+         "hl": false,
+         "start": 135.288,
+         "end": 135.555
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 135.587,
+         "end": 135.715
+        },
+        {
+         "text": "PIN",
+         "tail": "",
+         "hl": false,
+         "start": 135.815,
+         "end": 136.115
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 136.168,
+         "end": 136.275
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 136.315,
+         "end": 136.435
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 136.467,
+         "end": 136.595
+        },
+        {
+         "text": "refund.\"",
+         "tail": "",
+         "hl": false,
+         "start": 136.664,
+         "end": 137.235
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 137.835,
+     "end": 138.313,
+     "chunks": [
+      {
+       "start": 137.835,
+       "end": 138.313,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 137.835,
+         "end": 137.913
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 137.953,
+         "end": 138.073
+        },
+        {
+         "text": "do",
+         "tail": ".",
+         "hl": true,
+         "cue": "you",
+         "start": 138.126,
+         "end": 138.313
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 138.913,
+     "end": 140.655,
+     "chunks": [
+      {
+       "start": 138.913,
+       "end": 139.615,
+       "words": [
+        {
+         "text": "\"Money",
+         "tail": "",
+         "hl": false,
+         "start": 138.913,
+         "end": 139.135
+        },
+        {
+         "text": "sent",
+         "tail": ".",
+         "hl": false,
+         "cue": "gone",
+         "start": 139.215,
+         "end": 139.615
+        }
+       ]
+      },
+      {
+       "start": 139.695,
+       "end": 140.655,
+       "words": [
+        {
+         "text": "To",
+         "tail": "",
+         "hl": false,
+         "start": 139.695,
+         "end": 139.855
+        },
+        {
+         "text": "someone",
+         "tail": "",
+         "hl": true,
+         "start": 139.895,
+         "end": 140.175
+        },
+        {
+         "text": "else.\"",
+         "tail": "",
+         "hl": false,
+         "start": 140.239,
+         "end": 140.655
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 141.255,
+     "end": 143.413,
+     "chunks": [
+      {
+       "start": 141.255,
+       "end": 143.413,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 141.255,
+         "end": 141.493
+        },
+        {
+         "text": "layer",
+         "tail": "",
+         "hl": false,
+         "start": 141.546,
+         "end": 141.813
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 141.873,
+         "end": 142.053
+        },
+        {
+         "text": "protect",
+         "tail": "",
+         "hl": false,
+         "start": 142.103,
+         "end": 142.453
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 142.533,
+         "end": 142.613
+        },
+        {
+         "text": "PIN",
+         "tail": "",
+         "hl": false,
+         "start": 142.693,
+         "end": 142.933
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 142.953,
+         "end": 143.013
+        },
+        {
+         "text": "share",
+         "tail": ".",
+         "hl": true,
+         "cue": "share",
+         "start": 143.066,
+         "end": 143.413
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "sequence",
+    "label": "THE TWIST",
+    "title": "The one layer you control",
+    "transition": "zoom",
+    "lanes": [
+     {
+      "name": "Caller",
+      "icon": "user"
+     },
+     {
+      "name": "You",
+      "icon": "phone"
+     },
+     {
+      "name": "Your bank",
+      "icon": "db"
+     },
+     {
+      "name": "Scammer",
+      "icon": "user"
+     }
+    ],
+    "messages": [
+     {
+      "from": 0,
+      "to": 1,
+      "text": "\"enter PIN for refund\"",
+      "cue": "call",
+      "tone": "bad"
+     },
+     {
+      "from": 1,
+      "to": 2,
+      "text": "PIN entered",
+      "cue": "you",
+      "tone": "bad"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "text": "money sent",
+      "cue": "gone",
+      "tone": "bad"
+     }
+    ],
+    "note": {
+     "text": "Never share your UPI PIN",
+     "cue": "share"
+    },
+    "glitch": [
+     {
+      "cue": "gone",
+      "text": "Money sent to someone else"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 144.413,
+   "end": 150.033,
+   "sentences": [
+    {
+     "start": 144.413,
+     "end": 146.733,
+     "chunks": [
+      {
+       "start": 144.413,
+       "end": 146.733,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 144.413,
+         "end": 144.653
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 144.693,
+         "end": 144.813
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 144.845,
+         "end": 144.973
+        },
+        {
+         "text": "system",
+         "tail": "",
+         "hl": false,
+         "start": 145.019,
+         "end": 145.293
+        },
+        {
+         "text": "design",
+         "tail": "",
+         "hl": false,
+         "start": 145.339,
+         "end": 145.613
+        },
+        {
+         "text": "tips",
+         "tail": "",
+         "hl": false,
+         "start": 145.677,
+         "end": 145.933
+        },
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 145.997,
+         "end": 146.253
+        },
+        {
+         "text": "this",
+         "tail": ".",
+         "hl": false,
+         "start": 146.317,
+         "end": 146.733
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "MORE TIPS",
+    "headline": "More system design tips",
+    "highlight": "system",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

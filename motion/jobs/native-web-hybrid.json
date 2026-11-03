@@ -1,0 +1,134 @@
+{
+  "id": "native-web-hybrid",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "NATIVE · WEB · HYBRID",
+        "kicker": "5 DIFFERENCES THAT MATTER",
+        "headline": "Native vs Web vs Hybrid",
+        "highlight": "Hybrid",
+        "icon": "layers",
+        "sub": { "text": "Each one changes how you test", "cue": "test" }
+      },
+      "sentences": [
+        { "caption": "Same app idea. | Three *ways* to build it." },
+        { "caption": "And each one changes | how you *test*#test it." }
+      ]
+    },
+    {
+      "id": "stack",
+      "visual": {
+        "type": "trio",
+        "label": "TECH STACK",
+        "title": "1 · Technology stack",
+        "rows": [
+          { "kicker": "NATIVE", "text": "Kotlin · Swift", "icon": "grid", "cue": "n" },
+          { "kicker": "MOBILE WEB", "text": "HTML · CSS · JavaScript", "icon": "cloud", "cue": "w" },
+          { "kicker": "HYBRID", "text": "Web code + Ionic, Capacitor", "icon": "layers", "cue": "h" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Native*#n uses the platform's own language: | Kotlin for Android, | Swift for iOS." },
+        { "caption": "Mobile *web*#w is HTML, CSS and JavaScript, | opened in the browser." },
+        { "caption": "*Hybrid*#h is that same web code, | wrapped in a native shell | with tools like Ionic and Capacitor." }
+      ]
+    },
+    {
+      "id": "render",
+      "visual": {
+        "type": "trio",
+        "label": "RENDERING ENGINE",
+        "title": "2 · Rendering engine",
+        "rows": [
+          { "kicker": "NATIVE", "text": "OS UI toolkit: Compose, SwiftUI", "icon": "grid", "cue": "n" },
+          { "kicker": "MOBILE WEB", "text": "Browser: Blink, WebKit", "icon": "cloud", "cue": "w" },
+          { "kicker": "HYBRID", "text": "WebView inside the app", "icon": "layers", "cue": "h" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Native*#n draws with the OS's own UI toolkit, | like Jetpack Compose or SwiftUI." },
+        { "caption": "Mobile *web*#w is drawn by the browser engine: | Blink in Chrome, | WebKit in Safari." },
+        { "caption": "*Hybrid*#h runs inside a *WebView*, | a browser hidden inside the app." }
+      ]
+    },
+    {
+      "id": "hardware",
+      "visual": {
+        "type": "trio",
+        "label": "HARDWARE ACCESS",
+        "title": "3 · Hardware API access",
+        "rows": [
+          { "kicker": "NATIVE", "text": "Full: camera, BLE, NFC", "icon": "camera", "cue": "n" },
+          { "kicker": "MOBILE WEB", "text": "Browser APIs only", "icon": "lock", "cue": "w" },
+          { "kicker": "HYBRID", "text": "Through native plugins", "icon": "unlink", "cue": "h" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Native*#n gets *full* access: | camera, Bluetooth, NFC, sensors, | and background work." },
+        { "caption": "Mobile *web*#w only gets what the browser allows, | and Safari allows even less." },
+        { "caption": "*Hybrid*#h reaches the hardware through *plugins* | that bridge the web code to native APIs." }
+      ]
+    },
+    {
+      "id": "performance",
+      "visual": {
+        "type": "trio",
+        "label": "PERFORMANCE",
+        "title": "4 · Runtime performance",
+        "rows": [
+          { "kicker": "NATIVE", "text": "Fastest, smooth lists", "icon": "flame", "cue": "n" },
+          { "kicker": "MOBILE WEB", "text": "Depends on browser + network", "icon": "cloud", "cue": "w" },
+          { "kicker": "HYBRID", "text": "In between, bridge lag", "icon": "layers", "cue": "h" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Native*#n is the *fastest*, | with smooth animations and long lists." },
+        { "caption": "Mobile *web*#w depends on the browser | and the network." },
+        { "caption": "*Hybrid*#h sits in between, | and the bridge can cause *lag* on heavy screens." }
+      ]
+    },
+    {
+      "id": "qa",
+      "visual": {
+        "type": "trio",
+        "label": "QA FOCUS",
+        "title": "5 · QA focus",
+        "rows": [
+          { "kicker": "NATIVE", "text": "Devices, OS versions, lifecycle", "icon": "grid", "cue": "n" },
+          { "kicker": "MOBILE WEB", "text": "Browsers, screen sizes, offline", "icon": "cloud", "cue": "w" },
+          { "kicker": "HYBRID", "text": "WebView + plugins, both OSes", "icon": "layers", "cue": "h" }
+        ]
+      },
+      "sentences": [
+        { "caption": "*Native*:#n device fragmentation, OS versions, | lifecycle and permissions." },
+        { "caption": "Mobile *web*:#w cross-browser testing, | screen sizes and offline behavior." },
+        { "caption": "*Hybrid*:#h WebView versions and plugins, | on *both* platforms." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

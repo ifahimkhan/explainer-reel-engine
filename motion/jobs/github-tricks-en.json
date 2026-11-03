@@ -1,0 +1,80 @@
+{
+  "id": "github-tricks-en",
+  "voice": "am_michael",
+  "lang": "a",
+  "speed": 1.12,
+  "sentenceGap": 0.14,
+  "sceneGap": 0.3,
+  "tail": 1.2,
+  "copy": {
+    "hook.badge": "Just 1 word changed",
+    "teaser.title": "5 TRICKS, JUST 1 URL",
+    "teaser.pill": "Number two is even better",
+    "diagram.pill": "0 files opened",
+    "wiki.question": "How does auth work?",
+    "wiki.answerPre": "Login lives in ",
+    "wiki.answerFile": "lib/auth.ts",
+    "wiki.answerPost": ". It sets a session cookie, and middleware checks every request.",
+    "recap.pill": "All you need is 1 GitHub URL",
+    "recap.locked": "In your DM",
+    "cta.title": "COMMENT, GET THE DM",
+    "cta.keyword": "GITHUB",
+    "cta.dmTitle": "5 GitHub URL tricks (full list)",
+    "cta.dmSub": "Change one word, skip the reading",
+    "cta.sendTo": "Send to",
+    "cta.share": "The dev friend who still opens every file"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "sentences": [
+        { "caption": "Change *one*#mark *word* in any GitHub link,#morph" },
+        { "caption": "and you get the *prompt*#prompt | to rebuild the entire app." }
+      ]
+    },
+    {
+      "id": "reverse",
+      "sentences": [
+        { "caption": "Take any public repo link, | and swap *github* for *gitreverse*#morph." },
+        { "caption": "It reads the whole repo's *structure*,#repo | and hands you a clean#clean *prompt*.#prompt" },
+        { "caption": "Paste#claude that prompt into *Claude* *Code*,#paste | and your own *version*#version is ready." }
+      ]
+    },
+    {
+      "id": "teaser",
+      "sentences": [
+        { "caption": "But that's only the *first* trick." },
+        { "caption": "The *second*#unlock one is even *better*.#pill" }
+      ]
+    },
+    {
+      "id": "diagram",
+      "sentences": [
+        { "caption": "Now swap *hub*#morph for *diagram* in the link." },
+        { "caption": "GitDiagram#nodes maps the whole architecture | into one *visual*#edges *map*." },
+        { "caption": "Every#pulse piece, every connection,#hot | without opening#pill a single *file*." }
+      ]
+    },
+    {
+      "id": "wiki",
+      "sentences": [
+        { "caption": "And the *third* one: | swap *github* for *deepwiki*.#morph" },
+        { "caption": "You get full *documentation*#doc for the repo, | and you can ask#ask the code *questions*#answer directly." }
+      ]
+    },
+    {
+      "id": "recap",
+      "sentences": [
+        { "caption": "That's *5* *tricks*, | and all#pill you need is one *GitHub* *URL*." }
+      ]
+    },
+    {
+      "id": "cta",
+      "sentences": [
+        { "caption": "Comment *GITHUB*#type | and#dm I'll *DM* you the full list." },
+        { "caption": "Send#share this to the dev friend | who still opens#sent every file by hand." },
+        { "caption": "*Follow*#follow for more, | let's hit *10K*#road together." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1641 @@
+{
+ "id": "claude-coauthor-fix",
+ "durationS": 61.287,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.273,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 3.282,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.276,
+       "words": [
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.356
+        },
+        {
+         "text": "Code",
+         "tail": "",
+         "hl": false,
+         "start": 0.516,
+         "end": 0.676
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 0.756,
+         "end": 0.916
+        },
+        {
+         "text": "signing",
+         "tail": "",
+         "hl": false,
+         "start": 1.076,
+         "end": 1.316
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 1.396,
+         "end": 1.476
+        },
+        {
+         "text": "Git",
+         "tail": "",
+         "hl": false,
+         "start": 1.556,
+         "end": 1.716
+        },
+        {
+         "text": "commits",
+         "tail": "",
+         "hl": false,
+         "start": 1.796,
+         "end": 2.276
+        }
+       ]
+      },
+      {
+       "start": 2.356,
+       "end": 3.476,
+       "words": [
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 2.356,
+         "end": 2.436
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 2.476,
+         "end": 2.516
+        },
+        {
+         "text": "co-author",
+         "tail": ".",
+         "hl": true,
+         "cue": "stamp",
+         "start": 2.596,
+         "end": 3.476
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.422,
+     "end": 4.973,
+     "chunks": [
+      {
+       "start": 3.422,
+       "end": 5.153,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 3.422,
+         "end": 3.713
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 3.793,
+         "end": 3.873
+        },
+        {
+         "text": "one-line",
+         "tail": "",
+         "hl": true,
+         "start": 3.953,
+         "end": 4.353
+        },
+        {
+         "text": "fix",
+         "tail": ".",
+         "hl": false,
+         "start": 4.433,
+         "end": 5.153
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "pair",
+    "label": "CLAUDE CODE TIP",
+    "left": {
+     "title": "Claude Code",
+     "sub": "AI AGENT",
+     "icon": "terminal",
+     "dark": true
+    },
+    "right": {
+     "title": "Git",
+     "sub": "YOUR COMMITS",
+     "icon": "github"
+    },
+    "stamp": {
+     "text": "CO-AUTHOR?",
+     "cue": "stamp"
+    }
+   }
+  },
+  {
+   "id": "problem",
+   "start": 5.273,
+   "end": 11.823,
+   "sentences": [
+    {
+     "start": 5.273,
+     "end": 7.903,
+     "chunks": [
+      {
+       "start": 5.273,
+       "end": 6.433,
+       "words": [
+        {
+         "text": "Run",
+         "tail": "",
+         "hl": false,
+         "start": 5.273,
+         "end": 5.593
+        },
+        {
+         "text": "git",
+         "tail": "",
+         "hl": false,
+         "cue": "cmd",
+         "start": 5.713,
+         "end": 5.833
+        },
+        {
+         "text": "log",
+         "tail": ",",
+         "hl": false,
+         "start": 5.913,
+         "end": 6.433
+        }
+       ]
+      },
+      {
+       "start": 6.633,
+       "end": 8.073,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 6.633,
+         "end": 6.953
+        },
+        {
+         "text": "there",
+         "tail": "",
+         "hl": false,
+         "start": 7.193,
+         "end": 7.353
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 7.393,
+         "end": 7.433
+        },
+        {
+         "text": "is",
+         "tail": ".",
+         "hl": false,
+         "start": 7.513,
+         "end": 8.073
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 8.043,
+     "end": 11.523,
+     "chunks": [
+      {
+       "start": 8.043,
+       "end": 9.8,
+       "words": [
+        {
+         "text": "Co-Authored-By",
+         "tail": "",
+         "hl": true,
+         "cue": "flag",
+         "start": 8.043,
+         "end": 8.92
+        },
+        {
+         "text": "Claude",
+         "tail": ",",
+         "hl": false,
+         "start": 9.0,
+         "end": 9.8
+        }
+       ]
+      },
+      {
+       "start": 9.88,
+       "end": 11.72,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 9.88,
+         "end": 10.12
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 10.2,
+         "end": 10.52
+        },
+        {
+         "text": "single",
+         "tail": "",
+         "hl": false,
+         "start": 10.68,
+         "end": 10.92
+        },
+        {
+         "text": "commit",
+         "tail": ".",
+         "hl": false,
+         "start": 11.08,
+         "end": 11.72
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "THE PROBLEM",
+    "title": "git log",
+    "command": "git log -1",
+    "cue": "cmd",
+    "lines": [
+     {
+      "text": "commit 3f9a2c1e7b04d58a",
+      "tone": "good"
+     },
+     {
+      "text": "Author: Fahim Khan",
+      "tone": "dim"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "    fix: tighten upload retry logic"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "    Co-Authored-By: Claude",
+      "tone": "dim",
+      "flag": "flag"
+     }
+    ]
+   }
+  },
+  {
+   "id": "wrongfix",
+   "start": 11.823,
+   "end": 19.49,
+   "sentences": [
+    {
+     "start": 11.823,
+     "end": 15.839,
+     "chunks": [
+      {
+       "start": 11.823,
+       "end": 14.372,
+       "words": [
+        {
+         "text": "Most",
+         "tail": "",
+         "hl": false,
+         "start": 11.823,
+         "end": 12.132
+        },
+        {
+         "text": "people",
+         "tail": "",
+         "hl": false,
+         "start": 12.212,
+         "end": 12.532
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 12.612,
+         "end": 12.772
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 12.852,
+         "end": 12.932
+        },
+        {
+         "text": "rule",
+         "tail": "",
+         "hl": false,
+         "start": 13.012,
+         "end": 13.252
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 13.332,
+         "end": 13.412
+        },
+        {
+         "text": "CLAUDE.md",
+         "tail": "",
+         "hl": false,
+         "cue": "l1",
+         "start": 13.492,
+         "end": 14.372
+        }
+       ]
+      },
+      {
+       "start": 14.612,
+       "end": 16.052,
+       "words": [
+        {
+         "text": "asking",
+         "tail": "",
+         "hl": false,
+         "start": 14.612,
+         "end": 15.012
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 15.092,
+         "end": 15.172
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 15.212,
+         "end": 15.252
+        },
+        {
+         "text": "stop",
+         "tail": ".",
+         "hl": false,
+         "cue": "l2",
+         "start": 15.412,
+         "end": 16.052
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 15.979,
+     "end": 19.19,
+     "chunks": [
+      {
+       "start": 15.979,
+       "end": 17.135,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 15.979,
+         "end": 16.255
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 16.295,
+         "end": 16.375
+        },
+        {
+         "text": "prompt",
+         "tail": ".",
+         "hl": true,
+         "cue": "strike",
+         "start": 16.615,
+         "end": 17.135
+        }
+       ]
+      },
+      {
+       "start": 17.415,
+       "end": 19.335,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 17.415,
+         "end": 17.495
+        },
+        {
+         "text": "setting",
+         "tail": "",
+         "hl": false,
+         "start": 17.575,
+         "end": 18.055
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 18.215,
+         "end": 18.375
+        },
+        {
+         "text": "guaranteed",
+         "tail": ".",
+         "hl": true,
+         "cue": "note",
+         "start": 18.455,
+         "end": 19.335
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE USUAL FIX",
+    "file": "CLAUDE.md",
+    "lines": [
+     {
+      "text": "# Git commits",
+      "cue": "l1"
+     },
+     {
+      "text": "Don't add Co-Authored-By",
+      "cue": "l2"
+     },
+     {
+      "text": "to my commits. Please.",
+      "cue": "l2"
+     }
+    ],
+    "strike": {
+     "cue": "strike"
+    },
+    "note": {
+     "text": "A setting works every time",
+     "cue": "note"
+    }
+   }
+  },
+  {
+   "id": "paths",
+   "start": 19.49,
+   "end": 29.775,
+   "sentences": [
+    {
+     "start": 19.49,
+     "end": 21.885,
+     "chunks": [
+      {
+       "start": 19.49,
+       "end": 22.123,
+       "words": [
+        {
+         "text": "Open",
+         "tail": "",
+         "hl": false,
+         "start": 19.49,
+         "end": 19.803
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 19.883,
+         "end": 19.963
+        },
+        {
+         "text": "settings.json",
+         "tail": "",
+         "hl": true,
+         "start": 20.123,
+         "end": 21.243
+        },
+        {
+         "text": "instead",
+         "tail": ".",
+         "hl": false,
+         "start": 21.323,
+         "end": 22.123
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 22.025,
+     "end": 25.563,
+     "chunks": [
+      {
+       "start": 22.025,
+       "end": 24.345,
+       "words": [
+        {
+         "text": "Global",
+         "tail": ",",
+         "hl": true,
+         "cue": "g",
+         "start": 22.025,
+         "end": 22.905
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 22.985,
+         "end": 23.065
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 23.105,
+         "end": 23.145
+        },
+        {
+         "text": "dot",
+         "tail": "",
+         "hl": false,
+         "start": 23.225,
+         "end": 23.465
+        },
+        {
+         "text": "claude",
+         "tail": "",
+         "hl": false,
+         "start": 23.545,
+         "end": 23.865
+        },
+        {
+         "text": "folder",
+         "tail": "",
+         "hl": false,
+         "start": 24.105,
+         "end": 24.345
+        }
+       ]
+      },
+      {
+       "start": 24.425,
+       "end": 25.785,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 24.425,
+         "end": 24.505
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 24.585,
+         "end": 24.665
+        },
+        {
+         "text": "home",
+         "tail": "",
+         "hl": false,
+         "start": 24.745,
+         "end": 24.905
+        },
+        {
+         "text": "directory",
+         "tail": ".",
+         "hl": false,
+         "start": 24.985,
+         "end": 25.785
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 25.703,
+     "end": 29.475,
+     "chunks": [
+      {
+       "start": 25.703,
+       "end": 28.175,
+       "words": [
+        {
+         "text": "Or",
+         "tail": "",
+         "hl": false,
+         "start": 25.703,
+         "end": 25.815
+        },
+        {
+         "text": "per",
+         "tail": "",
+         "hl": true,
+         "start": 25.875,
+         "end": 25.935
+        },
+        {
+         "text": "project",
+         "tail": ",",
+         "hl": true,
+         "cue": "p",
+         "start": 26.095,
+         "end": 27.215
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 27.295,
+         "end": 27.455
+        },
+        {
+         "text": "dot",
+         "tail": "",
+         "hl": false,
+         "start": 27.575,
+         "end": 27.695
+        },
+        {
+         "text": "claude",
+         "tail": "",
+         "hl": false,
+         "start": 27.775,
+         "end": 28.175
+        }
+       ]
+      },
+      {
+       "start": 28.415,
+       "end": 29.695,
+       "words": [
+        {
+         "text": "inside",
+         "tail": "",
+         "hl": false,
+         "start": 28.415,
+         "end": 28.815
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 28.895,
+         "end": 28.975
+        },
+        {
+         "text": "repo",
+         "tail": ".",
+         "hl": false,
+         "start": 29.175,
+         "end": 29.695
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "tabs",
+    "label": "SETTINGS FILE",
+    "title": "settings.json",
+    "tabs": [
+     {
+      "name": "Global",
+      "value": "~/.claude/settings.json",
+      "cue": "g",
+      "tree": [
+       "~ (home)",
+       "  .claude/",
+       "    settings.json"
+      ]
+     },
+     {
+      "name": "Project",
+      "value": ".claude/settings.json",
+      "cue": "p",
+      "tree": [
+       "your-repo/",
+       "  .claude/",
+       "    settings.json"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "fix",
+   "start": 29.775,
+   "end": 34.956,
+   "sentences": [
+    {
+     "start": 29.775,
+     "end": 33.846,
+     "chunks": [
+      {
+       "start": 29.775,
+       "end": 31.607,
+       "words": [
+        {
+         "text": "Add",
+         "tail": "",
+         "hl": false,
+         "start": 29.775,
+         "end": 30.007
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 30.047,
+         "end": 30.087
+        },
+        {
+         "text": "attribution",
+         "tail": "",
+         "hl": true,
+         "cue": "a",
+         "start": 30.247,
+         "end": 30.807
+        },
+        {
+         "text": "object",
+         "tail": ",",
+         "hl": false,
+         "start": 30.887,
+         "end": 31.607
+        }
+       ]
+      },
+      {
+       "start": 31.687,
+       "end": 34.087,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 31.687,
+         "end": 31.927
+        },
+        {
+         "text": "set",
+         "tail": "",
+         "hl": false,
+         "start": 32.087,
+         "end": 32.247
+        },
+        {
+         "text": "commit",
+         "tail": "",
+         "hl": false,
+         "cue": "c",
+         "start": 32.327,
+         "end": 32.727
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 32.807,
+         "end": 32.887
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 32.967,
+         "end": 33.047
+        },
+        {
+         "text": "empty",
+         "tail": "",
+         "hl": false,
+         "start": 33.127,
+         "end": 33.367
+        },
+        {
+         "text": "string",
+         "tail": ".",
+         "hl": false,
+         "start": 33.447,
+         "end": 34.087
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.986,
+     "end": 34.656,
+     "chunks": [
+      {
+       "start": 33.986,
+       "end": 34.852,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 33.986,
+         "end": 34.292
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "cue": "saved",
+         "start": 34.372,
+         "end": 34.852
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE FIX",
+    "file": "~/.claude/settings.json",
+    "lines": [
+     {
+      "text": "{"
+     },
+     {
+      "text": "  \"attribution\": {",
+      "cue": "a"
+     },
+     {
+      "text": "    \"commit\": \"\"",
+      "cue": "c",
+      "hl": true
+     },
+     {
+      "text": "  }",
+      "cue": "a"
+     },
+     {
+      "text": "}"
+     }
+    ],
+    "toast": {
+     "text": "Saved",
+     "cue": "saved"
+    }
+   }
+  },
+  {
+   "id": "proof",
+   "start": 34.956,
+   "end": 38.125,
+   "sentences": [
+    {
+     "start": 34.956,
+     "end": 37.825,
+     "chunks": [
+      {
+       "start": 34.956,
+       "end": 36.066,
+       "words": [
+        {
+         "text": "Next",
+         "tail": "",
+         "hl": false,
+         "start": 34.956,
+         "end": 35.266
+        },
+        {
+         "text": "commit",
+         "tail": ",",
+         "hl": false,
+         "start": 35.346,
+         "end": 36.066
+        }
+       ]
+      },
+      {
+       "start": 36.146,
+       "end": 38.066,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 36.146,
+         "end": 36.226
+        },
+        {
+         "text": "co-author",
+         "tail": "",
+         "hl": false,
+         "start": 36.306,
+         "end": 36.786
+        },
+        {
+         "text": "line",
+         "tail": "",
+         "hl": false,
+         "start": 36.946,
+         "end": 37.106
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 37.186,
+         "end": 37.346
+        },
+        {
+         "text": "gone",
+         "tail": ".",
+         "hl": true,
+         "cue": "gone",
+         "start": 37.426,
+         "end": 38.066
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "THE RESULT",
+    "title": "git log",
+    "command": "git log -1",
+    "lines": [
+     {
+      "text": "commit 8c41d07a92e3f611",
+      "tone": "good"
+     },
+     {
+      "text": "Author: Fahim Khan",
+      "tone": "dim"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "    feat: add offline cache"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "    Co-Authored-By: Claude",
+      "tone": "bad",
+      "drop": "gone"
+     }
+    ],
+    "badge": {
+     "text": "No co-author",
+     "cue": "gone"
+    }
+   }
+  },
+  {
+   "id": "bonus",
+   "start": 38.125,
+   "end": 44.502,
+   "sentences": [
+    {
+     "start": 38.125,
+     "end": 44.202,
+     "chunks": [
+      {
+       "start": 38.125,
+       "end": 40.122,
+       "words": [
+        {
+         "text": "Set",
+         "tail": "",
+         "hl": false,
+         "start": 38.125,
+         "end": 38.389
+        },
+        {
+         "text": "pr",
+         "tail": "",
+         "hl": true,
+         "cue": "pr",
+         "start": 38.442,
+         "end": 38.682
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 38.842,
+         "end": 38.962
+        },
+        {
+         "text": "empty",
+         "tail": "",
+         "hl": false,
+         "start": 39.002,
+         "end": 39.402
+        },
+        {
+         "text": "too",
+         "tail": ",",
+         "hl": false,
+         "start": 39.482,
+         "end": 40.122
+        }
+       ]
+      },
+      {
+       "start": 40.202,
+       "end": 41.802,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 40.202,
+         "end": 40.442
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 40.522,
+         "end": 40.602
+        },
+        {
+         "text": "pull",
+         "tail": "",
+         "hl": false,
+         "start": 40.682,
+         "end": 40.842
+        },
+        {
+         "text": "requests",
+         "tail": "",
+         "hl": false,
+         "start": 41.122,
+         "end": 41.402
+        },
+        {
+         "text": "drop",
+         "tail": "",
+         "hl": false,
+         "start": 41.482,
+         "end": 41.802
+        }
+       ]
+      },
+      {
+       "start": 41.842,
+       "end": 44.282,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 41.842,
+         "end": 41.882
+        },
+        {
+         "text": "Generated",
+         "tail": "",
+         "hl": false,
+         "cue": "toast",
+         "start": 41.962,
+         "end": 42.522
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 42.602,
+         "end": 42.762
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 42.842,
+         "end": 43.162
+        },
+        {
+         "text": "Code",
+         "tail": "",
+         "hl": false,
+         "start": 43.242,
+         "end": 43.482
+        },
+        {
+         "text": "footer",
+         "tail": ".",
+         "hl": false,
+         "start": 43.642,
+         "end": 44.282
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "BONUS",
+    "file": "~/.claude/settings.json",
+    "lines": [
+     {
+      "text": "{"
+     },
+     {
+      "text": "  \"attribution\": {"
+     },
+     {
+      "text": "    \"commit\": \"\","
+     },
+     {
+      "text": "    \"pr\": \"\"",
+      "cue": "pr",
+      "hl": true
+     },
+     {
+      "text": "  }"
+     },
+     {
+      "text": "}"
+     }
+    ],
+    "toast": {
+     "text": "PR footer removed",
+     "cue": "toast"
+    }
+   }
+  },
+  {
+   "id": "myfile",
+   "start": 44.502,
+   "end": 49.63,
+   "sentences": [
+    {
+     "start": 44.502,
+     "end": 46.152,
+     "chunks": [
+      {
+       "start": 44.502,
+       "end": 46.441,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 44.502,
+         "end": 44.761
+        },
+        {
+         "text": "my",
+         "tail": "",
+         "hl": false,
+         "start": 44.841,
+         "end": 45.001
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "cue": "zoom",
+         "start": 45.081,
+         "end": 45.241
+        },
+        {
+         "text": "settings",
+         "tail": "",
+         "hl": false,
+         "start": 45.321,
+         "end": 45.721
+        },
+        {
+         "text": "file",
+         "tail": ".",
+         "hl": false,
+         "start": 45.801,
+         "end": 46.441
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 46.292,
+     "end": 49.33,
+     "chunks": [
+      {
+       "start": 46.292,
+       "end": 48.029,
+       "words": [
+        {
+         "text": "Commit",
+         "tail": "",
+         "hl": true,
+         "cue": "c",
+         "start": 46.292,
+         "end": 46.749
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 46.909,
+         "end": 47.069
+        },
+        {
+         "text": "PR",
+         "tail": ",",
+         "hl": true,
+         "cue": "p",
+         "start": 47.149,
+         "end": 48.029
+        }
+       ]
+      },
+      {
+       "start": 48.189,
+       "end": 49.629,
+       "words": [
+        {
+         "text": "both",
+         "tail": "",
+         "hl": false,
+         "start": 48.189,
+         "end": 48.429
+        },
+        {
+         "text": "set",
+         "tail": "",
+         "hl": false,
+         "start": 48.509,
+         "end": 48.669
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 48.749,
+         "end": 48.829
+        },
+        {
+         "text": "empty",
+         "tail": ".",
+         "hl": false,
+         "start": 48.909,
+         "end": 49.629
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "screenshot",
+    "label": "MY SETUP",
+    "title": "my settings.json",
+    "src": "claude-attribution/settings-json.png",
+    "width": 1391,
+    "height": 757,
+    "focus": {
+     "x": 210,
+     "y": 295,
+     "w": 520,
+     "h": 215,
+     "cue": "zoom"
+    },
+    "highlights": [
+     {
+      "x": 288,
+      "y": 352,
+      "w": 300,
+      "h": 50,
+      "cue": "c",
+      "label": "commit"
+     },
+     {
+      "x": 288,
+      "y": 405,
+      "w": 190,
+      "h": 50,
+      "cue": "p",
+      "label": "pr"
+     }
+    ]
+   }
+  },
+  {
+   "id": "takeaway",
+   "start": 49.63,
+   "end": 57.368,
+   "sentences": [
+    {
+     "start": 49.63,
+     "end": 54.85,
+     "chunks": [
+      {
+       "start": 49.63,
+       "end": 52.344,
+       "words": [
+        {
+         "text": "Not",
+         "tail": "",
+         "hl": false,
+         "start": 49.63,
+         "end": 49.944
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 50.024,
+         "end": 50.264
+        },
+        {
+         "text": "behavior",
+         "tail": "",
+         "hl": false,
+         "start": 50.544,
+         "end": 50.824
+        },
+        {
+         "text": "needs",
+         "tail": "",
+         "hl": false,
+         "start": 50.904,
+         "end": 51.144
+        },
+        {
+         "text": "another",
+         "tail": "",
+         "hl": false,
+         "start": 51.224,
+         "end": 51.544
+        },
+        {
+         "text": "prompt",
+         "tail": ",",
+         "hl": false,
+         "cue": "i1",
+         "start": 51.624,
+         "end": 52.344
+        }
+       ]
+      },
+      {
+       "start": 52.424,
+       "end": 55.064,
+       "words": [
+        {
+         "text": "skill",
+         "tail": ",",
+         "hl": false,
+         "cue": "i2",
+         "start": 52.424,
+         "end": 53.064
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 53.184,
+         "end": 53.304
+        },
+        {
+         "text": "CLAUDE.md",
+         "tail": "",
+         "hl": false,
+         "cue": "i3",
+         "start": 53.544,
+         "end": 54.424
+        },
+        {
+         "text": "rule",
+         "tail": ".",
+         "hl": false,
+         "start": 54.624,
+         "end": 55.064
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 54.99,
+     "end": 57.068,
+     "chunks": [
+      {
+       "start": 54.99,
+       "end": 57.31,
+       "words": [
+        {
+         "text": "Sometimes",
+         "tail": "",
+         "hl": false,
+         "start": 54.99,
+         "end": 55.63
+        },
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 55.95,
+         "end": 56.19
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "cue": "r",
+         "start": 56.27,
+         "end": 56.43
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 56.51,
+         "end": 56.59
+        },
+        {
+         "text": "setting",
+         "tail": ".",
+         "hl": true,
+         "start": 56.79,
+         "end": 57.31
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "merge",
+    "label": "THE TAKEAWAY",
+    "headline": "Not everything needs a prompt",
+    "highlight": "prompt",
+    "items": [
+     {
+      "text": "Prompt",
+      "icon": "chat",
+      "cue": "i1"
+     },
+     {
+      "text": "Skill",
+      "icon": "sparkle",
+      "cue": "i2"
+     },
+     {
+      "text": "CLAUDE.md",
+      "icon": "file",
+      "cue": "i3"
+     }
+    ],
+    "result": {
+     "text": "A setting",
+     "sub": "ALWAYS ON",
+     "cue": "r"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 57.368,
+   "end": 61.287,
+   "sentences": [
+    {
+     "start": 57.368,
+     "end": 59.787,
+     "chunks": [
+      {
+       "start": 57.368,
+       "end": 59.072,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 57.368,
+         "end": 57.632
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 57.712,
+         "end": 57.872
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 57.952,
+         "end": 58.192
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 58.272,
+         "end": 58.512
+        },
+        {
+         "text": "Code",
+         "tail": "",
+         "hl": false,
+         "start": 58.592,
+         "end": 58.752
+        },
+        {
+         "text": "tips",
+         "tail": "",
+         "hl": false,
+         "start": 58.832,
+         "end": 59.072
+        }
+       ]
+      },
+      {
+       "start": 59.192,
+       "end": 59.952,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 59.192,
+         "end": 59.312
+        },
+        {
+         "text": "this",
+         "tail": ".",
+         "hl": false,
+         "start": 59.512,
+         "end": 59.952
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Claude Code tips",
+    "highlight": "tips",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL AI DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

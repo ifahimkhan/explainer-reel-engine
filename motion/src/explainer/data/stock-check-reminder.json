@@ -1,0 +1,3127 @@
+{
+ "id": "stock-check-reminder",
+ "durationS": 146.019,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.113,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.613,
+     "chunks": [
+      {
+       "start": 0.022,
+       "end": 2.872,
+       "words": [
+        {
+         "text": "One",
+         "tail": "",
+         "hl": true,
+         "cue": "one",
+         "start": 0.022,
+         "end": 0.247
+        },
+        {
+         "text": "stock",
+         "tail": "",
+         "hl": false,
+         "start": 0.247,
+         "end": 0.584
+        },
+        {
+         "text": "check",
+         "tail": ".",
+         "hl": false,
+         "start": 0.584,
+         "end": 1.097
+        },
+        {
+         "text": "One",
+         "tail": "",
+         "hl": false,
+         "start": 1.259,
+         "end": 1.522
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": true,
+         "start": 1.522,
+         "end": 2.084
+        },
+        {
+         "text": "system",
+         "tail": ".",
+         "hl": false,
+         "start": 2.084,
+         "end": 2.872
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.213,
+     "end": 5.113,
+     "chunks": [
+      {
+       "start": 3.213,
+       "end": 5.482,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 3.213,
+         "end": 3.507
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 3.507,
+         "end": 3.732
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 3.732,
+         "end": 3.895
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": true,
+         "start": 3.895,
+         "end": 4.232
+        },
+        {
+         "text": "lets",
+         "tail": "",
+         "hl": false,
+         "start": 4.232,
+         "end": 4.507
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 4.507,
+         "end": 4.67
+        },
+        {
+         "text": "forget",
+         "tail": ".",
+         "hl": false,
+         "start": 4.67,
+         "end": 5.482
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "punch",
+    "label": "STOCK CHECK REMINDERS",
+    "word": "ONE",
+    "headline": "stock check per day — here's how the app never lets you forget",
+    "highlight": "never",
+    "kicker": "TAGWAY ICE",
+    "icon": "bell"
+   }
+  },
+  {
+   "id": "pipeline",
+   "start": 6.113,
+   "end": 21.669,
+   "sentences": [
+    {
+     "start": 6.113,
+     "end": 8.899,
+     "chunks": [
+      {
+       "start": 6.113,
+       "end": 9.109,
+       "words": [
+        {
+         "text": "From",
+         "tail": "",
+         "hl": false,
+         "start": 6.113,
+         "end": 6.284
+        },
+        {
+         "text": "login",
+         "tail": "",
+         "hl": true,
+         "start": 6.284,
+         "end": 6.784
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 6.784,
+         "end": 6.872
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 6.872,
+         "end": 6.934
+        },
+        {
+         "text": "tracked",
+         "tail": "",
+         "hl": false,
+         "start": 6.934,
+         "end": 7.309
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": false,
+         "start": 7.309,
+         "end": 7.909
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 7.997,
+         "end": 7.909
+        },
+        {
+         "text": "five",
+         "tail": "",
+         "hl": false,
+         "start": 7.997,
+         "end": 8.359
+        },
+        {
+         "text": "hops",
+         "tail": ".",
+         "hl": false,
+         "start": 8.359,
+         "end": 9.109
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.499,
+     "end": 11.155,
+     "chunks": [
+      {
+       "start": 9.499,
+       "end": 11.457,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 9.499,
+         "end": 9.632
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 9.632,
+         "end": 9.969
+        },
+        {
+         "text": "arms",
+         "tail": "",
+         "hl": true,
+         "start": 9.969,
+         "end": 10.294
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 10.294,
+         "end": 10.382
+        },
+        {
+         "text": "next",
+         "tail": "",
+         "hl": false,
+         "start": 10.382,
+         "end": 10.682
+        },
+        {
+         "text": "alarm",
+         "tail": ".",
+         "hl": false,
+         "cue": "s1",
+         "start": 10.682,
+         "end": 11.457
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 11.755,
+     "end": 13.893,
+     "chunks": [
+      {
+       "start": 11.765,
+       "end": 14.14,
+       "words": [
+        {
+         "text": "Alarm",
+         "tail": "",
+         "hl": false,
+         "start": 11.765,
+         "end": 12.153
+        },
+        {
+         "text": "fires",
+         "tail": ",",
+         "hl": false,
+         "start": 12.153,
+         "end": 12.59
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.628,
+         "end": 12.778
+        },
+        {
+         "text": "engine",
+         "tail": "",
+         "hl": true,
+         "start": 12.778,
+         "end": 13.19
+        },
+        {
+         "text": "decides",
+         "tail": ".",
+         "hl": false,
+         "cue": "s2",
+         "start": 13.19,
+         "end": 14.14
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 14.493,
+     "end": 16.962,
+     "chunks": [
+      {
+       "start": 14.505,
+       "end": 17.33,
+       "words": [
+        {
+         "text": "Notification",
+         "tail": "",
+         "hl": false,
+         "start": 14.505,
+         "end": 15.305
+        },
+        {
+         "text": "posted",
+         "tail": "",
+         "hl": true,
+         "cue": "s3",
+         "start": 15.305,
+         "end": 15.842
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 15.842,
+         "end": 16.005
+        },
+        {
+         "text": "shown",
+         "tail": "",
+         "hl": false,
+         "start": 16.005,
+         "end": 16.317
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 16.317,
+         "end": 16.517
+        },
+        {
+         "text": "screen",
+         "tail": ".",
+         "hl": false,
+         "cue": "s4",
+         "start": 16.517,
+         "end": 17.33
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.562,
+     "end": 20.669,
+     "chunks": [
+      {
+       "start": 17.568,
+       "end": 20.943,
+       "words": [
+        {
+         "text": "Tracked",
+         "tail": "",
+         "hl": true,
+         "cue": "s5",
+         "start": 17.568,
+         "end": 17.893
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 17.893,
+         "end": 18.018
+        },
+        {
+         "text": "TCM",
+         "tail": "",
+         "hl": false,
+         "start": 18.018,
+         "end": 19.043
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 19.143,
+         "end": 19.043
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 19.143,
+         "end": 19.443
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 19.443,
+         "end": 19.555
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 19.555,
+         "end": 19.705
+        },
+        {
+         "text": "really",
+         "tail": "",
+         "hl": false,
+         "start": 19.705,
+         "end": 20.093
+        },
+        {
+         "text": "appeared",
+         "tail": ".",
+         "hl": false,
+         "start": 20.093,
+         "end": 20.943
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "sequence",
+    "label": "THE FLOW",
+    "title": "From login to a tracked reminder",
+    "lanes": [
+     {
+      "name": "App",
+      "icon": "phone"
+     },
+     {
+      "name": "AlarmManager",
+      "icon": "bell"
+     },
+     {
+      "name": "Engine",
+      "icon": "wand"
+     },
+     {
+      "name": "Notifier",
+      "icon": "send"
+     },
+     {
+      "name": "TCM",
+      "icon": "db"
+     }
+    ],
+    "messages": [
+     {
+      "from": 0,
+      "to": 1,
+      "text": "Schedule next alarm",
+      "cue": "s1"
+     },
+     {
+      "from": 1,
+      "to": 2,
+      "text": "Alarm fires → decide",
+      "cue": "s2"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "text": "Post notification",
+      "cue": "s3"
+     },
+     {
+      "from": 3,
+      "to": 0,
+      "text": "Notification shown",
+      "cue": "s4"
+     },
+     {
+      "from": 3,
+      "to": 4,
+      "text": "Track Reminder-Dn",
+      "cue": "s5",
+      "tone": "good"
+     }
+    ]
+   }
+  },
+  {
+   "id": "engine",
+   "start": 21.669,
+   "end": 46.257,
+   "sentences": [
+    {
+     "start": 21.669,
+     "end": 24.163,
+     "chunks": [
+      {
+       "start": 21.669,
+       "end": 24.41,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 21.669,
+         "end": 21.96
+        },
+        {
+         "text": "alarm",
+         "tail": "",
+         "hl": false,
+         "start": 21.96,
+         "end": 22.373
+        },
+        {
+         "text": "fire",
+         "tail": "",
+         "hl": false,
+         "start": 22.373,
+         "end": 22.76
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 22.76,
+         "end": 23.06
+        },
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 23.06,
+         "end": 23.285
+        },
+        {
+         "text": "five",
+         "tail": "",
+         "hl": true,
+         "start": 23.285,
+         "end": 23.673
+        },
+        {
+         "text": "checks",
+         "tail": ".",
+         "hl": false,
+         "cue": "q1",
+         "start": 23.673,
+         "end": 24.41
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.763,
+     "end": 26.899,
+     "chunks": [
+      {
+       "start": 24.763,
+       "end": 27.206,
+       "words": [
+        {
+         "text": "Are",
+         "tail": "",
+         "hl": false,
+         "start": 24.763,
+         "end": 24.856
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 24.856,
+         "end": 25.018
+        },
+        {
+         "text": "logged",
+         "tail": "",
+         "hl": true,
+         "start": 25.018,
+         "end": 25.406
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "cue": "q1",
+         "start": 25.406,
+         "end": 25.606
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 25.606,
+         "end": 25.781
+        },
+        {
+         "text": "Stock",
+         "tail": "",
+         "hl": false,
+         "start": 25.781,
+         "end": 26.118
+        },
+        {
+         "text": "Check",
+         "tail": "",
+         "hl": false,
+         "start": 26.118,
+         "end": 26.381
+        },
+        {
+         "text": "permission",
+         "tail": "?",
+         "hl": false,
+         "start": 26.381,
+         "end": 27.206
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 27.499,
+     "end": 32.495,
+     "chunks": [
+      {
+       "start": 27.499,
+       "end": 32.862,
+       "words": [
+        {
+         "text": "Is",
+         "tail": "",
+         "hl": false,
+         "start": 27.499,
+         "end": 27.637
+        },
+        {
+         "text": "today's",
+         "tail": "",
+         "hl": false,
+         "start": 27.637,
+         "end": 28.1
+        },
+        {
+         "text": "check",
+         "tail": "",
+         "hl": false,
+         "start": 28.1,
+         "end": 28.362
+        },
+        {
+         "text": "already",
+         "tail": "",
+         "hl": true,
+         "start": 28.362,
+         "end": 28.737
+        },
+        {
+         "text": "done",
+         "tail": "?",
+         "hl": false,
+         "cue": "q2",
+         "start": 28.737,
+         "end": 29.387
+        },
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 29.512,
+         "end": 29.725
+        },
+        {
+         "text": "yes",
+         "tail": "",
+         "hl": false,
+         "start": 29.725,
+         "end": 30.212
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 30.287,
+         "end": 30.212
+        },
+        {
+         "text": "alarm",
+         "tail": "",
+         "hl": false,
+         "start": 30.287,
+         "end": 30.75
+        },
+        {
+         "text": "set",
+         "tail": "",
+         "hl": false,
+         "start": 30.75,
+         "end": 31.012
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 31.012,
+         "end": 31.137
+        },
+        {
+         "text": "tomorrow",
+         "tail": ",",
+         "hl": false,
+         "start": 31.137,
+         "end": 31.612
+        },
+        {
+         "text": "nothing",
+         "tail": "",
+         "hl": false,
+         "start": 31.662,
+         "end": 32.062
+        },
+        {
+         "text": "shown",
+         "tail": ".",
+         "hl": false,
+         "start": 32.062,
+         "end": 32.862
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.095,
+     "end": 36.687,
+     "chunks": [
+      {
+       "start": 33.095,
+       "end": 36.945,
+       "words": [
+        {
+         "text": "Which",
+         "tail": "",
+         "hl": false,
+         "start": 33.095,
+         "end": 33.245
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": false,
+         "start": 33.245,
+         "end": 33.77
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 33.77,
+         "end": 33.933
+        },
+        {
+         "text": "due",
+         "tail": "?",
+         "hl": true,
+         "cue": "q3",
+         "start": 33.933,
+         "end": 34.22
+        },
+        {
+         "text": "Only",
+         "tail": "",
+         "hl": false,
+         "start": 34.32,
+         "end": 34.62
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 34.62,
+         "end": 34.745
+        },
+        {
+         "text": "latest",
+         "tail": ".",
+         "hl": false,
+         "start": 34.745,
+         "end": 35.295
+        },
+        {
+         "text": "Older",
+         "tail": "",
+         "hl": false,
+         "start": 35.408,
+         "end": 35.77
+        },
+        {
+         "text": "ones",
+         "tail": "?",
+         "hl": false,
+         "start": 35.77,
+         "end": 36.12
+        },
+        {
+         "text": "Skipped",
+         "tail": ".",
+         "hl": false,
+         "start": 36.195,
+         "end": 36.945
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 37.287,
+     "end": 39.744,
+     "chunks": [
+      {
+       "start": 37.321,
+       "end": 39.996,
+       "words": [
+        {
+         "text": "Scanning",
+         "tail": "?",
+         "hl": true,
+         "cue": "q4",
+         "start": 37.321,
+         "end": 37.896
+        },
+        {
+         "text": "Reminders",
+         "tail": "",
+         "hl": false,
+         "start": 37.946,
+         "end": 38.521
+        },
+        {
+         "text": "held",
+         "tail": "",
+         "hl": false,
+         "start": 38.521,
+         "end": 38.796
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 38.796,
+         "end": 38.958
+        },
+        {
+         "text": "2",
+         "tail": "",
+         "hl": false,
+         "start": 38.958,
+         "end": 39.183
+        },
+        {
+         "text": "hours",
+         "tail": ".",
+         "hl": false,
+         "start": 39.183,
+         "end": 39.996
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 40.344,
+     "end": 45.257,
+     "chunks": [
+      {
+       "start": 40.383,
+       "end": 45.533,
+       "words": [
+        {
+         "text": "Save",
+         "tail": "",
+         "hl": false,
+         "start": 40.383,
+         "end": 40.633
+        },
+        {
+         "text": "state",
+         "tail": ",",
+         "hl": false,
+         "start": 40.633,
+         "end": 40.958
+        },
+        {
+         "text": "post",
+         "tail": ",",
+         "hl": false,
+         "start": 41.008,
+         "end": 41.608
+        },
+        {
+         "text": "then",
+         "tail": "",
+         "hl": false,
+         "start": 41.733,
+         "end": 41.97
+        },
+        {
+         "text": "track",
+         "tail": "",
+         "hl": true,
+         "cue": "q5",
+         "start": 41.97,
+         "end": 42.633
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 42.695,
+         "end": 42.633
+        },
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 42.695,
+         "end": 42.87
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 42.87,
+         "end": 43.233
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 43.233,
+         "end": 43.37
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 43.37,
+         "end": 43.458
+        },
+        {
+         "text": "notification",
+         "tail": "",
+         "hl": false,
+         "start": 43.458,
+         "end": 44.245
+        },
+        {
+         "text": "actually",
+         "tail": "",
+         "hl": false,
+         "start": 44.245,
+         "end": 44.683
+        },
+        {
+         "text": "appeared",
+         "tail": ".",
+         "hl": false,
+         "start": 44.683,
+         "end": 45.533
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "INSIDE THE ENGINE",
+    "title": "What happens each time the alarm fires",
+    "steps": [
+     {
+      "label": "Logged in with Stock Check permission?",
+      "sub": "No → cancel alarm and stop",
+      "icon": "auth",
+      "cue": "q1"
+     },
+     {
+      "label": "Today's check already saved?",
+      "sub": "Yes → set alarm for 00:01 tomorrow",
+      "icon": "check",
+      "cue": "q2"
+     },
+     {
+      "label": "Pick only the latest due reminder",
+      "sub": "Older ones marked handled — no flood",
+      "icon": "bell",
+      "cue": "q3"
+     },
+     {
+      "label": "Scanning less than 2 hours ago?",
+      "sub": "Yes → hold. Only the 21:00 miss gets through",
+      "icon": "camera",
+      "cue": "q4"
+     },
+     {
+      "label": "Save state → post → track if it appeared",
+      "sub": "Crash cannot repeat or break the chain",
+      "icon": "signal",
+      "cue": "q5"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "q5",
+      "zoom": 1.4,
+      "x": 540,
+      "y": 700,
+      "dur": 2.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "quiz",
+   "start": 46.257,
+   "end": 58.194,
+   "sentences": [
+    {
+     "start": 46.257,
+     "end": 47.208,
+     "chunks": [
+      {
+       "start": 46.257,
+       "end": 47.416,
+       "words": [
+        {
+         "text": "Pause",
+         "tail": "",
+         "hl": true,
+         "start": 46.257,
+         "end": 46.616
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 46.616,
+         "end": 46.741
+        },
+        {
+         "text": "guess",
+         "tail": ".",
+         "hl": false,
+         "cue": "ask",
+         "start": 46.741,
+         "end": 47.416
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 47.808,
+     "end": 49.727,
+     "chunks": [
+      {
+       "start": 47.808,
+       "end": 49.975,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 47.808,
+         "end": 47.962
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 47.962,
+         "end": 48.287
+        },
+        {
+         "text": "was",
+         "tail": "",
+         "hl": false,
+         "start": 48.287,
+         "end": 48.45
+        },
+        {
+         "text": "off",
+         "tail": "",
+         "hl": false,
+         "start": 48.45,
+         "end": 48.7
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 48.7,
+         "end": 48.875
+        },
+        {
+         "text": "3",
+         "tail": "",
+         "hl": false,
+         "start": 48.875,
+         "end": 49.162
+        },
+        {
+         "text": "hours",
+         "tail": ".",
+         "hl": false,
+         "start": 49.162,
+         "end": 49.975
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 50.327,
+     "end": 52.925,
+     "chunks": [
+      {
+       "start": 50.327,
+       "end": 53.294,
+       "words": [
+        {
+         "text": "How",
+         "tail": "",
+         "hl": false,
+         "start": 50.327,
+         "end": 50.494
+        },
+        {
+         "text": "many",
+         "tail": "",
+         "hl": true,
+         "start": 50.494,
+         "end": 50.769
+        },
+        {
+         "text": "reminders",
+         "tail": "",
+         "hl": false,
+         "start": 50.769,
+         "end": 51.382
+        },
+        {
+         "text": "fire",
+         "tail": "",
+         "hl": false,
+         "start": 51.382,
+         "end": 51.782
+        },
+        {
+         "text": "when",
+         "tail": "",
+         "hl": false,
+         "start": 51.782,
+         "end": 51.907
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 51.907,
+         "end": 51.994
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 51.994,
+         "end": 52.344
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "start": 52.344,
+         "end": 52.669
+        },
+        {
+         "text": "on",
+         "tail": "?",
+         "hl": false,
+         "start": 52.669,
+         "end": 53.294
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 53.525,
+     "end": 57.194,
+     "chunks": [
+      {
+       "start": 53.531,
+       "end": 57.431,
+       "words": [
+        {
+         "text": "Just",
+         "tail": "",
+         "hl": false,
+         "start": 53.531,
+         "end": 53.769
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 53.769,
+         "end": 53.881
+        },
+        {
+         "text": "latest",
+         "tail": "",
+         "hl": true,
+         "start": 53.881,
+         "end": 54.306
+        },
+        {
+         "text": "one",
+         "tail": ".",
+         "hl": false,
+         "cue": "reveal",
+         "start": 54.306,
+         "end": 54.856
+        },
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 54.981,
+         "end": 55.144
+        },
+        {
+         "text": "engine",
+         "tail": "",
+         "hl": false,
+         "start": 55.144,
+         "end": 55.569
+        },
+        {
+         "text": "skips",
+         "tail": "",
+         "hl": false,
+         "start": 55.569,
+         "end": 55.956
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 55.956,
+         "end": 56.119
+        },
+        {
+         "text": "older",
+         "tail": "",
+         "hl": false,
+         "start": 56.119,
+         "end": 56.506
+        },
+        {
+         "text": "due",
+         "tail": "",
+         "hl": false,
+         "start": 56.506,
+         "end": 56.706
+        },
+        {
+         "text": "ones",
+         "tail": ".",
+         "hl": false,
+         "start": 56.706,
+         "end": 57.431
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "quiz",
+    "label": "QUICK QUIZ",
+    "question": "Phone was off for 3 hours. How many reminders fire?",
+    "highlight": "many",
+    "options": [
+     "All 3 missed ones",
+     "Just the latest",
+     "None",
+     "Depends on settings"
+    ],
+    "answer": 1,
+    "seconds": 5,
+    "ask": "ask",
+    "reveal": "reveal"
+   }
+  },
+  {
+   "id": "triggers",
+   "start": 58.194,
+   "end": 70.442,
+   "sentences": [
+    {
+     "start": 58.194,
+     "end": 59.782,
+     "chunks": [
+      {
+       "start": 58.226,
+       "end": 60.051,
+       "words": [
+        {
+         "text": "Five",
+         "tail": "",
+         "hl": false,
+         "start": 58.226,
+         "end": 58.551
+        },
+        {
+         "text": "things",
+         "tail": "",
+         "hl": false,
+         "start": 58.551,
+         "end": 58.876
+        },
+        {
+         "text": "wake",
+         "tail": "",
+         "hl": true,
+         "start": 58.876,
+         "end": 59.101
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 59.101,
+         "end": 59.263
+        },
+        {
+         "text": "engine",
+         "tail": ".",
+         "hl": false,
+         "cue": "wake",
+         "start": 59.263,
+         "end": 60.051
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 60.382,
+     "end": 62.686,
+     "chunks": [
+      {
+       "start": 60.382,
+       "end": 63.013,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 60.382,
+         "end": 60.488
+        },
+        {
+         "text": "alarm",
+         "tail": ",",
+         "hl": false,
+         "start": 60.488,
+         "end": 61.013
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 61.088,
+         "end": 61.2
+        },
+        {
+         "text": "reboot",
+         "tail": ",",
+         "hl": false,
+         "cue": "reboot",
+         "start": 61.2,
+         "end": 61.738
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 61.813,
+         "end": 61.9
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 61.9,
+         "end": 62.025
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": true,
+         "start": 62.025,
+         "end": 62.288
+        },
+        {
+         "text": "open",
+         "tail": ".",
+         "hl": false,
+         "cue": "app",
+         "start": 62.288,
+         "end": 63.013
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 63.286,
+     "end": 65.808,
+     "chunks": [
+      {
+       "start": 63.289,
+       "end": 66.139,
+       "words": [
+        {
+         "text": "First",
+         "tail": "",
+         "hl": false,
+         "start": 63.289,
+         "end": 63.539
+        },
+        {
+         "text": "tag",
+         "tail": "",
+         "hl": true,
+         "start": 63.539,
+         "end": 63.839
+        },
+        {
+         "text": "scanned",
+         "tail": "",
+         "hl": false,
+         "cue": "scan",
+         "start": 63.839,
+         "end": 64.264
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 64.351,
+         "end": 64.264
+        },
+        {
+         "text": "2-hour",
+         "tail": "",
+         "hl": false,
+         "start": 64.351,
+         "end": 64.914
+        },
+        {
+         "text": "pause",
+         "tail": "",
+         "hl": false,
+         "start": 64.914,
+         "end": 65.239
+        },
+        {
+         "text": "kicks",
+         "tail": "",
+         "hl": false,
+         "start": 65.239,
+         "end": 65.564
+        },
+        {
+         "text": "in",
+         "tail": ".",
+         "hl": false,
+         "start": 65.564,
+         "end": 66.139
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 66.408,
+     "end": 69.442,
+     "chunks": [
+      {
+       "start": 66.427,
+       "end": 69.702,
+       "words": [
+        {
+         "text": "Stock",
+         "tail": "",
+         "hl": false,
+         "start": 66.427,
+         "end": 66.727
+        },
+        {
+         "text": "check",
+         "tail": "",
+         "hl": false,
+         "start": 66.727,
+         "end": 66.99
+        },
+        {
+         "text": "saved",
+         "tail": "?",
+         "hl": true,
+         "cue": "saved",
+         "start": 66.99,
+         "end": 67.477
+        },
+        {
+         "text": "Reminders",
+         "tail": "",
+         "hl": false,
+         "start": 67.577,
+         "end": 68.102
+        },
+        {
+         "text": "stop",
+         "tail": ".",
+         "hl": false,
+         "start": 68.102,
+         "end": 68.477
+        },
+        {
+         "text": "Streak",
+         "tail": "",
+         "hl": false,
+         "start": 68.54,
+         "end": 68.877
+        },
+        {
+         "text": "grows",
+         "tail": ".",
+         "hl": false,
+         "start": 68.877,
+         "end": 69.702
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "ENTRY POINTS",
+    "headline": "Five things wake the engine",
+    "highlight": "Five",
+    "stops": [
+     {
+      "name": "Alarm fires",
+      "sub": "Scheduled time",
+      "icon": "bell",
+      "cue": "wake",
+      "tone": "good"
+     },
+     {
+      "name": "Boot/Update",
+      "sub": "Never breaks",
+      "icon": "download",
+      "cue": "reboot"
+     },
+     {
+      "name": "App open",
+      "sub": "Catches up",
+      "icon": "phone",
+      "cue": "app"
+     },
+     {
+      "name": "Tag scanned",
+      "sub": "2-hr pause",
+      "icon": "aperture",
+      "cue": "scan"
+     },
+     {
+      "name": "Check saved",
+      "sub": "Reminders stop",
+      "icon": "check",
+      "cue": "saved",
+      "tone": "good"
+     }
+    ]
+   }
+  },
+  {
+   "id": "schedule",
+   "start": 70.442,
+   "end": 82.857,
+   "sentences": [
+    {
+     "start": 70.442,
+     "end": 73.698,
+     "chunks": [
+      {
+       "start": 70.442,
+       "end": 74.017,
+       "words": [
+        {
+         "text": "On",
+         "tail": "",
+         "hl": false,
+         "start": 70.442,
+         "end": 70.529
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 70.529,
+         "end": 70.629
+        },
+        {
+         "text": "normal",
+         "tail": "",
+         "hl": true,
+         "start": 70.629,
+         "end": 71.017
+        },
+        {
+         "text": "day",
+         "tail": ":",
+         "hl": false,
+         "cue": "chartstart",
+         "start": 71.017,
+         "end": 71.517
+        },
+        {
+         "text": "morning",
+         "tail": ",",
+         "hl": false,
+         "start": 71.654,
+         "end": 72.017
+        },
+        {
+         "text": "midday",
+         "tail": ",",
+         "hl": false,
+         "start": 72.054,
+         "end": 72.467
+        },
+        {
+         "text": "final",
+         "tail": "",
+         "hl": false,
+         "start": 72.529,
+         "end": 72.892
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 72.892,
+         "end": 72.992
+        },
+        {
+         "text": "8:30",
+         "tail": ".",
+         "hl": false,
+         "start": 72.992,
+         "end": 74.017
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 74.298,
+     "end": 78.092,
+     "chunks": [
+      {
+       "start": 74.298,
+       "end": 78.491,
+       "words": [
+        {
+         "text": "Miss",
+         "tail": "",
+         "hl": true,
+         "start": 74.298,
+         "end": 74.466
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 74.466,
+         "end": 74.579
+        },
+        {
+         "text": "day",
+         "tail": "?",
+         "hl": false,
+         "cue": "miss",
+         "start": 74.579,
+         "end": 75.066
+        },
+        {
+         "text": "Hourly",
+         "tail": "",
+         "hl": false,
+         "start": 75.229,
+         "end": 75.641
+        },
+        {
+         "text": "reminders",
+         "tail": "",
+         "hl": false,
+         "start": 75.641,
+         "end": 76.229
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 76.229,
+         "end": 76.579
+        },
+        {
+         "text": "hour",
+         "tail": "",
+         "hl": false,
+         "start": 76.579,
+         "end": 76.904
+        },
+        {
+         "text": "until",
+         "tail": "",
+         "hl": false,
+         "start": 76.904,
+         "end": 77.229
+        },
+        {
+         "text": "9",
+         "tail": "",
+         "hl": false,
+         "start": 77.229,
+         "end": 77.604
+        },
+        {
+         "text": "PM",
+         "tail": ".",
+         "hl": false,
+         "start": 77.604,
+         "end": 78.491
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 78.692,
+     "end": 81.857,
+     "chunks": [
+      {
+       "start": 78.706,
+       "end": 82.256,
+       "words": [
+        {
+         "text": "Start",
+         "tail": "",
+         "hl": false,
+         "start": 78.706,
+         "end": 79.006
+        },
+        {
+         "text": "scanning",
+         "tail": "?",
+         "hl": true,
+         "cue": "scan2",
+         "start": 79.006,
+         "end": 79.481
+        },
+        {
+         "text": "Two-hour",
+         "tail": "",
+         "hl": false,
+         "start": 79.568,
+         "end": 80.043
+        },
+        {
+         "text": "pause",
+         "tail": "",
+         "hl": true,
+         "cue": "scan2",
+         "start": 80.043,
+         "end": 80.543
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 80.593,
+         "end": 80.543
+        },
+        {
+         "text": "then",
+         "tail": "",
+         "hl": false,
+         "start": 80.593,
+         "end": 80.781
+        },
+        {
+         "text": "reminders",
+         "tail": "",
+         "hl": false,
+         "start": 80.781,
+         "end": 81.381
+        },
+        {
+         "text": "resume",
+         "tail": ".",
+         "hl": false,
+         "cue": "chartend",
+         "start": 81.381,
+         "end": 82.256
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chart",
+    "label": "DAILY SCHEDULE",
+    "title": "Missed day: cumulative reminders across the day (illustrative)",
+    "points": [
+     1,
+     1,
+     2,
+     2,
+     3,
+     3,
+     4,
+     4,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     6,
+     6,
+     7,
+     7,
+     8,
+     8,
+     9,
+     9,
+     10,
+     11
+    ],
+    "yMax": 12,
+    "unit": "reminders",
+    "start": "chartstart",
+    "end": "chartend",
+    "note": {
+     "text": "Flat = 2-hr scanning pause (illustrative)",
+     "cue": "scan2"
+    },
+    "camera": [
+     {
+      "cue": "miss",
+      "zoom": 1.3,
+      "x": 540,
+      "y": 560
+     },
+     {
+      "cue": "scan2",
+      "zoom": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "messages",
+   "start": 82.857,
+   "end": 97.321,
+   "sentences": [
+    {
+     "start": 82.857,
+     "end": 84.757,
+     "chunks": [
+      {
+       "start": 82.857,
+       "end": 85.025,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 82.857,
+         "end": 82.925
+        },
+        {
+         "text": "message",
+         "tail": "",
+         "hl": true,
+         "start": 82.925,
+         "end": 83.475
+        },
+        {
+         "text": "changes",
+         "tail": "",
+         "hl": false,
+         "start": 83.475,
+         "end": 84.0
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 84.0,
+         "end": 84.137
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 84.137,
+         "end": 84.262
+        },
+        {
+         "text": "streak",
+         "tail": ".",
+         "hl": false,
+         "start": 84.262,
+         "end": 85.025
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 85.357,
+     "end": 89.013,
+     "chunks": [
+      {
+       "start": 85.375,
+       "end": 89.35,
+       "words": [
+        {
+         "text": "Day",
+         "tail": "",
+         "hl": false,
+         "start": 85.375,
+         "end": 85.637
+        },
+        {
+         "text": "zero",
+         "tail": ":",
+         "hl": false,
+         "start": 85.637,
+         "end": 86.05
+        },
+        {
+         "text": "motivating",
+         "tail": "",
+         "hl": true,
+         "start": 86.162,
+         "end": 86.775
+        },
+        {
+         "text": "copy",
+         "tail": ".",
+         "hl": false,
+         "cue": "d0",
+         "start": 86.775,
+         "end": 87.45
+        },
+        {
+         "text": "Morning",
+         "tail": ",",
+         "hl": false,
+         "start": 87.612,
+         "end": 88.025
+        },
+        {
+         "text": "midday",
+         "tail": ",",
+         "hl": false,
+         "start": 88.075,
+         "end": 88.5
+        },
+        {
+         "text": "final",
+         "tail": ".",
+         "hl": false,
+         "start": 88.562,
+         "end": 89.35
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 89.613,
+     "end": 92.745,
+     "chunks": [
+      {
+       "start": 89.613,
+       "end": 92.985,
+       "words": [
+        {
+         "text": "Miss",
+         "tail": "",
+         "hl": false,
+         "start": 89.613,
+         "end": 89.785
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 89.785,
+         "end": 90.01
+        },
+        {
+         "text": "day",
+         "tail": "?",
+         "hl": false,
+         "start": 90.01,
+         "end": 90.285
+        },
+        {
+         "text": "Fresh",
+         "tail": "",
+         "hl": true,
+         "start": 90.397,
+         "end": 90.685
+        },
+        {
+         "text": "start",
+         "tail": ".",
+         "hl": false,
+         "cue": "d1",
+         "start": 90.685,
+         "end": 91.085
+        },
+        {
+         "text": "Two",
+         "tail": "",
+         "hl": false,
+         "start": 91.172,
+         "end": 91.385
+        },
+        {
+         "text": "days",
+         "tail": "?",
+         "hl": false,
+         "start": 91.385,
+         "end": 91.76
+        },
+        {
+         "text": "Back",
+         "tail": "",
+         "hl": false,
+         "start": 91.81,
+         "end": 92.072
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 92.072,
+         "end": 92.26
+        },
+        {
+         "text": "track",
+         "tail": ".",
+         "hl": false,
+         "start": 92.26,
+         "end": 92.985
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 93.345,
+     "end": 96.321,
+     "chunks": [
+      {
+       "start": 93.423,
+       "end": 96.548,
+       "words": [
+        {
+         "text": "Seven",
+         "tail": "",
+         "hl": false,
+         "start": 93.423,
+         "end": 93.71
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 93.71,
+         "end": 93.798
+        },
+        {
+         "text": "more",
+         "tail": "?",
+         "hl": false,
+         "cue": "d7",
+         "start": 93.798,
+         "end": 94.323
+        },
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 94.485,
+         "end": 94.61
+        },
+        {
+         "text": "gentle",
+         "tail": "",
+         "hl": true,
+         "start": 94.61,
+         "end": 94.998
+        },
+        {
+         "text": "restart",
+         "tail": "",
+         "hl": false,
+         "start": 94.998,
+         "end": 95.56
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 95.623,
+         "end": 95.56
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 95.623,
+         "end": 95.885
+        },
+        {
+         "text": "guilt",
+         "tail": ".",
+         "hl": false,
+         "cue": "back2",
+         "start": 95.885,
+         "end": 96.548
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "MESSAGE TONE",
+    "left": {
+     "kicker": "D0 — ON TRACK",
+     "title": "Streak messages",
+     "items": [
+      "Morning · midday · final",
+      "Keep momentum",
+      "Streak growing"
+     ],
+     "cue": "d0"
+    },
+    "right": {
+     "kicker": "D1–D7+ — MISSED",
+     "title": "Escalating nudges",
+     "items": [
+      "D1 — Fresh start",
+      "D2 — Back on track",
+      "D7+ — Gentle restart"
+     ],
+     "cue": "d1",
+     "camera": [
+      {
+       "cue": "d7",
+       "zoom": 1.35,
+       "x": 810,
+       "y": 700,
+       "dur": 2
+      },
+      {
+       "cue": "back2",
+       "zoom": 1
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "tracking",
+   "start": 97.321,
+   "end": 110.064,
+   "sentences": [
+    {
+     "start": 97.321,
+     "end": 101.017,
+     "chunks": [
+      {
+       "start": 97.321,
+       "end": 101.295,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 97.321,
+         "end": 97.395
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": false,
+         "start": 97.395,
+         "end": 98.033
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 98.033,
+         "end": 98.358
+        },
+        {
+         "text": "counts",
+         "tail": "",
+         "hl": true,
+         "cue": "scrollstart",
+         "start": 98.358,
+         "end": 98.92
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 98.92,
+         "end": 99.058
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 99.058,
+         "end": 99.145
+        },
+        {
+         "text": "notification",
+         "tail": "",
+         "hl": false,
+         "start": 99.145,
+         "end": 99.97
+        },
+        {
+         "text": "actually",
+         "tail": "",
+         "hl": false,
+         "start": 99.97,
+         "end": 100.445
+        },
+        {
+         "text": "appeared",
+         "tail": ".",
+         "hl": false,
+         "start": 100.445,
+         "end": 101.295
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 101.617,
+     "end": 104.069,
+     "chunks": [
+      {
+       "start": 101.641,
+       "end": 104.291,
+       "words": [
+        {
+         "text": "Notifications",
+         "tail": "",
+         "hl": false,
+         "start": 101.641,
+         "end": 102.503
+        },
+        {
+         "text": "off",
+         "tail": "?",
+         "hl": true,
+         "cue": "off",
+         "start": 102.503,
+         "end": 102.991
+        },
+        {
+         "text": "Nothing",
+         "tail": "",
+         "hl": false,
+         "start": 103.103,
+         "end": 103.528
+        },
+        {
+         "text": "tracked",
+         "tail": ".",
+         "hl": false,
+         "start": 103.528,
+         "end": 104.291
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 104.669,
+     "end": 106.578,
+     "chunks": [
+      {
+       "start": 104.699,
+       "end": 106.799,
+       "words": [
+        {
+         "text": "Channel",
+         "tail": "",
+         "hl": false,
+         "start": 104.699,
+         "end": 105.049
+        },
+        {
+         "text": "blocked",
+         "tail": "?",
+         "hl": true,
+         "cue": "blocked",
+         "start": 105.049,
+         "end": 105.524
+        },
+        {
+         "text": "Nothing",
+         "tail": "",
+         "hl": false,
+         "start": 105.611,
+         "end": 106.036
+        },
+        {
+         "text": "tracked",
+         "tail": ".",
+         "hl": false,
+         "start": 106.036,
+         "end": 106.799
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 107.178,
+     "end": 109.064,
+     "chunks": [
+      {
+       "start": 107.206,
+       "end": 109.281,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 107.206,
+         "end": 107.406
+        },
+        {
+         "text": "permission",
+         "tail": "?",
+         "hl": false,
+         "start": 107.406,
+         "end": 107.981
+        },
+        {
+         "text": "Nothing",
+         "tail": "",
+         "hl": true,
+         "start": 108.093,
+         "end": 108.518
+        },
+        {
+         "text": "tracked",
+         "tail": ".",
+         "hl": false,
+         "start": 108.518,
+         "end": 109.281
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "phoneapp",
+    "label": "WHAT GETS TRACKED",
+    "title": "Notification shade",
+    "rows": 8,
+    "speed": 480,
+    "scroll": "scrollstart",
+    "jank": {
+     "cue": "blocked"
+    },
+    "dialog": {
+     "cue": "blocked",
+     "title": "Notifications blocked",
+     "body": "The reminder channel is off. Nothing will be tracked.",
+     "buttons": [
+      "OK"
+     ]
+    }
+   }
+  },
+  {
+   "id": "payload",
+   "start": 110.064,
+   "end": 124.395,
+   "sentences": [
+    {
+     "start": 110.064,
+     "end": 112.726,
+     "chunks": [
+      {
+       "start": 110.064,
+       "end": 112.963,
+       "words": [
+        {
+         "text": "When",
+         "tail": "",
+         "hl": false,
+         "start": 110.064,
+         "end": 110.151
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 110.151,
+         "end": 110.213
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": false,
+         "start": 110.213,
+         "end": 110.738
+        },
+        {
+         "text": "appears",
+         "tail": ",",
+         "hl": true,
+         "start": 110.738,
+         "end": 111.388
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 111.501,
+         "end": 111.763
+        },
+        {
+         "text": "event",
+         "tail": "",
+         "hl": false,
+         "start": 111.763,
+         "end": 112.101
+        },
+        {
+         "text": "fires",
+         "tail": ".",
+         "hl": false,
+         "cue": "fires",
+         "start": 112.101,
+         "end": 112.963
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 113.326,
+     "end": 117.252,
+     "chunks": [
+      {
+       "start": 113.329,
+       "end": 117.479,
+       "words": [
+        {
+         "text": "Reminder-D1",
+         "tail": ".",
+         "hl": false,
+         "cue": "payload",
+         "start": 113.329,
+         "end": 114.554
+        },
+        {
+         "text": "AppName",
+         "tail": ":",
+         "hl": false,
+         "start": 114.691,
+         "end": 115.204
+        },
+        {
+         "text": "Tagway",
+         "tail": "",
+         "hl": false,
+         "start": 115.254,
+         "end": 115.704
+        },
+        {
+         "text": "Ice",
+         "tail": ".",
+         "hl": false,
+         "start": 115.704,
+         "end": 116.129
+        },
+        {
+         "text": "Username",
+         "tail": ":",
+         "hl": false,
+         "start": 116.241,
+         "end": 116.904
+        },
+        {
+         "text": "you",
+         "tail": ".",
+         "hl": false,
+         "start": 116.991,
+         "end": 117.479
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 117.852,
+     "end": 123.395,
+     "chunks": [
+      {
+       "start": 117.854,
+       "end": 123.729,
+       "words": [
+        {
+         "text": "Offline",
+         "tail": "?",
+         "hl": false,
+         "cue": "queue",
+         "start": 117.854,
+         "end": 118.729
+        },
+        {
+         "text": "Queued",
+         "tail": "",
+         "hl": true,
+         "start": 118.866,
+         "end": 119.204
+        },
+        {
+         "text": "on-device",
+         "tail": "",
+         "hl": false,
+         "start": 119.204,
+         "end": 119.791
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 119.841,
+         "end": 119.791
+        },
+        {
+         "text": "up",
+         "tail": "",
+         "hl": false,
+         "start": 119.841,
+         "end": 120.004
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 120.004,
+         "end": 120.141
+        },
+        {
+         "text": "50",
+         "tail": "",
+         "hl": false,
+         "start": 120.141,
+         "end": 120.504
+        },
+        {
+         "text": "events",
+         "tail": ",",
+         "hl": false,
+         "start": 120.504,
+         "end": 121.204
+        },
+        {
+         "text": "sent",
+         "tail": "",
+         "hl": false,
+         "start": 121.341,
+         "end": 121.579
+        },
+        {
+         "text": "next",
+         "tail": "",
+         "hl": false,
+         "start": 121.579,
+         "end": 121.854
+        },
+        {
+         "text": "time",
+         "tail": "",
+         "hl": false,
+         "start": 121.854,
+         "end": 122.091
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 122.091,
+         "end": 122.241
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 122.241,
+         "end": 122.479
+        },
+        {
+         "text": "tracks",
+         "tail": "",
+         "hl": false,
+         "start": 122.479,
+         "end": 122.854
+        },
+        {
+         "text": "anything",
+         "tail": ".",
+         "hl": false,
+         "start": 122.854,
+         "end": 123.729
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "diff",
+    "label": "TCM EVENT",
+    "file": "Reminder-D1.json",
+    "lines": [
+     {
+      "text": "POST /ClientManagementApi/api/…",
+      "kind": "ctx"
+     },
+     {
+      "text": "{",
+      "kind": "ctx"
+     },
+     {
+      "text": "  \"AppName\":    \"Tagway Ice\",",
+      "kind": "add",
+      "cue": "fires"
+     },
+     {
+      "text": "  \"Modulename\": \"Reminder-D1\",",
+      "kind": "add",
+      "cue": "payload"
+     },
+     {
+      "text": "  \"Username\":   \"<logged-in user>\"",
+      "kind": "add",
+      "cue": "payload"
+     },
+     {
+      "text": "}",
+      "kind": "ctx"
+     },
+     {
+      "text": "// queued offline — up to 50",
+      "kind": "ctx",
+      "cue": "queue"
+     }
+    ]
+   }
+  },
+  {
+   "id": "safety",
+   "start": 124.395,
+   "end": 146.019,
+   "sentences": [
+    {
+     "start": 124.395,
+     "end": 126.73,
+     "chunks": [
+      {
+       "start": 124.432,
+       "end": 127.007,
+       "words": [
+        {
+         "text": "Six",
+         "tail": "",
+         "hl": false,
+         "start": 124.432,
+         "end": 124.744
+        },
+        {
+         "text": "rules",
+         "tail": "",
+         "hl": false,
+         "start": 124.744,
+         "end": 125.182
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 125.182,
+         "end": 125.407
+        },
+        {
+         "text": "mean",
+         "tail": "",
+         "hl": false,
+         "start": 125.407,
+         "end": 125.657
+        },
+        {
+         "text": "you're",
+         "tail": "",
+         "hl": false,
+         "start": 125.657,
+         "end": 125.807
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": true,
+         "start": 125.807,
+         "end": 126.119
+        },
+        {
+         "text": "spammed",
+         "tail": ".",
+         "hl": false,
+         "cue": "rules",
+         "start": 126.119,
+         "end": 127.007
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 127.33,
+     "end": 130.879,
+     "chunks": [
+      {
+       "start": 127.346,
+       "end": 131.121,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 127.346,
+         "end": 127.584
+        },
+        {
+         "text": "duplicates",
+         "tail": ".",
+         "hl": false,
+         "start": 127.584,
+         "end": 128.446
+        },
+        {
+         "text": "Only",
+         "tail": "",
+         "hl": false,
+         "start": 128.584,
+         "end": 128.896
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 128.896,
+         "end": 129.021
+        },
+        {
+         "text": "latest",
+         "tail": "",
+         "hl": true,
+         "start": 129.021,
+         "end": 129.484
+        },
+        {
+         "text": "due",
+         "tail": "",
+         "hl": false,
+         "start": 129.484,
+         "end": 129.696
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": false,
+         "start": 129.696,
+         "end": 130.259
+        },
+        {
+         "text": "fires",
+         "tail": ".",
+         "hl": false,
+         "cue": "flood",
+         "start": 130.259,
+         "end": 131.121
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 131.479,
+     "end": 134.67,
+     "chunks": [
+      {
+       "start": 131.479,
+       "end": 135.004,
+       "words": [
+        {
+         "text": "2-hour",
+         "tail": "",
+         "hl": false,
+         "start": 131.479,
+         "end": 132.004
+        },
+        {
+         "text": "scan",
+         "tail": "",
+         "hl": false,
+         "start": 132.004,
+         "end": 132.354
+        },
+        {
+         "text": "pause",
+         "tail": ".",
+         "hl": false,
+         "start": 132.354,
+         "end": 133.004
+        },
+        {
+         "text": "Cut-off",
+         "tail": "",
+         "hl": false,
+         "start": 133.142,
+         "end": 133.579
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 133.579,
+         "end": 133.742
+        },
+        {
+         "text": "9",
+         "tail": "",
+         "hl": false,
+         "start": 133.742,
+         "end": 134.117
+        },
+        {
+         "text": "PM",
+         "tail": ".",
+         "hl": false,
+         "start": 134.117,
+         "end": 135.004
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 135.27,
+     "end": 138.217,
+     "chunks": [
+      {
+       "start": 135.27,
+       "end": 138.45,
+       "words": [
+        {
+         "text": "Per-user",
+         "tail": "",
+         "hl": true,
+         "start": 135.27,
+         "end": 135.8
+        },
+        {
+         "text": "state",
+         "tail": ".",
+         "hl": false,
+         "cue": "per",
+         "start": 135.8,
+         "end": 136.2
+        },
+        {
+         "text": "Shared",
+         "tail": "",
+         "hl": false,
+         "start": 136.288,
+         "end": 136.575
+        },
+        {
+         "text": "device",
+         "tail": "?",
+         "hl": false,
+         "start": 136.575,
+         "end": 137.125
+        },
+        {
+         "text": "Separate",
+         "tail": "",
+         "hl": false,
+         "start": 137.213,
+         "end": 137.625
+        },
+        {
+         "text": "streaks",
+         "tail": ".",
+         "hl": false,
+         "start": 137.625,
+         "end": 138.45
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 138.817,
+     "end": 142.719,
+     "chunks": [
+      {
+       "start": 138.817,
+       "end": 143.067,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 138.817,
+         "end": 138.904
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 138.904,
+         "end": 139.042
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 139.042,
+         "end": 139.142
+        },
+        {
+         "text": "reminder",
+         "tail": "",
+         "hl": false,
+         "start": 139.142,
+         "end": 139.667
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 139.667,
+         "end": 140.029
+        },
+        {
+         "text": "crashes",
+         "tail": "",
+         "hl": true,
+         "start": 140.029,
+         "end": 140.604
+        },
+        {
+         "text": "—",
+         "tail": "",
+         "hl": false,
+         "start": 140.654,
+         "end": 140.604
+        },
+        {
+         "text": "it's",
+         "tail": "",
+         "hl": false,
+         "start": 140.654,
+         "end": 140.854
+        },
+        {
+         "text": "logged",
+         "tail": ",",
+         "hl": false,
+         "start": 140.854,
+         "end": 141.567
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 141.704,
+         "end": 142.029
+        },
+        {
+         "text": "shown",
+         "tail": "",
+         "hl": false,
+         "start": 142.029,
+         "end": 142.367
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 142.367,
+         "end": 142.504
+        },
+        {
+         "text": "you",
+         "tail": ".",
+         "hl": false,
+         "start": 142.504,
+         "end": 143.067
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "SAFEGUARDS",
+    "title": "Why users are never spammed",
+    "rows": [
+     {
+      "kicker": "ANTI-FLOOD",
+      "text": "No dups. Latest only. One notif ID.",
+      "icon": "lock",
+      "cue": "rules"
+     },
+     {
+      "kicker": "SMART TIMING",
+      "text": "Pause while scanning. Cut-off 21:00.",
+      "icon": "bell",
+      "cue": "flood"
+     },
+     {
+      "kicker": "PER-USER",
+      "text": "Client+user keyed. Shared = separate.",
+      "icon": "user",
+      "cue": "per"
+     }
+    ]
+   }
+  }
+ ]
+}

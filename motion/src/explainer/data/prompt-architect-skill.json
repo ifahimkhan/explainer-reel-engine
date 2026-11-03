@@ -1,0 +1,1506 @@
+{
+ "id": "prompt-architect-skill",
+ "durationS": 42.577,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.192,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.216,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 0.972,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.136
+        },
+        {
+         "text": "tell",
+         "tail": "",
+         "hl": false,
+         "start": 0.206,
+         "end": 0.357
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 0.403,
+         "end": 0.647
+        },
+        {
+         "text": "Code",
+         "tail": ":",
+         "hl": false,
+         "cue": "cmd",
+         "start": 0.67,
+         "end": 0.972
+        }
+       ]
+      },
+      {
+       "start": 1.088,
+       "end": 2.412,
+       "words": [
+        {
+         "text": "build",
+         "tail": "",
+         "hl": false,
+         "start": 1.088,
+         "end": 1.274
+        },
+        {
+         "text": "me",
+         "tail": "",
+         "hl": false,
+         "start": 1.309,
+         "end": 1.378
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 1.402,
+         "end": 1.46
+        },
+        {
+         "text": "Airbnb",
+         "tail": "",
+         "hl": true,
+         "start": 1.529,
+         "end": 1.889
+        },
+        {
+         "text": "clone",
+         "tail": ".",
+         "hl": false,
+         "start": 1.947,
+         "end": 2.412
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.356,
+     "end": 3.892,
+     "chunks": [
+      {
+       "start": 2.356,
+       "end": 3.087,
+       "words": [
+        {
+         "text": "One",
+         "tail": "",
+         "hl": false,
+         "start": 2.356,
+         "end": 2.553
+        },
+        {
+         "text": "giant",
+         "tail": "",
+         "hl": false,
+         "start": 2.577,
+         "end": 2.762
+        },
+        {
+         "text": "prompt",
+         "tail": ",",
+         "hl": false,
+         "start": 2.797,
+         "end": 3.087
+        }
+       ]
+      },
+      {
+       "start": 3.122,
+       "end": 4.12,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 3.122,
+         "end": 3.238
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 3.284,
+         "end": 3.331
+        },
+        {
+         "text": "falls",
+         "tail": "",
+         "hl": false,
+         "cue": "flag",
+         "start": 3.377,
+         "end": 3.61
+        },
+        {
+         "text": "apart",
+         "tail": ".",
+         "hl": true,
+         "start": 3.656,
+         "end": 4.12
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "THE PROBLEM",
+    "title": "claude",
+    "command": "build me an Airbnb clone",
+    "cue": "cmd",
+    "lines": [
+     {
+      "text": "● Planning UI, database, API, auth,",
+      "tone": "dim"
+     },
+     {
+      "text": "  payments, search, messaging...",
+      "tone": "dim"
+     },
+     {
+      "text": ""
+     },
+     {
+      "text": "⚠ Context window 94% full",
+      "tone": "dim",
+      "flag": "flag"
+     }
+    ]
+   }
+  },
+  {
+   "id": "pain",
+   "start": 4.192,
+   "end": 8.329,
+   "sentences": [
+    {
+     "start": 4.192,
+     "end": 8.029,
+     "chunks": [
+      {
+       "start": 4.192,
+       "end": 5.12,
+       "words": [
+        {
+         "text": "Context",
+         "tail": "",
+         "hl": false,
+         "cue": "c1",
+         "start": 4.192,
+         "end": 4.644
+        },
+        {
+         "text": "fills",
+         "tail": "",
+         "hl": false,
+         "start": 4.69,
+         "end": 4.934
+        },
+        {
+         "text": "up",
+         "tail": ",",
+         "hl": false,
+         "start": 4.992,
+         "end": 5.12
+        }
+       ]
+      },
+      {
+       "start": 5.143,
+       "end": 6.304,
+       "words": [
+        {
+         "text": "decisions",
+         "tail": "",
+         "hl": false,
+         "start": 5.143,
+         "end": 5.619
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 5.666,
+         "end": 5.793
+        },
+        {
+         "text": "forgotten",
+         "tail": ",",
+         "hl": true,
+         "cue": "c2",
+         "start": 5.84,
+         "end": 6.304
+        }
+       ]
+      },
+      {
+       "start": 6.327,
+       "end": 8.255,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 6.327,
+         "end": 6.432
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 6.49,
+         "end": 6.687
+        },
+        {
+         "text": "session",
+         "tail": "",
+         "hl": false,
+         "start": 6.734,
+         "end": 7.036
+        },
+        {
+         "text": "starts",
+         "tail": "",
+         "hl": false,
+         "start": 7.105,
+         "end": 7.396
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 7.43,
+         "end": 7.57
+        },
+        {
+         "text": "zero",
+         "tail": ".",
+         "hl": false,
+         "cue": "c3",
+         "start": 7.639,
+         "end": 8.255
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "WHY IT BREAKS",
+    "title": "ONE GIANT PROMPT",
+    "cards": [
+     {
+      "title": "Context fills up",
+      "sub": "too much at once",
+      "icon": "layers",
+      "cue": "c1"
+     },
+     {
+      "title": "Decisions forgotten",
+      "sub": "across sessions",
+      "icon": "eyeOff",
+      "cue": "c2"
+     },
+     {
+      "title": "Starts from zero",
+      "sub": "every new session",
+      "icon": "unlink",
+      "cue": "c3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "skill",
+   "start": 8.329,
+   "end": 14.667,
+   "sentences": [
+    {
+     "start": 8.329,
+     "end": 12.27,
+     "chunks": [
+      {
+       "start": 8.329,
+       "end": 9.804,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 8.329,
+         "end": 8.573
+        },
+        {
+         "text": "I",
+         "tail": "",
+         "hl": false,
+         "start": 8.666,
+         "end": 8.724
+        },
+        {
+         "text": "built",
+         "tail": "",
+         "hl": false,
+         "start": 8.84,
+         "end": 9.06
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 9.118,
+         "end": 9.153
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 9.2,
+         "end": 9.513
+        },
+        {
+         "text": "skill",
+         "tail": "",
+         "hl": false,
+         "start": 9.537,
+         "end": 9.804
+        }
+       ]
+      },
+      {
+       "start": 9.85,
+       "end": 10.999,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 9.85,
+         "end": 10.001
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 10.059,
+         "end": 10.361
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 10.396,
+         "end": 10.431
+        },
+        {
+         "text": "rough",
+         "tail": "",
+         "hl": true,
+         "start": 10.489,
+         "end": 10.674
+        },
+        {
+         "text": "idea",
+         "tail": "",
+         "hl": true,
+         "start": 10.744,
+         "end": 10.999
+        }
+       ]
+      },
+      {
+       "start": 11.046,
+       "end": 12.462,
+       "words": [
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 11.046,
+         "end": 11.232
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 11.29,
+         "end": 11.557
+        },
+        {
+         "text": "Code",
+         "tail": "",
+         "hl": false,
+         "start": 11.58,
+         "end": 11.777
+        },
+        {
+         "text": "prompts",
+         "tail": ".",
+         "hl": false,
+         "start": 11.801,
+         "end": 12.462
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 12.41,
+     "end": 14.367,
+     "chunks": [
+      {
+       "start": 12.41,
+       "end": 14.541,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 12.41,
+         "end": 12.625
+        },
+        {
+         "text": "called",
+         "tail": "",
+         "hl": false,
+         "start": 12.671,
+         "end": 12.915
+        },
+        {
+         "text": "software-dev-prompt-architect",
+         "tail": ".",
+         "hl": false,
+         "cue": "sub",
+         "start": 12.961,
+         "end": 14.541
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "MY CLAUDE SKILL",
+    "kicker": "FREE CLAUDE SKILL",
+    "headline": "Rough idea to prompts",
+    "highlight": "prompts",
+    "icon": "wand",
+    "sub": {
+     "text": "software-dev-prompt-architect",
+     "cue": "sub"
+    }
+   }
+  },
+  {
+   "id": "understand",
+   "start": 14.667,
+   "end": 18.057,
+   "sentences": [
+    {
+     "start": 14.667,
+     "end": 17.757,
+     "chunks": [
+      {
+       "start": 14.667,
+       "end": 15.968,
+       "words": [
+        {
+         "text": "First",
+         "tail": ",",
+         "hl": false,
+         "start": 14.667,
+         "end": 14.958
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 14.981,
+         "end": 15.051
+        },
+        {
+         "text": "reads",
+         "tail": "",
+         "hl": false,
+         "start": 15.12,
+         "end": 15.329
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 15.364,
+         "end": 15.504
+        },
+        {
+         "text": "idea",
+         "tail": ":",
+         "hl": false,
+         "start": 15.585,
+         "end": 15.968
+        }
+       ]
+      },
+      {
+       "start": 16.015,
+       "end": 17.118,
+       "words": [
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 16.015,
+         "end": 16.212
+        },
+        {
+         "text": "type",
+         "tail": ",",
+         "hl": true,
+         "cue": "s1",
+         "start": 16.27,
+         "end": 16.525
+        },
+        {
+         "text": "core",
+         "tail": "",
+         "hl": false,
+         "start": 16.549,
+         "end": 16.734
+        },
+        {
+         "text": "purpose",
+         "tail": ",",
+         "hl": true,
+         "cue": "s2",
+         "start": 16.769,
+         "end": 17.118
+        }
+       ]
+      },
+      {
+       "start": 17.141,
+       "end": 17.953,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 17.141,
+         "end": 17.21
+        },
+        {
+         "text": "users",
+         "tail": ".",
+         "hl": true,
+         "cue": "s3",
+         "start": 17.28,
+         "end": 17.953
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "STEP 1 · UNDERSTAND",
+    "title": "UNDERSTAND THE IDEA",
+    "steps": [
+     {
+      "label": "App type",
+      "sub": "mobile · web · backend · CLI · fullstack",
+      "icon": "grid",
+      "cue": "s1"
+     },
+     {
+      "label": "Core purpose",
+      "sub": "what problem it solves",
+      "icon": "sparkle",
+      "cue": "s2"
+     },
+     {
+      "label": "Primary users",
+      "sub": "who uses it",
+      "icon": "user",
+      "cue": "s3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "domains",
+   "start": 18.057,
+   "end": 22.252,
+   "sentences": [
+    {
+     "start": 18.057,
+     "end": 21.952,
+     "chunks": [
+      {
+       "start": 18.057,
+       "end": 19.805,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 18.057,
+         "end": 18.214
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 18.272,
+         "end": 18.342
+        },
+        {
+         "text": "splits",
+         "tail": "",
+         "hl": false,
+         "start": 18.388,
+         "end": 18.713
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 18.748,
+         "end": 18.853
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 18.922,
+         "end": 19.097
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 19.155,
+         "end": 19.306
+        },
+        {
+         "text": "domains",
+         "tail": ":",
+         "hl": true,
+         "start": 19.364,
+         "end": 19.805
+        }
+       ]
+      },
+      {
+       "start": 19.84,
+       "end": 21.547,
+       "words": [
+        {
+         "text": "UI",
+         "tail": ",",
+         "hl": false,
+         "cue": "m1",
+         "start": 19.84,
+         "end": 20.211
+        },
+        {
+         "text": "database",
+         "tail": ",",
+         "hl": false,
+         "cue": "m2",
+         "start": 20.246,
+         "end": 20.769
+        },
+        {
+         "text": "backend",
+         "tail": "",
+         "hl": false,
+         "cue": "m3",
+         "start": 20.792,
+         "end": 21.129
+        },
+        {
+         "text": "API",
+         "tail": ",",
+         "hl": false,
+         "start": 21.175,
+         "end": 21.547
+        }
+       ]
+      },
+      {
+       "start": 21.57,
+       "end": 22.173,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 21.57,
+         "end": 21.663
+        },
+        {
+         "text": "auth",
+         "tail": ".",
+         "hl": false,
+         "cue": "m4",
+         "start": 21.721,
+         "end": 22.173
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chips",
+    "label": "STEP 2 · DOMAINS",
+    "hub": {
+     "text": "Airbnb",
+     "sub": "CLONE · DOMAINS",
+     "icon": "layers"
+    },
+    "chips": [
+     {
+      "text": "UI",
+      "cue": "m1"
+     },
+     {
+      "text": "Database",
+      "cue": "m2"
+     },
+     {
+      "text": "Backend API",
+      "cue": "m3"
+     },
+     {
+      "text": "Auth",
+      "cue": "m4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "questions",
+   "start": 22.252,
+   "end": 26.905,
+   "sentences": [
+    {
+     "start": 22.252,
+     "end": 26.605,
+     "chunks": [
+      {
+       "start": 22.252,
+       "end": 24.54,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 22.252,
+         "end": 22.369
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 22.416,
+         "end": 22.59
+        },
+        {
+         "text": "asks",
+         "tail": "",
+         "hl": false,
+         "start": 22.648,
+         "end": 23.054
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 23.379,
+         "end": 23.6
+        },
+        {
+         "text": "truly",
+         "tail": "",
+         "hl": false,
+         "start": 23.623,
+         "end": 23.913
+        },
+        {
+         "text": "blocks",
+         "tail": "",
+         "hl": true,
+         "cue": "left",
+         "start": 23.948,
+         "end": 24.296
+        },
+        {
+         "text": "it",
+         "tail": ",",
+         "hl": false,
+         "start": 24.354,
+         "end": 24.54
+        }
+       ]
+      },
+      {
+       "start": 24.587,
+       "end": 26.781,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 24.587,
+         "end": 24.726
+        },
+        {
+         "text": "picks",
+         "tail": "",
+         "hl": false,
+         "start": 24.784,
+         "end": 25.063
+        },
+        {
+         "text": "smart",
+         "tail": "",
+         "hl": false,
+         "start": 25.179,
+         "end": 25.515
+        },
+        {
+         "text": "defaults",
+         "tail": "",
+         "hl": true,
+         "cue": "right",
+         "start": 25.573,
+         "end": 25.98
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 26.015,
+         "end": 26.119
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 26.154,
+         "end": 26.224
+        },
+        {
+         "text": "rest",
+         "tail": ".",
+         "hl": false,
+         "start": 26.27,
+         "end": 26.781
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "STEP 3 · QUESTIONS",
+    "left": {
+     "kicker": "ASKS YOU",
+     "title": "Only blockers",
+     "items": [
+      "Web or mobile?",
+      "Payments needed?"
+     ],
+     "cue": "left"
+    },
+    "right": {
+     "kicker": "INFERS",
+     "title": "Smart defaults",
+     "items": [
+      "Tech stack",
+      "Folder structure",
+      "Everything else"
+     ],
+     "cue": "right"
+    }
+   }
+  },
+  {
+   "id": "output",
+   "start": 26.905,
+   "end": 32.612,
+   "sentences": [
+    {
+     "start": 26.905,
+     "end": 30.235,
+     "chunks": [
+      {
+       "start": 26.905,
+       "end": 27.919,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 26.905,
+         "end": 27.002
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 27.071,
+         "end": 27.187
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 27.222,
+         "end": 27.246
+        },
+        {
+         "text": "CLAUDE.md",
+         "tail": "",
+         "hl": true,
+         "cue": "md",
+         "start": 27.292,
+         "end": 27.919
+        }
+       ]
+      },
+      {
+       "start": 28.035,
+       "end": 30.404,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 28.035,
+         "end": 28.174
+        },
+        {
+         "text": "remembers",
+         "tail": "",
+         "hl": false,
+         "start": 28.233,
+         "end": 28.685
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 28.732,
+         "end": 28.859
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 28.906,
+         "end": 29.057
+        },
+        {
+         "text": "across",
+         "tail": "",
+         "hl": false,
+         "start": 29.103,
+         "end": 29.417
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 29.475,
+         "end": 29.695
+        },
+        {
+         "text": "session",
+         "tail": ",",
+         "hl": false,
+         "start": 29.753,
+         "end": 30.404
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 30.375,
+     "end": 32.312,
+     "chunks": [
+      {
+       "start": 30.375,
+       "end": 31.821,
+       "words": [
+        {
+         "text": "plus",
+         "tail": "",
+         "hl": false,
+         "start": 30.375,
+         "end": 30.567
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "cue": "f1",
+         "start": 30.648,
+         "end": 30.799
+        },
+        {
+         "text": "numbered",
+         "tail": "",
+         "hl": false,
+         "cue": "f2",
+         "start": 30.834,
+         "end": 31.159
+        },
+        {
+         "text": "prompt",
+         "tail": "",
+         "hl": false,
+         "cue": "f3",
+         "start": 31.206,
+         "end": 31.508
+        },
+        {
+         "text": "file",
+         "tail": "",
+         "hl": false,
+         "cue": "f4",
+         "start": 31.566,
+         "end": 31.821
+        }
+       ]
+      },
+      {
+       "start": 31.868,
+       "end": 32.518,
+       "words": [
+        {
+         "text": "per",
+         "tail": "",
+         "hl": false,
+         "start": 31.868,
+         "end": 31.984
+        },
+        {
+         "text": "domain",
+         "tail": ".",
+         "hl": false,
+         "start": 32.019,
+         "end": 32.518
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "THE OUTPUT",
+    "file": "airbnb-clone/",
+    "lines": [
+     {
+      "text": "CLAUDE.md  ← app memory",
+      "cue": "md",
+      "hl": true
+     },
+     {
+      "text": "01-ui.md",
+      "cue": "f1"
+     },
+     {
+      "text": "02-database.md",
+      "cue": "f2"
+     },
+     {
+      "text": "03-backend-api.md",
+      "cue": "f3"
+     },
+     {
+      "text": "04-auth.md",
+      "cue": "f4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "payoff",
+   "start": 32.612,
+   "end": 36.533,
+   "sentences": [
+    {
+     "start": 32.612,
+     "end": 34.542,
+     "chunks": [
+      {
+       "start": 32.612,
+       "end": 33.877,
+       "words": [
+        {
+         "text": "Each",
+         "tail": "",
+         "hl": false,
+         "start": 32.612,
+         "end": 32.856
+        },
+        {
+         "text": "file",
+         "tail": "",
+         "hl": false,
+         "start": 32.914,
+         "end": 33.158
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 33.192,
+         "end": 33.401
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 33.46,
+         "end": 33.529
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 33.587,
+         "end": 33.726
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "cue": "run",
+         "start": 33.773,
+         "end": 33.877
+        }
+       ]
+      },
+      {
+       "start": 33.912,
+       "end": 34.748,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 33.912,
+         "end": 33.959
+        },
+        {
+         "text": "Claude",
+         "tail": "",
+         "hl": false,
+         "start": 34.005,
+         "end": 34.261
+        },
+        {
+         "text": "Code",
+         "tail": ".",
+         "hl": false,
+         "start": 34.284,
+         "end": 34.748
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 34.682,
+     "end": 36.233,
+     "chunks": [
+      {
+       "start": 34.682,
+       "end": 35.53,
+       "words": [
+        {
+         "text": "Zero",
+         "tail": "",
+         "hl": false,
+         "start": 34.682,
+         "end": 34.914
+        },
+        {
+         "text": "extra",
+         "tail": "",
+         "hl": false,
+         "start": 34.937,
+         "end": 35.112
+        },
+        {
+         "text": "context",
+         "tail": ".",
+         "hl": false,
+         "cue": "badge",
+         "start": 35.146,
+         "end": 35.53
+        }
+       ]
+      },
+      {
+       "start": 35.553,
+       "end": 36.4,
+       "words": [
+        {
+         "text": "Fewer",
+         "tail": "",
+         "hl": false,
+         "start": 35.553,
+         "end": 35.774
+        },
+        {
+         "text": "tokens",
+         "tail": ".",
+         "hl": true,
+         "start": 35.82,
+         "end": 36.4
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "THE PAYOFF",
+    "title": "claude",
+    "command": "run prompts one by one",
+    "cue": "run",
+    "lines": [
+     {
+      "text": "✓ 01-ui.md            done",
+      "tone": "good"
+     },
+     {
+      "text": "✓ 02-database.md      done",
+      "tone": "good"
+     },
+     {
+      "text": "✓ 03-backend-api.md   done",
+      "tone": "good"
+     },
+     {
+      "text": "✓ 04-auth.md          done",
+      "tone": "good"
+     }
+    ],
+    "badge": {
+     "text": "Zero extra context",
+     "cue": "badge"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 36.533,
+   "end": 42.577,
+   "sentences": [
+    {
+     "start": 36.533,
+     "end": 38.322,
+     "chunks": [
+      {
+       "start": 36.533,
+       "end": 37.119,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 36.533,
+         "end": 36.736
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": true,
+         "start": 36.782,
+         "end": 37.119
+        }
+       ]
+      },
+      {
+       "start": 37.293,
+       "end": 38.524,
+       "words": [
+        {
+         "text": "Link's",
+         "tail": "",
+         "hl": false,
+         "start": 37.293,
+         "end": 37.549
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 37.572,
+         "end": 37.619
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 37.688,
+         "end": 37.758
+        },
+        {
+         "text": "description",
+         "tail": ".",
+         "hl": true,
+         "cue": "sub",
+         "start": 37.793,
+         "end": 38.524
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 38.462,
+     "end": 41.077,
+     "chunks": [
+      {
+       "start": 38.462,
+       "end": 40.053,
+       "words": [
+        {
+         "text": "Download",
+         "tail": "",
+         "hl": false,
+         "cue": "tap",
+         "start": 38.462,
+         "end": 38.926
+        },
+        {
+         "text": "it",
+         "tail": ",",
+         "hl": false,
+         "start": 38.984,
+         "end": 39.124
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 39.17,
+         "end": 39.368
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 39.414,
+         "end": 39.484
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 39.519,
+         "end": 39.612
+        },
+        {
+         "text": "Claude",
+         "tail": ",",
+         "hl": false,
+         "start": 39.658,
+         "end": 40.053
+        }
+       ]
+      },
+      {
+       "start": 40.088,
+       "end": 41.342,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 40.088,
+         "end": 40.215
+        },
+        {
+         "text": "build",
+         "tail": "",
+         "hl": false,
+         "start": 40.285,
+         "end": 40.494
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 40.529,
+         "end": 40.633
+        },
+        {
+         "text": "next",
+         "tail": "",
+         "hl": false,
+         "start": 40.68,
+         "end": 40.9
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 40.97,
+         "end": 41.342
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "GET THE SKILL",
+    "headline": "It's free",
+    "highlight": "free",
+    "name": "software-dev-prompt-architect",
+    "mono": true,
+    "tagline": "CLAUDE SKILL · BY FAHIM KHAN",
+    "action": "Download",
+    "done": "Downloaded",
+    "actionIcon": "download",
+    "cue": "tap",
+    "sub": {
+     "text": "Link in description ↓",
+     "cue": "sub"
+    }
+   }
+  }
+ ]
+}

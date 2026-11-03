@@ -1,0 +1,448 @@
+{
+  "id": "trading-agents",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_v3",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "punch",
+        "label": "AI TRADING",
+        "word": "STOP",
+        "headline": "Don't use 1 prompt for trading",
+        "highlight": "1 prompt",
+        "kicker": "CHATGPT: BUY AAPL?",
+        "icon": "flame"
+      },
+      "sentences": [
+        {
+          "caption": "*Stop* asking a single ChatGPT prompt | for stock picks."
+        }
+      ]
+    },
+    {
+      "id": "crash",
+      "visual": {
+        "type": "chart",
+        "label": "BLOWN ACCOUNT",
+        "transition": "whip",
+        "title": "Account balance (illustrative)",
+        "points": [
+          100,
+          104,
+          99,
+          108,
+          112,
+          97,
+          90,
+          94,
+          76,
+          63,
+          67,
+          44,
+          30,
+          14,
+          5
+        ],
+        "yMax": 120,
+        "unit": "%",
+        "start": "start",
+        "end": "blow",
+        "dropLabel": "LOSS",
+        "dropMin": 17,
+        "limit": {
+          "value": 25,
+          "label": "Margin call"
+        },
+        "glitch": [
+          {
+            "cue": "blow",
+            "text": "MARGIN CALL: ACCOUNT LIQUIDATED"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "That's how retail#start traders | *blow up*#blow accounts."
+        }
+      ]
+    },
+    {
+      "id": "repo",
+      "visual": {
+        "type": "screenshot",
+        "label": "OPEN SOURCE",
+        "title": "github.com/TauricResearch",
+        "transition": "whip",
+        "src": "trading-agents/s185011.png",
+        "width": 1233,
+        "height": 651,
+        "focus": {
+          "x": 190,
+          "y": 0,
+          "w": 430,
+          "h": 90,
+          "cue": "repo"
+        },
+        "viewH": 700
+      },
+      "sentences": [
+        {
+          "caption": "Instead, check out *TradingAgents*.#repo"
+        }
+      ]
+    },
+    {
+      "id": "stars",
+      "visual": {
+        "type": "stat",
+        "label": "TRADINGAGENTS",
+        "kicker": "GITHUB STARS",
+        "value": 100000,
+        "suffix": "+",
+        "caption": "LLMs as a virtual trading floor",
+        "icon": "star",
+        "cue": "stars"
+      },
+      "sentences": [
+        {
+          "caption": "It's an *open-source* framework with over 100,000#stars stars | that turns LLMs into an entire *virtual trading floor*.",
+          "say": "It's an open-source framework with over one hundred thousand stars that turns LLMs into an entire virtual trading floor."
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "visual": {
+        "type": "screenshot",
+        "label": "INTERACTIVE CLI",
+        "title": "tradingagents · setup",
+        "src": "trading-agents/s184931.png",
+        "width": 922,
+        "height": 727,
+        "viewH": 700,
+        "focus": {
+          "x": 250,
+          "y": 158,
+          "w": 410,
+          "h": 48,
+          "cue": "ticker"
+        },
+        "pans": [
+          {
+            "x": 0,
+            "y": 525,
+            "w": 480,
+            "h": 195,
+            "cue": "models"
+          }
+        ],
+        "highlights": [
+          {
+            "x": 581,
+            "y": 168,
+            "w": 58,
+            "h": 28,
+            "cue": "ticker"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "You configure your *ticker*#ticker | and models#models in the terminal,"
+        }
+      ]
+    },
+    {
+      "id": "chain",
+      "visual": {
+        "type": "sequence",
+        "label": "MULTI-AGENT PIPELINE",
+        "transition": "slide",
+        "title": "A chain of specialist agents",
+        "lanes": [
+          {
+            "name": "Analysts",
+            "icon": "grid"
+          },
+          {
+            "name": "Researchers",
+            "icon": "chat"
+          },
+          {
+            "name": "Trader",
+            "icon": "dollar"
+          },
+          {
+            "name": "Risk",
+            "icon": "lock"
+          }
+        ],
+        "messages": [
+          {
+            "from": 0,
+            "to": 1,
+            "text": "4 data reports",
+            "cue": "a1"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "text": "bull vs bear verdict",
+            "cue": "a2"
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "text": "trade proposal",
+            "cue": "a3"
+          },
+          {
+            "from": 3,
+            "to": 2,
+            "text": "approved",
+            "cue": "a4",
+            "tone": "good"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "and it kicks#a1 off a *chain*#a2 of specialized#a3 agents | running *simultaneously*.#a4"
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "visual": {
+        "type": "screenshot",
+        "label": "4 SPECIALISTS",
+        "title": "Analyst Team · live progress",
+        "src": "trading-agents/s184948.png",
+        "width": 1797,
+        "height": 532,
+        "focus": {
+          "x": 270,
+          "y": 118,
+          "w": 450,
+          "h": 150,
+          "cue": "one"
+        },
+        "highlights": [
+          {
+            "x": 296,
+            "y": 220,
+            "w": 400,
+            "h": 48,
+            "cue": "fund"
+          },
+          {
+            "x": 296,
+            "y": 130,
+            "w": 400,
+            "h": 26,
+            "cue": "tech"
+          },
+          {
+            "x": 296,
+            "y": 199,
+            "w": 400,
+            "h": 23,
+            "cue": "news"
+          },
+          {
+            "x": 296,
+            "y": 155,
+            "w": 400,
+            "h": 45,
+            "cue": "sent"
+          }
+        ],
+        "viewH": 700
+      },
+      "sentences": [
+        {
+          "caption": "One#one agent parses *SEC*#fund balance sheets, | another calculates *RSI*#tech and moving averages, | while a third scans live news#news | and market sentiment.#sent"
+        }
+      ]
+    },
+    {
+      "id": "debate",
+      "visual": {
+        "type": "compare",
+        "label": "BULL VS BEAR",
+        "transition": "zoom",
+        "left": {
+          "kicker": "BULL AGENT",
+          "title": "Growth case",
+          "items": [
+            "Revenue +105.9% YoY",
+            "Margins expanding",
+            "$62B+ cash"
+          ],
+          "cue": "bull"
+        },
+        "right": {
+          "kicker": "BEAR AGENT",
+          "title": "Risk case",
+          "items": [
+            "Receivables +55%",
+            "Debt up to $38.4B",
+            "Beta 2.22"
+          ],
+          "cue": "bear"
+        },
+        "glitch": [
+          {
+            "cue": "traps",
+            "text": "VALUATION TRAP DETECTED"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "Then comes the *craziest part*: | the Bull#bull and Bear#bear agents enter a dialectical debate, | actively stress-testing each other's thesis | to spot *valuation traps*.#traps"
+        }
+      ]
+    },
+    {
+      "id": "report",
+      "visual": {
+        "type": "screenshot",
+        "label": "FINAL ACTION PLAN",
+        "title": "Portfolio Management Decision",
+        "src": "trading-agents/s185125.png",
+        "width": 1220,
+        "height": 547,
+        "focus": {
+          "x": 20,
+          "y": 40,
+          "w": 440,
+          "h": 80,
+          "cue": "signal"
+        },
+        "pans": [
+          {
+            "x": 300,
+            "y": 118,
+            "w": 560,
+            "h": 80,
+            "cue": "alloc"
+          },
+          {
+            "x": 30,
+            "y": 150,
+            "w": 560,
+            "h": 75,
+            "cue": "stop"
+          }
+        ],
+        "highlights": [
+          {
+            "x": 32,
+            "y": 88,
+            "w": 142,
+            "h": 26,
+            "cue": "signal"
+          },
+          {
+            "x": 460,
+            "y": 134,
+            "w": 282,
+            "h": 24,
+            "cue": "alloc"
+          },
+          {
+            "x": 88,
+            "y": 178,
+            "w": 302,
+            "h": 24,
+            "cue": "stop"
+          }
+        ],
+        "viewH": 700
+      },
+      "sentences": [
+        {
+          "caption": "The result isn't a vague paragraph, | it's an *institutional report* | with an explicit trade signal,#signal | target allocation#alloc percentage, | and hard *stop-loss*#stop levels."
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "visual": {
+        "type": "chart",
+        "label": "RISK MANAGER",
+        "transition": "zoom",
+        "title": "Drawdown vs limit (illustrative)",
+        "points": [
+          0,
+          1.2,
+          2.6,
+          1.9,
+          3.4,
+          4.2,
+          3.1,
+          4.7,
+          5.3,
+          4.0,
+          4.6,
+          3.2
+        ],
+        "yMax": 10,
+        "unit": "%",
+        "decimals": 1,
+        "start": "proposal",
+        "end": "executed",
+        "dropMin": 50,
+        "limit": {
+          "value": 8,
+          "label": "Drawdown limit"
+        },
+        "note": {
+          "text": "Risk sign-off: APPROVED",
+          "cue": "executed"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "Even better, the *Risk Manager*#risk has to approve the proposal#proposal | against drawdown limits#drawdown | before anything is *executed*.#executed"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "comment",
+        "label": "GET THE REPO",
+        "transition": "slide",
+        "headline": "Comment AGENT for the repo link",
+        "highlight": "AGENT",
+        "keyword": "AGENT",
+        "cue": "agent",
+        "sub": {
+          "text": "git clone TauricResearch/TradingAgents",
+          "cue": "dm"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "It's *100%* open source.",
+          "say": "It's one hundred percent open source."
+        },
+        {
+          "caption": "Comment *AGENT*#agent below | and I'll DM#dm you the repo and setup guide."
+        }
+      ]
+    }
+  ]
+}

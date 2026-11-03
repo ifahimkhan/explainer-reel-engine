@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+out/
+.env
+__pycache__/
+.cache/
+# Local secrets written by `elevenlabs onboard`
+/.env.local

@@ -1,0 +1,186 @@
+{
+  "id": "heap-monitor",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_v3",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "ANDROID MEMORY",
+        "kicker": "QUICK QUESTION",
+        "headline": "How often does GC run in your app?",
+        "highlight": "GC",
+        "icon": "flame",
+        "sub": { "text": "Most devs have no idea", "cue": "idea" }
+      },
+      "sentences": [
+        { "caption": "How often does *garbage collection* run in your app?" },
+        { "caption": "Most Android developers have no idea.#idea | I didn't *either*." }
+      ]
+    },
+    {
+      "id": "origin",
+      "visual": {
+        "type": "trio",
+        "label": "WHY I BUILT IT",
+        "title": "So I built HeapMonitor",
+        "rows": [
+          { "kicker": "QUESTION 1", "text": "How is heap memory allocated?", "icon": "layers", "cue": "q1" },
+          { "kicker": "QUESTION 2", "text": "How often does GC run?", "icon": "flame", "cue": "q2" },
+          { "kicker": "QUESTION 3", "text": "How much memory does GC free?", "icon": "db", "cue": "q3" }
+        ]
+      },
+      "sentences": [
+        { "caption": "So I built *HeapMonitor*. | I was curious." },
+        { "caption": "How is heap memory#q1 *allocated*?" },
+        { "caption": "How often does garbage collection#q2 *run*?" },
+        { "caption": "And how much memory#q3 does it actually *free*?" }
+      ]
+    },
+    {
+      "id": "problem",
+      "visual": {
+        "type": "compare",
+        "label": "THE PROBLEM",
+        "left": {
+          "kicker": "ANDROID STUDIO",
+          "title": "Profiler",
+          "items": ["Attach it", "Record a session", "Dig through graphs"],
+          "cue": "prof"
+        },
+        "right": {
+          "kicker": "HEAPMONITOR",
+          "title": "Live overlay",
+          "items": ["Every screen", "While you use your app"],
+          "cue": "live"
+        }
+      },
+      "sentences": [
+        { "caption": "The Android Studio profiler#prof can tell you. | But you have to attach it, | record a session, | and dig through *graphs*." },
+        { "caption": "HeapMonitor shows it *live*,#live | on every screen, | while you use your app." }
+      ]
+    },
+    {
+      "id": "shows",
+      "visual": {
+        "type": "screenshot",
+        "label": "WHAT IT SHOWS",
+        "title": "HeapMonitor demo",
+        "src": "heapmonitor.png",
+        "width": 1047,
+        "height": 745,
+        "highlights": [
+          { "x": 290, "y": 88, "w": 742, "h": 308, "cue": "heap" },
+          { "x": 290, "y": 395, "w": 742, "h": 112, "cue": "gc" },
+          { "x": 290, "y": 545, "w": 742, "h": 48, "cue": "bar" },
+          { "x": 615, "y": 612, "w": 185, "h": 76, "cue": "force", "label": "Force GC" }
+        ]
+      },
+      "sentences": [
+        { "caption": "A small overlay *floats* over your app." },
+        { "caption": "Heap max,#heap used, and free memory. | Native heap. | A live GC count,#gc GC time, | and blocking GCs." },
+        { "caption": "The usage bar#bar turns green, amber, | then *red* as you get close to the limit." },
+        { "caption": "Tap *Force GC*,#force | and watch how much memory comes back." }
+      ]
+    },
+    {
+      "id": "helps",
+      "visual": {
+        "type": "journey",
+        "label": "HOW IT HELPS",
+        "headline": "Spot allocation pressure",
+        "highlight": "pressure",
+        "stops": [
+          { "name": "Scroll", "icon": "grid", "cue": "scroll" },
+          { "name": "Open screen", "icon": "phone", "cue": "open" },
+          { "name": "Load images", "icon": "image", "cue": "load" },
+          { "name": "GC +12", "sub": "every second", "icon": "flame", "cue": "jump", "tone": "bad" },
+          { "name": "Stalling", "sub": "blocking GCs", "icon": "unlink", "cue": "stall", "tone": "bad" }
+        ],
+        "note": { "text": "Allocating too much", "cue": "much" }
+      },
+      "sentences": [
+        { "caption": "Scroll a list.#scroll | Open a screen.#open | Load some images.#load" },
+        { "caption": "If the GC count *jumps*#jump every second, | you're allocating too much.#much" },
+        { "caption": "If blocking GCs keep rising,#stall | your threads are *stalling*." }
+      ]
+    },
+    {
+      "id": "install",
+      "visual": {
+        "type": "editor",
+        "label": "ONE-LINE SETUP",
+        "file": "build.gradle.kts",
+        "lines": [
+          { "text": "dependencies {" },
+          { "text": "  implementation(", "cue": "dep" },
+          { "text": "    \"com.github.ifahimkhan.\" +", "cue": "dep", "hl": true },
+          { "text": "    \"HeapMonitor:heapmonitor:v0.1.1\"", "cue": "dep", "hl": true },
+          { "text": "  )", "cue": "dep" },
+          { "text": "}" }
+        ],
+        "toast": { "text": "No code. No permissions.", "cue": "nocode" },
+        "note": { "text": "Debug only · no-op in release", "cue": "debug" }
+      },
+      "sentences": [
+        { "caption": "Setup is *one line*. | Add the JitPack dependency,#dep | and that's it." },
+        { "caption": "No code,#nocode no permissions, | no manifest changes." },
+        { "caption": "It only runs in *debug* builds.#debug | Use the no-op artifact, | and your release app ships *zero* monitor code." }
+      ]
+    },
+    {
+      "id": "compose",
+      "visual": {
+        "type": "editor",
+        "label": "JETPACK COMPOSE",
+        "file": "MainScreen.kt",
+        "lines": [
+          { "text": "Box(Modifier.fillMaxSize()) {" },
+          { "text": "  AppContent()" },
+          { "text": "  HeapMonitorOverlay()", "cue": "overlay", "hl": true },
+          { "text": "}" },
+          { "text": "" },
+          { "text": "HeapMonitor.snapshots", "cue": "flow", "hl": true },
+          { "text": "  .collect { snapshot -> }", "cue": "flow", "hl": true }
+        ],
+        "note": { "text": "StateFlow<HeapSnapshot>", "cue": "charts" }
+      },
+      "sentences": [
+        { "caption": "Using *Jetpack Compose*? | Drop HeapMonitorOverlay#overlay inside any Box, | and place it where you want." },
+        { "caption": "Or collect HeapMonitor snapshots#flow as a StateFlow, | and build your own *charts*.#charts" }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "OPEN SOURCE",
+        "headline": "Open source. MIT licensed.",
+        "highlight": "MIT",
+        "name": "ifahimkhan/HeapMonitor",
+        "tagline": "KOTLIN · JETPACK COMPOSE",
+        "action": "Star",
+        "done": "Starred",
+        "actionIcon": "star",
+        "mono": true,
+        "cue": "star",
+        "url": { "text": "https://github.com/ifahimkhan/HeapMonitor", "cue": "find" }
+      },
+      "sentences": [
+        { "caption": "It's *open source* and MIT licensed." },
+        {
+          "caption": "Find HeapMonitor#find on my GitHub, | ifahimkhan.",
+          "say": "Find HeapMonitor on my GitHub, I Fahim Khan."
+        },
+        { "caption": "*Follow*#star for more Android tips like this." }
+      ]
+    }
+  ]
+}

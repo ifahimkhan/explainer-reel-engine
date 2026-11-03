@@ -1,0 +1,101 @@
+{
+  "id": "interruption-testing",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": { "stability": 0.5, "similarity_boost": 0.8 },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "INTERRUPTION TESTING",
+        "kicker": "MOBILE TESTING",
+        "headline": "Mid-payment. The phone rings.",
+        "highlight": "rings",
+        "icon": "phone",
+        "sub": { "text": "What happens to your app?", "cue": "happens" }
+      },
+      "sentences": [
+        { "caption": "Your user is halfway through a *payment*." },
+        { "caption": "The phone *rings*." },
+        { "caption": "What happens#happens to your app?" }
+      ]
+    },
+    {
+      "id": "what",
+      "visual": {
+        "type": "journey",
+        "label": "WHAT IT IS",
+        "headline": "Interrupt, then resume",
+        "highlight": "resume",
+        "stops": [
+          { "name": "Using app", "sub": "mid-task", "icon": "grid", "cue": "j1" },
+          { "name": "Interrupted", "sub": "call, alert", "icon": "bell", "cue": "j2", "tone": "bad" },
+          { "name": "Resumed", "sub": "nothing lost", "icon": "check", "cue": "j3" }
+        ],
+        "note": { "text": "No crashes · no lost data · no stuck screens", "cue": "crash" }
+      },
+      "sentences": [
+        { "caption": "*Interruption* testing checks how your app#j1 behaves | when something outside it takes#j2 over the phone, | and whether it *resumes*#j3 correctly afterwards." },
+        { "caption": "No crashes,#crash no lost data, | and no stuck screens." }
+      ]
+    },
+    {
+      "id": "four",
+      "visual": {
+        "type": "cards",
+        "label": "4 INTERRUPTIONS",
+        "title": "Four common interruptions",
+        "cards": [
+          { "title": "Incoming call", "sub": "pause audio + video", "icon": "phone", "cue": "c1" },
+          { "title": "Notifications", "sub": "banner, SMS, tap away", "icon": "bell", "cue": "c2" },
+          { "title": "Battery events", "sub": "low, saver, charger", "icon": "battery", "cue": "c3" },
+          { "title": "Network loss", "sub": "Wi-Fi off, airplane", "icon": "wifi", "cue": "c4" }
+        ]
+      },
+      "sentences": [
+        { "caption": "First: an incoming *call*.#c1 | Your app goes to the background, | and audio or video must pause." },
+        { "caption": "Second: *notifications*#c2 and messages. | A banner or an SMS pops up, | and the user may tap it and leave." },
+        { "caption": "Third: *battery*#c3 events. | A low-battery warning, battery saver turning on, | or the charger being plugged in." },
+        { "caption": "Fourth: *network*#c4 loss. | Wi-Fi drops or airplane mode turns on | in the middle of a request." }
+      ]
+    },
+    {
+      "id": "check",
+      "visual": {
+        "type": "trio",
+        "label": "WHAT TO CHECK",
+        "title": "After every interruption",
+        "rows": [
+          { "kicker": "SCREEN", "text": "Same screen as before", "icon": "grid", "cue": "s" },
+          { "kicker": "FORM DATA", "text": "Every field still filled", "icon": "file", "cue": "f" },
+          { "kicker": "PLAYBACK", "text": "Same position, paused", "icon": "video", "cue": "p" }
+        ]
+      },
+      "sentences": [
+        { "caption": "After each interruption, | *return* to the app." },
+        { "caption": "The screen,#s the form#f data, | and the playback#p position | should be *exactly* where the user left them." }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        { "caption": "*Follow*#follow for more Android tips." }
+      ]
+    }
+  ]
+}

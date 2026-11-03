@@ -1,0 +1,249 @@
+{
+  "id": "android-rotation-risk",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "ANDROID BUG",
+        "kicker": "PORTRAIT → LANDSCAPE",
+        "headline": "Rotate the phone, lose your data",
+        "highlight": "lose",
+        "icon": "flame",
+        "sub": {
+          "text": "One of the most common Android bugs",
+          "cue": "bug"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "You're filling a long *form*. | You turn your phone sideways. | Everything you typed is *gone*."
+        },
+        {
+          "caption": "That's not bad luck. | It's one of the most common *bugs*#bug in Android apps."
+        }
+      ]
+    },
+    {
+      "id": "recreate",
+      "visual": {
+        "type": "compare",
+        "label": "WHAT REALLY HAPPENS",
+        "left": {
+          "kicker": "PORTRAIT",
+          "title": "Activity destroyed",
+          "items": [
+            "onPause",
+            "onStop",
+            "onDestroy"
+          ],
+          "cue": "destroy"
+        },
+        "right": {
+          "kicker": "LANDSCAPE",
+          "title": "Created again",
+          "items": [
+            "onCreate",
+            "Fresh state",
+            "Unsaved data lost"
+          ],
+          "cue": "create"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "When the screen rotates, | Android doesn't just stretch the *screen*."
+        },
+        {
+          "caption": "It *destroys*#destroy your Activity, | and *creates*#create it again from scratch."
+        },
+        {
+          "caption": "Anything you didn't *save*, | is lost."
+        }
+      ]
+    },
+    {
+      "id": "risks",
+      "visual": {
+        "type": "cards",
+        "label": "THE RISKS",
+        "title": "4 ways rotation breaks apps",
+        "cards": [
+          {
+            "title": "Data loss",
+            "sub": "text, scroll, selection",
+            "icon": "eyeOff",
+            "cue": "r1"
+          },
+          {
+            "title": "Duplicate actions",
+            "sub": "API call or payment twice",
+            "icon": "dollar",
+            "cue": "r2"
+          },
+          {
+            "title": "Crashes",
+            "sub": "dialogs on a dead screen",
+            "icon": "flame",
+            "cue": "r3"
+          },
+          {
+            "title": "Memory leaks",
+            "sub": "old Activity held",
+            "icon": "unlink",
+            "cue": "r4"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "One: *data*#r1 *loss*. | Typed text, scroll position, selections, | all reset."
+        },
+        {
+          "caption": "Two: *duplicate*#r2 actions. | A network call fires again, | a payment can go *twice*."
+        },
+        {
+          "caption": "Three: *crashes*.#r3 | Dialogs and fragments update a screen | that no longer exists."
+        },
+        {
+          "caption": "Four: *memory*#r4 *leaks*. | Background tasks hold on to the old, | dead Activity."
+        }
+      ]
+    },
+    {
+      "id": "triggers",
+      "visual": {
+        "type": "chips",
+        "label": "NOT ONLY ROTATION",
+        "hub": {
+          "text": "Recreated",
+          "sub": "ON CONFIG CHANGE",
+          "icon": "layers"
+        },
+        "chips": [
+          {
+            "text": "Split screen",
+            "cue": "t1"
+          },
+          {
+            "text": "Foldables",
+            "cue": "t2"
+          },
+          {
+            "text": "Dark mode",
+            "cue": "t3"
+          },
+          {
+            "text": "Language",
+            "cue": "t4"
+          },
+          {
+            "text": "Android 16",
+            "cue": "t5"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "And it's not only *rotation*. | Split#t1 screen, foldables,#t2 dark#t3 mode, | language#t4 changes, | trigger the same thing."
+        },
+        {
+          "caption": "And from Android#t5 16, | large screens *ignore* your orientation lock."
+        }
+      ]
+    },
+    {
+      "id": "fix",
+      "visual": {
+        "type": "editor",
+        "label": "THE FIX",
+        "file": "FormViewModel.kt",
+        "lines": [
+          {
+            "text": "class FormViewModel(",
+            "cue": "vm"
+          },
+          {
+            "text": "  val state: SavedStateHandle",
+            "cue": "ssh",
+            "hl": true
+          },
+          {
+            "text": ") : ViewModel() {",
+            "cue": "vm"
+          },
+          {
+            "text": "  val form = state.getStateFlow(..)",
+            "cue": "ssh"
+          },
+          {
+            "text": "}",
+            "cue": "vm"
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": "var text by rememberSaveable { .. }",
+            "cue": "rs",
+            "hl": true
+          },
+          {
+            "text": "form.collectAsStateWithLifecycle()",
+            "cue": "lc"
+          }
+        ],
+        "note": {
+          "text": "Don't hide it with configChanges",
+          "cue": "cc"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "The fix: | keep state in a *ViewModel*.#vm"
+        },
+        {
+          "caption": "Save UI state with *SavedStateHandle*#ssh | or *rememberSaveable*.#rs"
+        },
+        {
+          "caption": "Use lifecycle-aware#lc collection, | and don't hide it with *configChanges*.#cc"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow",
+        "sub": {
+          "text": "Rotate your app & test it",
+          "cue": "rotate"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "*Rotate*#rotate your app right now, | and test it."
+        },
+        {
+          "caption": "*Follow*#follow for more Android tips."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "../../../AndroidDevelopment13.mp4",
+  "transcript": "../../../AndroidDevelopment13_reels/AndroidDevelopment13.transcript.json",
+  "clipDir": "public/ad13",
+  "wordsDir": "src/shorts/data",
+  "clips": [
+    { "name": "ad13-c1", "start": 121.6, "end": 163.8 },
+    { "name": "ad13-c2", "start": 247.1, "end": 302.8 },
+    { "name": "ad13-c3", "start": 698.0, "end": 740.9 },
+    { "name": "ad13-c4", "start": 752.5, "end": 798.5 }
+  ]
+}

@@ -1,0 +1,3906 @@
+{
+ "id": "tagway-image-loader",
+ "durationS": 158.479,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "loader",
+   "start": 0.0,
+   "end": 152.417,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 5.908,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.268,
+       "words": [
+        {
+         "text": "Tagway",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.308
+        },
+        {
+         "text": "doesn't",
+         "tail": "",
+         "hl": false,
+         "start": 0.335,
+         "end": 0.548
+        },
+        {
+         "text": "want",
+         "tail": "",
+         "hl": false,
+         "start": 0.58,
+         "end": 0.708
+        },
+        {
+         "text": "Glide",
+         "tail": ".",
+         "hl": true,
+         "start": 0.775,
+         "end": 1.268
+        }
+       ]
+      },
+      {
+       "start": 1.3,
+       "end": 4.228,
+       "words": [
+        {
+         "text": "They",
+         "tail": "",
+         "hl": false,
+         "start": 1.3,
+         "end": 1.428
+        },
+        {
+         "text": "want",
+         "tail": "",
+         "hl": false,
+         "start": 1.492,
+         "end": 1.748
+        },
+        {
+         "text": "their",
+         "tail": "",
+         "hl": false,
+         "start": 1.801,
+         "end": 2.068
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 2.208,
+         "end": 2.628
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 2.708,
+         "end": 3.108
+        },
+        {
+         "text": "loading",
+         "tail": "",
+         "hl": false,
+         "start": 3.148,
+         "end": 3.428
+        },
+        {
+         "text": "library",
+         "tail": ".",
+         "hl": false,
+         "start": 3.488,
+         "end": 4.228
+        }
+       ]
+      },
+      {
+       "start": 4.268,
+       "end": 5.908,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 4.268,
+         "end": 4.388
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 4.452,
+         "end": 4.708
+        },
+        {
+         "text": "job",
+         "tail": "",
+         "hl": false,
+         "start": 4.788,
+         "end": 5.028
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 5.135,
+         "end": 5.348
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 5.401,
+         "end": 5.508
+        },
+        {
+         "text": "build",
+         "tail": "",
+         "hl": true,
+         "start": 5.535,
+         "end": 5.668
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 5.721,
+         "end": 5.908
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 6.508,
+     "end": 10.435,
+     "chunks": [
+      {
+       "start": 6.508,
+       "end": 7.715,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 6.508,
+         "end": 6.595
+        },
+        {
+         "text": "takes",
+         "tail": "",
+         "hl": false,
+         "start": 6.635,
+         "end": 6.835
+        },
+        {
+         "text": "five",
+         "tail": "",
+         "hl": true,
+         "start": 6.915,
+         "end": 7.235
+        },
+        {
+         "text": "layers",
+         "tail": ".",
+         "hl": false,
+         "start": 7.292,
+         "end": 7.715
+        }
+       ]
+      },
+      {
+       "start": 7.935,
+       "end": 10.435,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 7.935,
+         "end": 8.595
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 8.648,
+         "end": 8.915
+        },
+        {
+         "text": "layer",
+         "tail": "",
+         "hl": false,
+         "start": 8.982,
+         "end": 9.316
+        },
+        {
+         "text": "fixes",
+         "tail": "",
+         "hl": false,
+         "start": 9.395,
+         "end": 9.795
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 9.835,
+         "end": 9.875
+        },
+        {
+         "text": "problem",
+         "tail": ".",
+         "hl": true,
+         "start": 9.925,
+         "end": 10.435
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 11.035,
+     "end": 16.715,
+     "chunks": [
+      {
+       "start": 11.035,
+       "end": 12.235,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 11.035,
+         "end": 11.115
+        },
+        {
+         "text": "start",
+         "tail": "",
+         "hl": false,
+         "start": 11.168,
+         "end": 11.435
+        },
+        {
+         "text": "simple",
+         "tail": ":",
+         "hl": false,
+         "cue": "naive",
+         "start": 11.492,
+         "end": 12.235
+        }
+       ]
+      },
+      {
+       "start": 12.275,
+       "end": 14.475,
+       "words": [
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 12.275,
+         "end": 12.395
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 12.448,
+         "end": 12.715
+        },
+        {
+         "text": "row",
+         "tail": ",",
+         "hl": false,
+         "start": 12.775,
+         "end": 13.275
+        },
+        {
+         "text": "download",
+         "tail": "",
+         "hl": false,
+         "start": 13.319,
+         "end": 13.675
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 13.715,
+         "end": 13.835
+        },
+        {
+         "text": "image",
+         "tail": ",",
+         "hl": false,
+         "start": 13.902,
+         "end": 14.475
+        }
+       ]
+      },
+      {
+       "start": 14.532,
+       "end": 15.835,
+       "words": [
+        {
+         "text": "decode",
+         "tail": "",
+         "hl": false,
+         "start": 14.532,
+         "end": 14.875
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 14.915,
+         "end": 14.955
+        },
+        {
+         "text": "new",
+         "tail": "",
+         "hl": false,
+         "start": 14.995,
+         "end": 15.115
+        },
+        {
+         "text": "bitmap",
+         "tail": ",",
+         "hl": false,
+         "start": 15.195,
+         "end": 15.835
+        }
+       ]
+      },
+      {
+       "start": 15.875,
+       "end": 16.715,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 15.875,
+         "end": 15.995
+        },
+        {
+         "text": "show",
+         "tail": "",
+         "hl": false,
+         "start": 16.043,
+         "end": 16.235
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 16.288,
+         "end": 16.715
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.315,
+     "end": 21.617,
+     "chunks": [
+      {
+       "start": 17.315,
+       "end": 18.097,
+       "words": [
+        {
+         "text": "QA",
+         "tail": "",
+         "hl": false,
+         "start": 17.315,
+         "end": 17.537
+        },
+        {
+         "text": "tests",
+         "tail": "",
+         "hl": false,
+         "start": 17.59,
+         "end": 17.857
+        },
+        {
+         "text": "it",
+         "tail": ":",
+         "hl": false,
+         "cue": "qa",
+         "start": 17.91,
+         "end": 18.097
+        }
+       ]
+      },
+      {
+       "start": 18.117,
+       "end": 19.057,
+       "words": [
+        {
+         "text": "\"I",
+         "tail": "",
+         "hl": false,
+         "start": 18.117,
+         "end": 18.177
+        },
+        {
+         "text": "scrolled",
+         "tail": "",
+         "hl": false,
+         "start": 18.221,
+         "end": 18.577
+        },
+        {
+         "text": "fast",
+         "tail": ".",
+         "hl": false,
+         "start": 18.657,
+         "end": 19.057
+        }
+       ]
+      },
+      {
+       "start": 19.117,
+       "end": 20.457,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 19.117,
+         "end": 19.297
+        },
+        {
+         "text": "scroll",
+         "tail": "",
+         "hl": false,
+         "start": 19.354,
+         "end": 19.697
+        },
+        {
+         "text": "stutters",
+         "tail": ".",
+         "hl": true,
+         "cue": "crash",
+         "start": 19.75,
+         "end": 20.457
+        }
+       ]
+      },
+      {
+       "start": 20.497,
+       "end": 21.617,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 20.497,
+         "end": 20.657
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 20.677,
+         "end": 20.737
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 20.797,
+         "end": 20.977
+        },
+        {
+         "text": "crashes.\"",
+         "tail": "",
+         "hl": true,
+         "start": 21.037,
+         "end": 21.617
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 22.217,
+     "end": 27.497,
+     "chunks": [
+      {
+       "start": 22.217,
+       "end": 23.057,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 22.217,
+         "end": 22.457
+        },
+        {
+         "text": "why",
+         "tail": ".",
+         "hl": false,
+         "start": 22.537,
+         "end": 23.057
+        }
+       ]
+      },
+      {
+       "start": 23.104,
+       "end": 25.577,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 23.104,
+         "end": 23.337
+        },
+        {
+         "text": "new",
+         "tail": "",
+         "hl": false,
+         "start": 23.397,
+         "end": 23.577
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 23.644,
+         "end": 23.977
+        },
+        {
+         "text": "allocates",
+         "tail": "",
+         "hl": false,
+         "start": 24.057,
+         "end": 24.617
+        },
+        {
+         "text": "new",
+         "tail": "",
+         "hl": false,
+         "start": 24.677,
+         "end": 24.857
+        },
+        {
+         "text": "memory",
+         "tail": ",",
+         "hl": true,
+         "start": 24.914,
+         "end": 25.577
+        }
+       ]
+      },
+      {
+       "start": 25.617,
+       "end": 27.497,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 25.617,
+         "end": 25.737
+        },
+        {
+         "text": "old",
+         "tail": "",
+         "hl": false,
+         "start": 25.797,
+         "end": 25.977
+        },
+        {
+         "text": "bitmaps",
+         "tail": "",
+         "hl": false,
+         "start": 26.037,
+         "end": 26.537
+        },
+        {
+         "text": "become",
+         "tail": "",
+         "hl": false,
+         "start": 26.583,
+         "end": 26.857
+        },
+        {
+         "text": "garbage",
+         "tail": ".",
+         "hl": false,
+         "start": 26.917,
+         "end": 27.497
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 28.097,
+     "end": 33.387,
+     "chunks": [
+      {
+       "start": 28.097,
+       "end": 30.267,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 28.097,
+         "end": 28.187
+        },
+        {
+         "text": "garbage",
+         "tail": "",
+         "hl": false,
+         "start": 28.237,
+         "end": 28.587
+        },
+        {
+         "text": "collection",
+         "tail": "",
+         "hl": false,
+         "cue": "gcbig",
+         "start": 28.623,
+         "end": 28.987
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 29.035,
+         "end": 29.227
+        },
+        {
+         "text": "again",
+         "tail": "",
+         "hl": false,
+         "start": 29.28,
+         "end": 29.547
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 29.567,
+         "end": 29.627
+        },
+        {
+         "text": "again",
+         "tail": ",",
+         "hl": false,
+         "start": 29.694,
+         "end": 30.267
+        }
+       ]
+      },
+      {
+       "start": 30.307,
+       "end": 33.387,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 30.307,
+         "end": 30.427
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 30.494,
+         "end": 30.827
+        },
+        {
+         "text": "pause",
+         "tail": "",
+         "hl": false,
+         "start": 30.907,
+         "end": 31.307
+        },
+        {
+         "text": "steals",
+         "tail": "",
+         "hl": false,
+         "start": 31.398,
+         "end": 31.947
+        },
+        {
+         "text": "frames",
+         "tail": "",
+         "hl": true,
+         "start": 32.016,
+         "end": 32.427
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 32.491,
+         "end": 32.747
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 32.779,
+         "end": 32.907
+        },
+        {
+         "text": "scroll",
+         "tail": ".",
+         "hl": false,
+         "start": 32.964,
+         "end": 33.387
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.987,
+     "end": 37.907,
+     "chunks": [
+      {
+       "start": 33.987,
+       "end": 35.427,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 33.987,
+         "end": 34.147
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 34.187,
+         "end": 34.307
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 34.367,
+         "end": 34.547
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 34.667,
+         "end": 34.787
+        },
+        {
+         "text": "bitmap",
+         "tail": "",
+         "hl": true,
+         "start": 34.821,
+         "end": 35.027
+        },
+        {
+         "text": "pool",
+         "tail": ".",
+         "hl": false,
+         "cue": "pool",
+         "start": 35.091,
+         "end": 35.427
+        }
+       ]
+      },
+      {
+       "start": 35.491,
+       "end": 37.907,
+       "words": [
+        {
+         "text": "Like",
+         "tail": "",
+         "hl": false,
+         "start": 35.491,
+         "end": 35.747
+        },
+        {
+         "text": "washing",
+         "tail": "",
+         "hl": false,
+         "start": 35.797,
+         "end": 36.147
+        },
+        {
+         "text": "plates",
+         "tail": "",
+         "hl": false,
+         "start": 36.204,
+         "end": 36.547
+        },
+        {
+         "text": "instead",
+         "tail": "",
+         "hl": false,
+         "start": 36.587,
+         "end": 36.867
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 36.894,
+         "end": 36.947
+        },
+        {
+         "text": "buying",
+         "tail": "",
+         "hl": false,
+         "start": 36.993,
+         "end": 37.267
+        },
+        {
+         "text": "new",
+         "tail": "",
+         "hl": false,
+         "start": 37.307,
+         "end": 37.427
+        },
+        {
+         "text": "ones",
+         "tail": ".",
+         "hl": false,
+         "start": 37.507,
+         "end": 37.907
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 38.507,
+     "end": 44.581,
+     "chunks": [
+      {
+       "start": 38.507,
+       "end": 39.707,
+       "words": [
+        {
+         "text": "When",
+         "tail": "",
+         "hl": false,
+         "start": 38.507,
+         "end": 38.587
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 38.627,
+         "end": 38.667
+        },
+        {
+         "text": "row",
+         "tail": "",
+         "hl": false,
+         "start": 38.727,
+         "end": 38.907
+        },
+        {
+         "text": "scrolls",
+         "tail": "",
+         "hl": false,
+         "start": 38.957,
+         "end": 39.307
+        },
+        {
+         "text": "off",
+         "tail": ",",
+         "hl": false,
+         "cue": "rowoff",
+         "start": 39.367,
+         "end": 39.707
+        }
+       ]
+      },
+      {
+       "start": 39.747,
+       "end": 41.707,
+       "words": [
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 39.747,
+         "end": 39.867
+        },
+        {
+         "text": "bitmap",
+         "tail": "",
+         "hl": false,
+         "start": 39.936,
+         "end": 40.347
+        },
+        {
+         "text": "goes",
+         "tail": "",
+         "hl": false,
+         "start": 40.411,
+         "end": 40.667
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "start": 40.715,
+         "end": 40.907
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 40.96,
+         "end": 41.067
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 41.087,
+         "end": 41.147
+        },
+        {
+         "text": "pool",
+         "tail": ",",
+         "hl": false,
+         "cue": "topool",
+         "start": 41.211,
+         "end": 41.707
+        }
+       ]
+      },
+      {
+       "start": 41.727,
+       "end": 43.307,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 41.727,
+         "end": 41.787
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 41.807,
+         "end": 41.867
+        },
+        {
+         "text": "next",
+         "tail": "",
+         "hl": false,
+         "start": 41.931,
+         "end": 42.187
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "cue": "nextimg",
+         "start": 42.24,
+         "end": 42.507
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 42.587,
+         "end": 42.747
+        },
+        {
+         "text": "decoded",
+         "tail": "",
+         "hl": false,
+         "start": 42.817,
+         "end": 43.307
+        }
+       ]
+      },
+      {
+       "start": 43.371,
+       "end": 44.747,
+       "words": [
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 43.371,
+         "end": 43.627
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 43.659,
+         "end": 43.787
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": true,
+         "start": 43.851,
+         "end": 44.107
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "cue": "same",
+         "start": 44.153,
+         "end": 44.747
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 45.181,
+     "end": 48.558,
+     "chunks": [
+      {
+       "start": 45.181,
+       "end": 45.998,
+       "words": [
+        {
+         "text": "\"No",
+         "tail": "",
+         "hl": false,
+         "start": 45.181,
+         "end": 45.358
+        },
+        {
+         "text": "new",
+         "tail": "",
+         "hl": false,
+         "start": 45.398,
+         "end": 45.518
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "start": 45.575,
+         "end": 45.998
+        }
+       ]
+      },
+      {
+       "start": 46.078,
+       "end": 47.638,
+       "words": [
+        {
+         "text": "Fewer",
+         "tail": "",
+         "hl": false,
+         "start": 46.078,
+         "end": 46.398
+        },
+        {
+         "text": "GC",
+         "tail": "",
+         "hl": false,
+         "start": 46.531,
+         "end": 46.798
+        },
+        {
+         "text": "pauses",
+         "tail": ".",
+         "hl": false,
+         "start": 46.878,
+         "end": 47.638
+        }
+       ]
+      },
+      {
+       "start": 47.678,
+       "end": 48.558,
+       "words": [
+        {
+         "text": "Smooth",
+         "tail": "",
+         "hl": true,
+         "cue": "smooth",
+         "start": 47.678,
+         "end": 47.918
+        },
+        {
+         "text": "scroll.\"",
+         "tail": "",
+         "hl": false,
+         "start": 47.975,
+         "end": 48.558
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 49.158,
+     "end": 54.598,
+     "chunks": [
+      {
+       "start": 49.158,
+       "end": 50.438,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 49.158,
+         "end": 49.238
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 49.278,
+         "end": 49.398
+        },
+        {
+         "text": "product",
+         "tail": "",
+         "hl": false,
+         "start": 49.428,
+         "end": 49.638
+        },
+        {
+         "text": "manager",
+         "tail": "",
+         "hl": false,
+         "cue": "pm",
+         "start": 49.688,
+         "end": 50.038
+        },
+        {
+         "text": "says",
+         "tail": ",",
+         "hl": false,
+         "start": 50.102,
+         "end": 50.438
+        }
+       ]
+      },
+      {
+       "start": 50.518,
+       "end": 52.678,
+       "words": [
+        {
+         "text": "\"Our",
+         "tail": "",
+         "hl": false,
+         "start": 50.518,
+         "end": 50.758
+        },
+        {
+         "text": "gallery",
+         "tail": "",
+         "hl": false,
+         "start": 50.818,
+         "end": 51.238
+        },
+        {
+         "text": "has",
+         "tail": "",
+         "hl": false,
+         "start": 51.278,
+         "end": 51.398
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 51.438,
+         "end": 51.478
+        },
+        {
+         "text": "thousand",
+         "tail": "",
+         "hl": true,
+         "start": 51.522,
+         "end": 51.878
+        },
+        {
+         "text": "images",
+         "tail": ".",
+         "hl": false,
+         "start": 51.947,
+         "end": 52.678
+        }
+       ]
+      },
+      {
+       "start": 52.731,
+       "end": 54.598,
+       "words": [
+        {
+         "text": "Users",
+         "tail": "",
+         "hl": false,
+         "start": 52.731,
+         "end": 52.998
+        },
+        {
+         "text": "jump",
+         "tail": "",
+         "hl": false,
+         "start": 53.078,
+         "end": 53.398
+        },
+        {
+         "text": "straight",
+         "tail": "",
+         "hl": false,
+         "start": 53.434,
+         "end": 53.718
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 53.745,
+         "end": 53.798
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 53.838,
+         "end": 53.958
+        },
+        {
+         "text": "last",
+         "tail": "",
+         "hl": false,
+         "start": 54.022,
+         "end": 54.278
+        },
+        {
+         "text": "one.\"",
+         "tail": "",
+         "hl": false,
+         "start": 54.318,
+         "end": 54.598
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 55.198,
+     "end": 60.424,
+     "chunks": [
+      {
+       "start": 55.198,
+       "end": 56.61,
+       "words": [
+        {
+         "text": "At",
+         "tail": "",
+         "hl": false,
+         "start": 55.198,
+         "end": 55.25
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 55.31,
+         "end": 55.49
+        },
+        {
+         "text": "megabyte",
+         "tail": "",
+         "hl": false,
+         "start": 55.53,
+         "end": 55.97
+        },
+        {
+         "text": "per",
+         "tail": "",
+         "hl": false,
+         "start": 56.01,
+         "end": 56.13
+        },
+        {
+         "text": "second",
+         "tail": ",",
+         "hl": false,
+         "start": 56.187,
+         "end": 56.61
+        }
+       ]
+      },
+      {
+       "start": 56.69,
+       "end": 58.53,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 56.69,
+         "end": 57.01
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 57.05,
+         "end": 57.17
+        },
+        {
+         "text": "megabyte",
+         "tail": "",
+         "hl": false,
+         "start": 57.23,
+         "end": 57.65
+        },
+        {
+         "text": "per",
+         "tail": "",
+         "hl": false,
+         "start": 57.71,
+         "end": 57.89
+        },
+        {
+         "text": "image",
+         "tail": ",",
+         "hl": false,
+         "start": 57.97,
+         "end": 58.53
+        }
+       ]
+      },
+      {
+       "start": 58.562,
+       "end": 60.53,
+       "words": [
+        {
+         "text": "that's",
+         "tail": "",
+         "hl": false,
+         "start": 58.562,
+         "end": 58.77
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 58.81,
+         "end": 58.85
+        },
+        {
+         "text": "thousand",
+         "tail": "",
+         "hl": true,
+         "start": 58.903,
+         "end": 59.33
+        },
+        {
+         "text": "seconds",
+         "tail": "",
+         "hl": false,
+         "cue": "wait",
+         "start": 59.39,
+         "end": 59.81
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 59.863,
+         "end": 59.97
+        },
+        {
+         "text": "waiting",
+         "tail": ".",
+         "hl": false,
+         "start": 60.01,
+         "end": 60.53
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 61.024,
+     "end": 68.007,
+     "chunks": [
+      {
+       "start": 61.024,
+       "end": 62.496,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 61.024,
+         "end": 61.056
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 61.116,
+         "end": 61.296
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 61.356,
+         "end": 61.536
+        },
+        {
+         "text": "task",
+         "tail": "",
+         "hl": true,
+         "start": 61.6,
+         "end": 61.856
+        },
+        {
+         "text": "management",
+         "tail": ".",
+         "hl": false,
+         "cue": "task",
+         "start": 61.907,
+         "end": 62.496
+        }
+       ]
+      },
+      {
+       "start": 62.563,
+       "end": 65.056,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 62.563,
+         "end": 62.896
+        },
+        {
+         "text": "request",
+         "tail": "",
+         "hl": false,
+         "start": 62.996,
+         "end": 63.696
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 63.749,
+         "end": 63.856
+        },
+        {
+         "text": "tied",
+         "tail": "",
+         "hl": false,
+         "start": 63.936,
+         "end": 64.256
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 64.283,
+         "end": 64.336
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 64.376,
+         "end": 64.496
+        },
+        {
+         "text": "view",
+         "tail": ".",
+         "hl": false,
+         "start": 64.576,
+         "end": 65.056
+        }
+       ]
+      },
+      {
+       "start": 65.088,
+       "end": 66.576,
+       "words": [
+        {
+         "text": "When",
+         "tail": "",
+         "hl": false,
+         "start": 65.088,
+         "end": 65.216
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 65.256,
+         "end": 65.296
+        },
+        {
+         "text": "view",
+         "tail": "",
+         "hl": false,
+         "start": 65.36,
+         "end": 65.616
+        },
+        {
+         "text": "leaves",
+         "tail": "",
+         "hl": false,
+         "start": 65.662,
+         "end": 65.936
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 65.956,
+         "end": 66.016
+        },
+        {
+         "text": "screen",
+         "tail": ",",
+         "hl": false,
+         "start": 66.073,
+         "end": 66.576
+        }
+       ]
+      },
+      {
+       "start": 66.636,
+       "end": 68.096,
+       "words": [
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 66.636,
+         "end": 66.816
+        },
+        {
+         "text": "download",
+         "tail": "",
+         "hl": false,
+         "start": 66.86,
+         "end": 67.216
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 67.269,
+         "end": 67.376
+        },
+        {
+         "text": "cancelled",
+         "tail": ".",
+         "hl": true,
+         "cue": "cancel",
+         "start": 67.424,
+         "end": 68.096
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 68.607,
+     "end": 71.488,
+     "chunks": [
+      {
+       "start": 68.607,
+       "end": 69.808,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 68.607,
+         "end": 68.608
+        },
+        {
+         "text": "network",
+         "tail": "",
+         "hl": false,
+         "start": 68.658,
+         "end": 69.008
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 69.061,
+         "end": 69.168
+        },
+        {
+         "text": "free",
+         "tail": ",",
+         "hl": false,
+         "start": 69.232,
+         "end": 69.808
+        }
+       ]
+      },
+      {
+       "start": 69.828,
+       "end": 71.488,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 69.828,
+         "end": 69.888
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 69.936,
+         "end": 70.128
+        },
+        {
+         "text": "visible",
+         "tail": "",
+         "hl": true,
+         "start": 70.178,
+         "end": 70.528
+        },
+        {
+         "text": "images",
+         "tail": "",
+         "hl": false,
+         "start": 70.585,
+         "end": 70.928
+        },
+        {
+         "text": "download",
+         "tail": ".",
+         "hl": false,
+         "start": 70.981,
+         "end": 71.488
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 72.088,
+     "end": 74.458,
+     "chunks": [
+      {
+       "start": 72.088,
+       "end": 73.418,
+       "words": [
+        {
+         "text": "\"The",
+         "tail": "",
+         "hl": false,
+         "start": 72.088,
+         "end": 72.138
+        },
+        {
+         "text": "last",
+         "tail": "",
+         "hl": false,
+         "start": 72.218,
+         "end": 72.538
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 72.618,
+         "end": 73.018
+        },
+        {
+         "text": "loads",
+         "tail": "",
+         "hl": false,
+         "start": 73.085,
+         "end": 73.418
+        }
+       ]
+      },
+      {
+       "start": 73.471,
+       "end": 74.458,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 73.471,
+         "end": 73.578
+        },
+        {
+         "text": "about",
+         "tail": "",
+         "hl": false,
+         "start": 73.618,
+         "end": 73.818
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 73.858,
+         "end": 73.898
+        },
+        {
+         "text": "second.\"",
+         "tail": "",
+         "hl": true,
+         "cue": "fast",
+         "start": 73.967,
+         "end": 74.458
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 75.058,
+     "end": 77.499,
+     "chunks": [
+      {
+       "start": 75.058,
+       "end": 76.299,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 75.058,
+         "end": 75.179
+        },
+        {
+         "text": "crash",
+         "tail": "",
+         "hl": false,
+         "start": 75.232,
+         "end": 75.499
+        },
+        {
+         "text": "reports",
+         "tail": "",
+         "hl": false,
+         "cue": "oom",
+         "start": 75.549,
+         "end": 75.899
+        },
+        {
+         "text": "come",
+         "tail": "",
+         "hl": false,
+         "start": 75.931,
+         "end": 76.059
+        },
+        {
+         "text": "in",
+         "tail": ":",
+         "hl": false,
+         "start": 76.112,
+         "end": 76.299
+        }
+       ]
+      },
+      {
+       "start": 76.459,
+       "end": 77.499,
+       "words": [
+        {
+         "text": "\"OutOfMemoryError.\"",
+         "tail": "",
+         "hl": false,
+         "start": 76.459,
+         "end": 77.499
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 78.099,
+     "end": 82.979,
+     "chunks": [
+      {
+       "start": 78.099,
+       "end": 79.969,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 78.099,
+         "end": 78.327
+        },
+        {
+         "text": "photo",
+         "tail": "",
+         "hl": false,
+         "start": 78.327,
+         "end": 78.783
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 78.783,
+         "end": 79.011
+        },
+        {
+         "text": "1000px",
+         "tail": "",
+         "hl": true,
+         "start": 79.011,
+         "end": 79.239
+        },
+        {
+         "text": "x",
+         "tail": "",
+         "hl": false,
+         "start": 79.239,
+         "end": 79.467
+        },
+        {
+         "text": "1000px",
+         "tail": ",",
+         "hl": false,
+         "start": 79.467,
+         "end": 79.969
+        }
+       ]
+      },
+      {
+       "start": 79.969,
+       "end": 82.979,
+       "words": [
+        {
+         "text": "but",
+         "tail": "",
+         "hl": false,
+         "start": 79.969,
+         "end": 80.197
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 80.197,
+         "end": 80.425
+        },
+        {
+         "text": "ImageView",
+         "tail": "",
+         "hl": false,
+         "start": 80.425,
+         "end": 81.337
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 81.337,
+         "end": 81.565
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 81.565,
+         "end": 82.021
+        },
+        {
+         "text": "200px",
+         "tail": "",
+         "hl": true,
+         "start": 82.021,
+         "end": 82.249
+        },
+        {
+         "text": "x",
+         "tail": "",
+         "hl": false,
+         "start": 82.249,
+         "end": 82.477
+        },
+        {
+         "text": "200px",
+         "tail": ".",
+         "hl": false,
+         "start": 82.477,
+         "end": 82.979
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 83.579,
+     "end": 87.622,
+     "chunks": [
+      {
+       "start": 83.579,
+       "end": 85.288,
+       "words": [
+        {
+         "text": "At",
+         "tail": "",
+         "hl": false,
+         "start": 83.579,
+         "end": 83.787
+        },
+        {
+         "text": "four",
+         "tail": "",
+         "hl": false,
+         "start": 83.787,
+         "end": 83.996
+        },
+        {
+         "text": "bytes",
+         "tail": "",
+         "hl": false,
+         "start": 83.996,
+         "end": 84.412
+        },
+        {
+         "text": "per",
+         "tail": "",
+         "hl": false,
+         "start": 84.412,
+         "end": 84.621
+        },
+        {
+         "text": "pixel",
+         "tail": ",",
+         "hl": false,
+         "start": 84.621,
+         "end": 85.288
+        }
+       ]
+      },
+      {
+       "start": 85.288,
+       "end": 87.622,
+       "words": [
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 85.288,
+         "end": 85.496
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 85.496,
+         "end": 85.704
+        },
+        {
+         "text": "photo",
+         "tail": "",
+         "hl": false,
+         "cue": "fourmb",
+         "start": 85.704,
+         "end": 86.121
+        },
+        {
+         "text": "needs",
+         "tail": "",
+         "hl": false,
+         "start": 86.121,
+         "end": 86.33
+        },
+        {
+         "text": "4MB",
+         "tail": "",
+         "hl": true,
+         "start": 86.33,
+         "end": 86.538
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 86.538,
+         "end": 86.746
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "start": 86.746,
+         "end": 87.622
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 88.222,
+     "end": 92.302,
+     "chunks": [
+      {
+       "start": 88.222,
+       "end": 89.662,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 88.222,
+         "end": 88.302
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 88.342,
+         "end": 88.462
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 88.542,
+         "end": 88.782
+        },
+        {
+         "text": "downsampling",
+         "tail": ".",
+         "hl": true,
+         "cue": "down",
+         "start": 88.849,
+         "end": 89.662
+        }
+       ]
+      },
+      {
+       "start": 89.753,
+       "end": 92.302,
+       "words": [
+        {
+         "text": "Decode",
+         "tail": "",
+         "hl": false,
+         "start": 89.753,
+         "end": 90.302
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 90.322,
+         "end": 90.382
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 90.475,
+         "end": 90.942
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 91.049,
+         "end": 91.262
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 91.282,
+         "end": 91.342
+        },
+        {
+         "text": "size",
+         "tail": "",
+         "hl": false,
+         "start": 91.406,
+         "end": 91.662
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 91.715,
+         "end": 91.822
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 91.842,
+         "end": 91.902
+        },
+        {
+         "text": "view",
+         "tail": ".",
+         "hl": false,
+         "start": 91.966,
+         "end": 92.302
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 92.902,
+     "end": 98.24,
+     "chunks": [
+      {
+       "start": 92.902,
+       "end": 96.742,
+       "words": [
+        {
+         "text": "200px",
+         "tail": "",
+         "hl": false,
+         "start": 92.902,
+         "end": 93.37
+        },
+        {
+         "text": "x",
+         "tail": "",
+         "hl": false,
+         "start": 93.37,
+         "end": 93.838
+        },
+        {
+         "text": "200px",
+         "tail": "",
+         "hl": false,
+         "start": 93.838,
+         "end": 94.307
+        },
+        {
+         "text": "needs",
+         "tail": "",
+         "hl": false,
+         "cue": "small",
+         "start": 94.307,
+         "end": 94.775
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 94.775,
+         "end": 95.711
+        },
+        {
+         "text": "160KB",
+         "tail": ".",
+         "hl": true,
+         "start": 95.711,
+         "end": 96.742
+        }
+       ]
+      },
+      {
+       "start": 96.742,
+       "end": 98.24,
+       "words": [
+        {
+         "text": "25x",
+         "tail": "",
+         "hl": true,
+         "start": 96.742,
+         "end": 97.21
+        },
+        {
+         "text": "less",
+         "tail": ".",
+         "hl": false,
+         "start": 97.21,
+         "end": 98.24
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 98.84,
+     "end": 99.88,
+     "chunks": [
+      {
+       "start": 98.84,
+       "end": 99.88,
+       "words": [
+        {
+         "text": "\"No",
+         "tail": "",
+         "hl": false,
+         "start": 98.84,
+         "end": 99.0
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 99.048,
+         "end": 99.24
+        },
+        {
+         "text": "crashes.\"",
+         "tail": "",
+         "hl": true,
+         "start": 99.3,
+         "end": 99.88
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 100.48,
+     "end": 103.99,
+     "chunks": [
+      {
+       "start": 100.48,
+       "end": 101.99,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 100.48,
+         "end": 100.55
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 100.59,
+         "end": 100.63
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 100.694,
+         "end": 100.95
+        },
+        {
+         "text": "scrolls",
+         "tail": "",
+         "hl": false,
+         "start": 101.02,
+         "end": 101.51
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "start": 101.558,
+         "end": 101.75
+        },
+        {
+         "text": "up",
+         "tail": ",",
+         "hl": false,
+         "cue": "back",
+         "start": 101.803,
+         "end": 101.99
+        }
+       ]
+      },
+      {
+       "start": 102.01,
+       "end": 103.99,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 102.01,
+         "end": 102.07
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 102.137,
+         "end": 102.47
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 102.55,
+         "end": 102.95
+        },
+        {
+         "text": "downloads",
+         "tail": "",
+         "hl": false,
+         "start": 103.006,
+         "end": 103.51
+        },
+        {
+         "text": "again",
+         "tail": ".",
+         "hl": true,
+         "cue": "again",
+         "start": 103.563,
+         "end": 103.99
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 104.59,
+     "end": 108.488,
+     "chunks": [
+      {
+       "start": 104.59,
+       "end": 105.928,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 104.59,
+         "end": 104.648
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 104.688,
+         "end": 104.808
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 104.848,
+         "end": 104.968
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 105.048,
+         "end": 105.128
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": true,
+         "start": 105.151,
+         "end": 105.288
+        },
+        {
+         "text": "cache",
+         "tail": ",",
+         "hl": false,
+         "cue": "mem",
+         "start": 105.355,
+         "end": 105.928
+        }
+       ]
+      },
+      {
+       "start": 105.981,
+       "end": 106.408,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 105.981,
+         "end": 106.088
+        },
+        {
+         "text": "RAM",
+         "tail": ".",
+         "hl": false,
+         "cue": "ram",
+         "start": 106.148,
+         "end": 106.408
+        }
+       ]
+      },
+      {
+       "start": 106.528,
+       "end": 108.488,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 106.528,
+         "end": 106.888
+        },
+        {
+         "text": "fastest",
+         "tail": "",
+         "hl": false,
+         "start": 106.948,
+         "end": 107.368
+        },
+        {
+         "text": "place",
+         "tail": "",
+         "hl": false,
+         "start": 107.421,
+         "end": 107.688
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 107.715,
+         "end": 107.768
+        },
+        {
+         "text": "read",
+         "tail": "",
+         "hl": false,
+         "start": 107.816,
+         "end": 108.008
+        },
+        {
+         "text": "from",
+         "tail": ".",
+         "hl": false,
+         "start": 108.056,
+         "end": 108.488
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 109.088,
+     "end": 110.446,
+     "chunks": [
+      {
+       "start": 109.088,
+       "end": 110.446,
+       "words": [
+        {
+         "text": "\"Scrolling",
+         "tail": "",
+         "hl": false,
+         "start": 109.088,
+         "end": 109.486
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "start": 109.534,
+         "end": 109.726
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 109.779,
+         "end": 109.886
+        },
+        {
+         "text": "instant.\"",
+         "tail": "",
+         "hl": true,
+         "cue": "instant",
+         "start": 109.946,
+         "end": 110.446
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 111.046,
+     "end": 113.594,
+     "chunks": [
+      {
+       "start": 111.046,
+       "end": 112.314,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 111.046,
+         "end": 111.114
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 111.134,
+         "end": 111.194
+        },
+        {
+         "text": "user",
+         "tail": "",
+         "hl": false,
+         "start": 111.258,
+         "end": 111.514
+        },
+        {
+         "text": "closes",
+         "tail": "",
+         "hl": false,
+         "start": 111.571,
+         "end": 111.914
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 111.954,
+         "end": 112.074
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "cue": "reopen",
+         "start": 112.134,
+         "end": 112.314
+        }
+       ]
+      },
+      {
+       "start": 112.394,
+       "end": 113.594,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 112.394,
+         "end": 112.634
+        },
+        {
+         "text": "opens",
+         "tail": "",
+         "hl": false,
+         "start": 112.701,
+         "end": 113.034
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 113.061,
+         "end": 113.114
+        },
+        {
+         "text": "again",
+         "tail": ".",
+         "hl": false,
+         "start": 113.181,
+         "end": 113.594
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 114.194,
+     "end": 117.198,
+     "chunks": [
+      {
+       "start": 114.194,
+       "end": 115.118,
+       "words": [
+        {
+         "text": "RAM",
+         "tail": "",
+         "hl": false,
+         "start": 114.194,
+         "end": 114.398
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 114.451,
+         "end": 114.558
+        },
+        {
+         "text": "wiped",
+         "tail": ",",
+         "hl": true,
+         "cue": "wiped",
+         "start": 114.638,
+         "end": 115.118
+        }
+       ]
+      },
+      {
+       "start": 115.158,
+       "end": 117.198,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 115.158,
+         "end": 115.278
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 115.331,
+         "end": 115.598
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 115.678,
+         "end": 116.078
+        },
+        {
+         "text": "downloads",
+         "tail": "",
+         "hl": false,
+         "start": 116.142,
+         "end": 116.718
+        },
+        {
+         "text": "again",
+         "tail": ".",
+         "hl": false,
+         "start": 116.785,
+         "end": 117.198
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 117.798,
+     "end": 120.659,
+     "chunks": [
+      {
+       "start": 117.798,
+       "end": 119.059,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 117.798,
+         "end": 117.859
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 117.899,
+         "end": 118.019
+        },
+        {
+         "text": "add",
+         "tail": "",
+         "hl": false,
+         "start": 118.079,
+         "end": 118.259
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 118.299,
+         "end": 118.339
+        },
+        {
+         "text": "disk",
+         "tail": "",
+         "hl": true,
+         "start": 118.403,
+         "end": 118.659
+        },
+        {
+         "text": "cache",
+         "tail": ".",
+         "hl": false,
+         "cue": "disk",
+         "start": 118.712,
+         "end": 119.059
+        }
+       ]
+      },
+      {
+       "start": 119.192,
+       "end": 120.659,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 119.192,
+         "end": 119.459
+        },
+        {
+         "text": "survives",
+         "tail": "",
+         "hl": false,
+         "start": 119.512,
+         "end": 119.939
+        },
+        {
+         "text": "restarts",
+         "tail": ".",
+         "hl": false,
+         "start": 120.009,
+         "end": 120.659
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 121.259,
+     "end": 128.552,
+     "chunks": [
+      {
+       "start": 121.259,
+       "end": 123.59,
+       "words": [
+        {
+         "text": "Now",
+         "tail": "",
+         "hl": false,
+         "start": 121.259,
+         "end": 121.43
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 121.483,
+         "end": 121.75
+        },
+        {
+         "text": "request",
+         "tail": "",
+         "hl": false,
+         "start": 121.81,
+         "end": 122.23
+        },
+        {
+         "text": "checks",
+         "tail": "",
+         "hl": false,
+         "start": 122.287,
+         "end": 122.63
+        },
+        {
+         "text": "RAM",
+         "tail": "",
+         "hl": false,
+         "cue": "chkram",
+         "start": 122.71,
+         "end": 122.95
+        },
+        {
+         "text": "first",
+         "tail": ",",
+         "hl": false,
+         "start": 123.017,
+         "end": 123.59
+        }
+       ]
+      },
+      {
+       "start": 123.622,
+       "end": 124.47,
+       "words": [
+        {
+         "text": "then",
+         "tail": "",
+         "hl": false,
+         "start": 123.622,
+         "end": 123.75
+        },
+        {
+         "text": "disk",
+         "tail": ",",
+         "hl": false,
+         "cue": "chkdisk",
+         "start": 123.83,
+         "end": 124.47
+        }
+       ]
+      },
+      {
+       "start": 124.51,
+       "end": 125.91,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 124.51,
+         "end": 124.63
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 124.694,
+         "end": 124.95
+        },
+        {
+         "text": "then",
+         "tail": "",
+         "hl": false,
+         "start": 124.998,
+         "end": 125.19
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 125.21,
+         "end": 125.27
+        },
+        {
+         "text": "network",
+         "tail": ".",
+         "hl": false,
+         "cue": "chknet",
+         "start": 125.33,
+         "end": 125.91
+        }
+       ]
+      },
+      {
+       "start": 126.03,
+       "end": 128.63,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 126.03,
+         "end": 126.39
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 126.443,
+         "end": 126.71
+        },
+        {
+         "text": "downloaded",
+         "tail": "",
+         "hl": false,
+         "start": 126.754,
+         "end": 127.19
+        },
+        {
+         "text": "image",
+         "tail": "",
+         "hl": false,
+         "start": 127.243,
+         "end": 127.51
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 127.563,
+         "end": 127.67
+        },
+        {
+         "text": "saved",
+         "tail": "",
+         "hl": false,
+         "start": 127.723,
+         "end": 127.99
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 128.043,
+         "end": 128.15
+        },
+        {
+         "text": "both",
+         "tail": ".",
+         "hl": true,
+         "cue": "both",
+         "start": 128.214,
+         "end": 128.63
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 129.152,
+     "end": 130.358,
+     "chunks": [
+      {
+       "start": 129.152,
+       "end": 130.432,
+       "words": [
+        {
+         "text": "\"No",
+         "tail": "",
+         "hl": false,
+         "start": 129.152,
+         "end": 129.312
+        },
+        {
+         "text": "second",
+         "tail": "",
+         "hl": false,
+         "start": 129.369,
+         "end": 129.712
+        },
+        {
+         "text": "download.\"",
+         "tail": "",
+         "hl": true,
+         "cue": "nosecond",
+         "start": 129.774,
+         "end": 130.432
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 130.958,
+     "end": 135.662,
+     "chunks": [
+      {
+       "start": 130.958,
+       "end": 132.215,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 130.958,
+         "end": 131.015
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 131.055,
+         "end": 131.175
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 131.223,
+         "end": 131.415
+        },
+        {
+         "text": "flow",
+         "tail": "",
+         "hl": false,
+         "cue": "full",
+         "start": 131.479,
+         "end": 131.735
+        },
+        {
+         "text": "is",
+         "tail": ":",
+         "hl": false,
+         "start": 131.815,
+         "end": 132.215
+        }
+       ]
+      },
+      {
+       "start": 132.268,
+       "end": 134.295,
+       "words": [
+        {
+         "text": "download",
+         "tail": ",",
+         "hl": false,
+         "cue": "f1",
+         "start": 132.268,
+         "end": 133.175
+        },
+        {
+         "text": "downsample",
+         "tail": ",",
+         "hl": false,
+         "cue": "f2",
+         "start": 133.239,
+         "end": 134.295
+        }
+       ]
+      },
+      {
+       "start": 134.362,
+       "end": 135.815,
+       "words": [
+        {
+         "text": "cache",
+         "tail": ",",
+         "hl": false,
+         "cue": "f3",
+         "start": 134.362,
+         "end": 134.935
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 134.975,
+         "end": 135.095
+        },
+        {
+         "text": "display",
+         "tail": ".",
+         "hl": false,
+         "cue": "f4",
+         "start": 135.145,
+         "end": 135.815
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 136.262,
+     "end": 140.647,
+     "chunks": [
+      {
+       "start": 136.262,
+       "end": 137.47,
+       "words": [
+        {
+         "text": "After",
+         "tail": "",
+         "hl": false,
+         "start": 136.262,
+         "end": 136.51
+        },
+        {
+         "text": "weeks",
+         "tail": "",
+         "hl": false,
+         "cue": "weeks",
+         "start": 136.563,
+         "end": 136.83
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 136.883,
+         "end": 136.99
+        },
+        {
+         "text": "work",
+         "tail": ",",
+         "hl": false,
+         "start": 137.054,
+         "end": 137.47
+        }
+       ]
+      },
+      {
+       "start": 137.53,
+       "end": 139.71,
+       "words": [
+        {
+         "text": "Tagway's",
+         "tail": "",
+         "hl": false,
+         "start": 137.53,
+         "end": 137.95
+        },
+        {
+         "text": "library",
+         "tail": "",
+         "hl": false,
+         "start": 138.0,
+         "end": 138.35
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 138.43,
+         "end": 138.59
+        },
+        {
+         "text": "smooth",
+         "tail": ",",
+         "hl": false,
+         "cue": "b1",
+         "start": 138.636,
+         "end": 139.15
+        },
+        {
+         "text": "fast",
+         "tail": ",",
+         "hl": false,
+         "cue": "b2",
+         "start": 139.23,
+         "end": 139.71
+        }
+       ]
+      },
+      {
+       "start": 139.75,
+       "end": 140.67,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 139.75,
+         "end": 139.87
+        },
+        {
+         "text": "memory-safe",
+         "tail": ".",
+         "hl": true,
+         "cue": "b3",
+         "start": 139.916,
+         "end": 140.67
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 141.247,
+     "end": 146.408,
+     "chunks": [
+      {
+       "start": 141.247,
+       "end": 142.088,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 141.247,
+         "end": 141.368
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 141.428,
+         "end": 141.608
+        },
+        {
+         "text": "day",
+         "tail": ",",
+         "hl": false,
+         "start": 141.668,
+         "end": 142.088
+        }
+       ]
+      },
+      {
+       "start": 142.118,
+       "end": 143.608,
+       "words": [
+        {
+         "text": "someone",
+         "tail": "",
+         "hl": false,
+         "start": 142.118,
+         "end": 142.328
+        },
+        {
+         "text": "wants",
+         "tail": "",
+         "hl": false,
+         "start": 142.368,
+         "end": 142.568
+        },
+        {
+         "text": "sharper",
+         "tail": "",
+         "hl": false,
+         "start": 142.618,
+         "end": 142.968
+        },
+        {
+         "text": "images",
+         "tail": ",",
+         "hl": false,
+         "start": 143.037,
+         "end": 143.608
+        }
+       ]
+      },
+      {
+       "start": 143.648,
+       "end": 146.408,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 143.648,
+         "end": 143.768
+        },
+        {
+         "text": "loads",
+         "tail": "",
+         "hl": false,
+         "start": 143.835,
+         "end": 144.168
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 144.221,
+         "end": 144.488
+        },
+        {
+         "text": "photo",
+         "tail": "",
+         "hl": false,
+         "start": 144.555,
+         "end": 144.888
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 144.968,
+         "end": 145.128
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 145.168,
+         "end": 145.288
+        },
+        {
+         "text": "original",
+         "tail": "",
+         "hl": true,
+         "start": 145.341,
+         "end": 145.768
+        },
+        {
+         "text": "size",
+         "tail": ".",
+         "hl": false,
+         "cue": "orig",
+         "start": 145.864,
+         "end": 146.408
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 147.008,
+     "end": 148.23,
+     "chunks": [
+      {
+       "start": 147.008,
+       "end": 148.23,
+       "words": [
+        {
+         "text": "QA",
+         "tail": "",
+         "hl": false,
+         "start": 147.008,
+         "end": 147.27
+        },
+        {
+         "text": "scrolls",
+         "tail": "",
+         "hl": false,
+         "start": 147.32,
+         "end": 147.67
+        },
+        {
+         "text": "fast",
+         "tail": ".",
+         "hl": false,
+         "cue": "qa2",
+         "start": 147.75,
+         "end": 148.23
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 148.83,
+     "end": 151.417,
+     "chunks": [
+      {
+       "start": 148.83,
+       "end": 150.057,
+       "words": [
+        {
+         "text": "\"The",
+         "tail": "",
+         "hl": false,
+         "start": 148.83,
+         "end": 148.857
+        },
+        {
+         "text": "scroll",
+         "tail": "",
+         "hl": false,
+         "start": 148.914,
+         "end": 149.257
+        },
+        {
+         "text": "stutters",
+         "tail": ".",
+         "hl": true,
+         "cue": "crash2",
+         "start": 149.31,
+         "end": 150.057
+        }
+       ]
+      },
+      {
+       "start": 150.137,
+       "end": 151.417,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 150.137,
+         "end": 150.457
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 150.477,
+         "end": 150.537
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 150.597,
+         "end": 150.777
+        },
+        {
+         "text": "crashes.\"",
+         "tail": "",
+         "hl": false,
+         "start": 150.837,
+         "end": 151.417
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "layers",
+    "label": "TAGWAY · IMAGE LOADER",
+    "app": "Tagway · #android-team",
+    "status": "image-loader v0.1",
+    "layers": [
+     {
+      "name": "Bitmap pool",
+      "cue": "pool"
+     },
+     {
+      "name": "Task manager",
+      "cue": "task"
+     },
+     {
+      "name": "Downsampling",
+      "cue": "down"
+     },
+     {
+      "name": "Memory cache",
+      "cue": "mem"
+     },
+     {
+      "name": "Disk cache",
+      "cue": "disk"
+     }
+    ],
+    "warn": [
+     {
+      "index": 2,
+      "cue": "orig"
+     }
+    ],
+    "chat": [
+     {
+      "from": "user",
+      "text": "QA: I scrolled fast.",
+      "cue": "qa"
+     },
+     {
+      "from": "ai",
+      "text": "Scroll stutters. App crashes.",
+      "tone": "bad",
+      "tag": "v0.1 · naive loader",
+      "cue": "crash",
+      "update": {
+       "text": "Smooth scroll. Fewer GC pauses.",
+       "tone": "good",
+       "tag": "bitmap pool",
+       "cue": "smooth"
+      }
+     },
+     {
+      "from": "user",
+      "text": "PM: 1,000 images. Users jump to the last one.",
+      "cue": "pm"
+     },
+     {
+      "from": "ai",
+      "text": "Wait: 1,000 seconds.",
+      "tone": "bad",
+      "tag": "downloads everything",
+      "cue": "wait",
+      "update": {
+       "text": "Last image in about 1 second.",
+       "tone": "good",
+       "tag": "task manager",
+       "cue": "fast"
+      }
+     },
+     {
+      "from": "user",
+      "text": "Crash report: OutOfMemoryError",
+      "cue": "oom"
+     },
+     {
+      "from": "ai",
+      "text": "1000px x 1000px photo = 4MB",
+      "tone": "bad",
+      "tag": "full size in memory",
+      "cue": "fourmb",
+      "update": {
+       "text": "200px x 200px = 160KB. 25x less.",
+       "tone": "good",
+       "tag": "downsampling",
+       "cue": "small"
+      }
+     },
+     {
+      "from": "user",
+      "text": "User: scrolled back up.",
+      "cue": "back"
+     },
+     {
+      "from": "ai",
+      "text": "Downloading again...",
+      "tone": "bad",
+      "tag": "no cache",
+      "cue": "again",
+      "update": {
+       "text": "Instant.",
+       "tone": "good",
+       "tag": "memory cache",
+       "cue": "instant"
+      }
+     },
+     {
+      "from": "user",
+      "text": "User: reopened the app.",
+      "cue": "reopen"
+     },
+     {
+      "from": "ai",
+      "text": "RAM wiped. Downloading again...",
+      "tone": "bad",
+      "tag": "cache lost",
+      "cue": "wiped",
+      "update": {
+       "text": "No second download.",
+       "tone": "good",
+       "tag": "disk cache",
+       "cue": "nosecond"
+      }
+     },
+     {
+      "from": "user",
+      "text": "QA: I scrolled fast.",
+      "cue": "qa2"
+     },
+     {
+      "from": "ai",
+      "text": "Scroll stutters. App crashes.",
+      "tone": "bad",
+      "tag": "original size",
+      "cue": "crash2"
+     }
+    ],
+    "diagrams": [
+     {
+      "kind": "big",
+      "text": "5 layers",
+      "highlight": "5",
+      "sub": "Tagway's own image loader"
+     },
+     {
+      "kind": "flow",
+      "cue": "naive",
+      "nodes": [
+       {
+        "text": "Network",
+        "icon": "cloud"
+       },
+       {
+        "text": "Decode",
+        "icon": "code"
+       },
+       {
+        "text": "New Bitmap",
+        "icon": "image"
+       },
+       {
+        "text": "ImageView",
+        "icon": "phone",
+        "cue": "crash",
+        "tone": "bad"
+       }
+      ],
+      "note": {
+       "text": "Stutters. Then crashes.",
+       "cue": "crash",
+       "tone": "bad"
+      }
+     },
+     {
+      "kind": "big",
+      "cue": "gcbig",
+      "text": "GC pauses",
+      "tone": "bad",
+      "sub": "every pause steals frames"
+     },
+     {
+      "kind": "flow",
+      "cue": "pool",
+      "nodes": [
+       {
+        "text": "Row off screen",
+        "icon": "phone",
+        "cue": "rowoff"
+       },
+       {
+        "text": "Bitmap pool",
+        "icon": "layers",
+        "cue": "topool",
+        "tone": "good"
+       },
+       {
+        "text": "Next image",
+        "icon": "image",
+        "cue": "nextimg",
+        "tone": "good"
+       }
+      ],
+      "note": {
+       "text": "Same memory, reused",
+       "cue": "same",
+       "tone": "good"
+      }
+     },
+     {
+      "kind": "bill",
+      "cue": "pm",
+      "bubbles": {
+       "count": 16,
+       "cue": "pm",
+       "text": "img",
+       "flip": "cancel",
+       "keep": 2
+      },
+      "kicker": "wait for the last image (example)",
+      "prefix": "",
+      "suffix": " s",
+      "start": {
+       "value": 1000,
+       "cue": "wait"
+      },
+      "steps": [
+       {
+        "value": 1,
+        "cue": "cancel",
+        "chip": "cancel off-screen downloads"
+       }
+      ]
+     },
+     {
+      "kind": "big",
+      "cue": "oom",
+      "text": "OutOfMemoryError",
+      "tone": "bad",
+      "sub": "full-size photos fill the memory"
+     },
+     {
+      "kind": "flow",
+      "cue": "fourmb",
+      "nodes": [
+       {
+        "text": "4MB",
+        "sub": "1000px x 1000px",
+        "icon": "image",
+        "tone": "bad"
+       },
+       {
+        "text": "Downsample",
+        "icon": "wand",
+        "cue": "down",
+        "tone": "good"
+       },
+       {
+        "text": "160KB",
+        "sub": "200px x 200px",
+        "icon": "image",
+        "cue": "small",
+        "tone": "good"
+       }
+      ],
+      "note": {
+       "text": "25x less memory",
+       "cue": "small",
+       "tone": "good"
+      }
+     },
+     {
+      "kind": "flow",
+      "cue": "mem",
+      "nodes": [
+       {
+        "text": "Request",
+        "icon": "send"
+       },
+       {
+        "text": "RAM",
+        "sub": "fastest",
+        "icon": "flame",
+        "cue": "ram",
+        "tone": "good"
+       }
+      ],
+      "note": {
+       "text": "Scrolling back is instant",
+       "cue": "instant",
+       "tone": "good"
+      }
+     },
+     {
+      "kind": "flow",
+      "cue": "disk",
+      "title": "check in this order",
+      "nodes": [
+       {
+        "text": "RAM",
+        "icon": "flame",
+        "cue": "chkram",
+        "tone": "good"
+       },
+       {
+        "text": "Disk",
+        "sub": "survives restart",
+        "icon": "db",
+        "cue": "chkdisk",
+        "tone": "good"
+       },
+       {
+        "text": "Network",
+        "sub": "last resort",
+        "icon": "cloud",
+        "cue": "chknet"
+       }
+      ],
+      "note": {
+       "text": "Saved to RAM + disk",
+       "cue": "both",
+       "tone": "good"
+      }
+     },
+     {
+      "kind": "flow",
+      "cue": "full",
+      "title": "the full flow",
+      "nodes": [
+       {
+        "text": "Download",
+        "icon": "download",
+        "cue": "f1"
+       },
+       {
+        "text": "Downsample",
+        "icon": "wand",
+        "cue": "f2"
+       },
+       {
+        "text": "Cache",
+        "icon": "db",
+        "cue": "f3"
+       },
+       {
+        "text": "Display",
+        "icon": "phone",
+        "cue": "f4",
+        "tone": "good"
+       }
+      ]
+     },
+     {
+      "kind": "badges",
+      "cue": "weeks",
+      "chips": [
+       {
+        "text": "smooth",
+        "cue": "b1"
+       },
+       {
+        "text": "fast",
+        "cue": "b2"
+       },
+       {
+        "text": "memory-safe",
+        "cue": "b3"
+       }
+      ],
+      "swap": {
+       "from": "view size",
+       "to": "original size",
+       "cue": "orig"
+      },
+      "fade": {
+       "cue": "orig"
+      },
+      "note": {
+       "text": "OutOfMemoryError",
+       "cue": "crash2",
+       "tone": "bad"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 152.417,
+   "end": 158.479,
+   "sentences": [
+    {
+     "start": 152.417,
+     "end": 155.179,
+     "chunks": [
+      {
+       "start": 152.417,
+       "end": 155.271,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 152.417,
+         "end": 152.631
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 152.671,
+         "end": 152.791
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 152.839,
+         "end": 153.031
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 153.081,
+         "end": 153.431
+        },
+        {
+         "text": "system",
+         "tail": "",
+         "hl": false,
+         "start": 153.488,
+         "end": 153.831
+        },
+        {
+         "text": "design",
+         "tail": "",
+         "hl": false,
+         "start": 153.888,
+         "end": 154.231
+        },
+        {
+         "text": "tips",
+         "tail": "",
+         "hl": false,
+         "start": 154.295,
+         "end": 154.551
+        },
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 154.599,
+         "end": 154.791
+        },
+        {
+         "text": "this",
+         "tail": ".",
+         "hl": false,
+         "start": 154.839,
+         "end": 155.271
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "MORE TIPS",
+    "headline": "More Android system design tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

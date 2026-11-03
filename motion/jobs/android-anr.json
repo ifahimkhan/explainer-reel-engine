@@ -1,0 +1,234 @@
+{
+  "id": "android-anr",
+  "engine": "elevenlabs",
+  "voice": "ruZOzaKd6ljzH7J9ejYE",
+  "model": "eleven_flash_v2_5",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "sentenceGap": 0.6,
+  "sceneGap": 1.0,
+  "tail": 2.3,
+  "copy": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "ANR IN ANDROID",
+        "kicker": "APPLICATION NOT RESPONDING",
+        "headline": "\"App isn't responding\"",
+        "highlight": "responding",
+        "icon": "bell",
+        "sub": {
+          "text": "Your users just saw this",
+          "cue": "dialog"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "Your app *freezes*. | Then Android shows a dialog:#dialog | \"App isn't *responding*.\""
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "visual": {
+        "type": "chips",
+        "label": "WHAT IT IS",
+        "hub": {
+          "text": "Main thread",
+          "sub": "UI THREAD",
+          "icon": "layers"
+        },
+        "chips": [
+          {
+            "text": "Blocked too long",
+            "cue": "c1"
+          },
+          {
+            "text": "Draws your UI",
+            "cue": "c2"
+          },
+          {
+            "text": "Handles every tap",
+            "cue": "c3"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "*ANR* stands for | *Application* *Not* *Responding*."
+        },
+        {
+          "caption": "It happens when your app's *main* *thread* | is blocked#c1 too long."
+        },
+        {
+          "caption": "The main thread draws#c2 your UI, | and handles every *tap*.#c3"
+        }
+      ]
+    },
+    {
+      "id": "trigger",
+      "visual": {
+        "type": "stat",
+        "label": "WHEN IT TRIGGERS",
+        "kicker": "INPUT NOT HANDLED IN",
+        "value": 5,
+        "from": 0,
+        "suffix": "s",
+        "caption": "Tap or key press, no response",
+        "icon": "bell",
+        "cue": "five"
+      },
+      "sentences": [
+        {
+          "caption": "If a tap or key press | isn't handled within *5*#five *seconds*."
+        },
+        {
+          "caption": "If a broadcast receiver | doesn't finish in *time*."
+        }
+      ]
+    },
+    {
+      "id": "causes",
+      "visual": {
+        "type": "cards",
+        "label": "COMMON CAUSES",
+        "cards": [
+          {
+            "title": "File I/O",
+            "sub": "read / write on main",
+            "icon": "file",
+            "cue": "c1"
+          },
+          {
+            "title": "Heavy work",
+            "sub": "JSON, images",
+            "icon": "image",
+            "cue": "c2"
+          },
+          {
+            "title": "Locks",
+            "sub": "waiting on a thread",
+            "icon": "lock",
+            "cue": "c3"
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "First: *file*#c1 reading or writing | on the main thread."
+        },
+        {
+          "caption": "Second: *heavy*#c2 work, | like parsing big JSON or decoding images."
+        },
+        {
+          "caption": "Third: *locks*#c3 and deadlocks, | where the main thread waits on another thread."
+        }
+      ]
+    },
+    {
+      "id": "vitals",
+      "visual": {
+        "type": "terminal",
+        "label": "WHY IT MATTERS",
+        "title": "android vitals",
+        "command": "play console > android vitals",
+        "cue": "vitals",
+        "lines": [
+          {
+            "text": "User-perceived ANR rate",
+            "tone": "normal"
+          },
+          {
+            "text": "Status: bad behavior threshold",
+            "tone": "dim",
+            "flag": "many"
+          }
+        ],
+        "badge": {
+          "text": "Lower Play Store visibility",
+          "cue": "visibility"
+        }
+      },
+      "sentences": [
+        {
+          "caption": "Google Play tracks your *ANR* *rate* | in Android vitals.#vitals"
+        },
+        {
+          "caption": "Too many#many ANRs can lower your app's *visibility*#visibility | on the Play Store."
+        }
+      ]
+    },
+    {
+      "id": "fix",
+      "visual": {
+        "type": "editor",
+        "label": "THE FIX",
+        "file": "NotesRepository.kt",
+        "lines": [
+          {
+            "text": "suspend fun loadNotes() =",
+            "cue": "io"
+          },
+          {
+            "text": "  withContext(Dispatchers.IO) {",
+            "cue": "io",
+            "hl": true
+          },
+          {
+            "text": "    file.readText()",
+            "cue": "io"
+          },
+          {
+            "text": "  }",
+            "cue": "io"
+          },
+          {
+            "text": ""
+          },
+          {
+            "text": "workManager.enqueue(syncRequest)",
+            "cue": "wm",
+            "hl": true
+          },
+          {
+            "text": "StrictMode.enableDefaults() // debug",
+            "cue": "sm",
+            "hl": true
+          }
+        ]
+      },
+      "sentences": [
+        {
+          "caption": "Move slow work off the main thread | with *coroutines*#io on Dispatchers.IO."
+        },
+        {
+          "caption": "Use *WorkManager*#wm for background jobs."
+        },
+        {
+          "caption": "Turn on *StrictMode*#sm in debug | to catch problems early."
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "visual": {
+        "type": "follow",
+        "label": "FOLLOW",
+        "headline": "More Android tips",
+        "highlight": "Android",
+        "name": "Fahim Khan",
+        "tagline": "PRACTICAL ANDROID DEV TIPS",
+        "cue": "follow"
+      },
+      "sentences": [
+        {
+          "caption": "*Follow*#follow for more Android tips."
+        }
+      ]
+    }
+  ]
+}

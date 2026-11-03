@@ -1,0 +1,1311 @@
+{
+ "id": "on-device-ai-part4",
+ "durationS": 54.004,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.626,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.56,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.76,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.08
+        },
+        {
+         "text": "chatbot",
+         "tail": "",
+         "hl": false,
+         "start": 0.16,
+         "end": 0.72
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 0.752,
+         "end": 0.88
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 0.944,
+         "end": 1.2
+        },
+        {
+         "text": "talks",
+         "tail": "",
+         "hl": false,
+         "start": 1.293,
+         "end": 1.76
+        }
+       ]
+      },
+      {
+       "start": 1.867,
+       "end": 2.56,
+       "words": [
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 1.867,
+         "end": 2.08
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 2.12,
+         "end": 2.16
+        },
+        {
+         "text": "toy",
+         "tail": ".",
+         "hl": true,
+         "start": 2.24,
+         "end": 2.56
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.16,
+     "end": 5.626,
+     "chunks": [
+      {
+       "start": 3.16,
+       "end": 4.586,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 3.16,
+         "end": 3.386
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 3.426,
+         "end": 3.546
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 3.573,
+         "end": 3.626
+        },
+        {
+         "text": "make",
+         "tail": "",
+         "hl": false,
+         "start": 3.69,
+         "end": 3.946
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 3.999,
+         "end": 4.266
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 4.373,
+         "end": 4.586
+        }
+       ]
+      },
+      {
+       "start": 4.639,
+       "end": 5.626,
+       "words": [
+        {
+         "text": "do",
+         "tail": "",
+         "hl": false,
+         "start": 4.639,
+         "end": 4.746
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": false,
+         "start": 4.81,
+         "end": 5.066
+        },
+        {
+         "text": "work",
+         "tail": ".",
+         "hl": true,
+         "cue": "work",
+         "start": 5.146,
+         "end": 5.626
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ON-DEVICE AI · PART 4",
+    "kicker": "ON-DEVICE AI · PART 4",
+    "headline": "Make phone AI do real work",
+    "highlight": "work",
+    "icon": "wand",
+    "sub": {
+     "text": "Think · typed output · app functions",
+     "cue": "work"
+    }
+   }
+  },
+  {
+   "id": "think",
+   "start": 6.626,
+   "end": 21.868,
+   "sentences": [
+    {
+     "start": 6.626,
+     "end": 8.105,
+     "chunks": [
+      {
+       "start": 6.626,
+       "end": 8.109,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 6.626,
+         "end": 7.069
+        },
+        {
+         "text": "thinking",
+         "tail": "",
+         "hl": false,
+         "start": 7.14,
+         "end": 7.709
+        },
+        {
+         "text": "mode",
+         "tail": ".",
+         "hl": true,
+         "start": 7.757,
+         "end": 8.109
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 8.705,
+     "end": 12.948,
+     "chunks": [
+      {
+       "start": 8.705,
+       "end": 11.268,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 8.705,
+         "end": 8.788
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 8.895,
+         "end": 9.108
+        },
+        {
+         "text": "thinks",
+         "tail": "",
+         "hl": false,
+         "start": 9.154,
+         "end": 9.428
+        },
+        {
+         "text": "step",
+         "tail": "",
+         "hl": false,
+         "start": 9.476,
+         "end": 9.668
+        },
+        {
+         "text": "by",
+         "tail": "",
+         "hl": false,
+         "start": 9.721,
+         "end": 9.828
+        },
+        {
+         "text": "step",
+         "tail": "",
+         "hl": false,
+         "start": 9.892,
+         "end": 10.148
+        },
+        {
+         "text": "before",
+         "tail": "",
+         "hl": false,
+         "start": 10.194,
+         "end": 10.468
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 10.495,
+         "end": 10.548
+        },
+        {
+         "text": "answers",
+         "tail": ",",
+         "hl": false,
+         "start": 10.608,
+         "end": 11.268
+        }
+       ]
+      },
+      {
+       "start": 11.295,
+       "end": 12.948,
+       "words": [
+        {
+         "text": "so",
+         "tail": "",
+         "hl": false,
+         "start": 11.295,
+         "end": 11.348
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 11.401,
+         "end": 11.508
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 11.528,
+         "end": 11.588
+        },
+        {
+         "text": "solve",
+         "tail": "",
+         "hl": false,
+         "start": 11.655,
+         "end": 11.988
+        },
+        {
+         "text": "harder",
+         "tail": "",
+         "hl": false,
+         "cue": "hard",
+         "start": 12.022,
+         "end": 12.228
+        },
+        {
+         "text": "problems",
+         "tail": ".",
+         "hl": false,
+         "start": 12.29,
+         "end": 12.948
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 13.548,
+     "end": 18.188,
+     "chunks": [
+      {
+       "start": 13.548,
+       "end": 14.828,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 13.548,
+         "end": 13.628
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 13.668,
+         "end": 13.788
+        },
+        {
+         "text": "give",
+         "tail": "",
+         "hl": false,
+         "start": 13.82,
+         "end": 13.948
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 14.001,
+         "end": 14.108
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 14.148,
+         "end": 14.188
+        },
+        {
+         "text": "role",
+         "tail": ",",
+         "hl": false,
+         "cue": "role",
+         "start": 14.268,
+         "end": 14.828
+        }
+       ]
+      },
+      {
+       "start": 14.876,
+       "end": 16.268,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 14.876,
+         "end": 15.068
+        },
+        {
+         "text": "travel",
+         "tail": "",
+         "hl": false,
+         "start": 15.137,
+         "end": 15.548
+        },
+        {
+         "text": "assistant",
+         "tail": ",",
+         "hl": false,
+         "start": 15.612,
+         "end": 16.268
+        }
+       ]
+      },
+      {
+       "start": 16.361,
+       "end": 18.188,
+       "words": [
+        {
+         "text": "using",
+         "tail": "",
+         "hl": false,
+         "start": 16.361,
+         "end": 16.828
+        },
+        {
+         "text": "system",
+         "tail": "",
+         "hl": false,
+         "start": 16.885,
+         "end": 17.228
+        },
+        {
+         "text": "instructions",
+         "tail": ".",
+         "hl": false,
+         "start": 17.29,
+         "end": 18.188
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 18.788,
+     "end": 20.868,
+     "chunks": [
+      {
+       "start": 18.788,
+       "end": 20.868,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 18.788,
+         "end": 18.868
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 18.921,
+         "end": 19.028
+        },
+        {
+         "text": "gets",
+         "tail": "",
+         "hl": false,
+         "start": 19.076,
+         "end": 19.268
+        },
+        {
+         "text": "better",
+         "tail": "",
+         "hl": false,
+         "start": 19.337,
+         "end": 19.748
+        },
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 19.801,
+         "end": 19.908
+        },
+        {
+         "text": "using",
+         "tail": "",
+         "hl": false,
+         "start": 19.961,
+         "end": 20.228
+        },
+        {
+         "text": "tools",
+         "tail": ".",
+         "hl": true,
+         "cue": "tools",
+         "start": 20.308,
+         "end": 20.868
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "STEP 1",
+    "number": 1,
+    "title": "It thinks",
+    "highlight": "thinks",
+    "icon": "sparkle",
+    "points": [
+     {
+      "text": "Solves harder problems",
+      "cue": "hard"
+     },
+     {
+      "text": "Takes a role you give it",
+      "cue": "role"
+     },
+     {
+      "text": "Better at using tools",
+      "cue": "tools"
+     }
+    ]
+   }
+  },
+  {
+   "id": "structured",
+   "start": 21.868,
+   "end": 31.975,
+   "sentences": [
+    {
+     "start": 21.868,
+     "end": 23.577,
+     "chunks": [
+      {
+       "start": 21.868,
+       "end": 23.577,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 21.868,
+         "end": 22.297
+        },
+        {
+         "text": "structured",
+         "tail": "",
+         "hl": false,
+         "start": 22.362,
+         "end": 23.017
+        },
+        {
+         "text": "output",
+         "tail": ".",
+         "hl": true,
+         "start": 23.086,
+         "end": 23.577
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.177,
+     "end": 28.608,
+     "chunks": [
+      {
+       "start": 24.177,
+       "end": 25.648,
+       "words": [
+        {
+         "text": "You",
+         "tail": "",
+         "hl": false,
+         "start": 24.177,
+         "end": 24.288
+        },
+        {
+         "text": "mark",
+         "tail": "",
+         "hl": false,
+         "start": 24.336,
+         "end": 24.528
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 24.568,
+         "end": 24.608
+        },
+        {
+         "text": "Kotlin",
+         "tail": "",
+         "hl": false,
+         "cue": "kotlin",
+         "start": 24.654,
+         "end": 24.928
+        },
+        {
+         "text": "class",
+         "tail": ",",
+         "hl": false,
+         "start": 25.008,
+         "end": 25.648
+        }
+       ]
+      },
+      {
+       "start": 25.688,
+       "end": 27.328,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 25.688,
+         "end": 25.808
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 25.848,
+         "end": 25.968
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 26.075,
+         "end": 26.288
+        },
+        {
+         "text": "must",
+         "tail": "",
+         "hl": false,
+         "start": 26.352,
+         "end": 26.608
+        },
+        {
+         "text": "return",
+         "tail": "",
+         "hl": false,
+         "start": 26.665,
+         "end": 27.008
+        },
+        {
+         "text": "data",
+         "tail": "",
+         "hl": false,
+         "start": 27.072,
+         "end": 27.328
+        }
+       ]
+      },
+      {
+       "start": 27.36,
+       "end": 28.608,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 27.36,
+         "end": 27.488
+        },
+        {
+         "text": "fits",
+         "tail": "",
+         "hl": false,
+         "start": 27.552,
+         "end": 27.808
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 27.835,
+         "end": 27.888
+        },
+        {
+         "text": "exactly",
+         "tail": ".",
+         "hl": true,
+         "start": 27.968,
+         "end": 28.608
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 29.208,
+     "end": 30.975,
+     "chunks": [
+      {
+       "start": 29.208,
+       "end": 31.037,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 29.208,
+         "end": 29.277
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 29.325,
+         "end": 29.517
+        },
+        {
+         "text": "cleaning",
+         "tail": "",
+         "hl": false,
+         "start": 29.561,
+         "end": 29.917
+        },
+        {
+         "text": "up",
+         "tail": "",
+         "hl": false,
+         "start": 29.97,
+         "end": 30.077
+        },
+        {
+         "text": "messy",
+         "tail": "",
+         "hl": false,
+         "cue": "messy",
+         "start": 30.13,
+         "end": 30.397
+        },
+        {
+         "text": "text",
+         "tail": ".",
+         "hl": false,
+         "start": 30.493,
+         "end": 31.037
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "editor",
+    "label": "STEP 2",
+    "file": "Receipt.kt",
+    "lines": [
+     {
+      "text": "// schema for Gemini Nano",
+      "cue": "kotlin"
+     },
+     {
+      "text": "data class Receipt(",
+      "cue": "kotlin",
+      "hl": true
+     },
+     {
+      "text": "  val store: String,",
+      "cue": "kotlin"
+     },
+     {
+      "text": "  val total: Double,",
+      "cue": "kotlin"
+     },
+     {
+      "text": "  val date: String,",
+      "cue": "kotlin"
+     },
+     {
+      "text": ")",
+      "cue": "kotlin"
+     }
+    ],
+    "toast": {
+     "text": "Typed object, no messy text",
+     "cue": "messy"
+    }
+   }
+  },
+  {
+   "id": "functions",
+   "start": 31.975,
+   "end": 42.944,
+   "sentences": [
+    {
+     "start": 31.975,
+     "end": 33.763,
+     "chunks": [
+      {
+       "start": 31.975,
+       "end": 33.763,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 31.975,
+         "end": 32.643
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 32.743,
+         "end": 33.043
+        },
+        {
+         "text": "functions",
+         "tail": ".",
+         "hl": true,
+         "start": 33.107,
+         "end": 33.763
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 34.363,
+     "end": 37.775,
+     "chunks": [
+      {
+       "start": 34.363,
+       "end": 36.335,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 34.363,
+         "end": 34.415
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "cue": "f1",
+         "start": 34.522,
+         "end": 34.735
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 34.795,
+         "end": 34.975
+        },
+        {
+         "text": "call",
+         "tail": "",
+         "hl": false,
+         "start": 35.023,
+         "end": 35.215
+        },
+        {
+         "text": "functions",
+         "tail": "",
+         "hl": false,
+         "cue": "f2",
+         "start": 35.263,
+         "end": 35.695
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 35.748,
+         "end": 35.855
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 35.871,
+         "end": 35.935
+        },
+        {
+         "text": "app",
+         "tail": ",",
+         "hl": false,
+         "start": 35.995,
+         "end": 36.335
+        }
+       ]
+      },
+      {
+       "start": 36.383,
+       "end": 37.775,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 36.383,
+         "end": 36.575
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 36.655,
+         "end": 36.895
+        },
+        {
+         "text": "my",
+         "tail": "",
+         "hl": false,
+         "start": 36.948,
+         "end": 37.055
+        },
+        {
+         "text": "last",
+         "tail": "",
+         "hl": false,
+         "start": 37.119,
+         "end": 37.375
+        },
+        {
+         "text": "order",
+         "tail": ".",
+         "hl": false,
+         "cue": "f3",
+         "start": 37.428,
+         "end": 37.775
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 38.375,
+     "end": 41.944,
+     "chunks": [
+      {
+       "start": 38.375,
+       "end": 39.784,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 38.375,
+         "end": 38.424
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 38.504,
+         "end": 38.824
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 38.864,
+         "end": 38.984
+        },
+        {
+         "text": "ones",
+         "tail": "",
+         "hl": false,
+         "start": 39.032,
+         "end": 39.224
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 39.264,
+         "end": 39.384
+        },
+        {
+         "text": "allow",
+         "tail": ".",
+         "hl": false,
+         "cue": "allow",
+         "start": 39.437,
+         "end": 39.784
+        }
+       ]
+      },
+      {
+       "start": 39.971,
+       "end": 41.944,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 39.971,
+         "end": 40.344
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 40.384,
+         "end": 40.504
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": true,
+         "start": 40.531,
+         "end": 40.664
+        },
+        {
+         "text": "run",
+         "tail": "",
+         "hl": false,
+         "start": 40.724,
+         "end": 40.904
+        },
+        {
+         "text": "whatever",
+         "tail": "",
+         "hl": false,
+         "start": 40.94,
+         "end": 41.224
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 41.277,
+         "end": 41.384
+        },
+        {
+         "text": "wants",
+         "tail": ".",
+         "hl": false,
+         "start": 41.464,
+         "end": 41.944
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "STEP 3",
+    "headline": "AI uses your app, safely",
+    "highlight": "safely",
+    "stops": [
+     {
+      "name": "AI asks",
+      "sub": "last order?",
+      "icon": "sparkle",
+      "cue": "f1"
+     },
+     {
+      "name": "App function",
+      "sub": "you allowed",
+      "icon": "code",
+      "cue": "f2"
+     },
+     {
+      "name": "Data back",
+      "sub": "order #1041",
+      "icon": "db",
+      "cue": "f3"
+     }
+    ],
+    "note": {
+     "text": "Only functions you allow",
+     "cue": "allow"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 42.944,
+   "end": 54.004,
+   "sentences": [
+    {
+     "start": 42.944,
+     "end": 48.647,
+     "chunks": [
+      {
+       "start": 42.944,
+       "end": 43.927,
+       "words": [
+        {
+         "text": "In",
+         "tail": "",
+         "hl": false,
+         "start": 42.944,
+         "end": 43.047
+        },
+        {
+         "text": "Part",
+         "tail": "",
+         "hl": false,
+         "start": 43.095,
+         "end": 43.287
+        },
+        {
+         "text": "5",
+         "tail": ",",
+         "hl": false,
+         "start": 43.367,
+         "end": 43.927
+        }
+       ]
+      },
+      {
+       "start": 43.987,
+       "end": 46.247,
+       "words": [
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 43.987,
+         "end": 44.167
+        },
+        {
+         "text": "all",
+         "tail": "",
+         "hl": false,
+         "start": 44.227,
+         "end": 44.407
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 44.434,
+         "end": 44.487
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 44.551,
+         "end": 44.807
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 44.86,
+         "end": 44.967
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 45.047,
+         "end": 45.287
+        },
+        {
+         "text": "real",
+         "tail": "",
+         "hl": false,
+         "start": 45.351,
+         "end": 45.607
+        },
+        {
+         "text": "app",
+         "tail": ":",
+         "hl": false,
+         "start": 45.687,
+         "end": 46.247
+        }
+       ]
+      },
+      {
+       "start": 46.287,
+       "end": 48.647,
+       "words": [
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 46.287,
+         "end": 46.327
+        },
+        {
+         "text": "scam",
+         "tail": "",
+         "hl": false,
+         "cue": "scam",
+         "start": 46.391,
+         "end": 46.647
+        },
+        {
+         "text": "detector",
+         "tail": "",
+         "hl": false,
+         "start": 46.7,
+         "end": 47.127
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 47.191,
+         "end": 47.447
+        },
+        {
+         "text": "works",
+         "tail": "",
+         "hl": false,
+         "start": 47.5,
+         "end": 47.767
+        },
+        {
+         "text": "offline",
+         "tail": ".",
+         "hl": true,
+         "start": 47.847,
+         "end": 48.647
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 49.247,
+     "end": 50.704,
+     "chunks": [
+      {
+       "start": 49.247,
+       "end": 50.704,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 49.247,
+         "end": 49.584
+        },
+        {
+         "text": "so",
+         "tail": "",
+         "hl": false,
+         "start": 49.664,
+         "end": 49.824
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 49.864,
+         "end": 49.984
+        },
+        {
+         "text": "don't",
+         "tail": "",
+         "hl": false,
+         "start": 50.004,
+         "end": 50.144
+        },
+        {
+         "text": "miss",
+         "tail": "",
+         "hl": false,
+         "start": 50.192,
+         "end": 50.384
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 50.437,
+         "end": 50.704
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "NEXT: PART 5",
+    "headline": "Part 5 is next",
+    "highlight": "next",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow",
+    "sub": {
+     "text": "An offline scam detector",
+     "cue": "scam"
+    }
+   }
+  }
+ ]
+}

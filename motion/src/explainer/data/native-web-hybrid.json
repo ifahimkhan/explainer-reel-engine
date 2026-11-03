@@ -1,0 +1,1919 @@
+{
+ "id": "native-web-hybrid",
+ "durationS": 77.448,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 5.023,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.53,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 0.743,
+       "words": [
+        {
+         "text": "Same",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.313
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 0.337,
+         "end": 0.441
+        },
+        {
+         "text": "idea",
+         "tail": ".",
+         "hl": false,
+         "start": 0.499,
+         "end": 0.743
+        }
+       ]
+      },
+      {
+       "start": 0.766,
+       "end": 1.764,
+       "words": [
+        {
+         "text": "Three",
+         "tail": "",
+         "hl": false,
+         "start": 0.766,
+         "end": 0.94
+        },
+        {
+         "text": "ways",
+         "tail": "",
+         "hl": true,
+         "start": 0.975,
+         "end": 1.126
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 1.161,
+         "end": 1.219
+        },
+        {
+         "text": "build",
+         "tail": "",
+         "hl": false,
+         "start": 1.265,
+         "end": 1.428
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 1.474,
+         "end": 1.764
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.13,
+     "end": 4.023,
+     "chunks": [
+      {
+       "start": 2.13,
+       "end": 3.184,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 2.13,
+         "end": 2.279
+        },
+        {
+         "text": "each",
+         "tail": "",
+         "hl": false,
+         "start": 2.348,
+         "end": 2.534
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 2.592,
+         "end": 2.731
+        },
+        {
+         "text": "changes",
+         "tail": "",
+         "hl": false,
+         "start": 2.766,
+         "end": 3.184
+        }
+       ]
+      },
+      {
+       "start": 3.277,
+       "end": 4.253,
+       "words": [
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 3.277,
+         "end": 3.393
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 3.451,
+         "end": 3.556
+        },
+        {
+         "text": "test",
+         "tail": "",
+         "hl": true,
+         "cue": "test",
+         "start": 3.637,
+         "end": 3.904
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 3.951,
+         "end": 4.253
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "NATIVE · WEB · HYBRID",
+    "kicker": "5 DIFFERENCES THAT MATTER",
+    "headline": "Native vs Web vs Hybrid",
+    "highlight": "Hybrid",
+    "icon": "layers",
+    "sub": {
+     "text": "Each one changes how you test",
+     "cue": "test"
+    }
+   }
+  },
+  {
+   "id": "stack",
+   "start": 5.023,
+   "end": 19.963,
+   "sentences": [
+    {
+     "start": 5.023,
+     "end": 9.31,
+     "chunks": [
+      {
+       "start": 5.023,
+       "end": 7.113,
+       "words": [
+        {
+         "text": "Native",
+         "tail": "",
+         "hl": true,
+         "cue": "n",
+         "start": 5.023,
+         "end": 5.429
+        },
+        {
+         "text": "uses",
+         "tail": "",
+         "hl": false,
+         "start": 5.476,
+         "end": 5.766
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 5.812,
+         "end": 5.882
+        },
+        {
+         "text": "platform's",
+         "tail": "",
+         "hl": false,
+         "start": 5.905,
+         "end": 6.451
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 6.498,
+         "end": 6.626
+        },
+        {
+         "text": "language",
+         "tail": ":",
+         "hl": false,
+         "start": 6.684,
+         "end": 7.113
+        }
+       ]
+      },
+      {
+       "start": 7.171,
+       "end": 8.216,
+       "words": [
+        {
+         "text": "Kotlin",
+         "tail": "",
+         "hl": false,
+         "start": 7.171,
+         "end": 7.554
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 7.601,
+         "end": 7.705
+        },
+        {
+         "text": "Android",
+         "tail": ",",
+         "hl": false,
+         "start": 7.763,
+         "end": 8.216
+        }
+       ]
+      },
+      {
+       "start": 8.251,
+       "end": 9.482,
+       "words": [
+        {
+         "text": "Swift",
+         "tail": "",
+         "hl": false,
+         "start": 8.251,
+         "end": 8.518
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 8.564,
+         "end": 8.704
+        },
+        {
+         "text": "iOS",
+         "tail": ".",
+         "hl": false,
+         "start": 8.773,
+         "end": 9.482
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.91,
+     "end": 13.202,
+     "chunks": [
+      {
+       "start": 9.91,
+       "end": 12.266,
+       "words": [
+        {
+         "text": "Mobile",
+         "tail": "",
+         "hl": false,
+         "start": 9.91,
+         "end": 10.304
+        },
+        {
+         "text": "web",
+         "tail": "",
+         "hl": true,
+         "cue": "w",
+         "start": 10.327,
+         "end": 10.489
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 10.559,
+         "end": 10.629
+        },
+        {
+         "text": "HTML",
+         "tail": ",",
+         "hl": false,
+         "start": 10.675,
+         "end": 11.151
+        },
+        {
+         "text": "CSS",
+         "tail": "",
+         "hl": false,
+         "start": 11.174,
+         "end": 11.615
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 11.639,
+         "end": 11.708
+        },
+        {
+         "text": "JavaScript",
+         "tail": ",",
+         "hl": false,
+         "start": 11.755,
+         "end": 12.266
+        }
+       ]
+      },
+      {
+       "start": 12.312,
+       "end": 13.392,
+       "words": [
+        {
+         "text": "opened",
+         "tail": "",
+         "hl": false,
+         "start": 12.312,
+         "end": 12.602
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 12.637,
+         "end": 12.684
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.718,
+         "end": 12.788
+        },
+        {
+         "text": "browser",
+         "tail": ".",
+         "hl": false,
+         "start": 12.811,
+         "end": 13.392
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 13.802,
+     "end": 18.963,
+     "chunks": [
+      {
+       "start": 13.802,
+       "end": 15.501,
+       "words": [
+        {
+         "text": "Hybrid",
+         "tail": "",
+         "hl": true,
+         "cue": "h",
+         "start": 13.802,
+         "end": 14.224
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 14.27,
+         "end": 14.351
+        },
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 14.409,
+         "end": 14.56
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "start": 14.642,
+         "end": 14.885
+        },
+        {
+         "text": "web",
+         "tail": "",
+         "hl": false,
+         "start": 14.92,
+         "end": 15.094
+        },
+        {
+         "text": "code",
+         "tail": ",",
+         "hl": false,
+         "start": 15.176,
+         "end": 15.501
+        }
+       ]
+      },
+      {
+       "start": 15.617,
+       "end": 16.859,
+       "words": [
+        {
+         "text": "wrapped",
+         "tail": "",
+         "hl": false,
+         "start": 15.617,
+         "end": 15.988
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 16.023,
+         "end": 16.093
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 16.151,
+         "end": 16.174
+        },
+        {
+         "text": "native",
+         "tail": "",
+         "hl": false,
+         "start": 16.244,
+         "end": 16.569
+        },
+        {
+         "text": "shell",
+         "tail": "",
+         "hl": false,
+         "start": 16.604,
+         "end": 16.859
+        }
+       ]
+      },
+      {
+       "start": 16.917,
+       "end": 19.135,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 16.917,
+         "end": 17.068
+        },
+        {
+         "text": "tools",
+         "tail": "",
+         "hl": false,
+         "start": 17.114,
+         "end": 17.439
+        },
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 17.498,
+         "end": 17.683
+        },
+        {
+         "text": "Ionic",
+         "tail": "",
+         "hl": false,
+         "start": 17.753,
+         "end": 18.124
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 18.171,
+         "end": 18.252
+        },
+        {
+         "text": "Capacitor",
+         "tail": ".",
+         "hl": false,
+         "start": 18.299,
+         "end": 19.135
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "TECH STACK",
+    "title": "1 · Technology stack",
+    "rows": [
+     {
+      "kicker": "NATIVE",
+      "text": "Kotlin · Swift",
+      "icon": "grid",
+      "cue": "n"
+     },
+     {
+      "kicker": "MOBILE WEB",
+      "text": "HTML · CSS · JavaScript",
+      "icon": "cloud",
+      "cue": "w"
+     },
+     {
+      "kicker": "HYBRID",
+      "text": "Web code + Ionic, Capacitor",
+      "icon": "layers",
+      "cue": "h"
+     }
+    ]
+   }
+  },
+  {
+   "id": "render",
+   "start": 19.963,
+   "end": 33.961,
+   "sentences": [
+    {
+     "start": 19.963,
+     "end": 24.531,
+     "chunks": [
+      {
+       "start": 19.963,
+       "end": 22.459,
+       "words": [
+        {
+         "text": "Native",
+         "tail": "",
+         "hl": true,
+         "cue": "n",
+         "start": 19.963,
+         "end": 20.3
+        },
+        {
+         "text": "draws",
+         "tail": "",
+         "hl": false,
+         "start": 20.323,
+         "end": 20.578
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 20.625,
+         "end": 20.752
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 20.787,
+         "end": 20.892
+        },
+        {
+         "text": "OS's",
+         "tail": "",
+         "hl": false,
+         "start": 20.962,
+         "end": 21.345
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 21.426,
+         "end": 21.577
+        },
+        {
+         "text": "UI",
+         "tail": "",
+         "hl": false,
+         "start": 21.658,
+         "end": 21.902
+        },
+        {
+         "text": "toolkit",
+         "tail": ",",
+         "hl": false,
+         "start": 21.96,
+         "end": 22.459
+        }
+       ]
+      },
+      {
+       "start": 22.529,
+       "end": 24.747,
+       "words": [
+        {
+         "text": "like",
+         "tail": "",
+         "hl": false,
+         "start": 22.529,
+         "end": 22.715
+        },
+        {
+         "text": "Jetpack",
+         "tail": "",
+         "hl": false,
+         "start": 22.761,
+         "end": 23.179
+        },
+        {
+         "text": "Compose",
+         "tail": "",
+         "hl": false,
+         "start": 23.237,
+         "end": 23.702
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 23.748,
+         "end": 23.841
+        },
+        {
+         "text": "SwiftUI",
+         "tail": ".",
+         "hl": false,
+         "start": 23.899,
+         "end": 24.747
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 25.131,
+     "end": 29.393,
+     "chunks": [
+      {
+       "start": 25.131,
+       "end": 27.301,
+       "words": [
+        {
+         "text": "Mobile",
+         "tail": "",
+         "hl": false,
+         "start": 25.131,
+         "end": 25.56
+        },
+        {
+         "text": "web",
+         "tail": "",
+         "hl": true,
+         "cue": "w",
+         "start": 25.594,
+         "end": 25.803
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 25.873,
+         "end": 25.954
+        },
+        {
+         "text": "drawn",
+         "tail": "",
+         "hl": false,
+         "start": 26.001,
+         "end": 26.244
+        },
+        {
+         "text": "by",
+         "tail": "",
+         "hl": false,
+         "start": 26.291,
+         "end": 26.395
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 26.453,
+         "end": 26.523
+        },
+        {
+         "text": "browser",
+         "tail": "",
+         "hl": false,
+         "start": 26.569,
+         "end": 26.917
+        },
+        {
+         "text": "engine",
+         "tail": ":",
+         "hl": false,
+         "start": 26.976,
+         "end": 27.301
+        }
+       ]
+      },
+      {
+       "start": 27.37,
+       "end": 28.183,
+       "words": [
+        {
+         "text": "Blink",
+         "tail": "",
+         "hl": false,
+         "start": 27.37,
+         "end": 27.626
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 27.684,
+         "end": 27.742
+        },
+        {
+         "text": "Chrome",
+         "tail": ",",
+         "hl": false,
+         "start": 27.8,
+         "end": 28.183
+        }
+       ]
+      },
+      {
+       "start": 28.253,
+       "end": 29.588,
+       "words": [
+        {
+         "text": "WebKit",
+         "tail": "",
+         "hl": false,
+         "start": 28.253,
+         "end": 28.647
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 28.705,
+         "end": 28.763
+        },
+        {
+         "text": "Safari",
+         "tail": ".",
+         "hl": false,
+         "start": 28.822,
+         "end": 29.588
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 29.993,
+     "end": 32.961,
+     "chunks": [
+      {
+       "start": 29.993,
+       "end": 31.468,
+       "words": [
+        {
+         "text": "Hybrid",
+         "tail": "",
+         "hl": true,
+         "cue": "h",
+         "start": 29.993,
+         "end": 30.365
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 30.411,
+         "end": 30.597
+        },
+        {
+         "text": "inside",
+         "tail": "",
+         "hl": false,
+         "start": 30.643,
+         "end": 30.933
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 30.957,
+         "end": 30.98
+        },
+        {
+         "text": "WebView",
+         "tail": ",",
+         "hl": true,
+         "start": 31.061,
+         "end": 31.468
+        }
+       ]
+      },
+      {
+       "start": 31.491,
+       "end": 33.151,
+       "words": [
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 31.491,
+         "end": 31.526
+        },
+        {
+         "text": "browser",
+         "tail": "",
+         "hl": false,
+         "start": 31.572,
+         "end": 31.909
+        },
+        {
+         "text": "hidden",
+         "tail": "",
+         "hl": false,
+         "start": 31.944,
+         "end": 32.164
+        },
+        {
+         "text": "inside",
+         "tail": "",
+         "hl": false,
+         "start": 32.222,
+         "end": 32.524
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 32.559,
+         "end": 32.629
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 32.698,
+         "end": 33.151
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "RENDERING ENGINE",
+    "title": "2 · Rendering engine",
+    "rows": [
+     {
+      "kicker": "NATIVE",
+      "text": "OS UI toolkit: Compose, SwiftUI",
+      "icon": "grid",
+      "cue": "n"
+     },
+     {
+      "kicker": "MOBILE WEB",
+      "text": "Browser: Blink, WebKit",
+      "icon": "cloud",
+      "cue": "w"
+     },
+     {
+      "kicker": "HYBRID",
+      "text": "WebView inside the app",
+      "icon": "layers",
+      "cue": "h"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hardware",
+   "start": 33.961,
+   "end": 49.029,
+   "sentences": [
+    {
+     "start": 33.961,
+     "end": 38.314,
+     "chunks": [
+      {
+       "start": 33.961,
+       "end": 35.32,
+       "words": [
+        {
+         "text": "Native",
+         "tail": "",
+         "hl": true,
+         "cue": "n",
+         "start": 33.961,
+         "end": 34.367
+        },
+        {
+         "text": "gets",
+         "tail": "",
+         "hl": false,
+         "start": 34.402,
+         "end": 34.588
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": true,
+         "start": 34.634,
+         "end": 34.82
+        },
+        {
+         "text": "access",
+         "tail": ":",
+         "hl": false,
+         "start": 34.878,
+         "end": 35.32
+        }
+       ]
+      },
+      {
+       "start": 35.355,
+       "end": 37.479,
+       "words": [
+        {
+         "text": "camera",
+         "tail": ",",
+         "hl": false,
+         "start": 35.355,
+         "end": 35.796
+        },
+        {
+         "text": "Bluetooth",
+         "tail": ",",
+         "hl": false,
+         "start": 35.819,
+         "end": 36.365
+        },
+        {
+         "text": "NFC",
+         "tail": ",",
+         "hl": false,
+         "start": 36.411,
+         "end": 36.875
+        },
+        {
+         "text": "sensors",
+         "tail": ",",
+         "hl": false,
+         "start": 36.899,
+         "end": 37.479
+        }
+       ]
+      },
+      {
+       "start": 37.502,
+       "end": 38.559,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 37.502,
+         "end": 37.584
+        },
+        {
+         "text": "background",
+         "tail": "",
+         "hl": false,
+         "start": 37.642,
+         "end": 38.06
+        },
+        {
+         "text": "work",
+         "tail": ".",
+         "hl": false,
+         "start": 38.106,
+         "end": 38.559
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 38.914,
+     "end": 43.218,
+     "chunks": [
+      {
+       "start": 38.914,
+       "end": 41.468,
+       "words": [
+        {
+         "text": "Mobile",
+         "tail": "",
+         "hl": false,
+         "start": 38.914,
+         "end": 39.297
+        },
+        {
+         "text": "web",
+         "tail": "",
+         "hl": true,
+         "cue": "w",
+         "start": 39.332,
+         "end": 39.529
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 39.611,
+         "end": 39.831
+        },
+        {
+         "text": "gets",
+         "tail": "",
+         "hl": false,
+         "start": 39.889,
+         "end": 40.133
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 40.214,
+         "end": 40.446
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 40.493,
+         "end": 40.574
+        },
+        {
+         "text": "browser",
+         "tail": "",
+         "hl": false,
+         "start": 40.621,
+         "end": 41.015
+        },
+        {
+         "text": "allows",
+         "tail": ",",
+         "hl": false,
+         "start": 41.073,
+         "end": 41.468
+        }
+       ]
+      },
+      {
+       "start": 41.503,
+       "end": 43.419,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 41.503,
+         "end": 41.689
+        },
+        {
+         "text": "Safari",
+         "tail": "",
+         "hl": false,
+         "start": 41.758,
+         "end": 42.176
+        },
+        {
+         "text": "allows",
+         "tail": "",
+         "hl": false,
+         "start": 42.223,
+         "end": 42.525
+        },
+        {
+         "text": "even",
+         "tail": "",
+         "hl": false,
+         "start": 42.583,
+         "end": 42.78
+        },
+        {
+         "text": "less",
+         "tail": ".",
+         "hl": false,
+         "start": 42.838,
+         "end": 43.419
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 43.818,
+     "end": 48.029,
+     "chunks": [
+      {
+       "start": 43.818,
+       "end": 45.838,
+       "words": [
+        {
+         "text": "Hybrid",
+         "tail": "",
+         "hl": true,
+         "cue": "h",
+         "start": 43.818,
+         "end": 44.213
+        },
+        {
+         "text": "reaches",
+         "tail": "",
+         "hl": false,
+         "start": 44.271,
+         "end": 44.573
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 44.631,
+         "end": 44.7
+        },
+        {
+         "text": "hardware",
+         "tail": "",
+         "hl": false,
+         "start": 44.747,
+         "end": 45.13
+        },
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 45.165,
+         "end": 45.374
+        },
+        {
+         "text": "plugins",
+         "tail": "",
+         "hl": true,
+         "start": 45.42,
+         "end": 45.838
+        }
+       ]
+      },
+      {
+       "start": 45.897,
+       "end": 48.23,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 45.897,
+         "end": 46.047
+        },
+        {
+         "text": "bridge",
+         "tail": "",
+         "hl": false,
+         "start": 46.105,
+         "end": 46.338
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 46.373,
+         "end": 46.442
+        },
+        {
+         "text": "web",
+         "tail": "",
+         "hl": false,
+         "start": 46.489,
+         "end": 46.64
+        },
+        {
+         "text": "code",
+         "tail": "",
+         "hl": false,
+         "start": 46.709,
+         "end": 46.941
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 46.965,
+         "end": 47.034
+        },
+        {
+         "text": "native",
+         "tail": "",
+         "hl": false,
+         "start": 47.092,
+         "end": 47.348
+        },
+        {
+         "text": "APIs",
+         "tail": ".",
+         "hl": false,
+         "start": 47.371,
+         "end": 48.23
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "HARDWARE ACCESS",
+    "title": "3 · Hardware API access",
+    "rows": [
+     {
+      "kicker": "NATIVE",
+      "text": "Full: camera, BLE, NFC",
+      "icon": "camera",
+      "cue": "n"
+     },
+     {
+      "kicker": "MOBILE WEB",
+      "text": "Browser APIs only",
+      "icon": "lock",
+      "cue": "w"
+     },
+     {
+      "kicker": "HYBRID",
+      "text": "Through native plugins",
+      "icon": "unlink",
+      "cue": "h"
+     }
+    ]
+   }
+  },
+  {
+   "id": "performance",
+   "start": 49.029,
+   "end": 60.307,
+   "sentences": [
+    {
+     "start": 49.029,
+     "end": 52.032,
+     "chunks": [
+      {
+       "start": 49.029,
+       "end": 50.109,
+       "words": [
+        {
+         "text": "Native",
+         "tail": "",
+         "hl": true,
+         "cue": "n",
+         "start": 49.029,
+         "end": 49.331
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 49.355,
+         "end": 49.424
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 49.459,
+         "end": 49.529
+        },
+        {
+         "text": "fastest",
+         "tail": ",",
+         "hl": true,
+         "start": 49.575,
+         "end": 50.109
+        }
+       ]
+      },
+      {
+       "start": 50.132,
+       "end": 52.222,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 50.132,
+         "end": 50.272
+        },
+        {
+         "text": "smooth",
+         "tail": "",
+         "hl": false,
+         "start": 50.306,
+         "end": 50.597
+        },
+        {
+         "text": "animations",
+         "tail": "",
+         "hl": false,
+         "start": 50.655,
+         "end": 51.258
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 51.305,
+         "end": 51.398
+        },
+        {
+         "text": "long",
+         "tail": "",
+         "hl": false,
+         "start": 51.479,
+         "end": 51.688
+        },
+        {
+         "text": "lists",
+         "tail": ".",
+         "hl": false,
+         "start": 51.746,
+         "end": 52.222
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 52.632,
+     "end": 55.082,
+     "chunks": [
+      {
+       "start": 52.632,
+       "end": 54.245,
+       "words": [
+        {
+         "text": "Mobile",
+         "tail": "",
+         "hl": false,
+         "start": 52.632,
+         "end": 53.038
+        },
+        {
+         "text": "web",
+         "tail": "",
+         "hl": true,
+         "cue": "w",
+         "start": 53.062,
+         "end": 53.212
+        },
+        {
+         "text": "depends",
+         "tail": "",
+         "hl": false,
+         "start": 53.271,
+         "end": 53.596
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 53.63,
+         "end": 53.7
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 53.734,
+         "end": 53.804
+        },
+        {
+         "text": "browser",
+         "tail": "",
+         "hl": false,
+         "start": 53.839,
+         "end": 54.245
+        }
+       ]
+      },
+      {
+       "start": 54.292,
+       "end": 55.279,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 54.292,
+         "end": 54.385
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 54.419,
+         "end": 54.489
+        },
+        {
+         "text": "network",
+         "tail": ".",
+         "hl": false,
+         "start": 54.547,
+         "end": 55.279
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 55.682,
+     "end": 59.307,
+     "chunks": [
+      {
+       "start": 55.682,
+       "end": 56.971,
+       "words": [
+        {
+         "text": "Hybrid",
+         "tail": "",
+         "hl": true,
+         "cue": "h",
+         "start": 55.682,
+         "end": 56.112
+        },
+        {
+         "text": "sits",
+         "tail": "",
+         "hl": false,
+         "start": 56.158,
+         "end": 56.367
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 56.413,
+         "end": 56.471
+        },
+        {
+         "text": "between",
+         "tail": ",",
+         "hl": false,
+         "start": 56.53,
+         "end": 56.971
+        }
+       ]
+      },
+      {
+       "start": 57.029,
+       "end": 59.49,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 57.029,
+         "end": 57.18
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 57.215,
+         "end": 57.284
+        },
+        {
+         "text": "bridge",
+         "tail": "",
+         "hl": false,
+         "start": 57.331,
+         "end": 57.575
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 57.598,
+         "end": 57.726
+        },
+        {
+         "text": "cause",
+         "tail": "",
+         "hl": false,
+         "start": 57.784,
+         "end": 58.027
+        },
+        {
+         "text": "lag",
+         "tail": "",
+         "hl": true,
+         "start": 58.085,
+         "end": 58.318
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 58.376,
+         "end": 58.445
+        },
+        {
+         "text": "heavy",
+         "tail": "",
+         "hl": false,
+         "start": 58.492,
+         "end": 58.689
+        },
+        {
+         "text": "screens",
+         "tail": ".",
+         "hl": false,
+         "start": 58.736,
+         "end": 59.49
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "PERFORMANCE",
+    "title": "4 · Runtime performance",
+    "rows": [
+     {
+      "kicker": "NATIVE",
+      "text": "Fastest, smooth lists",
+      "icon": "flame",
+      "cue": "n"
+     },
+     {
+      "kicker": "MOBILE WEB",
+      "text": "Depends on browser + network",
+      "icon": "cloud",
+      "cue": "w"
+     },
+     {
+      "kicker": "HYBRID",
+      "text": "In between, bridge lag",
+      "icon": "layers",
+      "cue": "h"
+     }
+    ]
+   }
+  },
+  {
+   "id": "qa",
+   "start": 60.307,
+   "end": 72.741,
+   "sentences": [
+    {
+     "start": 60.307,
+     "end": 64.065,
+     "chunks": [
+      {
+       "start": 60.307,
+       "end": 62.673,
+       "words": [
+        {
+         "text": "Native",
+         "tail": ":",
+         "hl": true,
+         "cue": "n",
+         "start": 60.307,
+         "end": 60.699
+        },
+        {
+         "text": "device",
+         "tail": "",
+         "hl": false,
+         "start": 60.722,
+         "end": 61.047
+        },
+        {
+         "text": "fragmentation",
+         "tail": ",",
+         "hl": false,
+         "start": 61.082,
+         "end": 61.837
+        },
+        {
+         "text": "OS",
+         "tail": "",
+         "hl": false,
+         "start": 61.895,
+         "end": 62.127
+        },
+        {
+         "text": "versions",
+         "tail": ",",
+         "hl": false,
+         "start": 62.208,
+         "end": 62.673
+        }
+       ]
+      },
+      {
+       "start": 62.719,
+       "end": 64.252,
+       "words": [
+        {
+         "text": "lifecycle",
+         "tail": "",
+         "hl": false,
+         "start": 62.719,
+         "end": 63.288
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 63.323,
+         "end": 63.392
+        },
+        {
+         "text": "permissions",
+         "tail": ".",
+         "hl": false,
+         "start": 63.439,
+         "end": 64.252
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 64.665,
+     "end": 68.278,
+     "chunks": [
+      {
+       "start": 64.665,
+       "end": 66.418,
+       "words": [
+        {
+         "text": "Mobile",
+         "tail": "",
+         "hl": false,
+         "start": 64.665,
+         "end": 65.106
+        },
+        {
+         "text": "web",
+         "tail": ":",
+         "hl": true,
+         "cue": "w",
+         "start": 65.129,
+         "end": 65.35
+        },
+        {
+         "text": "cross-browser",
+         "tail": "",
+         "hl": false,
+         "start": 65.373,
+         "end": 65.954
+        },
+        {
+         "text": "testing",
+         "tail": ",",
+         "hl": false,
+         "start": 65.988,
+         "end": 66.418
+        }
+       ]
+      },
+      {
+       "start": 66.441,
+       "end": 68.473,
+       "words": [
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 66.441,
+         "end": 66.732
+        },
+        {
+         "text": "sizes",
+         "tail": "",
+         "hl": false,
+         "start": 66.79,
+         "end": 67.173
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 67.219,
+         "end": 67.312
+        },
+        {
+         "text": "offline",
+         "tail": "",
+         "hl": false,
+         "start": 67.382,
+         "end": 67.742
+        },
+        {
+         "text": "behavior",
+         "tail": ".",
+         "hl": false,
+         "start": 67.776,
+         "end": 68.473
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 68.878,
+     "end": 71.741,
+     "chunks": [
+      {
+       "start": 68.878,
+       "end": 70.777,
+       "words": [
+        {
+         "text": "Hybrid",
+         "tail": ":",
+         "hl": true,
+         "cue": "h",
+         "start": 68.878,
+         "end": 69.325
+        },
+        {
+         "text": "WebView",
+         "tail": "",
+         "hl": false,
+         "start": 69.371,
+         "end": 69.766
+        },
+        {
+         "text": "versions",
+         "tail": "",
+         "hl": false,
+         "start": 69.836,
+         "end": 70.243
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 70.277,
+         "end": 70.359
+        },
+        {
+         "text": "plugins",
+         "tail": ",",
+         "hl": false,
+         "start": 70.405,
+         "end": 70.777
+        }
+       ]
+      },
+      {
+       "start": 70.8,
+       "end": 71.914,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 70.8,
+         "end": 70.869
+        },
+        {
+         "text": "both",
+         "tail": "",
+         "hl": true,
+         "start": 70.928,
+         "end": 71.136
+        },
+        {
+         "text": "platforms",
+         "tail": ".",
+         "hl": false,
+         "start": 71.183,
+         "end": 71.914
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "trio",
+    "label": "QA FOCUS",
+    "title": "5 · QA focus",
+    "rows": [
+     {
+      "kicker": "NATIVE",
+      "text": "Devices, OS versions, lifecycle",
+      "icon": "grid",
+      "cue": "n"
+     },
+     {
+      "kicker": "MOBILE WEB",
+      "text": "Browsers, screen sizes, offline",
+      "icon": "cloud",
+      "cue": "w"
+     },
+     {
+      "kicker": "HYBRID",
+      "text": "WebView + plugins, both OSes",
+      "icon": "layers",
+      "cue": "h"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 72.741,
+   "end": 77.448,
+   "sentences": [
+    {
+     "start": 72.741,
+     "end": 74.148,
+     "chunks": [
+      {
+       "start": 72.741,
+       "end": 74.313,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 72.741,
+         "end": 73.025
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 73.094,
+         "end": 73.2
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 73.245,
+         "end": 73.419
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 73.454,
+         "end": 73.779
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 73.814,
+         "end": 74.313
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

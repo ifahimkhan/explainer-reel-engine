@@ -1,0 +1,128 @@
+{
+  "id": "github-tricks",
+  "voice": "hm_omega",
+  "lang": "h",
+  "speed": 1.25,
+  "sentenceGap": 0.12,
+  "sceneGap": 0.3,
+  "tail": 1.2,
+  "copy": {
+    "hook.badge": "Sirf 1 word badla",
+    "teaser.title": "5 TRICKS, SIRF 1 URL",
+    "teaser.pill": "Doosra aur bhi kamaal",
+    "diagram.pill": "0 files khole",
+    "wiki.question": "Auth kaise kaam karta hai?",
+    "wiki.answerPre": "Login ",
+    "wiki.answerFile": "lib/auth.ts",
+    "wiki.answerPost": " mein hota hai. Session cookie banti hai, aur middleware har request check karta hai.",
+    "recap.pill": "Sabko bas 1 GitHub URL chahiye",
+    "recap.locked": "DM mein",
+    "cta.title": "COMMENT KARO, DM AAYEGA",
+    "cta.keyword": "GITHUB",
+    "cta.dmTitle": "5 GitHub URL tricks (full list)",
+    "cta.dmSub": "Bas ek word badlo, kaam ho jaata hai",
+    "cta.sendTo": "Send to",
+    "cta.share": "Developer dost jo har file khol ke padhta hai"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "sentences": [
+        {
+          "say": "गिटहब लिंक में सिर्फ एक वर्ड बदलो,",
+          "caption": "GitHub link mein sirf *ek*#mark *word* badlo,#morph"
+        },
+        {
+          "say": "और पूरा ऐप बनाने का प्रॉम्प्ट मिल जाता है।",
+          "caption": "aur poora app banane ka *prompt*#prompt mil jaata hai."
+        }
+      ]
+    },
+    {
+      "id": "reverse",
+      "sentences": [
+        {
+          "say": "किसी भी पब्लिक रेपो के लिंक में, गिटहब को गिट रिवर्स कर दो।",
+          "caption": "Kisi bhi public repo ke link mein, | *github* ko *gitreverse*#morph kar do."
+        },
+        {
+          "say": "ये पूरे रेपो का स्ट्रक्चर पढ़ता है, और आपको एक क्लीन प्रॉम्प्ट दे देता है।",
+          "caption": "Ye poore repo ka *structure*#repo padhta hai, | aur aapko ek clean#clean *prompt*#prompt de deta hai."
+        },
+        {
+          "say": "वो प्रॉम्प्ट क्लॉड कोड में पेस्ट करो, और अपना खुद का वर्ज़न रेडी।",
+          "caption": "Wo prompt *Claude*#claude *Code* mein paste#paste karo, | aur apna khud ka *version*#version ready."
+        }
+      ]
+    },
+    {
+      "id": "teaser",
+      "sentences": [
+        {
+          "say": "लेकिन ये तो सिर्फ पहला ट्रिक है।",
+          "caption": "Lekin ye toh sirf *pehla* trick hai."
+        },
+        {
+          "say": "दूसरा और भी कमाल का है।",
+          "caption": "Doosra#unlock aur bhi *kamaal*#pill ka hai."
+        }
+      ]
+    },
+    {
+      "id": "diagram",
+      "sentences": [
+        {
+          "say": "अब लिंक में हब को डायग्राम कर दो।",
+          "caption": "Ab link mein *hub*#morph ko *diagram* kar do."
+        },
+        {
+          "say": "गिट डायग्राम पूरे रेपो का आर्किटेक्चर, एक विज़ुअल मैप में बना देता है।",
+          "caption": "GitDiagram#nodes poore repo ka architecture | ek *visual*#edges *map* mein bana deta hai."
+        },
+        {
+          "say": "हर पीस, हर कनेक्शन, बिना एक भी फ़ाइल खोले।",
+          "caption": "Har#pulse piece, har connection,#hot | bina#pill ek bhi *file* khole."
+        }
+      ]
+    },
+    {
+      "id": "wiki",
+      "sentences": [
+        {
+          "say": "और तीसरा, गिटहब को डीपविकी कर दो।",
+          "caption": "Aur *teesra:* | *github* ko *deepwiki*#morph kar do."
+        },
+        {
+          "say": "रेपो का पूरा डॉक्युमेंटेशन बन जाता है, और आप कोड से सीधा सवाल पूछ सकते हो।",
+          "caption": "Repo ka poora *documentation*#doc ban jaata hai, | aur aap code#ask se seedha *sawaal* pooch#answer sakte ho."
+        }
+      ]
+    },
+    {
+      "id": "recap",
+      "sentences": [
+        {
+          "say": "ऐसे पाँच ट्रिक्स, और सबको बस एक गिटहब यू आर एल चाहिए।",
+          "caption": "Aise *5* *tricks*, | aur sabko#pill bas ek *GitHub* *URL* chahiye."
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "sentences": [
+        {
+          "say": "कमेंट करो गिटहब, मैं पूरी लिस्ट डी एम करता हूँ।",
+          "caption": "Comment karo *GITHUB*,#type | main#dm poori list *DM* karta hoon."
+        },
+        {
+          "say": "ये उस डेवलपर दोस्त को भेजो, जो अभी भी हर फ़ाइल खोल के कोड पढ़ता है।",
+          "caption": "Ye us developer#share dost ko bhejo, | jo abhi bhi har file khol ke code padhta#sent hai."
+        },
+        {
+          "say": "फ़ॉलो करो, टेन के तक चलो।",
+          "caption": "*Follow*#follow karo, *10K*#road tak chalo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1781 @@
+{
+ "id": "on-device-ai-part2",
+ "durationS": 78.683,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 12.655,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.198,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.214,
+       "words": [
+        {
+         "text": "An",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.054
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 0.134,
+         "end": 0.294
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 0.347,
+         "end": 0.614
+        },
+        {
+         "text": "needs",
+         "tail": "",
+         "hl": false,
+         "start": 0.694,
+         "end": 1.094
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 1.214,
+         "end": 1.334
+        },
+        {
+         "text": "lot",
+         "tail": "",
+         "hl": false,
+         "start": 1.394,
+         "end": 1.574
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 1.601,
+         "end": 1.654
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": true,
+         "start": 1.711,
+         "end": 2.214
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.798,
+     "end": 4.628,
+     "chunks": [
+      {
+       "start": 2.798,
+       "end": 4.628,
+       "words": [
+        {
+         "text": "But",
+         "tail": "",
+         "hl": false,
+         "start": 2.798,
+         "end": 2.868
+        },
+        {
+         "text": "phones",
+         "tail": "",
+         "hl": false,
+         "start": 2.925,
+         "end": 3.268
+        },
+        {
+         "text": "don't",
+         "tail": "",
+         "hl": false,
+         "start": 3.308,
+         "end": 3.588
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 3.636,
+         "end": 3.828
+        },
+        {
+         "text": "much",
+         "tail": "",
+         "hl": false,
+         "start": 3.86,
+         "end": 3.988
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 4.041,
+         "end": 4.148
+        },
+        {
+         "text": "spare",
+         "tail": ".",
+         "hl": false,
+         "start": 4.215,
+         "end": 4.628
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 5.228,
+     "end": 11.655,
+     "chunks": [
+      {
+       "start": 5.228,
+       "end": 7.255,
+       "words": [
+        {
+         "text": "Google",
+         "tail": "",
+         "hl": false,
+         "start": 5.228,
+         "end": 5.415
+        },
+        {
+         "text": "says",
+         "tail": "",
+         "hl": false,
+         "start": 5.479,
+         "end": 5.735
+        },
+        {
+         "text": "Gemini",
+         "tail": "",
+         "hl": false,
+         "start": 5.792,
+         "end": 6.135
+        },
+        {
+         "text": "Nano",
+         "tail": "",
+         "hl": false,
+         "start": 6.215,
+         "end": 6.535
+        },
+        {
+         "text": "already",
+         "tail": "",
+         "hl": false,
+         "start": 6.585,
+         "end": 6.935
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 6.999,
+         "end": 7.255
+        }
+       ]
+      },
+      {
+       "start": 7.335,
+       "end": 9.735,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 7.335,
+         "end": 7.495
+        },
+        {
+         "text": "over",
+         "tail": "",
+         "hl": false,
+         "start": 7.543,
+         "end": 7.735
+        },
+        {
+         "text": "175",
+         "tail": "",
+         "hl": false,
+         "start": 7.815,
+         "end": 8.695
+        },
+        {
+         "text": "million",
+         "tail": "",
+         "hl": false,
+         "cue": "million",
+         "start": 8.735,
+         "end": 9.015
+        },
+        {
+         "text": "phones",
+         "tail": ",",
+         "hl": true,
+         "start": 9.084,
+         "end": 9.735
+        }
+       ]
+      },
+      {
+       "start": 9.751,
+       "end": 11.655,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 9.751,
+         "end": 9.815
+        },
+        {
+         "text": "hundreds",
+         "tail": "",
+         "hl": false,
+         "start": 9.868,
+         "end": 10.295
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 10.348,
+         "end": 10.455
+        },
+        {
+         "text": "millions",
+         "tail": "",
+         "hl": false,
+         "start": 10.499,
+         "end": 10.855
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 10.903,
+         "end": 11.095
+        },
+        {
+         "text": "coming",
+         "tail": ".",
+         "hl": false,
+         "start": 11.152,
+         "end": 11.655
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ON-DEVICE AI · PART 2",
+    "kicker": "ON-DEVICE AI · PART 2",
+    "headline": "How Gemini Nano fits on a phone",
+    "highlight": "Nano",
+    "icon": "layers",
+    "sub": {
+     "text": "Already on 175 million phones",
+     "cue": "million"
+    }
+   }
+  },
+  {
+   "id": "memory",
+   "start": 12.655,
+   "end": 20.932,
+   "sentences": [
+    {
+     "start": 12.655,
+     "end": 14.091,
+     "chunks": [
+      {
+       "start": 12.655,
+       "end": 14.091,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 12.655,
+         "end": 12.731
+        },
+        {
+         "text": "Google",
+         "tail": "",
+         "hl": false,
+         "start": 12.765,
+         "end": 12.971
+        },
+        {
+         "text": "made",
+         "tail": "",
+         "hl": false,
+         "start": 13.019,
+         "end": 13.211
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 13.238,
+         "end": 13.291
+        },
+        {
+         "text": "much",
+         "tail": "",
+         "hl": false,
+         "start": 13.355,
+         "end": 13.611
+        },
+        {
+         "text": "smaller",
+         "tail": ".",
+         "hl": true,
+         "start": 13.661,
+         "end": 14.091
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 14.691,
+     "end": 19.932,
+     "chunks": [
+      {
+       "start": 14.691,
+       "end": 17.452,
+       "words": [
+        {
+         "text": "Its",
+         "tail": "",
+         "hl": false,
+         "start": 14.691,
+         "end": 14.812
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "start": 14.869,
+         "end": 15.212
+        },
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 15.292,
+         "end": 15.532
+        },
+        {
+         "text": "went",
+         "tail": "",
+         "hl": false,
+         "start": 15.58,
+         "end": 15.772
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 15.804,
+         "end": 15.932
+        },
+        {
+         "text": "3.6",
+         "tail": "",
+         "hl": false,
+         "cue": "before",
+         "start": 16.092,
+         "end": 16.812
+        },
+        {
+         "text": "gigabytes",
+         "tail": ",",
+         "hl": false,
+         "start": 16.852,
+         "end": 17.452
+        }
+       ]
+      },
+      {
+       "start": 17.5,
+       "end": 19.932,
+       "words": [
+        {
+         "text": "down",
+         "tail": "",
+         "hl": false,
+         "start": 17.5,
+         "end": 17.692
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 17.745,
+         "end": 17.852
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 17.916,
+         "end": 18.172
+        },
+        {
+         "text": "1.1",
+         "tail": "",
+         "hl": false,
+         "cue": "after",
+         "start": 18.332,
+         "end": 19.132
+        },
+        {
+         "text": "gigabytes",
+         "tail": ".",
+         "hl": false,
+         "start": 19.172,
+         "end": 19.932
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "MEMORY",
+    "left": {
+     "kicker": "BEFORE",
+     "title": "3.6 GB",
+     "items": [
+      "Too big for most phones"
+     ],
+     "cue": "before"
+    },
+    "right": {
+     "kicker": "NOW",
+     "title": "1.1 GB",
+     "items": [
+      "About 3x less memory",
+      "Fits on many phones"
+     ],
+     "cue": "after"
+    }
+   }
+  },
+  {
+   "id": "tricks",
+   "start": 20.932,
+   "end": 42.386,
+   "sentences": [
+    {
+     "start": 20.932,
+     "end": 25.949,
+     "chunks": [
+      {
+       "start": 20.932,
+       "end": 22.909,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 20.932,
+         "end": 21.509
+        },
+        {
+         "text": "two-bit",
+         "tail": "",
+         "hl": false,
+         "start": 21.559,
+         "end": 21.869
+        },
+        {
+         "text": "quantization",
+         "tail": ".",
+         "hl": false,
+         "cue": "q",
+         "start": 21.922,
+         "end": 22.909
+        }
+       ]
+      },
+      {
+       "start": 22.929,
+       "end": 24.509,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 22.929,
+         "end": 22.989
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 23.056,
+         "end": 23.389
+        },
+        {
+         "text": "stores",
+         "tail": "",
+         "hl": false,
+         "start": 23.446,
+         "end": 23.789
+        },
+        {
+         "text": "its",
+         "tail": "",
+         "hl": false,
+         "start": 23.849,
+         "end": 24.029
+        },
+        {
+         "text": "numbers",
+         "tail": "",
+         "hl": false,
+         "start": 24.089,
+         "end": 24.509
+        }
+       ]
+      },
+      {
+       "start": 24.536,
+       "end": 25.949,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 24.536,
+         "end": 24.589
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 24.669,
+         "end": 24.749
+        },
+        {
+         "text": "much",
+         "tail": "",
+         "hl": false,
+         "start": 24.797,
+         "end": 24.989
+        },
+        {
+         "text": "smaller",
+         "tail": "",
+         "hl": false,
+         "start": 25.039,
+         "end": 25.389
+        },
+        {
+         "text": "form",
+         "tail": ".",
+         "hl": false,
+         "start": 25.453,
+         "end": 25.949
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 26.549,
+     "end": 30.229,
+     "chunks": [
+      {
+       "start": 26.549,
+       "end": 28.349,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 26.549,
+         "end": 26.949
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 26.989,
+         "end": 27.029
+        },
+        {
+         "text": "shared",
+         "tail": "",
+         "hl": false,
+         "start": 27.086,
+         "end": 27.429
+        },
+        {
+         "text": "KV",
+         "tail": "",
+         "hl": false,
+         "cue": "kv",
+         "start": 27.536,
+         "end": 27.749
+        },
+        {
+         "text": "cache",
+         "tail": ".",
+         "hl": false,
+         "start": 27.816,
+         "end": 28.349
+        }
+       ]
+      },
+      {
+       "start": 28.378,
+       "end": 30.229,
+       "words": [
+        {
+         "text": "Twenty",
+         "tail": "",
+         "hl": false,
+         "start": 28.378,
+         "end": 28.549
+        },
+        {
+         "text": "layers",
+         "tail": "",
+         "hl": false,
+         "start": 28.606,
+         "end": 28.949
+        },
+        {
+         "text": "reuse",
+         "tail": "",
+         "hl": false,
+         "start": 29.016,
+         "end": 29.349
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 29.369,
+         "end": 29.429
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "start": 29.493,
+         "end": 29.749
+        },
+        {
+         "text": "memory",
+         "tail": ".",
+         "hl": false,
+         "start": 29.795,
+         "end": 30.229
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 30.829,
+     "end": 35.787,
+     "chunks": [
+      {
+       "start": 30.829,
+       "end": 32.267,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 30.829,
+         "end": 31.387
+        },
+        {
+         "text": "lazy",
+         "tail": "",
+         "hl": false,
+         "cue": "lazy",
+         "start": 31.451,
+         "end": 31.707
+        },
+        {
+         "text": "loading",
+         "tail": ".",
+         "hl": false,
+         "start": 31.747,
+         "end": 32.267
+        }
+       ]
+      },
+      {
+       "start": 32.327,
+       "end": 33.947,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 32.327,
+         "end": 32.507
+        },
+        {
+         "text": "parts",
+         "tail": "",
+         "hl": false,
+         "start": 32.547,
+         "end": 32.747
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 32.787,
+         "end": 32.907
+        },
+        {
+         "text": "images",
+         "tail": "",
+         "hl": false,
+         "start": 32.976,
+         "end": 33.387
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 33.427,
+         "end": 33.547
+        },
+        {
+         "text": "audio",
+         "tail": "",
+         "hl": false,
+         "start": 33.614,
+         "end": 33.947
+        }
+       ]
+      },
+      {
+       "start": 34.027,
+       "end": 35.787,
+       "words": [
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 34.027,
+         "end": 34.347
+        },
+        {
+         "text": "load",
+         "tail": "",
+         "hl": false,
+         "start": 34.427,
+         "end": 34.747
+        },
+        {
+         "text": "when",
+         "tail": "",
+         "hl": false,
+         "start": 34.811,
+         "end": 35.067
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 35.087,
+         "end": 35.147
+        },
+        {
+         "text": "need",
+         "tail": "",
+         "hl": false,
+         "start": 35.211,
+         "end": 35.467
+        },
+        {
+         "text": "them",
+         "tail": ".",
+         "hl": false,
+         "start": 35.499,
+         "end": 35.787
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 36.387,
+     "end": 41.386,
+     "chunks": [
+      {
+       "start": 36.387,
+       "end": 38.123,
+       "words": [
+        {
+         "text": "Fourth",
+         "tail": ":",
+         "hl": false,
+         "start": 36.387,
+         "end": 36.763
+        },
+        {
+         "text": "NPU",
+         "tail": "",
+         "hl": false,
+         "cue": "npu",
+         "start": 36.883,
+         "end": 37.243
+        },
+        {
+         "text": "clock",
+         "tail": "",
+         "hl": false,
+         "start": 37.296,
+         "end": 37.563
+        },
+        {
+         "text": "scaling",
+         "tail": ".",
+         "hl": false,
+         "start": 37.613,
+         "end": 38.123
+        }
+       ]
+      },
+      {
+       "start": 38.163,
+       "end": 40.523,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 38.163,
+         "end": 38.283
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 38.39,
+         "end": 38.603
+        },
+        {
+         "text": "chip",
+         "tail": "",
+         "hl": false,
+         "start": 38.667,
+         "end": 38.923
+        },
+        {
+         "text": "speeds",
+         "tail": "",
+         "hl": false,
+         "start": 38.992,
+         "end": 39.403
+        },
+        {
+         "text": "up",
+         "tail": "",
+         "hl": false,
+         "start": 39.483,
+         "end": 39.643
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 39.696,
+         "end": 39.803
+        },
+        {
+         "text": "slows",
+         "tail": "",
+         "hl": false,
+         "start": 39.87,
+         "end": 40.203
+        },
+        {
+         "text": "down",
+         "tail": "",
+         "hl": false,
+         "start": 40.267,
+         "end": 40.523
+        }
+       ]
+      },
+      {
+       "start": 40.55,
+       "end": 41.483,
+       "words": [
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 40.55,
+         "end": 40.603
+        },
+        {
+         "text": "save",
+         "tail": "",
+         "hl": false,
+         "start": 40.651,
+         "end": 40.843
+        },
+        {
+         "text": "power",
+         "tail": ".",
+         "hl": false,
+         "start": 40.91,
+         "end": 41.483
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "4 MEMORY TRICKS",
+    "title": "How they shrank it",
+    "steps": [
+     {
+      "label": "2-bit quantization",
+      "sub": "smaller numbers",
+      "icon": "layers",
+      "cue": "q"
+     },
+     {
+      "label": "Shared KV cache",
+      "sub": "20 layers share memory",
+      "icon": "db",
+      "cue": "kv"
+     },
+     {
+      "label": "Lazy loading",
+      "sub": "image + audio parts on demand",
+      "icon": "download",
+      "cue": "lazy"
+     },
+     {
+      "label": "NPU clock scaling",
+      "sub": "chip speed adjusts",
+      "icon": "flame",
+      "cue": "npu"
+     }
+    ]
+   }
+  },
+  {
+   "id": "speed",
+   "start": 42.386,
+   "end": 57.958,
+   "sentences": [
+    {
+     "start": 42.386,
+     "end": 44.386,
+     "chunks": [
+      {
+       "start": 42.386,
+       "end": 44.386,
+       "words": [
+        {
+         "text": "Then",
+         "tail": ",",
+         "hl": false,
+         "start": 42.386,
+         "end": 42.866
+        },
+        {
+         "text": "two",
+         "tail": "",
+         "hl": false,
+         "start": 42.926,
+         "end": 43.106
+        },
+        {
+         "text": "tricks",
+         "tail": "",
+         "hl": false,
+         "start": 43.163,
+         "end": 43.506
+        },
+        {
+         "text": "make",
+         "tail": "",
+         "hl": false,
+         "start": 43.538,
+         "end": 43.666
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 43.693,
+         "end": 43.746
+        },
+        {
+         "text": "faster",
+         "tail": ".",
+         "hl": true,
+         "start": 43.826,
+         "end": 44.386
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 44.986,
+     "end": 49.204,
+     "chunks": [
+      {
+       "start": 44.986,
+       "end": 47.204,
+       "words": [
+        {
+         "text": "Prefix",
+         "tail": "",
+         "hl": false,
+         "cue": "prefix",
+         "start": 44.986,
+         "end": 45.284
+        },
+        {
+         "text": "caching",
+         "tail": "",
+         "hl": false,
+         "start": 45.334,
+         "end": 45.684
+        },
+        {
+         "text": "remembers",
+         "tail": "",
+         "hl": false,
+         "start": 45.732,
+         "end": 46.164
+        },
+        {
+         "text": "prompts",
+         "tail": "",
+         "hl": false,
+         "start": 46.214,
+         "end": 46.564
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 46.584,
+         "end": 46.644
+        },
+        {
+         "text": "repeat",
+         "tail": ",",
+         "hl": false,
+         "start": 46.713,
+         "end": 47.204
+        }
+       ]
+      },
+      {
+       "start": 47.25,
+       "end": 49.204,
+       "words": [
+        {
+         "text": "saving",
+         "tail": "",
+         "hl": false,
+         "start": 47.25,
+         "end": 47.524
+        },
+        {
+         "text": "up",
+         "tail": "",
+         "hl": false,
+         "start": 47.577,
+         "end": 47.684
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 47.711,
+         "end": 47.764
+        },
+        {
+         "text": "60",
+         "tail": "",
+         "hl": false,
+         "start": 47.924,
+         "end": 48.244
+        },
+        {
+         "text": "percent",
+         "tail": "",
+         "hl": false,
+         "start": 48.284,
+         "end": 48.564
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 48.617,
+         "end": 48.724
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 48.744,
+         "end": 48.804
+        },
+        {
+         "text": "work",
+         "tail": ".",
+         "hl": false,
+         "start": 48.868,
+         "end": 49.204
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 49.804,
+     "end": 55.229,
+     "chunks": [
+      {
+       "start": 49.804,
+       "end": 53.587,
+       "words": [
+        {
+         "text": "Speculative",
+         "tail": "",
+         "hl": false,
+         "cue": "spec",
+         "start": 49.804,
+         "end": 50.307
+        },
+        {
+         "text": "decoding",
+         "tail": "",
+         "hl": false,
+         "start": 50.36,
+         "end": 50.787
+        },
+        {
+         "text": "uses",
+         "tail": "",
+         "hl": false,
+         "start": 50.851,
+         "end": 51.107
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 51.187,
+         "end": 51.267
+        },
+        {
+         "text": "small",
+         "tail": ",",
+         "hl": false,
+         "start": 51.334,
+         "end": 51.747
+        },
+        {
+         "text": "fast",
+         "tail": "",
+         "hl": false,
+         "start": 51.827,
+         "end": 52.147
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 52.214,
+         "end": 52.547
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 52.654,
+         "end": 52.867
+        },
+        {
+         "text": "guess",
+         "tail": "",
+         "hl": false,
+         "start": 52.907,
+         "end": 53.107
+        },
+        {
+         "text": "ahead",
+         "tail": ",",
+         "hl": false,
+         "start": 53.16,
+         "end": 53.587
+        }
+       ]
+      },
+      {
+       "start": 53.607,
+       "end": 55.267,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 53.607,
+         "end": 53.667
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 53.707,
+         "end": 53.827
+        },
+        {
+         "text": "big",
+         "tail": "",
+         "hl": false,
+         "start": 53.867,
+         "end": 53.987
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 54.054,
+         "end": 54.387
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 54.451,
+         "end": 54.707
+        },
+        {
+         "text": "checks",
+         "tail": "",
+         "hl": false,
+         "start": 54.753,
+         "end": 55.027
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 55.08,
+         "end": 55.267
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 55.829,
+     "end": 56.958,
+     "chunks": [
+      {
+       "start": 55.829,
+       "end": 56.958,
+       "words": [
+        {
+         "text": "That",
+         "tail": "",
+         "hl": false,
+         "start": 55.829,
+         "end": 55.998
+        },
+        {
+         "text": "doubles",
+         "tail": "",
+         "hl": true,
+         "start": 56.038,
+         "end": 56.318
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 56.338,
+         "end": 56.398
+        },
+        {
+         "text": "speed",
+         "tail": ".",
+         "hl": false,
+         "start": 56.465,
+         "end": 56.958
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "SPEED TRICKS",
+    "left": {
+     "kicker": "PREFIX CACHING",
+     "title": "60% less work",
+     "items": [
+      "Remembers repeated prompts"
+     ],
+     "cue": "prefix"
+    },
+    "right": {
+     "kicker": "SPECULATIVE DECODING",
+     "title": "2x faster",
+     "items": [
+      "Small model guesses ahead",
+      "Big model checks"
+     ],
+     "cue": "spec"
+    }
+   }
+  },
+  {
+   "id": "result",
+   "start": 57.958,
+   "end": 68.133,
+   "sentences": [
+    {
+     "start": 57.958,
+     "end": 67.133,
+     "chunks": [
+      {
+       "start": 57.958,
+       "end": 58.678,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 57.958,
+         "end": 58.038
+        },
+        {
+         "text": "result",
+         "tail": ":",
+         "hl": false,
+         "start": 58.095,
+         "end": 58.678
+        }
+       ]
+      },
+      {
+       "start": 58.798,
+       "end": 61.078,
+       "words": [
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 58.798,
+         "end": 58.918
+        },
+        {
+         "text": "2-billion",
+         "tail": "",
+         "hl": false,
+         "start": 58.998,
+         "end": 59.398
+        },
+        {
+         "text": "parameter",
+         "tail": "",
+         "hl": false,
+         "start": 59.446,
+         "end": 59.878
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 59.945,
+         "end": 60.278
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 60.385,
+         "end": 60.598
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 60.614,
+         "end": 60.678
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": true,
+         "start": 60.745,
+         "end": 61.078
+        }
+       ]
+      },
+      {
+       "start": 61.178,
+       "end": 65.398,
+       "words": [
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 61.178,
+         "end": 61.478
+        },
+        {
+         "text": "compete",
+         "tail": "",
+         "hl": false,
+         "start": 61.538,
+         "end": 61.958
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 62.006,
+         "end": 62.198
+        },
+        {
+         "text": "older",
+         "tail": "",
+         "hl": false,
+         "start": 62.278,
+         "end": 62.678
+        },
+        {
+         "text": "27-billion",
+         "tail": "",
+         "hl": false,
+         "start": 62.918,
+         "end": 63.878
+        },
+        {
+         "text": "parameter",
+         "tail": "",
+         "hl": false,
+         "start": 63.934,
+         "end": 64.438
+        },
+        {
+         "text": "cloud",
+         "tail": "",
+         "hl": false,
+         "cue": "cloud",
+         "start": 64.491,
+         "end": 64.758
+        },
+        {
+         "text": "models",
+         "tail": ",",
+         "hl": false,
+         "start": 64.815,
+         "end": 65.398
+        }
+       ]
+      },
+      {
+       "start": 65.451,
+       "end": 67.158,
+       "words": [
+        {
+         "text": "at",
+         "tail": "",
+         "hl": false,
+         "start": 65.451,
+         "end": 65.558
+        },
+        {
+         "text": "reasoning",
+         "tail": "",
+         "hl": false,
+         "start": 65.614,
+         "end": 66.118
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 66.158,
+         "end": 66.278
+        },
+        {
+         "text": "using",
+         "tail": "",
+         "hl": false,
+         "start": 66.331,
+         "end": 66.598
+        },
+        {
+         "text": "tools",
+         "tail": ".",
+         "hl": false,
+         "start": 66.665,
+         "end": 67.158
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "THE RESULT",
+    "kicker": "THE RESULT",
+    "headline": "Small model. Big brain.",
+    "highlight": "Big",
+    "icon": "sparkle",
+    "sub": {
+     "text": "2B on phone rivals 27B cloud models",
+     "cue": "cloud"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 68.133,
+   "end": 78.683,
+   "sentences": [
+    {
+     "start": 68.133,
+     "end": 73.326,
+     "chunks": [
+      {
+       "start": 68.133,
+       "end": 68.846,
+       "words": [
+        {
+         "text": "In",
+         "tail": "",
+         "hl": false,
+         "start": 68.133,
+         "end": 68.206
+        },
+        {
+         "text": "Part",
+         "tail": "",
+         "hl": false,
+         "start": 68.254,
+         "end": 68.446
+        },
+        {
+         "text": "3",
+         "tail": ",",
+         "hl": false,
+         "start": 68.606,
+         "end": 68.846
+        }
+       ]
+      },
+      {
+       "start": 68.946,
+       "end": 70.526,
+       "words": [
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 68.946,
+         "end": 69.246
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 69.278,
+         "end": 69.406
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 69.446,
+         "end": 69.566
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 69.606,
+         "end": 69.726
+        },
+        {
+         "text": "build",
+         "tail": "",
+         "hl": false,
+         "cue": "build",
+         "start": 69.766,
+         "end": 69.966
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 69.998,
+         "end": 70.126
+        },
+        {
+         "text": "it",
+         "tail": ":",
+         "hl": false,
+         "start": 70.179,
+         "end": 70.526
+        }
+       ]
+      },
+      {
+       "start": 70.606,
+       "end": 73.326,
+       "words": [
+        {
+         "text": "voice",
+         "tail": ",",
+         "hl": false,
+         "start": 70.606,
+         "end": 71.246
+        },
+        {
+         "text": "translation",
+         "tail": ",",
+         "hl": false,
+         "start": 71.306,
+         "end": 72.206
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 72.226,
+         "end": 72.286
+        },
+        {
+         "text": "smart",
+         "tail": "",
+         "hl": false,
+         "start": 72.353,
+         "end": 72.686
+        },
+        {
+         "text": "search",
+         "tail": ".",
+         "hl": true,
+         "start": 72.755,
+         "end": 73.326
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 73.926,
+     "end": 75.383,
+     "chunks": [
+      {
+       "start": 73.926,
+       "end": 75.383,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 73.926,
+         "end": 74.263
+        },
+        {
+         "text": "so",
+         "tail": "",
+         "hl": false,
+         "start": 74.343,
+         "end": 74.503
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 74.543,
+         "end": 74.663
+        },
+        {
+         "text": "don't",
+         "tail": "",
+         "hl": false,
+         "start": 74.683,
+         "end": 74.823
+        },
+        {
+         "text": "miss",
+         "tail": "",
+         "hl": false,
+         "start": 74.871,
+         "end": 75.063
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 75.116,
+         "end": 75.383
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "NEXT: PART 3",
+    "headline": "Part 3 is next",
+    "highlight": "next",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow",
+    "sub": {
+     "text": "Voice, translation + smart search",
+     "cue": "build"
+    }
+   }
+  }
+ ]
+}

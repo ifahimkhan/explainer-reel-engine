@@ -1,0 +1,8 @@
+[  0.08] This is my current application UI.
+[  3.22] Let's see what stitch does with this and this is doing something.
+[  9.81] Generating screens.
+[ 12.21] We also have a map view and build inside that we have not displayed.
+[ 17.51] Because there we cannot make any customization.
+[ 22.42] The first screen must be the flash activity I am guessing and these soft
+[ 29.39] users that I can switch some navigator I can looks really cool.
+[ 36.21] See this design is ready just based on the two screenshots.

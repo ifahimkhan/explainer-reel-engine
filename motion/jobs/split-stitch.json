@@ -1,0 +1,75 @@
+{
+  "id": "split-stitch",
+  "video": "../public/ad13/ad13-c1.mp4",
+  "language": "en",
+  "model": "base.en",
+  "crop": { "x": 1330, "y": 150, "width": 468, "height": 334 },
+  "scenes": [
+    {
+      "id": "hook",
+      "visual": {
+        "type": "title",
+        "label": "THE APP",
+        "kicker": "GOOGLE STITCH",
+        "headline": "Old UI to AI redesign",
+        "highlight": "AI",
+        "icon": "wand",
+        "sub": { "text": "2 screenshots in", "cue": "sub" }
+      },
+      "sentences": [
+        { "caption": "This is my current *application* *UI*." },
+        { "caption": "Let's see what *Stitch*#sub does with this," }
+      ]
+    },
+    {
+      "id": "generate",
+      "visual": {
+        "type": "phones",
+        "label": "GENERATING",
+        "title": "STITCH IS DESIGNING",
+        "phones": [
+          { "title": "Splash", "cue": "gen" },
+          { "title": "Tracker", "cue": "screens" },
+          { "title": "Map view", "cue": "map", "locked": true }
+        ],
+        "note": { "text": "Map view: no customization", "cue": "note" }
+      },
+      "sentences": [
+        { "caption": "and this is doing#gen something." },
+        { "caption": "Generating *screens*.#screens" },
+        { "caption": "We also have a *map*#map *view* and build." },
+        { "caption": "Inside that, we have not displayed,#note | because there we cannot make any *customization*." }
+      ]
+    },
+    {
+      "id": "flow",
+      "visual": {
+        "type": "steps",
+        "label": "APP FLOW",
+        "title": "SCREEN FLOW",
+        "steps": [
+          { "label": "Splash activity", "sub": "first screen", "icon": "sparkle", "cue": "s1" },
+          { "label": "User switcher", "sub": "list of users", "icon": "user", "cue": "s2" },
+          { "label": "Navigator", "sub": "looks really cool", "icon": "layers", "cue": "s3" }
+        ]
+      },
+      "sentences": [
+        { "caption": "The first screen must be the *splash*#s1 activity." },
+        { "caption": "I am guessing these users#s2 | that I can switch," },
+        { "caption": "some *navigator*.#s3 | It looks really cool." }
+      ]
+    },
+    {
+      "id": "result",
+      "visual": {
+        "type": "compare",
+        "label": "RESULT",
+        "left": { "kicker": "INPUT", "title": "2 screenshots", "items": ["Old main screen", "Old tracker UI"], "cue": "before" },
+        "right": { "kicker": "OUTPUT", "title": "Full redesign", "items": ["Splash + tracker", "User switcher", "Navigation"], "cue": "after" }
+      },
+      "sentences": [
+        { "caption": "See,#before this design is *ready*,#after | just based on the *two* *screenshots*." }
+      ]
+    }
+  ]
+}

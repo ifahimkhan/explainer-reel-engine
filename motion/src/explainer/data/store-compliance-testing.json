@@ -1,0 +1,1467 @@
+{
+ "id": "store-compliance-testing",
+ "durationS": 58.149,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.27,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.603,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 0.779,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.163
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 0.21,
+         "end": 0.338
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 0.396,
+         "end": 0.465
+        },
+        {
+         "text": "ready",
+         "tail": ".",
+         "hl": true,
+         "start": 0.535,
+         "end": 0.779
+        }
+       ]
+      },
+      {
+       "start": 0.814,
+       "end": 1.777,
+       "words": [
+        {
+         "text": "Launch",
+         "tail": "",
+         "hl": false,
+         "start": 0.814,
+         "end": 1.08
+        },
+        {
+         "text": "day",
+         "tail": "",
+         "hl": false,
+         "start": 1.115,
+         "end": 1.22
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 1.243,
+         "end": 1.289
+        },
+        {
+         "text": "set",
+         "tail": ".",
+         "hl": false,
+         "start": 1.336,
+         "end": 1.777
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.203,
+     "end": 3.27,
+     "chunks": [
+      {
+       "start": 2.203,
+       "end": 3.526,
+       "words": [
+        {
+         "text": "Then",
+         "tail": "",
+         "hl": false,
+         "start": 2.203,
+         "end": 2.353
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 2.4,
+         "end": 2.469
+        },
+        {
+         "text": "store",
+         "tail": "",
+         "hl": false,
+         "start": 2.504,
+         "end": 2.748
+        },
+        {
+         "text": "rejects",
+         "tail": "",
+         "hl": true,
+         "cue": "rejects",
+         "start": 2.783,
+         "end": 3.131
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 3.177,
+         "end": 3.526
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "STORE COMPLIANCE",
+    "kicker": "APP STORE COMPLIANCE TESTING",
+    "headline": "Launch day. Rejected.",
+    "highlight": "Rejected",
+    "icon": "flame",
+    "sub": {
+     "text": "Your app works. The store still says no.",
+     "cue": "rejects"
+    }
+   }
+  },
+  {
+   "id": "what",
+   "start": 4.27,
+   "end": 15.112,
+   "sentences": [
+    {
+     "start": 4.27,
+     "end": 9.294,
+     "chunks": [
+      {
+       "start": 4.27,
+       "end": 5.767,
+       "words": [
+        {
+         "text": "App",
+         "tail": "",
+         "hl": true,
+         "start": 4.27,
+         "end": 4.491
+        },
+        {
+         "text": "Store",
+         "tail": "",
+         "hl": true,
+         "start": 4.549,
+         "end": 4.839
+        },
+        {
+         "text": "Compliance",
+         "tail": "",
+         "hl": true,
+         "start": 4.874,
+         "end": 5.361
+        },
+        {
+         "text": "Testing",
+         "tail": "",
+         "hl": true,
+         "start": 5.384,
+         "end": 5.767
+        }
+       ]
+      },
+      {
+       "start": 5.825,
+       "end": 8.24,
+       "words": [
+        {
+         "text": "means",
+         "tail": "",
+         "hl": false,
+         "start": 5.825,
+         "end": 6.069
+        },
+        {
+         "text": "checking",
+         "tail": "",
+         "hl": false,
+         "start": 6.127,
+         "end": 6.487
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 6.545,
+         "end": 6.708
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 6.789,
+         "end": 7.009
+        },
+        {
+         "text": "against",
+         "tail": "",
+         "hl": false,
+         "start": 7.068,
+         "end": 7.381
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 7.416,
+         "end": 7.486
+        },
+        {
+         "text": "store's",
+         "tail": "",
+         "hl": false,
+         "start": 7.532,
+         "end": 7.857
+        },
+        {
+         "text": "rules",
+         "tail": ",",
+         "hl": false,
+         "start": 7.915,
+         "end": 8.24
+        }
+       ]
+      },
+      {
+       "start": 8.275,
+       "end": 9.471,
+       "words": [
+        {
+         "text": "before",
+         "tail": "",
+         "hl": true,
+         "start": 8.275,
+         "end": 8.565
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 8.6,
+         "end": 8.681
+        },
+        {
+         "text": "submit",
+         "tail": "",
+         "hl": false,
+         "start": 8.739,
+         "end": 9.041
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 9.088,
+         "end": 9.471
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.894,
+     "end": 14.112,
+     "chunks": [
+      {
+       "start": 9.894,
+       "end": 12.13,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 9.894,
+         "end": 10.192
+        },
+        {
+         "text": "Apple's",
+         "tail": "",
+         "hl": false,
+         "cue": "apple",
+         "start": 10.25,
+         "end": 10.575
+        },
+        {
+         "text": "App",
+         "tail": "",
+         "hl": false,
+         "start": 10.645,
+         "end": 10.796
+        },
+        {
+         "text": "Store",
+         "tail": "",
+         "hl": false,
+         "start": 10.854,
+         "end": 11.167
+        },
+        {
+         "text": "Review",
+         "tail": "",
+         "hl": false,
+         "start": 11.201,
+         "end": 11.445
+        },
+        {
+         "text": "Guidelines",
+         "tail": ",",
+         "hl": false,
+         "start": 11.503,
+         "end": 12.13
+        }
+       ]
+      },
+      {
+       "start": 12.177,
+       "end": 14.301,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 12.177,
+         "end": 12.316
+        },
+        {
+         "text": "Google",
+         "tail": "",
+         "hl": false,
+         "cue": "google",
+         "start": 12.386,
+         "end": 12.699
+        },
+        {
+         "text": "Play's",
+         "tail": "",
+         "hl": false,
+         "start": 12.722,
+         "end": 12.978
+        },
+        {
+         "text": "Developer",
+         "tail": "",
+         "hl": false,
+         "start": 13.024,
+         "end": 13.431
+        },
+        {
+         "text": "Policies",
+         "tail": ".",
+         "hl": false,
+         "start": 13.489,
+         "end": 14.301
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "WHAT IT IS",
+    "left": {
+     "kicker": "APPLE",
+     "title": "Review Guidelines",
+     "items": [
+      "App Store",
+      "Checked before submit"
+     ],
+     "cue": "apple"
+    },
+    "right": {
+     "kicker": "GOOGLE",
+     "title": "Developer Policies",
+     "items": [
+      "Google Play",
+      "Checked before submit"
+     ],
+     "cue": "google"
+    }
+   }
+  },
+  {
+   "id": "checks",
+   "start": 15.112,
+   "end": 38.696,
+   "sentences": [
+    {
+     "start": 15.112,
+     "end": 21.007,
+     "chunks": [
+      {
+       "start": 15.112,
+       "end": 16.272,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 15.112,
+         "end": 15.529
+        },
+        {
+         "text": "privacy",
+         "tail": ".",
+         "hl": true,
+         "cue": "c1",
+         "start": 15.645,
+         "end": 16.272
+        }
+       ]
+      },
+      {
+       "start": 16.307,
+       "end": 19.186,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 16.307,
+         "end": 16.388
+        },
+        {
+         "text": "privacy",
+         "tail": "",
+         "hl": false,
+         "start": 16.458,
+         "end": 16.923
+        },
+        {
+         "text": "policy",
+         "tail": ",",
+         "hl": false,
+         "start": 16.992,
+         "end": 17.526
+        },
+        {
+         "text": "correct",
+         "tail": "",
+         "hl": false,
+         "start": 17.573,
+         "end": 17.909
+        },
+        {
+         "text": "data",
+         "tail": "",
+         "hl": false,
+         "start": 17.956,
+         "end": 18.223
+        },
+        {
+         "text": "safety",
+         "tail": "",
+         "hl": false,
+         "start": 18.293,
+         "end": 18.641
+        },
+        {
+         "text": "labels",
+         "tail": ",",
+         "hl": false,
+         "start": 18.722,
+         "end": 19.186
+        }
+       ]
+      },
+      {
+       "start": 19.233,
+       "end": 21.195,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 19.233,
+         "end": 19.442
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 19.5,
+         "end": 19.535
+        },
+        {
+         "text": "reason",
+         "tail": "",
+         "hl": false,
+         "start": 19.604,
+         "end": 19.906
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 19.964,
+         "end": 20.08
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "start": 20.15,
+         "end": 20.406
+        },
+        {
+         "text": "permission",
+         "tail": ".",
+         "hl": false,
+         "start": 20.475,
+         "end": 21.195
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 21.607,
+     "end": 25.478,
+     "chunks": [
+      {
+       "start": 21.607,
+       "end": 22.501,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 21.607,
+         "end": 21.967
+        },
+        {
+         "text": "payments",
+         "tail": ".",
+         "hl": true,
+         "cue": "c2",
+         "start": 22.013,
+         "end": 22.501
+        }
+       ]
+      },
+      {
+       "start": 22.582,
+       "end": 24.056,
+       "words": [
+        {
+         "text": "Digital",
+         "tail": "",
+         "hl": false,
+         "start": 22.582,
+         "end": 23.012
+        },
+        {
+         "text": "goods",
+         "tail": "",
+         "hl": false,
+         "start": 23.07,
+         "end": 23.267
+        },
+        {
+         "text": "usually",
+         "tail": "",
+         "hl": false,
+         "start": 23.313,
+         "end": 23.604
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 23.65,
+         "end": 23.801
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 23.836,
+         "end": 23.894
+        },
+        {
+         "text": "go",
+         "tail": "",
+         "hl": false,
+         "start": 23.964,
+         "end": 24.056
+        }
+       ]
+      },
+      {
+       "start": 24.103,
+       "end": 25.647,
+       "words": [
+        {
+         "text": "through",
+         "tail": "",
+         "hl": false,
+         "start": 24.103,
+         "end": 24.3
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 24.335,
+         "end": 24.405
+        },
+        {
+         "text": "store's",
+         "tail": "",
+         "hl": false,
+         "start": 24.44,
+         "end": 24.788
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": false,
+         "start": 24.869,
+         "end": 25.032
+        },
+        {
+         "text": "billing",
+         "tail": ".",
+         "hl": false,
+         "start": 25.09,
+         "end": 25.647
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 26.078,
+     "end": 31.501,
+     "chunks": [
+      {
+       "start": 26.078,
+       "end": 27.337,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 26.078,
+         "end": 26.42
+        },
+        {
+         "text": "account",
+         "tail": "",
+         "hl": false,
+         "start": 26.466,
+         "end": 26.803
+        },
+        {
+         "text": "deletion",
+         "tail": ".",
+         "hl": true,
+         "cue": "c3",
+         "start": 26.826,
+         "end": 27.337
+        }
+       ]
+      },
+      {
+       "start": 27.384,
+       "end": 29.172,
+       "words": [
+        {
+         "text": "If",
+         "tail": "",
+         "hl": false,
+         "start": 27.384,
+         "end": 27.569
+        },
+        {
+         "text": "users",
+         "tail": "",
+         "hl": false,
+         "start": 27.662,
+         "end": 28.092
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 28.15,
+         "end": 28.278
+        },
+        {
+         "text": "create",
+         "tail": "",
+         "hl": false,
+         "start": 28.336,
+         "end": 28.672
+        },
+        {
+         "text": "an",
+         "tail": "",
+         "hl": false,
+         "start": 28.696,
+         "end": 28.754
+        },
+        {
+         "text": "account",
+         "tail": ",",
+         "hl": false,
+         "start": 28.8,
+         "end": 29.172
+        }
+       ]
+      },
+      {
+       "start": 29.195,
+       "end": 31.691,
+       "words": [
+        {
+         "text": "they",
+         "tail": "",
+         "hl": false,
+         "start": 29.195,
+         "end": 29.334
+        },
+        {
+         "text": "must",
+         "tail": "",
+         "hl": false,
+         "start": 29.404,
+         "end": 29.601
+        },
+        {
+         "text": "be",
+         "tail": "",
+         "hl": false,
+         "start": 29.659,
+         "end": 29.741
+        },
+        {
+         "text": "able",
+         "tail": "",
+         "hl": false,
+         "start": 29.775,
+         "end": 29.961
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 29.996,
+         "end": 30.054
+        },
+        {
+         "text": "delete",
+         "tail": "",
+         "hl": false,
+         "start": 30.124,
+         "end": 30.46
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 30.484,
+         "end": 30.565
+        },
+        {
+         "text": "inside",
+         "tail": "",
+         "hl": false,
+         "start": 30.623,
+         "end": 31.018
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 31.052,
+         "end": 31.134
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": false,
+         "start": 31.215,
+         "end": 31.691
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 32.101,
+     "end": 37.696,
+     "chunks": [
+      {
+       "start": 32.101,
+       "end": 33.443,
+       "words": [
+        {
+         "text": "Fourth",
+         "tail": ":",
+         "hl": false,
+         "start": 32.101,
+         "end": 32.456
+        },
+        {
+         "text": "technical",
+         "tail": "",
+         "hl": true,
+         "cue": "c4",
+         "start": 32.514,
+         "end": 32.955
+        },
+        {
+         "text": "rules",
+         "tail": ".",
+         "hl": false,
+         "start": 33.002,
+         "end": 33.443
+        }
+       ]
+      },
+      {
+       "start": 33.559,
+       "end": 35.463,
+       "words": [
+        {
+         "text": "No",
+         "tail": "",
+         "hl": false,
+         "start": 33.559,
+         "end": 33.71
+        },
+        {
+         "text": "crashes",
+         "tail": ",",
+         "hl": false,
+         "start": 33.757,
+         "end": 34.267
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 34.337,
+         "end": 34.465
+        },
+        {
+         "text": "placeholder",
+         "tail": "",
+         "hl": false,
+         "start": 34.523,
+         "end": 34.999
+        },
+        {
+         "text": "screens",
+         "tail": ",",
+         "hl": false,
+         "start": 35.034,
+         "end": 35.463
+        }
+       ]
+      },
+      {
+       "start": 35.486,
+       "end": 37.901,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 35.486,
+         "end": 35.637
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 35.684,
+         "end": 35.754
+        },
+        {
+         "text": "required",
+         "tail": "",
+         "hl": false,
+         "start": 35.823,
+         "end": 36.299
+        },
+        {
+         "text": "target",
+         "tail": "",
+         "hl": false,
+         "start": 36.346,
+         "end": 36.81
+        },
+        {
+         "text": "API",
+         "tail": "",
+         "hl": false,
+         "start": 36.903,
+         "end": 37.321
+        },
+        {
+         "text": "level",
+         "tail": ".",
+         "hl": false,
+         "start": 37.379,
+         "end": 37.901
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "WHAT IT CHECKS",
+    "cards": [
+     {
+      "title": "Privacy",
+      "sub": "policy, labels, permissions",
+      "icon": "auth",
+      "cue": "c1"
+     },
+     {
+      "title": "Payments",
+      "sub": "store billing",
+      "icon": "dollar",
+      "cue": "c2"
+     },
+     {
+      "title": "Account deletion",
+      "sub": "inside the app",
+      "icon": "user",
+      "cue": "c3"
+     },
+     {
+      "title": "Technical rules",
+      "sub": "crashes, target API",
+      "icon": "code",
+      "cue": "c4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "risk",
+   "start": 38.696,
+   "end": 47.178,
+   "sentences": [
+    {
+     "start": 38.696,
+     "end": 41.593,
+     "chunks": [
+      {
+       "start": 38.696,
+       "end": 40.263,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 38.696,
+         "end": 38.963
+        },
+        {
+         "text": "rejection",
+         "tail": "",
+         "hl": true,
+         "cue": "rejection",
+         "start": 39.009,
+         "end": 39.427
+        },
+        {
+         "text": "costs",
+         "tail": "",
+         "hl": false,
+         "start": 39.485,
+         "end": 39.764
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 39.799,
+         "end": 39.88
+        },
+        {
+         "text": "days",
+         "tail": ",",
+         "hl": false,
+         "start": 39.95,
+         "end": 40.263
+        }
+       ]
+      },
+      {
+       "start": 40.286,
+       "end": 41.761,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 40.286,
+         "end": 40.379
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 40.414,
+         "end": 40.519
+        },
+        {
+         "text": "launch",
+         "tail": "",
+         "hl": false,
+         "start": 40.554,
+         "end": 40.786
+        },
+        {
+         "text": "date",
+         "tail": "",
+         "hl": false,
+         "start": 40.832,
+         "end": 41.076
+        },
+        {
+         "text": "slips",
+         "tail": ".",
+         "hl": true,
+         "cue": "slips",
+         "start": 41.099,
+         "end": 41.761
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 42.193,
+     "end": 46.178,
+     "chunks": [
+      {
+       "start": 42.193,
+       "end": 44.422,
+       "words": [
+        {
+         "text": "Repeated",
+         "tail": "",
+         "hl": false,
+         "start": 42.193,
+         "end": 42.657
+        },
+        {
+         "text": "violations",
+         "tail": "",
+         "hl": false,
+         "start": 42.704,
+         "end": 43.191
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 43.237,
+         "end": 43.4
+        },
+        {
+         "text": "get",
+         "tail": "",
+         "hl": false,
+         "start": 43.458,
+         "end": 43.586
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 43.644,
+         "end": 43.771
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 43.818,
+         "end": 43.934
+        },
+        {
+         "text": "removed",
+         "tail": ",",
+         "hl": true,
+         "cue": "removed",
+         "start": 44.004,
+         "end": 44.422
+        }
+       ]
+      },
+      {
+       "start": 44.445,
+       "end": 46.419,
+       "words": [
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 44.445,
+         "end": 44.526
+        },
+        {
+         "text": "even",
+         "tail": "",
+         "hl": false,
+         "start": 44.573,
+         "end": 44.724
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 44.77,
+         "end": 44.863
+        },
+        {
+         "text": "developer",
+         "tail": "",
+         "hl": false,
+         "start": 44.898,
+         "end": 45.304
+        },
+        {
+         "text": "account",
+         "tail": "",
+         "hl": false,
+         "start": 45.339,
+         "end": 45.606
+        },
+        {
+         "text": "suspended",
+         "tail": ".",
+         "hl": true,
+         "cue": "suspended",
+         "start": 45.641,
+         "end": 46.419
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "terminal",
+    "label": "WHY IT'S CRITICAL",
+    "title": "store review",
+    "command": "submit release 1.0.0",
+    "cue": "rejection",
+    "lines": [
+     {
+      "text": "Status: Rejected",
+      "tone": "bad"
+     },
+     {
+      "text": "Fix, resubmit, wait again...",
+      "tone": "dim"
+     },
+     {
+      "text": "Repeated violation: app removed",
+      "tone": "dim",
+      "flag": "removed"
+     },
+     {
+      "text": "Developer account suspended",
+      "tone": "dim",
+      "flag": "suspended"
+     }
+    ],
+    "badge": {
+     "text": "Launch date slips",
+     "cue": "slips"
+    }
+   }
+  },
+  {
+   "id": "rule",
+   "start": 47.178,
+   "end": 53.442,
+   "sentences": [
+    {
+     "start": 47.178,
+     "end": 48.978,
+     "chunks": [
+      {
+       "start": 47.178,
+       "end": 48.214,
+       "words": [
+        {
+         "text": "Treat",
+         "tail": "",
+         "hl": false,
+         "start": 47.178,
+         "end": 47.401
+        },
+        {
+         "text": "store",
+         "tail": "",
+         "hl": false,
+         "start": 47.447,
+         "end": 47.691
+        },
+        {
+         "text": "policies",
+         "tail": "",
+         "hl": false,
+         "start": 47.714,
+         "end": 48.214
+        }
+       ]
+      },
+      {
+       "start": 48.272,
+       "end": 49.154,
+       "words": [
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 48.272,
+         "end": 48.365
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 48.423,
+         "end": 48.446
+        },
+        {
+         "text": "test",
+         "tail": "",
+         "hl": true,
+         "cue": "suite",
+         "start": 48.492,
+         "end": 48.69
+        },
+        {
+         "text": "suite",
+         "tail": ".",
+         "hl": true,
+         "start": 48.713,
+         "end": 49.154
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 49.578,
+     "end": 52.442,
+     "chunks": [
+      {
+       "start": 49.578,
+       "end": 51.273,
+       "words": [
+        {
+         "text": "Run",
+         "tail": "",
+         "hl": false,
+         "start": 49.578,
+         "end": 49.752
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 49.799,
+         "end": 49.868
+        },
+        {
+         "text": "checklist",
+         "tail": "",
+         "hl": false,
+         "start": 49.915,
+         "end": 50.286
+        },
+        {
+         "text": "before",
+         "tail": "",
+         "hl": false,
+         "start": 50.333,
+         "end": 50.635
+        },
+        {
+         "text": "every",
+         "tail": "",
+         "hl": false,
+         "cue": "every",
+         "start": 50.67,
+         "end": 50.855
+        },
+        {
+         "text": "release",
+         "tail": ",",
+         "hl": true,
+         "start": 50.913,
+         "end": 51.273
+        }
+       ]
+      },
+      {
+       "start": 51.308,
+       "end": 52.597,
+       "words": [
+        {
+         "text": "not",
+         "tail": "",
+         "hl": false,
+         "start": 51.308,
+         "end": 51.471
+        },
+        {
+         "text": "only",
+         "tail": "",
+         "hl": false,
+         "start": 51.517,
+         "end": 51.668
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 51.726,
+         "end": 51.796
+        },
+        {
+         "text": "first",
+         "tail": "",
+         "hl": false,
+         "start": 51.842,
+         "end": 52.109
+        },
+        {
+         "text": "one",
+         "tail": ".",
+         "hl": false,
+         "start": 52.179,
+         "end": 52.597
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "steps",
+    "label": "THE RULE",
+    "title": "Ship without surprises",
+    "steps": [
+     {
+      "label": "Policies = test suite",
+      "sub": "check them like tests",
+      "icon": "check",
+      "cue": "suite"
+     },
+     {
+      "label": "Every release",
+      "sub": "not only the first",
+      "icon": "layers",
+      "cue": "every"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 53.442,
+   "end": 58.149,
+   "sentences": [
+    {
+     "start": 53.442,
+     "end": 54.849,
+     "chunks": [
+      {
+       "start": 53.442,
+       "end": 55.015,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 53.442,
+         "end": 53.727
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 53.796,
+         "end": 53.901
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 53.947,
+         "end": 54.121
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 54.156,
+         "end": 54.481
+        },
+        {
+         "text": "tips",
+         "tail": ".",
+         "hl": false,
+         "start": 54.516,
+         "end": 55.015
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "FOLLOW",
+    "headline": "More Android tips",
+    "highlight": "Android",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}

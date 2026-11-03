@@ -1,0 +1,1279 @@
+{
+ "id": "on-device-ai-part5",
+ "durationS": 54.682,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.449,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.0,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.0,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.08
+        },
+        {
+         "text": "strange",
+         "tail": "",
+         "hl": false,
+         "start": 0.12,
+         "end": 0.4
+        },
+        {
+         "text": "message",
+         "tail": "",
+         "hl": true,
+         "start": 0.46,
+         "end": 0.88
+        },
+        {
+         "text": "arrives",
+         "tail": "",
+         "hl": false,
+         "start": 0.92,
+         "end": 1.2
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 1.253,
+         "end": 1.36
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 1.392,
+         "end": 1.52
+        },
+        {
+         "text": "phone",
+         "tail": ".",
+         "hl": false,
+         "start": 1.573,
+         "end": 2.0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.6,
+     "end": 6.449,
+     "chunks": [
+      {
+       "start": 2.6,
+       "end": 3.459,
+       "words": [
+        {
+         "text": "Is",
+         "tail": "",
+         "hl": false,
+         "start": 2.6,
+         "end": 2.659
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 2.712,
+         "end": 2.819
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 2.939,
+         "end": 3.059
+        },
+        {
+         "text": "scam",
+         "tail": "?",
+         "hl": false,
+         "start": 3.107,
+         "end": 3.459
+        }
+       ]
+      },
+      {
+       "start": 3.491,
+       "end": 4.499,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 3.491,
+         "end": 3.619
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 3.672,
+         "end": 3.939
+        },
+        {
+         "text": "checks",
+         "tail": "",
+         "hl": false,
+         "start": 3.985,
+         "end": 4.259
+        },
+        {
+         "text": "it",
+         "tail": ",",
+         "hl": false,
+         "start": 4.312,
+         "end": 4.499
+        }
+       ]
+      },
+      {
+       "start": 4.549,
+       "end": 6.499,
+       "words": [
+        {
+         "text": "without",
+         "tail": "",
+         "hl": false,
+         "start": 4.549,
+         "end": 4.899
+        },
+        {
+         "text": "sending",
+         "tail": "",
+         "hl": false,
+         "start": 4.939,
+         "end": 5.219
+        },
+        {
+         "text": "anything",
+         "tail": "",
+         "hl": false,
+         "start": 5.281,
+         "end": 5.779
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 5.806,
+         "end": 5.859
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 5.879,
+         "end": 5.939
+        },
+        {
+         "text": "cloud",
+         "tail": ".",
+         "hl": false,
+         "cue": "cloud",
+         "start": 6.006,
+         "end": 6.499
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ON-DEVICE AI · PART 5",
+    "kicker": "ON-DEVICE AI · PART 5",
+    "headline": "A scam detector that stays offline",
+    "highlight": "offline",
+    "icon": "auth",
+    "sub": {
+     "text": "Nothing goes to the cloud",
+     "cue": "cloud"
+    }
+   }
+  },
+  {
+   "id": "pipeline",
+   "start": 7.449,
+   "end": 31.279,
+   "sentences": [
+    {
+     "start": 7.449,
+     "end": 9.36,
+     "chunks": [
+      {
+       "start": 7.449,
+       "end": 8.48,
+       "words": [
+        {
+         "text": "Here's",
+         "tail": "",
+         "hl": false,
+         "start": 7.449,
+         "end": 7.68
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 7.72,
+         "end": 7.84
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 7.893,
+         "end": 8.0
+        },
+        {
+         "text": "works",
+         "tail": ",",
+         "hl": false,
+         "start": 8.053,
+         "end": 8.48
+        }
+       ]
+      },
+      {
+       "start": 8.533,
+       "end": 9.36,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 8.533,
+         "end": 8.64
+        },
+        {
+         "text": "five",
+         "tail": "",
+         "hl": false,
+         "start": 8.688,
+         "end": 8.88
+        },
+        {
+         "text": "steps",
+         "tail": ".",
+         "hl": true,
+         "start": 8.947,
+         "end": 9.36
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.96,
+     "end": 13.4,
+     "chunks": [
+      {
+       "start": 9.96,
+       "end": 11.4,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 9.96,
+         "end": 10.36
+        },
+        {
+         "text": "intake",
+         "tail": ".",
+         "hl": false,
+         "cue": "s1",
+         "start": 10.486,
+         "end": 11.4
+        }
+       ]
+      },
+      {
+       "start": 11.44,
+       "end": 13.4,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 11.44,
+         "end": 11.56
+        },
+        {
+         "text": "message",
+         "tail": "",
+         "hl": false,
+         "start": 11.61,
+         "end": 11.96
+        },
+        {
+         "text": "or",
+         "tail": "",
+         "hl": false,
+         "start": 12.013,
+         "end": 12.12
+        },
+        {
+         "text": "voice",
+         "tail": "",
+         "hl": false,
+         "start": 12.187,
+         "end": 12.52
+        },
+        {
+         "text": "note",
+         "tail": "",
+         "hl": false,
+         "start": 12.568,
+         "end": 12.76
+        },
+        {
+         "text": "comes",
+         "tail": "",
+         "hl": false,
+         "start": 12.813,
+         "end": 13.08
+        },
+        {
+         "text": "in",
+         "tail": ".",
+         "hl": false,
+         "start": 13.133,
+         "end": 13.4
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 14.0,
+     "end": 17.36,
+     "chunks": [
+      {
+       "start": 14.0,
+       "end": 15.36,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 14.0,
+         "end": 14.56
+        },
+        {
+         "text": "triage",
+         "tail": ".",
+         "hl": false,
+         "cue": "s2",
+         "start": 14.62,
+         "end": 15.36
+        }
+       ]
+      },
+      {
+       "start": 15.42,
+       "end": 17.36,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 15.42,
+         "end": 15.6
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 15.707,
+         "end": 15.92
+        },
+        {
+         "text": "decides",
+         "tail": "",
+         "hl": false,
+         "start": 15.98,
+         "end": 16.4
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 16.427,
+         "end": 16.48
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 16.533,
+         "end": 16.64
+        },
+        {
+         "text": "looks",
+         "tail": "",
+         "hl": false,
+         "start": 16.68,
+         "end": 16.88
+        },
+        {
+         "text": "risky",
+         "tail": ".",
+         "hl": true,
+         "start": 16.947,
+         "end": 17.36
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.96,
+     "end": 21.425,
+     "chunks": [
+      {
+       "start": 17.96,
+       "end": 18.945,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 17.96,
+         "end": 18.305
+        },
+        {
+         "text": "retrieval",
+         "tail": ".",
+         "hl": false,
+         "cue": "s3",
+         "start": 18.361,
+         "end": 18.945
+        }
+       ]
+      },
+      {
+       "start": 19.025,
+       "end": 21.425,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 19.025,
+         "end": 19.185
+        },
+        {
+         "text": "compares",
+         "tail": "",
+         "hl": false,
+         "start": 19.238,
+         "end": 19.665
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 19.718,
+         "end": 19.825
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 19.857,
+         "end": 19.985
+        },
+        {
+         "text": "known",
+         "tail": "",
+         "hl": false,
+         "start": 20.052,
+         "end": 20.385
+        },
+        {
+         "text": "scam",
+         "tail": "",
+         "hl": false,
+         "start": 20.465,
+         "end": 20.785
+        },
+        {
+         "text": "patterns",
+         "tail": ".",
+         "hl": false,
+         "start": 20.847,
+         "end": 21.425
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 22.025,
+     "end": 26.562,
+     "chunks": [
+      {
+       "start": 22.025,
+       "end": 23.442,
+       "words": [
+        {
+         "text": "Fourth",
+         "tail": ":",
+         "hl": false,
+         "start": 22.025,
+         "end": 22.402
+        },
+        {
+         "text": "audit",
+         "tail": ".",
+         "hl": false,
+         "cue": "s4",
+         "start": 22.521,
+         "end": 23.442
+        }
+       ]
+      },
+      {
+       "start": 23.549,
+       "end": 25.201,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 23.549,
+         "end": 23.762
+        },
+        {
+         "text": "writes",
+         "tail": "",
+         "hl": false,
+         "start": 23.808,
+         "end": 24.082
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 24.122,
+         "end": 24.162
+        },
+        {
+         "text": "clear",
+         "tail": "",
+         "hl": false,
+         "start": 24.215,
+         "end": 24.482
+        },
+        {
+         "text": "report",
+         "tail": ":",
+         "hl": false,
+         "start": 24.538,
+         "end": 25.201
+        }
+       ]
+      },
+      {
+       "start": 25.25,
+       "end": 26.562,
+       "words": [
+        {
+         "text": "what's",
+         "tail": "",
+         "hl": false,
+         "start": 25.25,
+         "end": 25.602
+        },
+        {
+         "text": "wrong",
+         "tail": ",",
+         "hl": false,
+         "start": 25.628,
+         "end": 26.002
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 26.041,
+         "end": 26.162
+        },
+        {
+         "text": "why",
+         "tail": ".",
+         "hl": true,
+         "start": 26.242,
+         "end": 26.562
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 27.162,
+     "end": 30.279,
+     "chunks": [
+      {
+       "start": 27.162,
+       "end": 28.119,
+       "words": [
+        {
+         "text": "Fifth",
+         "tail": ":",
+         "hl": false,
+         "start": 27.162,
+         "end": 27.639
+        },
+        {
+         "text": "voice",
+         "tail": ".",
+         "hl": false,
+         "cue": "s5",
+         "start": 27.706,
+         "end": 28.119
+        }
+       ]
+      },
+      {
+       "start": 28.279,
+       "end": 30.279,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 28.279,
+         "end": 28.599
+        },
+        {
+         "text": "reads",
+         "tail": "",
+         "hl": false,
+         "start": 28.652,
+         "end": 28.919
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 28.959,
+         "end": 29.079
+        },
+        {
+         "text": "warning",
+         "tail": "",
+         "hl": false,
+         "start": 29.129,
+         "end": 29.479
+        },
+        {
+         "text": "out",
+         "tail": "",
+         "hl": false,
+         "start": 29.559,
+         "end": 29.799
+        },
+        {
+         "text": "loud",
+         "tail": ".",
+         "hl": false,
+         "start": 29.847,
+         "end": 30.279
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "journey",
+    "label": "THE PIPELINE",
+    "headline": "5 steps, all on the phone",
+    "highlight": "phone",
+    "stops": [
+     {
+      "name": "Intake",
+      "sub": "message in",
+      "icon": "chat",
+      "cue": "s1"
+     },
+     {
+      "name": "Triage",
+      "sub": "risky?",
+      "icon": "flame",
+      "cue": "s2",
+      "tone": "bad"
+     },
+     {
+      "name": "Retrieval",
+      "sub": "scam patterns",
+      "icon": "db",
+      "cue": "s3"
+     },
+     {
+      "name": "Audit",
+      "sub": "report",
+      "icon": "file",
+      "cue": "s4"
+     },
+     {
+      "name": "Voice",
+      "sub": "warning",
+      "icon": "mic",
+      "cue": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "benefits",
+   "start": 31.279,
+   "end": 48.517,
+   "sentences": [
+    {
+     "start": 31.279,
+     "end": 32.304,
+     "chunks": [
+      {
+       "start": 31.279,
+       "end": 32.304,
+       "words": [
+        {
+         "text": "Why",
+         "tail": "",
+         "hl": false,
+         "start": 31.279,
+         "end": 31.424
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 31.472,
+         "end": 31.664
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 31.696,
+         "end": 31.824
+        },
+        {
+         "text": "matter",
+         "tail": "?",
+         "hl": true,
+         "start": 31.87,
+         "end": 32.304
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 32.904,
+     "end": 36.732,
+     "chunks": [
+      {
+       "start": 32.904,
+       "end": 33.772,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 32.904,
+         "end": 32.972
+        },
+        {
+         "text": "costs",
+         "tail": "",
+         "hl": false,
+         "cue": "b1",
+         "start": 33.025,
+         "end": 33.292
+        },
+        {
+         "text": "less",
+         "tail": ":",
+         "hl": false,
+         "start": 33.356,
+         "end": 33.772
+        }
+       ]
+      },
+      {
+       "start": 33.825,
+       "end": 35.612,
+       "words": [
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 33.825,
+         "end": 33.932
+        },
+        {
+         "text": "servers",
+         "tail": ",",
+         "hl": false,
+         "start": 34.012,
+         "end": 34.652
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 34.679,
+         "end": 34.732
+        },
+        {
+         "text": "internet",
+         "tail": "",
+         "hl": false,
+         "start": 34.776,
+         "end": 35.132
+        },
+        {
+         "text": "bills",
+         "tail": ",",
+         "hl": false,
+         "start": 35.199,
+         "end": 35.612
+        }
+       ]
+      },
+      {
+       "start": 35.665,
+       "end": 36.732,
+       "words": [
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 35.665,
+         "end": 35.772
+        },
+        {
+         "text": "API",
+         "tail": "",
+         "hl": false,
+         "start": 35.872,
+         "end": 36.172
+        },
+        {
+         "text": "fees",
+         "tail": ".",
+         "hl": false,
+         "start": 36.252,
+         "end": 36.732
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 37.332,
+     "end": 41.865,
+     "chunks": [
+      {
+       "start": 37.332,
+       "end": 38.105,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 37.332,
+         "end": 37.465
+        },
+        {
+         "text": "private",
+         "tail": ":",
+         "hl": false,
+         "cue": "b2",
+         "start": 37.515,
+         "end": 38.105
+        }
+       ]
+      },
+      {
+       "start": 38.158,
+       "end": 40.345,
+       "words": [
+        {
+         "text": "receipts",
+         "tail": ",",
+         "hl": false,
+         "start": 38.158,
+         "end": 38.665
+        },
+        {
+         "text": "messages",
+         "tail": ",",
+         "hl": false,
+         "start": 38.736,
+         "end": 39.385
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 39.405,
+         "end": 39.465
+        },
+        {
+         "text": "ID",
+         "tail": "",
+         "hl": false,
+         "start": 39.572,
+         "end": 39.785
+        },
+        {
+         "text": "documents",
+         "tail": "",
+         "hl": false,
+         "start": 39.841,
+         "end": 40.345
+        }
+       ]
+      },
+      {
+       "start": 40.425,
+       "end": 41.865,
+       "words": [
+        {
+         "text": "stay",
+         "tail": "",
+         "hl": false,
+         "start": 40.425,
+         "end": 40.745
+        },
+        {
+         "text": "safe",
+         "tail": "",
+         "hl": false,
+         "start": 40.825,
+         "end": 41.145
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 41.225,
+         "end": 41.385
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 41.401,
+         "end": 41.465
+        },
+        {
+         "text": "phone",
+         "tail": ".",
+         "hl": false,
+         "start": 41.518,
+         "end": 41.865
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 42.465,
+     "end": 44.842,
+     "chunks": [
+      {
+       "start": 42.465,
+       "end": 43.322,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 42.465,
+         "end": 42.602
+        },
+        {
+         "text": "instant",
+         "tail": ":",
+         "hl": false,
+         "cue": "b3",
+         "start": 42.662,
+         "end": 43.322
+        }
+       ]
+      },
+      {
+       "start": 43.382,
+       "end": 44.842,
+       "words": [
+        {
+         "text": "answers",
+         "tail": "",
+         "hl": false,
+         "start": 43.382,
+         "end": 43.802
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 43.855,
+         "end": 43.962
+        },
+        {
+         "text": "under",
+         "tail": "",
+         "hl": false,
+         "start": 44.015,
+         "end": 44.282
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 44.322,
+         "end": 44.362
+        },
+        {
+         "text": "second",
+         "tail": ".",
+         "hl": true,
+         "start": 44.419,
+         "end": 44.842
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 45.442,
+     "end": 47.517,
+     "chunks": [
+      {
+       "start": 45.442,
+       "end": 46.397,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 45.442,
+         "end": 45.517
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 45.544,
+         "end": 45.597
+        },
+        {
+         "text": "works",
+         "tail": "",
+         "hl": false,
+         "start": 45.65,
+         "end": 45.917
+        },
+        {
+         "text": "anywhere",
+         "tail": ",",
+         "hl": false,
+         "cue": "b4",
+         "start": 45.961,
+         "end": 46.397
+        }
+       ]
+      },
+      {
+       "start": 46.445,
+       "end": 47.517,
+       "words": [
+        {
+         "text": "even",
+         "tail": "",
+         "hl": false,
+         "start": 46.445,
+         "end": 46.637
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 46.669,
+         "end": 46.797
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 46.85,
+         "end": 46.957
+        },
+        {
+         "text": "signal",
+         "tail": ".",
+         "hl": true,
+         "start": 47.014,
+         "end": 47.517
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "cards",
+    "label": "WHY IT MATTERS",
+    "cards": [
+     {
+      "title": "Costs less",
+      "sub": "no servers, no API fees",
+      "icon": "dollar",
+      "cue": "b1"
+     },
+     {
+      "title": "Private",
+      "sub": "docs stay on the phone",
+      "icon": "lock",
+      "cue": "b2"
+     },
+     {
+      "title": "Instant",
+      "sub": "under a second",
+      "icon": "flame",
+      "cue": "b3"
+     },
+     {
+      "title": "Works anywhere",
+      "sub": "even with no signal",
+      "icon": "wifi",
+      "cue": "b4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "start": 48.517,
+   "end": 54.682,
+   "sentences": [
+    {
+     "start": 48.517,
+     "end": 49.365,
+     "chunks": [
+      {
+       "start": 48.517,
+       "end": 49.397,
+       "words": [
+        {
+         "text": "That's",
+         "tail": "",
+         "hl": false,
+         "start": 48.517,
+         "end": 48.757
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 48.777,
+         "end": 48.837
+        },
+        {
+         "text": "series",
+         "tail": ".",
+         "hl": true,
+         "cue": "series",
+         "start": 48.894,
+         "end": 49.397
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 49.965,
+     "end": 51.382,
+     "chunks": [
+      {
+       "start": 49.965,
+       "end": 51.394,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 49.965,
+         "end": 50.194
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 50.234,
+         "end": 50.354
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 50.402,
+         "end": 50.594
+        },
+        {
+         "text": "Android",
+         "tail": "",
+         "hl": false,
+         "start": 50.644,
+         "end": 50.994
+        },
+        {
+         "text": "AI",
+         "tail": ".",
+         "hl": false,
+         "start": 51.074,
+         "end": 51.394
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "SERIES COMPLETE",
+    "headline": "Series complete",
+    "highlight": "complete",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow",
+    "sub": {
+     "text": "Missed a part? Watch Parts 1 to 4",
+     "cue": "series"
+    }
+   }
+  }
+ ]
+}

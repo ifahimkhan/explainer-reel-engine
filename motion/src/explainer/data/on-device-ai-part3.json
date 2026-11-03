@@ -1,0 +1,1347 @@
+{
+ "id": "on-device-ai-part3",
+ "durationS": 58.289,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 7.69,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 3.67,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 2.188,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.108
+        },
+        {
+         "text": "phone",
+         "tail": "",
+         "hl": false,
+         "start": 0.148,
+         "end": 0.348
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 0.408,
+         "end": 0.588
+        },
+        {
+         "text": "now",
+         "tail": "",
+         "hl": false,
+         "start": 0.648,
+         "end": 0.828
+        },
+        {
+         "text": "listen",
+         "tail": ",",
+         "hl": true,
+         "start": 0.897,
+         "end": 1.548
+        },
+        {
+         "text": "speak",
+         "tail": ",",
+         "hl": false,
+         "start": 1.628,
+         "end": 2.188
+        }
+       ]
+      },
+      {
+       "start": 2.244,
+       "end": 3.788,
+       "words": [
+        {
+         "text": "translate",
+         "tail": ",",
+         "hl": false,
+         "start": 2.244,
+         "end": 2.908
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 2.948,
+         "end": 3.068
+        },
+        {
+         "text": "search",
+         "tail": ".",
+         "hl": false,
+         "start": 3.137,
+         "end": 3.788
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 4.27,
+     "end": 6.69,
+     "chunks": [
+      {
+       "start": 4.27,
+       "end": 5.55,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 4.27,
+         "end": 4.35
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 4.403,
+         "end": 4.51
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 4.59,
+         "end": 4.91
+        },
+        {
+         "text": "all",
+         "tail": "",
+         "hl": false,
+         "start": 4.97,
+         "end": 5.15
+        },
+        {
+         "text": "of",
+         "tail": "",
+         "hl": false,
+         "start": 5.203,
+         "end": 5.31
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 5.39,
+         "end": 5.55
+        }
+       ]
+      },
+      {
+       "start": 5.61,
+       "end": 6.75,
+       "words": [
+        {
+         "text": "without",
+         "tail": "",
+         "hl": false,
+         "start": 5.61,
+         "end": 6.03
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 6.05,
+         "end": 6.11
+        },
+        {
+         "text": "internet",
+         "tail": ".",
+         "hl": false,
+         "cue": "internet",
+         "start": 6.163,
+         "end": 6.75
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "title",
+    "label": "ON-DEVICE AI · PART 3",
+    "kicker": "ON-DEVICE AI · PART 3",
+    "headline": "Your phone can hear and speak",
+    "highlight": "speak",
+    "icon": "mic",
+    "sub": {
+     "text": "No internet needed",
+     "cue": "internet"
+    }
+   }
+  },
+  {
+   "id": "listen",
+   "start": 7.69,
+   "end": 14.932,
+   "sentences": [
+    {
+     "start": 7.69,
+     "end": 9.385,
+     "chunks": [
+      {
+       "start": 7.69,
+       "end": 9.463,
+       "words": [
+        {
+         "text": "First",
+         "tail": ":",
+         "hl": false,
+         "start": 7.69,
+         "end": 8.343
+        },
+        {
+         "text": "speech",
+         "tail": "",
+         "hl": false,
+         "start": 8.389,
+         "end": 8.663
+        },
+        {
+         "text": "recognition",
+         "tail": ".",
+         "hl": true,
+         "start": 8.71,
+         "end": 9.463
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.985,
+     "end": 13.932,
+     "chunks": [
+      {
+       "start": 9.985,
+       "end": 11.852,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 9.985,
+         "end": 10.092
+        },
+        {
+         "text": "turns",
+         "tail": "",
+         "hl": false,
+         "start": 10.145,
+         "end": 10.412
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 10.444,
+         "end": 10.572
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 10.612,
+         "end": 10.732
+        },
+        {
+         "text": "say",
+         "tail": "",
+         "hl": false,
+         "start": 10.792,
+         "end": 10.972
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 11.004,
+         "end": 11.132
+        },
+        {
+         "text": "text",
+         "tail": ",",
+         "hl": false,
+         "cue": "text",
+         "start": 11.244,
+         "end": 11.852
+        }
+       ]
+      },
+      {
+       "start": 11.892,
+       "end": 12.732,
+       "words": [
+        {
+         "text": "right",
+         "tail": "",
+         "hl": false,
+         "start": 11.892,
+         "end": 12.092
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 12.119,
+         "end": 12.172
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 12.212,
+         "end": 12.332
+        },
+        {
+         "text": "phone",
+         "tail": ",",
+         "hl": false,
+         "start": 12.385,
+         "end": 12.732
+        }
+       ]
+      },
+      {
+       "start": 12.764,
+       "end": 13.932,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 12.764,
+         "end": 12.892
+        },
+        {
+         "text": "almost",
+         "tail": "",
+         "hl": false,
+         "start": 12.938,
+         "end": 13.212
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 13.292,
+         "end": 13.452
+        },
+        {
+         "text": "delay",
+         "tail": ".",
+         "hl": false,
+         "cue": "delay",
+         "start": 13.505,
+         "end": 13.932
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "FEATURE 1",
+    "number": 1,
+    "title": "It listens",
+    "highlight": "listens",
+    "icon": "mic",
+    "points": [
+     {
+      "text": "Speech to text on the phone",
+      "cue": "text"
+     },
+     {
+      "text": "Almost no delay",
+      "cue": "delay"
+     }
+    ]
+   }
+  },
+  {
+   "id": "translate",
+   "start": 14.932,
+   "end": 22.629,
+   "sentences": [
+    {
+     "start": 14.932,
+     "end": 16.692,
+     "chunks": [
+      {
+       "start": 14.932,
+       "end": 16.692,
+       "words": [
+        {
+         "text": "Second",
+         "tail": ":",
+         "hl": false,
+         "start": 14.932,
+         "end": 15.612
+        },
+        {
+         "text": "speech",
+         "tail": "",
+         "hl": false,
+         "start": 15.652,
+         "end": 15.892
+        },
+        {
+         "text": "translation",
+         "tail": ".",
+         "hl": true,
+         "start": 15.952,
+         "end": 16.692
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 17.292,
+     "end": 21.629,
+     "chunks": [
+      {
+       "start": 17.292,
+       "end": 18.829,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 17.292,
+         "end": 17.309
+        },
+        {
+         "text": "translates",
+         "tail": "",
+         "hl": false,
+         "start": 17.367,
+         "end": 17.949
+        },
+        {
+         "text": "spoken",
+         "tail": "",
+         "hl": false,
+         "start": 18.018,
+         "end": 18.429
+        },
+        {
+         "text": "words",
+         "tail": "",
+         "hl": false,
+         "start": 18.496,
+         "end": 18.829
+        }
+       ]
+      },
+      {
+       "start": 18.861,
+       "end": 20.629,
+       "words": [
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 18.861,
+         "end": 18.989
+        },
+        {
+         "text": "over",
+         "tail": "",
+         "hl": false,
+         "start": 19.053,
+         "end": 19.309
+        },
+        {
+         "text": "20",
+         "tail": "",
+         "hl": false,
+         "cue": "lang",
+         "start": 19.389,
+         "end": 19.709
+        },
+        {
+         "text": "languages",
+         "tail": ",",
+         "hl": false,
+         "start": 19.773,
+         "end": 20.629
+        }
+       ]
+      },
+      {
+       "start": 20.66,
+       "end": 21.629,
+       "words": [
+        {
+         "text": "straight",
+         "tail": "",
+         "hl": false,
+         "start": 20.66,
+         "end": 20.909
+        },
+        {
+         "text": "from",
+         "tail": "",
+         "hl": false,
+         "start": 20.941,
+         "end": 21.069
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 21.109,
+         "end": 21.229
+        },
+        {
+         "text": "audio",
+         "tail": ".",
+         "hl": false,
+         "cue": "audio",
+         "start": 21.282,
+         "end": 21.629
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "reason",
+    "label": "FEATURE 2",
+    "number": 2,
+    "title": "It translates",
+    "highlight": "translates",
+    "icon": "chat",
+    "points": [
+     {
+      "text": "Over 20 languages",
+      "cue": "lang"
+     },
+     {
+      "text": "Straight from the audio",
+      "cue": "audio"
+     }
+    ]
+   }
+  },
+  {
+   "id": "speak",
+   "start": 22.629,
+   "end": 33.42,
+   "sentences": [
+    {
+     "start": 22.629,
+     "end": 24.277,
+     "chunks": [
+      {
+       "start": 22.629,
+       "end": 24.277,
+       "words": [
+        {
+         "text": "Third",
+         "tail": ":",
+         "hl": false,
+         "start": 22.629,
+         "end": 22.917
+        },
+        {
+         "text": "text",
+         "tail": "",
+         "hl": false,
+         "start": 23.045,
+         "end": 23.557
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 23.61,
+         "end": 23.717
+        },
+        {
+         "text": "speech",
+         "tail": ".",
+         "hl": true,
+         "start": 23.786,
+         "end": 24.277
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.877,
+     "end": 29.34,
+     "chunks": [
+      {
+       "start": 24.877,
+       "end": 27.34,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 24.877,
+         "end": 24.94
+        },
+        {
+         "text": "speaks",
+         "tail": "",
+         "hl": false,
+         "start": 24.986,
+         "end": 25.26
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 25.313,
+         "end": 25.42
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 25.46,
+         "end": 25.5
+        },
+        {
+         "text": "natural",
+         "tail": ",",
+         "hl": false,
+         "start": 25.56,
+         "end": 26.06
+        },
+        {
+         "text": "human-like",
+         "tail": "",
+         "hl": false,
+         "start": 26.113,
+         "end": 26.7
+        },
+        {
+         "text": "voice",
+         "tail": ",",
+         "hl": false,
+         "start": 26.767,
+         "end": 27.34
+        }
+       ]
+      },
+      {
+       "start": 27.367,
+       "end": 29.34,
+       "words": [
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 27.367,
+         "end": 27.42
+        },
+        {
+         "text": "under",
+         "tail": "",
+         "hl": false,
+         "start": 27.473,
+         "end": 27.74
+        },
+        {
+         "text": "120",
+         "tail": "",
+         "hl": false,
+         "cue": "ms",
+         "start": 27.82,
+         "end": 28.54
+        },
+        {
+         "text": "milliseconds",
+         "tail": ".",
+         "hl": false,
+         "start": 28.595,
+         "end": 29.34
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 29.94,
+     "end": 32.42,
+     "chunks": [
+      {
+       "start": 29.94,
+       "end": 31.3,
+       "words": [
+        {
+         "text": "Great",
+         "tail": "",
+         "hl": false,
+         "start": 29.94,
+         "end": 30.18
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 30.22,
+         "end": 30.34
+        },
+        {
+         "text": "hands-free",
+         "tail": "",
+         "hl": false,
+         "start": 30.393,
+         "end": 30.9
+        },
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 31.0,
+         "end": 31.3
+        }
+       ]
+      },
+      {
+       "start": 31.36,
+       "end": 32.42,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 31.36,
+         "end": 31.54
+        },
+        {
+         "text": "accessibility",
+         "tail": ".",
+         "hl": true,
+         "start": 31.597,
+         "end": 32.42
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "stat",
+    "label": "FEATURE 3",
+    "kicker": "TEXT TO SPEECH IN UNDER",
+    "value": 120,
+    "from": 0,
+    "suffix": "ms",
+    "caption": "Natural, human-like voice",
+    "icon": "mic",
+    "cue": "ms"
+   }
+  },
+  {
+   "id": "search",
+   "start": 33.42,
+   "end": 49.359,
+   "sentences": [
+    {
+     "start": 33.42,
+     "end": 35.008,
+     "chunks": [
+      {
+       "start": 33.42,
+       "end": 35.008,
+       "words": [
+        {
+         "text": "Fourth",
+         "tail": ":",
+         "hl": false,
+         "start": 33.42,
+         "end": 34.088
+        },
+        {
+         "text": "smart",
+         "tail": "",
+         "hl": false,
+         "start": 34.148,
+         "end": 34.448
+        },
+        {
+         "text": "search",
+         "tail": ".",
+         "hl": true,
+         "start": 34.505,
+         "end": 35.008
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.608,
+     "end": 39.891,
+     "chunks": [
+      {
+       "start": 35.608,
+       "end": 37.325,
+       "words": [
+        {
+         "text": "Photos",
+         "tail": ",",
+         "hl": false,
+         "start": 35.608,
+         "end": 36.125
+        },
+        {
+         "text": "text",
+         "tail": ",",
+         "hl": false,
+         "start": 36.205,
+         "end": 36.605
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 36.645,
+         "end": 36.765
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 36.825,
+         "end": 37.005
+        },
+        {
+         "text": "data",
+         "tail": "",
+         "hl": false,
+         "start": 37.069,
+         "end": 37.325
+        }
+       ]
+      },
+      {
+       "start": 37.405,
+       "end": 38.605,
+       "words": [
+        {
+         "text": "are",
+         "tail": "",
+         "hl": false,
+         "start": 37.405,
+         "end": 37.645
+        },
+        {
+         "text": "turned",
+         "tail": "",
+         "hl": false,
+         "start": 37.678,
+         "end": 37.885
+        },
+        {
+         "text": "into",
+         "tail": "",
+         "hl": false,
+         "start": 37.933,
+         "end": 38.125
+        },
+        {
+         "text": "numbers",
+         "tail": "",
+         "hl": false,
+         "start": 38.184,
+         "end": 38.605
+        }
+       ]
+      },
+      {
+       "start": 38.653,
+       "end": 40.044,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 38.653,
+         "end": 38.845
+        },
+        {
+         "text": "capture",
+         "tail": "",
+         "hl": false,
+         "start": 38.895,
+         "end": 39.245
+        },
+        {
+         "text": "their",
+         "tail": "",
+         "hl": false,
+         "start": 39.272,
+         "end": 39.405
+        },
+        {
+         "text": "meaning",
+         "tail": ".",
+         "hl": false,
+         "start": 39.445,
+         "end": 40.044
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 40.491,
+     "end": 42.896,
+     "chunks": [
+      {
+       "start": 40.491,
+       "end": 41.976,
+       "words": [
+        {
+         "text": "So",
+         "tail": "",
+         "hl": false,
+         "start": 40.491,
+         "end": 40.576
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 40.603,
+         "end": 40.656
+        },
+        {
+         "text": "doesn't",
+         "tail": "",
+         "hl": false,
+         "start": 40.683,
+         "end": 40.896
+        },
+        {
+         "text": "just",
+         "tail": "",
+         "hl": false,
+         "start": 40.944,
+         "end": 41.136
+        },
+        {
+         "text": "match",
+         "tail": "",
+         "hl": false,
+         "start": 41.189,
+         "end": 41.456
+        },
+        {
+         "text": "keywords",
+         "tail": ".",
+         "hl": false,
+         "cue": "kw",
+         "start": 41.509,
+         "end": 41.976
+        }
+       ]
+      },
+      {
+       "start": 41.989,
+       "end": 42.896,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 41.989,
+         "end": 42.016
+        },
+        {
+         "text": "matches",
+         "tail": "",
+         "hl": false,
+         "start": 42.066,
+         "end": 42.416
+        },
+        {
+         "text": "meaning",
+         "tail": ".",
+         "hl": true,
+         "cue": "mean",
+         "start": 42.466,
+         "end": 42.896
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 43.496,
+     "end": 48.359,
+     "chunks": [
+      {
+       "start": 43.496,
+       "end": 45.496,
+       "words": [
+        {
+         "text": "Search",
+         "tail": "",
+         "hl": false,
+         "start": 43.496,
+         "end": 43.816
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 43.876,
+         "end": 44.056
+        },
+        {
+         "text": "beach",
+         "tail": "",
+         "hl": false,
+         "start": 44.123,
+         "end": 44.456
+        },
+        {
+         "text": "trip",
+         "tail": "",
+         "hl": false,
+         "start": 44.52,
+         "end": 44.776
+        },
+        {
+         "text": "receipts",
+         "tail": ",",
+         "hl": false,
+         "start": 44.829,
+         "end": 45.496
+        }
+       ]
+      },
+      {
+       "start": 45.516,
+       "end": 46.536,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 45.516,
+         "end": 45.576
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 45.629,
+         "end": 45.736
+        },
+        {
+         "text": "finds",
+         "tail": "",
+         "hl": false,
+         "start": 45.803,
+         "end": 46.136
+        },
+        {
+         "text": "them",
+         "tail": ",",
+         "hl": false,
+         "start": 46.184,
+         "end": 46.536
+        }
+       ]
+      },
+      {
+       "start": 46.584,
+       "end": 48.456,
+       "words": [
+        {
+         "text": "even",
+         "tail": "",
+         "hl": false,
+         "start": 46.584,
+         "end": 46.776
+        },
+        {
+         "text": "if",
+         "tail": "",
+         "hl": false,
+         "start": 46.829,
+         "end": 46.936
+        },
+        {
+         "text": "those",
+         "tail": "",
+         "hl": false,
+         "start": 46.976,
+         "end": 47.176
+        },
+        {
+         "text": "words",
+         "tail": "",
+         "hl": false,
+         "start": 47.243,
+         "end": 47.576
+        },
+        {
+         "text": "never",
+         "tail": "",
+         "hl": false,
+         "start": 47.629,
+         "end": 47.896
+        },
+        {
+         "text": "appear",
+         "tail": ".",
+         "hl": true,
+         "start": 47.942,
+         "end": 48.456
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "compare",
+    "label": "FEATURE 4",
+    "left": {
+     "kicker": "KEYWORD SEARCH",
+     "title": "Matches words",
+     "items": [
+      "\"beach trip receipts\"",
+      "Finds nothing"
+     ],
+     "cue": "kw"
+    },
+    "right": {
+     "kicker": "SMART SEARCH",
+     "title": "Matches meaning",
+     "items": [
+      "Photos, text, app data",
+      "Finds the receipts"
+     ],
+     "cue": "mean"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 49.359,
+   "end": 58.289,
+   "sentences": [
+    {
+     "start": 49.359,
+     "end": 52.933,
+     "chunks": [
+      {
+       "start": 49.359,
+       "end": 50.133,
+       "words": [
+        {
+         "text": "In",
+         "tail": "",
+         "hl": false,
+         "start": 49.359,
+         "end": 49.413
+        },
+        {
+         "text": "Part",
+         "tail": "",
+         "hl": false,
+         "start": 49.477,
+         "end": 49.733
+        },
+        {
+         "text": "4",
+         "tail": ",",
+         "hl": false,
+         "start": 49.813,
+         "end": 50.133
+        }
+       ]
+      },
+      {
+       "start": 50.213,
+       "end": 52.133,
+       "words": [
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 50.213,
+         "end": 50.453
+        },
+        {
+         "text": "how",
+         "tail": "",
+         "hl": false,
+         "start": 50.513,
+         "end": 50.693
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 50.746,
+         "end": 50.853
+        },
+        {
+         "text": "make",
+         "tail": "",
+         "hl": false,
+         "start": 50.885,
+         "end": 51.013
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 51.053,
+         "end": 51.173
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "start": 51.28,
+         "end": 51.493
+        },
+        {
+         "text": "think",
+         "tail": ",",
+         "hl": false,
+         "cue": "think",
+         "start": 51.573,
+         "end": 52.133
+        }
+       ]
+      },
+      {
+       "start": 52.173,
+       "end": 52.933,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 52.173,
+         "end": 52.293
+        },
+        {
+         "text": "use",
+         "tail": "",
+         "hl": false,
+         "start": 52.353,
+         "end": 52.533
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 52.565,
+         "end": 52.693
+        },
+        {
+         "text": "app",
+         "tail": ".",
+         "hl": true,
+         "start": 52.733,
+         "end": 52.933
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 53.533,
+     "end": 54.989,
+     "chunks": [
+      {
+       "start": 53.533,
+       "end": 54.989,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 53.533,
+         "end": 53.869
+        },
+        {
+         "text": "so",
+         "tail": "",
+         "hl": false,
+         "start": 53.949,
+         "end": 54.109
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 54.149,
+         "end": 54.269
+        },
+        {
+         "text": "don't",
+         "tail": "",
+         "hl": false,
+         "start": 54.289,
+         "end": 54.429
+        },
+        {
+         "text": "miss",
+         "tail": "",
+         "hl": false,
+         "start": 54.477,
+         "end": 54.669
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 54.722,
+         "end": 54.989
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "NEXT: PART 4",
+    "headline": "Part 4 is next",
+    "highlight": "next",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL ANDROID DEV TIPS",
+    "cue": "follow",
+    "sub": {
+     "text": "Make the AI think + use your app",
+     "cue": "think"
+    }
+   }
+  }
+ ]
+}

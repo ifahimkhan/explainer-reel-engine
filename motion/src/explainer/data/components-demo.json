@@ -1,0 +1,923 @@
+{
+ "id": "components-demo",
+ "durationS": 36.885,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 6.199,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 2.78,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 3.013,
+       "words": [
+        {
+         "text": "How",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.213
+        },
+        {
+         "text": "often",
+         "tail": "",
+         "hl": false,
+         "start": 0.213,
+         "end": 0.588
+        },
+        {
+         "text": "does",
+         "tail": "",
+         "hl": false,
+         "start": 0.588,
+         "end": 0.813
+        },
+        {
+         "text": "garbage",
+         "tail": "",
+         "hl": false,
+         "start": 0.813,
+         "end": 1.263
+        },
+        {
+         "text": "collection",
+         "tail": "",
+         "hl": false,
+         "start": 1.263,
+         "end": 1.875
+        },
+        {
+         "text": "run",
+         "tail": "",
+         "hl": false,
+         "start": 1.875,
+         "end": 2.15
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 2.15,
+         "end": 2.225
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 2.225,
+         "end": 2.4
+        },
+        {
+         "text": "app",
+         "tail": "?",
+         "hl": false,
+         "start": 2.4,
+         "end": 3.013
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 3.38,
+     "end": 5.199,
+     "chunks": [
+      {
+       "start": 3.388,
+       "end": 5.513,
+       "words": [
+        {
+         "text": "Most",
+         "tail": "",
+         "hl": false,
+         "start": 3.388,
+         "end": 3.638
+        },
+        {
+         "text": "developers",
+         "tail": "",
+         "hl": false,
+         "start": 3.638,
+         "end": 4.213
+        },
+        {
+         "text": "have",
+         "tail": "",
+         "hl": false,
+         "start": 4.213,
+         "end": 4.463
+        },
+        {
+         "text": "no",
+         "tail": "",
+         "hl": false,
+         "start": 4.463,
+         "end": 4.701
+        },
+        {
+         "text": "idea",
+         "tail": ".",
+         "hl": false,
+         "cue": "idea",
+         "start": 4.701,
+         "end": 5.513
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "punch",
+    "label": "PUNCH HOOK",
+    "word": "GC",
+    "headline": "How often does it run in your app?",
+    "highlight": "run",
+    "kicker": "ANDROID MEMORY",
+    "icon": "flame",
+    "sub": {
+     "text": "Most devs have no idea",
+     "cue": "idea"
+    }
+   }
+  },
+  {
+   "id": "chart",
+   "start": 6.199,
+   "end": 20.053,
+   "sentences": [
+    {
+     "start": 6.199,
+     "end": 9.232,
+     "chunks": [
+      {
+       "start": 6.199,
+       "end": 9.466,
+       "words": [
+        {
+         "text": "Heap",
+         "tail": "",
+         "hl": false,
+         "start": 6.199,
+         "end": 6.366
+        },
+        {
+         "text": "memory",
+         "tail": "",
+         "hl": false,
+         "start": 6.366,
+         "end": 6.753
+        },
+        {
+         "text": "climbs",
+         "tail": "",
+         "hl": false,
+         "cue": "s",
+         "start": 6.753,
+         "end": 7.428
+        },
+        {
+         "text": "as",
+         "tail": "",
+         "hl": false,
+         "start": 7.428,
+         "end": 7.553
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 7.553,
+         "end": 7.728
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 7.728,
+         "end": 8.003
+        },
+        {
+         "text": "allocates",
+         "tail": "",
+         "hl": false,
+         "start": 8.003,
+         "end": 8.578
+        },
+        {
+         "text": "objects",
+         "tail": ".",
+         "hl": false,
+         "start": 8.578,
+         "end": 9.466
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 9.832,
+     "end": 12.098,
+     "chunks": [
+      {
+       "start": 9.832,
+       "end": 12.425,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 9.832,
+         "end": 10.15
+        },
+        {
+         "text": "sharp",
+         "tail": "",
+         "hl": false,
+         "start": 10.15,
+         "end": 10.5
+        },
+        {
+         "text": "drop",
+         "tail": "",
+         "hl": false,
+         "cue": "drop",
+         "start": 10.5,
+         "end": 10.925
+        },
+        {
+         "text": "is",
+         "tail": "",
+         "hl": false,
+         "start": 10.925,
+         "end": 11.037
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 11.037,
+         "end": 11.125
+        },
+        {
+         "text": "garbage",
+         "tail": "",
+         "hl": false,
+         "start": 11.125,
+         "end": 11.525
+        },
+        {
+         "text": "collection",
+         "tail": ".",
+         "hl": false,
+         "start": 11.525,
+         "end": 12.425
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 12.698,
+     "end": 16.215,
+     "chunks": [
+      {
+       "start": 12.698,
+       "end": 14.789,
+       "words": [
+        {
+         "text": "And",
+         "tail": "",
+         "hl": false,
+         "start": 12.698,
+         "end": 12.802
+        },
+        {
+         "text": "when",
+         "tail": "",
+         "hl": false,
+         "start": 12.802,
+         "end": 12.927
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 12.927,
+         "end": 13.014
+        },
+        {
+         "text": "spikes",
+         "tail": "",
+         "hl": false,
+         "cue": "zoom",
+         "start": 13.014,
+         "end": 13.414
+        },
+        {
+         "text": "past",
+         "tail": "",
+         "hl": false,
+         "start": 13.414,
+         "end": 13.727
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 13.727,
+         "end": 13.814
+        },
+        {
+         "text": "warning",
+         "tail": "",
+         "hl": false,
+         "start": 13.814,
+         "end": 14.189
+        },
+        {
+         "text": "line",
+         "tail": ",",
+         "hl": false,
+         "start": 14.189,
+         "end": 14.789
+        }
+       ]
+      },
+      {
+       "start": 14.914,
+       "end": 16.589,
+       "words": [
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 14.914,
+         "end": 15.039
+        },
+        {
+         "text": "are",
+         "tail": "",
+         "hl": false,
+         "start": 15.039,
+         "end": 15.177
+        },
+        {
+         "text": "close",
+         "tail": "",
+         "hl": false,
+         "start": 15.177,
+         "end": 15.564
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 15.564,
+         "end": 15.689
+        },
+        {
+         "text": "running",
+         "tail": "",
+         "hl": false,
+         "start": 15.689,
+         "end": 15.989
+        },
+        {
+         "text": "out",
+         "tail": ".",
+         "hl": false,
+         "start": 15.989,
+         "end": 16.589
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 16.815,
+     "end": 19.053,
+     "chunks": [
+      {
+       "start": 16.828,
+       "end": 19.428,
+       "words": [
+        {
+         "text": "Now",
+         "tail": "",
+         "hl": false,
+         "start": 16.828,
+         "end": 17.066
+        },
+        {
+         "text": "zoom",
+         "tail": "",
+         "hl": false,
+         "start": 17.066,
+         "end": 17.378
+        },
+        {
+         "text": "back",
+         "tail": "",
+         "hl": false,
+         "cue": "back",
+         "start": 17.378,
+         "end": 17.653
+        },
+        {
+         "text": "out",
+         "tail": "",
+         "hl": false,
+         "start": 17.653,
+         "end": 17.928
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 17.928,
+         "end": 18.053
+        },
+        {
+         "text": "see",
+         "tail": "",
+         "hl": false,
+         "start": 18.053,
+         "end": 18.241
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 18.241,
+         "end": 18.328
+        },
+        {
+         "text": "whole",
+         "tail": "",
+         "hl": false,
+         "start": 18.328,
+         "end": 18.591
+        },
+        {
+         "text": "pattern",
+         "tail": ".",
+         "hl": false,
+         "cue": "e",
+         "start": 18.591,
+         "end": 19.428
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "chart",
+    "label": "LIVE CHART",
+    "title": "Heap used · live",
+    "points": [
+     40,
+     52,
+     64,
+     76,
+     88,
+     46,
+     58,
+     70,
+     82,
+     94,
+     50,
+     62,
+     74,
+     86,
+     98,
+     54,
+     66,
+     78,
+     90,
+     160,
+     60
+    ],
+    "yMax": 192,
+    "unit": "MB",
+    "dropMin": 25,
+    "start": "s",
+    "end": "e",
+    "limit": {
+     "value": 150,
+     "label": "75% · warning"
+    },
+    "note": {
+     "text": "Every drop is a GC",
+     "cue": "drop"
+    },
+    "camera": [
+     {
+      "cue": "zoom",
+      "zoom": 1.6,
+      "x": 820,
+      "y": 560
+     },
+     {
+      "cue": "back",
+      "zoom": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "seq",
+   "start": 20.053,
+   "end": 36.885,
+   "sentences": [
+    {
+     "start": 20.053,
+     "end": 24.045,
+     "chunks": [
+      {
+       "start": 20.053,
+       "end": 21.844,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 20.053,
+         "end": 20.207
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "cue": "m1",
+         "start": 20.207,
+         "end": 20.457
+        },
+        {
+         "text": "asks",
+         "tail": "",
+         "hl": false,
+         "start": 20.457,
+         "end": 20.782
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 20.782,
+         "end": 20.894
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 20.894,
+         "end": 21.119
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 21.119,
+         "end": 21.257
+        },
+        {
+         "text": "pay",
+         "tail": ".",
+         "hl": false,
+         "start": 21.257,
+         "end": 21.844
+        }
+       ]
+      },
+      {
+       "start": 21.994,
+       "end": 24.369,
+       "words": [
+        {
+         "text": "Your",
+         "tail": "",
+         "hl": false,
+         "start": 21.994,
+         "end": 22.144
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 22.144,
+         "end": 22.457
+        },
+        {
+         "text": "routes",
+         "tail": "",
+         "hl": false,
+         "cue": "m2",
+         "start": 22.457,
+         "end": 22.744
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 22.744,
+         "end": 22.869
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 22.869,
+         "end": 23.032
+        },
+        {
+         "text": "NPCI",
+         "tail": ".",
+         "hl": false,
+         "start": 23.032,
+         "end": 24.369
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 24.645,
+     "end": 32.584,
+     "chunks": [
+      {
+       "start": 24.645,
+       "end": 27.335,
+       "words": [
+        {
+         "text": "NPCI",
+         "tail": "",
+         "hl": false,
+         "start": 24.645,
+         "end": 25.497
+        },
+        {
+         "text": "asks",
+         "tail": "",
+         "hl": false,
+         "cue": "m3",
+         "start": 25.497,
+         "end": 25.847
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 25.847,
+         "end": 25.985
+        },
+        {
+         "text": "other",
+         "tail": "",
+         "hl": false,
+         "start": 25.985,
+         "end": 26.235
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 26.235,
+         "end": 26.46
+        },
+        {
+         "text": "to",
+         "tail": "",
+         "hl": false,
+         "start": 26.46,
+         "end": 26.585
+        },
+        {
+         "text": "credit",
+         "tail": ".",
+         "hl": false,
+         "start": 26.585,
+         "end": 27.335
+        }
+       ]
+      },
+      {
+       "start": 27.46,
+       "end": 31.035,
+       "words": [
+        {
+         "text": "The",
+         "tail": "",
+         "hl": false,
+         "start": 27.46,
+         "end": 27.56
+        },
+        {
+         "text": "bank",
+         "tail": "",
+         "hl": false,
+         "start": 27.56,
+         "end": 27.835
+        },
+        {
+         "text": "confirms",
+         "tail": ",",
+         "hl": false,
+         "cue": "m4",
+         "start": 27.835,
+         "end": 28.81
+        },
+        {
+         "text": "NPCI",
+         "tail": "",
+         "hl": false,
+         "start": 28.935,
+         "end": 29.835
+        },
+        {
+         "text": "reports",
+         "tail": "",
+         "hl": false,
+         "cue": "m5",
+         "start": 29.835,
+         "end": 30.285
+        },
+        {
+         "text": "success",
+         "tail": ",",
+         "hl": false,
+         "start": 30.285,
+         "end": 31.035
+        }
+       ]
+      },
+      {
+       "start": 31.11,
+       "end": 32.86,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 31.11,
+         "end": 31.222
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 31.222,
+         "end": 31.397
+        },
+        {
+         "text": "app",
+         "tail": "",
+         "hl": false,
+         "start": 31.397,
+         "end": 31.672
+        },
+        {
+         "text": "shows",
+         "tail": "",
+         "hl": false,
+         "cue": "m6",
+         "start": 31.672,
+         "end": 32.072
+        },
+        {
+         "text": "paid",
+         "tail": ".",
+         "hl": false,
+         "start": 32.072,
+         "end": 32.86
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 33.184,
+     "end": 34.385,
+     "chunks": [
+      {
+       "start": 33.198,
+       "end": 34.598,
+       "words": [
+        {
+         "text": "All",
+         "tail": "",
+         "hl": false,
+         "start": 33.198,
+         "end": 33.435
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 33.435,
+         "end": 33.51
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 33.51,
+         "end": 33.573
+        },
+        {
+         "text": "few",
+         "tail": "",
+         "hl": false,
+         "cue": "secs",
+         "start": 33.573,
+         "end": 33.81
+        },
+        {
+         "text": "seconds",
+         "tail": ".",
+         "hl": false,
+         "start": 33.81,
+         "end": 34.598
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "sequence",
+    "label": "SEQUENCE",
+    "title": "UPI payment",
+    "lanes": [
+     {
+      "name": "App",
+      "icon": "phone"
+     },
+     {
+      "name": "Your bank",
+      "icon": "db"
+     },
+     {
+      "name": "NPCI",
+      "icon": "share"
+     },
+     {
+      "name": "Rahul's bank",
+      "icon": "db"
+     }
+    ],
+    "messages": [
+     {
+      "from": 0,
+      "to": 1,
+      "text": "pay ₹500",
+      "cue": "m1"
+     },
+     {
+      "from": 1,
+      "to": 2,
+      "text": "debit + route",
+      "cue": "m2"
+     },
+     {
+      "from": 2,
+      "to": 3,
+      "text": "credit ₹500",
+      "cue": "m3"
+     },
+     {
+      "from": 3,
+      "to": 2,
+      "text": "credited",
+      "cue": "m4",
+      "tone": "good"
+     },
+     {
+      "from": 2,
+      "to": 1,
+      "text": "success",
+      "cue": "m5",
+      "tone": "good"
+     },
+     {
+      "from": 1,
+      "to": 0,
+      "text": "Paid ₹500",
+      "cue": "m6",
+      "tone": "good"
+     }
+    ],
+    "note": {
+     "text": "All in a few seconds",
+     "cue": "secs"
+    }
+   }
+  }
+ ]
+}
