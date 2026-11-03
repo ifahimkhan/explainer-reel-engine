@@ -70,4 +70,4 @@ documented in `.claude/skills/reel-from-script/SKILL.md`.
 
 ## License
 
-Personal project; add a license before accepting contributions.
+[MIT](./LICENSE) © 2026 Fahim Khan. Bundled third-party media in `motion/public/` (e.g. reference clips) may carry their own rights.
