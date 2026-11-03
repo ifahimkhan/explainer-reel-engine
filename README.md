@@ -13,6 +13,11 @@ Made entirely with this repo (script -> voice -> captions -> render). Click to w
 
 [![Example reel made with Explainer Reel Engine](https://img.youtube.com/vi/CMvXPMiRqso/hqdefault.jpg)](https://www.youtube.com/shorts/CMvXPMiRqso)
 
+### How a reel is edited with the engine
+
+Behind-the-scenes: watch how a reel gets built and edited with this repo.
+
+[![Edited with Explainer Reel Engine](https://img.youtube.com/vi/p7kpvb0XDtQ/hqdefault.jpg)](https://www.youtube.com/shorts/p7kpvb0XDtQ)
 
 ## Repo layout
 
