@@ -1,4 +1,4 @@
-# Fahim Khan Reels
+# Explainer Reel Engine
 
 Short-form vertical (1080x1920, 30 fps) motion-graphics reels built with [Remotion](https://www.remotion.dev/),
 narrated by TTS (ElevenLabs voice clone or free offline Kokoro), with word-timed captions (faster-whisper).
