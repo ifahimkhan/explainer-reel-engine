@@ -9,15 +9,19 @@ encode the full workflow.
 
 ## Example output
 
-Made entirely with this repo (script -> voice -> captions -> render). Click to watch on YouTube:
+Made entirely with this repo (script -> voice -> captions -> render). Plays right here:
 
-[![Example reel made with Explainer Reel Engine](https://img.youtube.com/vi/CMvXPMiRqso/hqdefault.jpg)](https://www.youtube.com/shorts/CMvXPMiRqso)
+<video src="https://github.com/ifahimkhan/explainer-reel-engine/raw/main/docs/company-ai-layers.mp4" controls muted playsinline width="320"></video>
+
+[Watch on YouTube](https://www.youtube.com/shorts/CMvXPMiRqso)
 
 ### How a reel is edited with the engine
 
-Behind-the-scenes: watch how a reel gets built and edited with this repo.
+A recorded video turned into a motion-graphics short with the same pipeline:
 
-[![Edited with Explainer Reel Engine](https://img.youtube.com/vi/p7kpvb0XDtQ/hqdefault.jpg)](https://www.youtube.com/shorts/p7kpvb0XDtQ)
+<video src="https://github.com/ifahimkhan/explainer-reel-engine/raw/main/docs/AndroidDevelopment13_short03_motion.mp4" controls muted playsinline width="320"></video>
+
+[Watch on YouTube](https://www.youtube.com/shorts/p7kpvb0XDtQ)
 
 ## Repo layout
 
