@@ -7,6 +7,13 @@ encode the full workflow.
 
 > New here? Follow **[requirements.md](./requirements.md)** first (Node, Python venv, FFmpeg, ElevenLabs key).
 
+## Example output
+
+Made entirely with this repo (script -> voice -> captions -> render). Click to watch on YouTube:
+
+[![Example reel made with Explainer Reel Engine](https://img.youtube.com/vi/CMvXPMiRqso/hqdefault.jpg)](https://www.youtube.com/shorts/CMvXPMiRqso)
+
+
 ## Repo layout
 
 ```
