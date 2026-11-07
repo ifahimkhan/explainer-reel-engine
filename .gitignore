@@ -28,3 +28,5 @@ motion/public/ad13/
 # Local OmniVoice engine: venv and voice reference clips (own voice, not committed)
 motion/.venv-omnivoice/
 motion/voices/*.wav
+# ...except reference clips a job actually uses (refAudio)
+!motion/voices/fahim-v3-ref.wav
