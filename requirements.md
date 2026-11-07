@@ -53,6 +53,12 @@ Gotchas:
 | ElevenLabs cloned voice | ElevenLabs dashboard | `CLAUDE.md` / skills reference voice id `ruZOzaKd6ljzH7J9ejYE` which belongs to the repo owner's account. Anyone else must create their own clone (`motion/tts/clone_voice.py`) and replace the id in job files + skills, or use Kokoro (jobs without `"engine"`). |
 | GitHub CLI (optional) | `gh auth login` | only for pushing |
 
+## 4b. Optional: OmniVoice local voice cloning
+
+Free, offline cloning from a 10-15 s reference clip (CPU, ~1-2 min per sentence). Needs its own venv at
+`motion/.venv-omnivoice` and a ~3.3 GB model download on first use. Setup and job fields:
+[motion/tts/OMNIVOICE.md](motion/tts/OMNIVOICE.md). Skip it if you use Kokoro or ElevenLabs.
+
 ## 5. Folders that are intentionally empty in git
 
 - `output/` - finished `.mp4` reels land here (git-ignored, `.gitkeep` only).
