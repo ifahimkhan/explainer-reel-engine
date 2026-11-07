@@ -273,6 +273,29 @@ export const FollowVisual = z.object({
   url: z.object({ text: z.string().min(1), cue: z.string() }).optional(),
 });
 
+/**
+ * Paid app -> free GitHub alternative. The paid row strikes through on `repo.cue` while the repo card
+ * (name, owner/repo, license, ticking star count) slides up; feature chips pop on their cues and a
+ * FREE stamp slams on `stamp.cue`. `step`/`total` drive a progress tracker for list reels.
+ */
+export const SwapVisual = z.object({
+  type: z.literal("swap"),
+  label,
+  step: z.number().int().min(1).max(12),
+  total: z.number().int().min(1).max(12),
+  paid: z.object({ name: z.string().min(1).max(16), icon }),
+  repo: z.object({
+    name: z.string().min(1).max(16),
+    path: z.string().min(1).max(32),
+    license: z.string().min(1).max(14),
+    stars: z.number().int().nonnegative(),
+    icon,
+    cue: z.string(),
+  }),
+  features: z.array(z.object({ text: z.string().min(1).max(20), cue: z.string() })).min(1).max(3),
+  stamp: z.object({ text: z.string().min(1).max(8).default("FREE"), cue: z.string() }),
+});
+
 /** Hook: one huge word slams in (flash + screen shake), then shrinks up while the headline rises. */
 export const PunchVisual = z.object({
   type: z.literal("punch"),
@@ -393,6 +416,7 @@ export const Visual = z.discriminatedUnion("type", [
   DiffVisual,
   QuizVisual,
   PhoneAppVisual,
+  SwapVisual,
   PunchVisual,
   ChartVisual,
   SequenceVisual,
@@ -419,6 +443,7 @@ export const Visual = z.discriminatedUnion("type", [
 ]);
 
 export type PairVisualT = z.infer<typeof PairVisual>;
+export type SwapVisualT = z.infer<typeof SwapVisual>;
 export type TerminalVisualT = z.infer<typeof TerminalVisual>;
 export type EditorVisualT = z.infer<typeof EditorVisual>;
 export type TabsVisualT = z.infer<typeof TabsVisual>;

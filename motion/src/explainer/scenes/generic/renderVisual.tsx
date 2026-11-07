@@ -27,6 +27,7 @@ import { DiffScene } from "./DiffScene";
 import { PhoneAppScene } from "./PhoneAppScene";
 import { QuizScene } from "./QuizScene";
 import { SequenceScene } from "./SequenceScene";
+import { SwapScene } from "./SwapScene";
 import { parseVisual } from "./visuals";
 
 /** Renders a scene from its job-declared `visual`. Throws on a missing or invalid visual. */
@@ -87,6 +88,8 @@ export const renderVisual = (scene: SceneTiming): React.ReactNode => {
       return <QuizScene scene={scene} visual={visual} />;
     case "phoneapp":
       return <PhoneAppScene scene={scene} visual={visual} />;
+    case "swap":
+      return <SwapScene scene={scene} visual={visual} />;
   }
 };
 

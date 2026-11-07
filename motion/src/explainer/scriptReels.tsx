@@ -37,6 +37,7 @@ import componentsDemo2Timeline from "./data/components-demo2.json";
 import upiLayersTimeline from "./data/upi-layers.json";
 import tradingAgentsTimeline from "./data/trading-agents.json";
 import stockCheckReminderTimeline from "./data/stock-check-reminder.json";
+import freeGithubSwapsTimeline from "./data/free-github-swaps.json";
 import type { MusicConfig } from "./components/BackgroundMusic";
 import type { Timeline } from "./timeline";
 
@@ -120,5 +121,7 @@ export const SCRIPT_REELS: readonly ScriptReel[] = [scriptReel("ApkToCompose", a
   scriptReel("UpiLayers", upiLayersTimeline as Timeline),
   scriptReel("TradingAgents", tradingAgentsTimeline as Timeline),
   scriptReel("StockCheckReminder", stockCheckReminderTimeline as unknown as Timeline, { src: "music/tech-pulse-part2-74s.mp3", duck: 0.155, open: 0.34 }),
+  // OmniVoice (local) narration from a v3 reference clip; word timings are estimated.
+  scriptReel("FreeGithubSwaps", freeGithubSwapsTimeline as Timeline),
 ];
 

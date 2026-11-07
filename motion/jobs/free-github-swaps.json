@@ -1,0 +1,627 @@
+{
+ "id": "free-github-swaps",
+ "engine": "omnivoice",
+ "refAudio": "voices/fahim-v3-ref.wav",
+ "omnivoice": {
+  "seed": 7
+ },
+ "sentenceGap": 0.25,
+ "sceneGap": 0.5,
+ "tail": 2.0,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": {
+    "type": "punch",
+    "label": "PAID → FREE",
+    "word": "FREE",
+    "headline": "Stop paying for these 9 apps",
+    "highlight": "9",
+    "kicker": "OPEN SOURCE SWAPS",
+    "icon": "github",
+    "sub": {
+     "text": "Every one is on GitHub",
+     "cue": "github"
+    }
+   },
+   "sentences": [
+    {
+     "caption": "Stop paying for these *nine* apps."
+    },
+    {
+     "caption": "Every one has a *free* version on GitHub.#github"
+    }
+   ]
+  },
+  {
+   "id": "bruno",
+   "visual": {
+    "type": "swap",
+    "label": "1/9 · API CLIENT",
+    "step": 1,
+    "total": 9,
+    "transition": "slide",
+    "paid": {
+     "name": "Postman",
+     "icon": "send"
+    },
+    "repo": {
+     "name": "Bruno",
+     "path": "usebruno/bruno",
+     "license": "MIT",
+     "stars": 48256,
+     "icon": "code",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "API testing",
+      "cue": "api"
+     },
+     {
+      "text": "Collections in Git",
+      "cue": "git"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "git"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "git",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Postman?#paid *Bruno.*#repo"
+    },
+    {
+     "caption": "Test your APIs,#api | and your collections live right in Git.#git",
+     "say": "Test your A P Is, and your collections live right in Git."
+    }
+   ]
+  },
+  {
+   "id": "supabase",
+   "visual": {
+    "type": "swap",
+    "label": "2/9 · BACKEND",
+    "step": 2,
+    "total": 9,
+    "transition": "whip",
+    "paid": {
+     "name": "Firebase",
+     "icon": "flame"
+    },
+    "repo": {
+     "name": "Supabase",
+     "path": "supabase/supabase",
+     "license": "Apache-2.0",
+     "stars": 114621,
+     "icon": "db",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Postgres",
+      "cue": "pg"
+     },
+     {
+      "text": "Auth + storage",
+      "cue": "auth"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "auth"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "auth",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Firebase?#paid *Supabase.*#repo"
+    },
+    {
+     "caption": "A full Postgres#pg backend, | with auth#auth and storage built in."
+    }
+   ]
+  },
+  {
+   "id": "coolify",
+   "visual": {
+    "type": "swap",
+    "label": "3/9 · HOSTING",
+    "step": 3,
+    "total": 9,
+    "transition": "zoom",
+    "paid": {
+     "name": "Vercel",
+     "icon": "cloud"
+    },
+    "repo": {
+     "name": "Coolify",
+     "path": "coollabsio/coolify",
+     "license": "Apache-2.0",
+     "stars": 65737,
+     "icon": "cloud",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Deploy apps",
+      "cue": "deploy"
+     },
+     {
+      "text": "Your own server",
+      "cue": "server"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "server"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "server",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Vercel?#paid *Coolify.*#repo"
+    },
+    {
+     "caption": "Deploy#deploy your apps | on your *own server.*#server"
+    }
+   ]
+  },
+  {
+   "id": "guess",
+   "visual": {
+    "type": "quiz",
+    "label": "QUICK GUESS",
+    "question": "What replaces Zapier for free?",
+    "highlight": "Zapier",
+    "options": [
+     "Make",
+     "n8n",
+     "IFTTT",
+     "Pipedream"
+    ],
+    "answer": 1,
+    "seconds": 3,
+    "ask": "ask",
+    "reveal": "reveal",
+    "transition": "slide"
+   },
+   "sentences": [
+    {
+     "caption": "Zapier? | Pause and guess#ask what replaces it."
+    },
+    {
+     "caption": "It's *n8n.*#reveal",
+     "say": "It's n eight n."
+    }
+   ]
+  },
+  {
+   "id": "n8n",
+   "visual": {
+    "type": "swap",
+    "label": "4/9 · AUTOMATION",
+    "step": 4,
+    "total": 9,
+    "transition": "whip",
+    "paid": {
+     "name": "Zapier",
+     "icon": "share"
+    },
+    "repo": {
+     "name": "n8n",
+     "path": "n8n-io/n8n",
+     "license": "Fair-code",
+     "stars": 209732,
+     "icon": "layers",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Workflows + AI",
+      "cue": "flows"
+     },
+     {
+      "text": "Self-host free",
+      "cue": "self"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "self"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "self",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Automation#repo workflows,#flows | you can self-host#self for free."
+    }
+   ]
+  },
+  {
+   "id": "continue",
+   "visual": {
+    "type": "swap",
+    "label": "5/9 · AI CODING",
+    "step": 5,
+    "total": 9,
+    "transition": "zoom",
+    "paid": {
+     "name": "Copilot",
+     "icon": "code"
+    },
+    "repo": {
+     "name": "Continue",
+     "path": "continuedev/continue",
+     "license": "Apache-2.0",
+     "stars": 36427,
+     "icon": "sparkle",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Coding agent",
+      "cue": "agent"
+     },
+     {
+      "text": "Any model",
+      "cue": "model"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "model"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "model",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "GitHub Copilot?#paid *Continue.*#repo"
+    },
+    {
+     "caption": "An open-source coding agent#agent | that works with the model you choose.#model"
+    }
+   ]
+  },
+  {
+   "id": "voicestudio",
+   "visual": {
+    "type": "swap",
+    "label": "6/9 · AI VOICE",
+    "step": 6,
+    "total": 9,
+    "transition": "slide",
+    "paid": {
+     "name": "ElevenLabs",
+     "icon": "mic"
+    },
+    "repo": {
+     "name": "VoiceStudio",
+     "path": "debpalash/VoiceStudio",
+     "license": "AGPL-3.0",
+     "stars": 103126,
+     "icon": "mic",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Voice cloning",
+      "cue": "clone"
+     },
+     {
+      "text": "100% local",
+      "cue": "local"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "local"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "local",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "ElevenLabs?#paid *VoiceStudio.*#repo"
+    },
+    {
+     "caption": "Clone voices,#clone | fully *local*#local on your machine."
+    }
+   ]
+  },
+  {
+   "id": "appflowy",
+   "visual": {
+    "type": "swap",
+    "label": "7/9 · NOTES + DOCS",
+    "step": 7,
+    "total": 9,
+    "transition": "whip",
+    "paid": {
+     "name": "Notion",
+     "icon": "file"
+    },
+    "repo": {
+     "name": "AppFlowy",
+     "path": "AppFlowy-IO/AppFlowy",
+     "license": "AGPL-3.0",
+     "stars": 78351,
+     "icon": "file",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Notes + docs",
+      "cue": "notes"
+     },
+     {
+      "text": "AI built in",
+      "cue": "ai"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "ai"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "ai",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Notion?#paid *AppFlowy.*#repo"
+    },
+    {
+     "caption": "Notes,#notes docs and projects, | with AI#ai built in."
+    }
+   ]
+  },
+  {
+   "id": "cap",
+   "visual": {
+    "type": "swap",
+    "label": "8/9 · SCREEN VIDEO",
+    "step": 8,
+    "total": 9,
+    "transition": "zoom",
+    "paid": {
+     "name": "Loom",
+     "icon": "video"
+    },
+    "repo": {
+     "name": "Cap",
+     "path": "CapSoftware/Cap",
+     "license": "Open source",
+     "stars": 24554,
+     "icon": "video",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Screen recording",
+      "cue": "record"
+     },
+     {
+      "text": "Share a link",
+      "cue": "link"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "link"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "link",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Loom?#paid *Cap.*#repo"
+    },
+    {
+     "caption": "Record#record your screen | and share it with *one link.*#link"
+    }
+   ]
+  },
+  {
+   "id": "caldiy",
+   "visual": {
+    "type": "swap",
+    "label": "9/9 · SCHEDULING",
+    "step": 9,
+    "total": 9,
+    "transition": "slide",
+    "paid": {
+     "name": "Calendly",
+     "icon": "bell"
+    },
+    "repo": {
+     "name": "Cal.diy",
+     "path": "calcom/cal.diy",
+     "license": "MIT",
+     "stars": 49755,
+     "icon": "bell",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Booking links",
+      "cue": "booking"
+     },
+     {
+      "text": "Self-hosted",
+      "cue": "host"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "host"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "host",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   },
+   "sentences": [
+    {
+     "caption": "Calendly?#paid *Cal.diy.*#repo",
+     "say": "Calendly? Cal dot D I Y."
+    },
+    {
+     "caption": "Booking links#booking | you can host *yourself.*#host"
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "visual": {
+    "type": "pair",
+    "label": "ONE MORE THING",
+    "transition": "zoom",
+    "left": {
+     "title": "VoiceStudio",
+     "sub": "OPEN MODEL",
+     "icon": "mic"
+    },
+    "right": {
+     "title": "This voice",
+     "sub": "MY LAPTOP",
+     "icon": "sparkle",
+     "dark": true
+    },
+    "stamp": {
+     "text": "SAME MODEL",
+     "cue": "same"
+    }
+   },
+   "sentences": [
+    {
+     "caption": "Oh, and this voice you're hearing?"
+    },
+    {
+     "caption": "It was made on my *laptop*, | with the same#same open model VoiceStudio runs on."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": {
+    "type": "follow",
+    "label": "MORE FREE TOOLS",
+    "headline": "More free tools like these",
+    "highlight": "free",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL DEV TIPS",
+    "cue": "follow"
+   },
+   "sentences": [
+    {
+     "caption": "*Follow*#follow for more free tools | that replace paid apps."
+    }
+   ]
+  }
+ ]
+}

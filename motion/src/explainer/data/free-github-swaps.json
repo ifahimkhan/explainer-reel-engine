@@ -1,0 +1,1979 @@
+{
+ "id": "free-github-swaps",
+ "durationS": 63.964,
+ "copy": {},
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "end": 4.917,
+   "sentences": [
+    {
+     "start": 0.0,
+     "end": 1.944,
+     "chunks": [
+      {
+       "start": 0.0,
+       "end": 1.944,
+       "words": [
+        {
+         "text": "Stop",
+         "tail": "",
+         "hl": false,
+         "start": 0.0,
+         "end": 0.211
+        },
+        {
+         "text": "paying",
+         "tail": "",
+         "hl": false,
+         "start": 0.211,
+         "end": 0.423
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 0.423,
+         "end": 0.634
+        },
+        {
+         "text": "these",
+         "tail": "",
+         "hl": false,
+         "start": 0.634,
+         "end": 1.057
+        },
+        {
+         "text": "nine",
+         "tail": "",
+         "hl": true,
+         "start": 1.057,
+         "end": 1.479
+        },
+        {
+         "text": "apps",
+         "tail": ".",
+         "hl": false,
+         "start": 1.479,
+         "end": 1.944
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 2.194,
+     "end": 4.417,
+     "chunks": [
+      {
+       "start": 2.194,
+       "end": 4.417,
+       "words": [
+        {
+         "text": "Every",
+         "tail": "",
+         "hl": false,
+         "start": 2.194,
+         "end": 2.664
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": false,
+         "start": 2.664,
+         "end": 2.977
+        },
+        {
+         "text": "has",
+         "tail": "",
+         "hl": false,
+         "start": 2.977,
+         "end": 3.133
+        },
+        {
+         "text": "a",
+         "tail": "",
+         "hl": false,
+         "start": 3.133,
+         "end": 3.29
+        },
+        {
+         "text": "free",
+         "tail": "",
+         "hl": true,
+         "start": 3.29,
+         "end": 3.446
+        },
+        {
+         "text": "version",
+         "tail": "",
+         "hl": false,
+         "start": 3.446,
+         "end": 3.759
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 3.759,
+         "end": 3.916
+        },
+        {
+         "text": "GitHub",
+         "tail": ".",
+         "hl": false,
+         "cue": "github",
+         "start": 3.916,
+         "end": 4.417
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "punch",
+    "label": "PAID → FREE",
+    "word": "FREE",
+    "headline": "Stop paying for these 9 apps",
+    "highlight": "9",
+    "kicker": "OPEN SOURCE SWAPS",
+    "icon": "github",
+    "sub": {
+     "text": "Every one is on GitHub",
+     "cue": "github"
+    }
+   }
+  },
+  {
+   "id": "bruno",
+   "start": 4.917,
+   "end": 9.936,
+   "sentences": [
+    {
+     "start": 4.917,
+     "end": 6.175,
+     "chunks": [
+      {
+       "start": 4.917,
+       "end": 6.175,
+       "words": [
+        {
+         "text": "Postman",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 4.917,
+         "end": 5.546
+        },
+        {
+         "text": "Bruno",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 5.546,
+         "end": 6.175
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 6.425,
+     "end": 9.436,
+     "chunks": [
+      {
+       "start": 6.425,
+       "end": 7.38,
+       "words": [
+        {
+         "text": "Test",
+         "tail": "",
+         "hl": false,
+         "start": 6.425,
+         "end": 6.609
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 6.609,
+         "end": 6.793
+        },
+        {
+         "text": "APIs",
+         "tail": ",",
+         "hl": false,
+         "cue": "api",
+         "start": 6.793,
+         "end": 7.38
+        }
+       ]
+      },
+      {
+       "start": 7.38,
+       "end": 9.436,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 7.38,
+         "end": 7.563
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 7.563,
+         "end": 7.747
+        },
+        {
+         "text": "collections",
+         "tail": "",
+         "hl": false,
+         "start": 7.747,
+         "end": 8.298
+        },
+        {
+         "text": "live",
+         "tail": "",
+         "hl": false,
+         "start": 8.298,
+         "end": 8.665
+        },
+        {
+         "text": "right",
+         "tail": "",
+         "hl": false,
+         "start": 8.665,
+         "end": 8.848
+        },
+        {
+         "text": "in",
+         "tail": "",
+         "hl": false,
+         "start": 8.848,
+         "end": 9.032
+        },
+        {
+         "text": "Git",
+         "tail": ".",
+         "hl": false,
+         "cue": "git",
+         "start": 9.032,
+         "end": 9.436
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "1/9 · API CLIENT",
+    "step": 1,
+    "total": 9,
+    "transition": "slide",
+    "paid": {
+     "name": "Postman",
+     "icon": "send"
+    },
+    "repo": {
+     "name": "Bruno",
+     "path": "usebruno/bruno",
+     "license": "MIT",
+     "stars": 48256,
+     "icon": "code",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "API testing",
+      "cue": "api"
+     },
+     {
+      "text": "Collections in Git",
+      "cue": "git"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "git"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "git",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "supabase",
+   "start": 9.936,
+   "end": 15.454,
+   "sentences": [
+    {
+     "start": 9.936,
+     "end": 11.442,
+     "chunks": [
+      {
+       "start": 9.936,
+       "end": 11.442,
+       "words": [
+        {
+         "text": "Firebase",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 9.936,
+         "end": 10.689
+        },
+        {
+         "text": "Supabase",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 10.689,
+         "end": 11.442
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 11.692,
+     "end": 14.954,
+     "chunks": [
+      {
+       "start": 11.692,
+       "end": 13.124,
+       "words": [
+        {
+         "text": "A",
+         "tail": "",
+         "hl": false,
+         "start": 11.692,
+         "end": 11.891
+        },
+        {
+         "text": "full",
+         "tail": "",
+         "hl": false,
+         "start": 11.891,
+         "end": 12.09
+        },
+        {
+         "text": "Postgres",
+         "tail": "",
+         "hl": false,
+         "cue": "pg",
+         "start": 12.09,
+         "end": 12.487
+        },
+        {
+         "text": "backend",
+         "tail": ",",
+         "hl": false,
+         "start": 12.487,
+         "end": 13.124
+        }
+       ]
+      },
+      {
+       "start": 13.124,
+       "end": 14.954,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 13.124,
+         "end": 13.323
+        },
+        {
+         "text": "auth",
+         "tail": "",
+         "hl": false,
+         "cue": "auth",
+         "start": 13.323,
+         "end": 13.522
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 13.522,
+         "end": 13.721
+        },
+        {
+         "text": "storage",
+         "tail": "",
+         "hl": false,
+         "start": 13.721,
+         "end": 14.317
+        },
+        {
+         "text": "built",
+         "tail": "",
+         "hl": false,
+         "start": 14.317,
+         "end": 14.516
+        },
+        {
+         "text": "in",
+         "tail": ".",
+         "hl": false,
+         "start": 14.516,
+         "end": 14.954
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "2/9 · BACKEND",
+    "step": 2,
+    "total": 9,
+    "transition": "whip",
+    "paid": {
+     "name": "Firebase",
+     "icon": "flame"
+    },
+    "repo": {
+     "name": "Supabase",
+     "path": "supabase/supabase",
+     "license": "Apache-2.0",
+     "stars": 114621,
+     "icon": "db",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Postgres",
+      "cue": "pg"
+     },
+     {
+      "text": "Auth + storage",
+      "cue": "auth"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "auth"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "auth",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "coolify",
+   "start": 15.454,
+   "end": 19.439,
+   "sentences": [
+    {
+     "start": 15.454,
+     "end": 16.711,
+     "chunks": [
+      {
+       "start": 15.454,
+       "end": 16.711,
+       "words": [
+        {
+         "text": "Vercel",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 15.454,
+         "end": 15.998
+        },
+        {
+         "text": "Coolify",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 15.998,
+         "end": 16.711
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 16.961,
+     "end": 18.939,
+     "chunks": [
+      {
+       "start": 16.961,
+       "end": 17.737,
+       "words": [
+        {
+         "text": "Deploy",
+         "tail": "",
+         "hl": false,
+         "cue": "deploy",
+         "start": 16.961,
+         "end": 17.349
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 17.349,
+         "end": 17.543
+        },
+        {
+         "text": "apps",
+         "tail": "",
+         "hl": false,
+         "start": 17.543,
+         "end": 17.737
+        }
+       ]
+      },
+      {
+       "start": 17.737,
+       "end": 18.939,
+       "words": [
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 17.737,
+         "end": 17.931
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 17.931,
+         "end": 18.124
+        },
+        {
+         "text": "own",
+         "tail": "",
+         "hl": true,
+         "start": 18.124,
+         "end": 18.318
+        },
+        {
+         "text": "server",
+         "tail": ".",
+         "hl": false,
+         "cue": "server",
+         "start": 18.318,
+         "end": 18.939
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "3/9 · HOSTING",
+    "step": 3,
+    "total": 9,
+    "transition": "zoom",
+    "paid": {
+     "name": "Vercel",
+     "icon": "cloud"
+    },
+    "repo": {
+     "name": "Coolify",
+     "path": "coollabsio/coolify",
+     "license": "Apache-2.0",
+     "stars": 65737,
+     "icon": "cloud",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Deploy apps",
+      "cue": "deploy"
+     },
+     {
+      "text": "Your own server",
+      "cue": "server"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "server"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "server",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "guess",
+   "start": 19.439,
+   "end": 23.815,
+   "sentences": [
+    {
+     "start": 19.439,
+     "end": 21.788,
+     "chunks": [
+      {
+       "start": 19.439,
+       "end": 20.0,
+       "words": [
+        {
+         "text": "Zapier",
+         "tail": "?",
+         "hl": false,
+         "start": 19.439,
+         "end": 20.0
+        }
+       ]
+      },
+      {
+       "start": 20.0,
+       "end": 21.788,
+       "words": [
+        {
+         "text": "Pause",
+         "tail": "",
+         "hl": false,
+         "start": 20.0,
+         "end": 20.35
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 20.35,
+         "end": 20.525
+        },
+        {
+         "text": "guess",
+         "tail": "",
+         "hl": false,
+         "cue": "ask",
+         "start": 20.525,
+         "end": 20.701
+        },
+        {
+         "text": "what",
+         "tail": "",
+         "hl": false,
+         "start": 20.701,
+         "end": 20.876
+        },
+        {
+         "text": "replaces",
+         "tail": "",
+         "hl": false,
+         "start": 20.876,
+         "end": 21.402
+        },
+        {
+         "text": "it",
+         "tail": ".",
+         "hl": false,
+         "start": 21.402,
+         "end": 21.788
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 22.038,
+     "end": 23.315,
+     "chunks": [
+      {
+       "start": 22.038,
+       "end": 23.315,
+       "words": [
+        {
+         "text": "It's",
+         "tail": "",
+         "hl": false,
+         "start": 22.038,
+         "end": 22.437
+        },
+        {
+         "text": "n8n",
+         "tail": ".",
+         "hl": true,
+         "cue": "reveal",
+         "start": 22.437,
+         "end": 23.315
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "quiz",
+    "label": "QUICK GUESS",
+    "question": "What replaces Zapier for free?",
+    "highlight": "Zapier",
+    "options": [
+     "Make",
+     "n8n",
+     "IFTTT",
+     "Pipedream"
+    ],
+    "answer": 1,
+    "seconds": 3,
+    "ask": "ask",
+    "reveal": "reveal",
+    "transition": "slide"
+   }
+  },
+  {
+   "id": "n8n",
+   "start": 23.815,
+   "end": 27.213,
+   "sentences": [
+    {
+     "start": 23.815,
+     "end": 26.713,
+     "chunks": [
+      {
+       "start": 23.815,
+       "end": 25.264,
+       "words": [
+        {
+         "text": "Automation",
+         "tail": "",
+         "hl": false,
+         "cue": "repo",
+         "start": 23.815,
+         "end": 24.62
+        },
+        {
+         "text": "workflows",
+         "tail": ",",
+         "hl": false,
+         "cue": "flows",
+         "start": 24.62,
+         "end": 25.264
+        }
+       ]
+      },
+      {
+       "start": 25.264,
+       "end": 26.713,
+       "words": [
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 25.264,
+         "end": 25.466
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 25.466,
+         "end": 25.667
+        },
+        {
+         "text": "self-host",
+         "tail": "",
+         "hl": false,
+         "cue": "self",
+         "start": 25.667,
+         "end": 26.069
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 26.069,
+         "end": 26.271
+        },
+        {
+         "text": "free",
+         "tail": ".",
+         "hl": false,
+         "start": 26.271,
+         "end": 26.713
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "4/9 · AUTOMATION",
+    "step": 4,
+    "total": 9,
+    "transition": "whip",
+    "paid": {
+     "name": "Zapier",
+     "icon": "share"
+    },
+    "repo": {
+     "name": "n8n",
+     "path": "n8n-io/n8n",
+     "license": "Fair-code",
+     "stars": 209732,
+     "icon": "layers",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Workflows + AI",
+      "cue": "flows"
+     },
+     {
+      "text": "Self-host free",
+      "cue": "self"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "self"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "self",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "continue",
+   "start": 27.213,
+   "end": 33.483,
+   "sentences": [
+    {
+     "start": 27.213,
+     "end": 28.959,
+     "chunks": [
+      {
+       "start": 27.213,
+       "end": 28.959,
+       "words": [
+        {
+         "text": "GitHub",
+         "tail": "",
+         "hl": false,
+         "start": 27.213,
+         "end": 27.549
+        },
+        {
+         "text": "Copilot",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 27.549,
+         "end": 28.254
+        },
+        {
+         "text": "Continue",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 28.254,
+         "end": 28.959
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 29.209,
+     "end": 32.983,
+     "chunks": [
+      {
+       "start": 29.209,
+       "end": 30.978,
+       "words": [
+        {
+         "text": "An",
+         "tail": "",
+         "hl": false,
+         "start": 29.209,
+         "end": 29.406
+        },
+        {
+         "text": "open-source",
+         "tail": "",
+         "hl": false,
+         "start": 29.406,
+         "end": 30.192
+        },
+        {
+         "text": "coding",
+         "tail": "",
+         "hl": false,
+         "start": 30.192,
+         "end": 30.585
+        },
+        {
+         "text": "agent",
+         "tail": "",
+         "hl": false,
+         "cue": "agent",
+         "start": 30.585,
+         "end": 30.978
+        }
+       ]
+      },
+      {
+       "start": 30.978,
+       "end": 32.983,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 30.978,
+         "end": 31.175
+        },
+        {
+         "text": "works",
+         "tail": "",
+         "hl": false,
+         "start": 31.175,
+         "end": 31.371
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 31.371,
+         "end": 31.568
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 31.568,
+         "end": 31.764
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 31.764,
+         "end": 32.157
+        },
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 32.157,
+         "end": 32.354
+        },
+        {
+         "text": "choose",
+         "tail": ".",
+         "hl": false,
+         "cue": "model",
+         "start": 32.354,
+         "end": 32.983
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "5/9 · AI CODING",
+    "step": 5,
+    "total": 9,
+    "transition": "zoom",
+    "paid": {
+     "name": "Copilot",
+     "icon": "code"
+    },
+    "repo": {
+     "name": "Continue",
+     "path": "continuedev/continue",
+     "license": "Apache-2.0",
+     "stars": 36427,
+     "icon": "sparkle",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Coding agent",
+      "cue": "agent"
+     },
+     {
+      "text": "Any model",
+      "cue": "model"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "model"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "model",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "voicestudio",
+   "start": 33.483,
+   "end": 38.434,
+   "sentences": [
+    {
+     "start": 33.483,
+     "end": 35.215,
+     "chunks": [
+      {
+       "start": 33.483,
+       "end": 35.215,
+       "words": [
+        {
+         "text": "ElevenLabs",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 33.483,
+         "end": 34.349
+        },
+        {
+         "text": "VoiceStudio",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 34.349,
+         "end": 35.215
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 35.465,
+     "end": 37.934,
+     "chunks": [
+      {
+       "start": 35.465,
+       "end": 36.299,
+       "words": [
+        {
+         "text": "Clone",
+         "tail": "",
+         "hl": false,
+         "start": 35.465,
+         "end": 35.786
+        },
+        {
+         "text": "voices",
+         "tail": ",",
+         "hl": false,
+         "cue": "clone",
+         "start": 35.786,
+         "end": 36.299
+        }
+       ]
+      },
+      {
+       "start": 36.299,
+       "end": 37.934,
+       "words": [
+        {
+         "text": "fully",
+         "tail": "",
+         "hl": false,
+         "start": 36.299,
+         "end": 36.619
+        },
+        {
+         "text": "local",
+         "tail": "",
+         "hl": true,
+         "cue": "local",
+         "start": 36.619,
+         "end": 36.94
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 36.94,
+         "end": 37.1
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 37.1,
+         "end": 37.26
+        },
+        {
+         "text": "machine",
+         "tail": ".",
+         "hl": false,
+         "start": 37.26,
+         "end": 37.934
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "6/9 · AI VOICE",
+    "step": 6,
+    "total": 9,
+    "transition": "slide",
+    "paid": {
+     "name": "ElevenLabs",
+     "icon": "mic"
+    },
+    "repo": {
+     "name": "VoiceStudio",
+     "path": "debpalash/VoiceStudio",
+     "license": "AGPL-3.0",
+     "stars": 103126,
+     "icon": "mic",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Voice cloning",
+      "cue": "clone"
+     },
+     {
+      "text": "100% local",
+      "cue": "local"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "local"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "local",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "appflowy",
+   "start": 38.434,
+   "end": 43.095,
+   "sentences": [
+    {
+     "start": 38.434,
+     "end": 39.874,
+     "chunks": [
+      {
+       "start": 38.434,
+       "end": 39.874,
+       "words": [
+        {
+         "text": "Notion",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 38.434,
+         "end": 39.056
+        },
+        {
+         "text": "AppFlowy",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 39.056,
+         "end": 39.874
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 40.124,
+     "end": 42.595,
+     "chunks": [
+      {
+       "start": 40.124,
+       "end": 41.65,
+       "words": [
+        {
+         "text": "Notes",
+         "tail": ",",
+         "hl": false,
+         "cue": "notes",
+         "start": 40.124,
+         "end": 40.705
+        },
+        {
+         "text": "docs",
+         "tail": "",
+         "hl": false,
+         "start": 40.705,
+         "end": 40.887
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 40.887,
+         "end": 41.069
+        },
+        {
+         "text": "projects",
+         "tail": ",",
+         "hl": false,
+         "start": 41.069,
+         "end": 41.65
+        }
+       ]
+      },
+      {
+       "start": 41.65,
+       "end": 42.595,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 41.65,
+         "end": 41.832
+        },
+        {
+         "text": "AI",
+         "tail": "",
+         "hl": false,
+         "cue": "ai",
+         "start": 41.832,
+         "end": 42.013
+        },
+        {
+         "text": "built",
+         "tail": "",
+         "hl": false,
+         "start": 42.013,
+         "end": 42.195
+        },
+        {
+         "text": "in",
+         "tail": ".",
+         "hl": false,
+         "start": 42.195,
+         "end": 42.595
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "7/9 · NOTES + DOCS",
+    "step": 7,
+    "total": 9,
+    "transition": "whip",
+    "paid": {
+     "name": "Notion",
+     "icon": "file"
+    },
+    "repo": {
+     "name": "AppFlowy",
+     "path": "AppFlowy-IO/AppFlowy",
+     "license": "AGPL-3.0",
+     "stars": 78351,
+     "icon": "file",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Notes + docs",
+      "cue": "notes"
+     },
+     {
+      "text": "AI built in",
+      "cue": "ai"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "ai"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "ai",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "cap",
+   "start": 43.095,
+   "end": 47.737,
+   "sentences": [
+    {
+     "start": 43.095,
+     "end": 44.321,
+     "chunks": [
+      {
+       "start": 43.095,
+       "end": 44.321,
+       "words": [
+        {
+         "text": "Loom",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 43.095,
+         "end": 43.708
+        },
+        {
+         "text": "Cap",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 43.708,
+         "end": 44.321
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 44.571,
+     "end": 47.237,
+     "chunks": [
+      {
+       "start": 44.571,
+       "end": 45.378,
+       "words": [
+        {
+         "text": "Record",
+         "tail": "",
+         "hl": false,
+         "cue": "record",
+         "start": 44.571,
+         "end": 44.974
+        },
+        {
+         "text": "your",
+         "tail": "",
+         "hl": false,
+         "start": 44.974,
+         "end": 45.176
+        },
+        {
+         "text": "screen",
+         "tail": "",
+         "hl": false,
+         "start": 45.176,
+         "end": 45.378
+        }
+       ]
+      },
+      {
+       "start": 45.378,
+       "end": 47.237,
+       "words": [
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 45.378,
+         "end": 45.58
+        },
+        {
+         "text": "share",
+         "tail": "",
+         "hl": false,
+         "start": 45.58,
+         "end": 45.984
+        },
+        {
+         "text": "it",
+         "tail": "",
+         "hl": false,
+         "start": 45.984,
+         "end": 46.186
+        },
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 46.186,
+         "end": 46.388
+        },
+        {
+         "text": "one",
+         "tail": "",
+         "hl": true,
+         "start": 46.388,
+         "end": 46.792
+        },
+        {
+         "text": "link",
+         "tail": ".",
+         "hl": false,
+         "cue": "link",
+         "start": 46.792,
+         "end": 47.237
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "8/9 · SCREEN VIDEO",
+    "step": 8,
+    "total": 9,
+    "transition": "zoom",
+    "paid": {
+     "name": "Loom",
+     "icon": "video"
+    },
+    "repo": {
+     "name": "Cap",
+     "path": "CapSoftware/Cap",
+     "license": "Open source",
+     "stars": 24554,
+     "icon": "video",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Screen recording",
+      "cue": "record"
+     },
+     {
+      "text": "Share a link",
+      "cue": "link"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "link"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "link",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "caldiy",
+   "start": 47.737,
+   "end": 52.304,
+   "sentences": [
+    {
+     "start": 47.737,
+     "end": 49.438,
+     "chunks": [
+      {
+       "start": 47.737,
+       "end": 49.438,
+       "words": [
+        {
+         "text": "Calendly",
+         "tail": "?",
+         "hl": false,
+         "cue": "paid",
+         "start": 47.737,
+         "end": 48.702
+        },
+        {
+         "text": "Cal.diy",
+         "tail": ".",
+         "hl": true,
+         "cue": "repo",
+         "start": 48.702,
+         "end": 49.438
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 49.688,
+     "end": 51.804,
+     "chunks": [
+      {
+       "start": 49.688,
+       "end": 50.378,
+       "words": [
+        {
+         "text": "Booking",
+         "tail": "",
+         "hl": false,
+         "start": 49.688,
+         "end": 50.148
+        },
+        {
+         "text": "links",
+         "tail": "",
+         "hl": false,
+         "cue": "booking",
+         "start": 50.148,
+         "end": 50.378
+        }
+       ]
+      },
+      {
+       "start": 50.378,
+       "end": 51.804,
+       "words": [
+        {
+         "text": "you",
+         "tail": "",
+         "hl": false,
+         "start": 50.378,
+         "end": 50.608
+        },
+        {
+         "text": "can",
+         "tail": "",
+         "hl": false,
+         "start": 50.608,
+         "end": 50.838
+        },
+        {
+         "text": "host",
+         "tail": "",
+         "hl": false,
+         "start": 50.838,
+         "end": 51.068
+        },
+        {
+         "text": "yourself",
+         "tail": ".",
+         "hl": true,
+         "cue": "host",
+         "start": 51.068,
+         "end": 51.804
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "swap",
+    "label": "9/9 · SCHEDULING",
+    "step": 9,
+    "total": 9,
+    "transition": "slide",
+    "paid": {
+     "name": "Calendly",
+     "icon": "bell"
+    },
+    "repo": {
+     "name": "Cal.diy",
+     "path": "calcom/cal.diy",
+     "license": "MIT",
+     "stars": 49755,
+     "icon": "bell",
+     "cue": "repo"
+    },
+    "features": [
+     {
+      "text": "Booking links",
+      "cue": "booking"
+     },
+     {
+      "text": "Self-hosted",
+      "cue": "host"
+     }
+    ],
+    "stamp": {
+     "text": "FREE",
+     "cue": "host"
+    },
+    "glitch": [
+     {
+      "cue": "repo"
+     }
+    ],
+    "camera": [
+     {
+      "cue": "host",
+      "zoom": 1.08,
+      "x": 540,
+      "y": 700
+     }
+    ]
+   }
+  },
+  {
+   "id": "twist",
+   "start": 52.304,
+   "end": 58.702,
+   "sentences": [
+    {
+     "start": 52.304,
+     "end": 54.168,
+     "chunks": [
+      {
+       "start": 52.304,
+       "end": 54.168,
+       "words": [
+        {
+         "text": "Oh",
+         "tail": ",",
+         "hl": false,
+         "start": 52.304,
+         "end": 52.664
+        },
+        {
+         "text": "and",
+         "tail": "",
+         "hl": false,
+         "start": 52.664,
+         "end": 52.828
+        },
+        {
+         "text": "this",
+         "tail": "",
+         "hl": false,
+         "start": 52.828,
+         "end": 52.991
+        },
+        {
+         "text": "voice",
+         "tail": "",
+         "hl": false,
+         "start": 52.991,
+         "end": 53.318
+        },
+        {
+         "text": "you're",
+         "tail": "",
+         "hl": false,
+         "start": 53.318,
+         "end": 53.645
+        },
+        {
+         "text": "hearing",
+         "tail": "?",
+         "hl": false,
+         "start": 53.645,
+         "end": 54.168
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "start": 54.418,
+     "end": 58.202,
+     "chunks": [
+      {
+       "start": 54.418,
+       "end": 55.845,
+       "words": [
+        {
+         "text": "It",
+         "tail": "",
+         "hl": false,
+         "start": 54.418,
+         "end": 54.573
+        },
+        {
+         "text": "was",
+         "tail": "",
+         "hl": false,
+         "start": 54.573,
+         "end": 54.728
+        },
+        {
+         "text": "made",
+         "tail": "",
+         "hl": false,
+         "start": 54.728,
+         "end": 55.039
+        },
+        {
+         "text": "on",
+         "tail": "",
+         "hl": false,
+         "start": 55.039,
+         "end": 55.194
+        },
+        {
+         "text": "my",
+         "tail": "",
+         "hl": false,
+         "start": 55.194,
+         "end": 55.349
+        },
+        {
+         "text": "laptop",
+         "tail": ",",
+         "hl": true,
+         "start": 55.349,
+         "end": 55.845
+        }
+       ]
+      },
+      {
+       "start": 55.845,
+       "end": 58.202,
+       "words": [
+        {
+         "text": "with",
+         "tail": "",
+         "hl": false,
+         "start": 55.845,
+         "end": 56.0
+        },
+        {
+         "text": "the",
+         "tail": "",
+         "hl": false,
+         "start": 56.0,
+         "end": 56.155
+        },
+        {
+         "text": "same",
+         "tail": "",
+         "hl": false,
+         "cue": "same",
+         "start": 56.155,
+         "end": 56.465
+        },
+        {
+         "text": "open",
+         "tail": "",
+         "hl": false,
+         "start": 56.465,
+         "end": 56.775
+        },
+        {
+         "text": "model",
+         "tail": "",
+         "hl": false,
+         "start": 56.775,
+         "end": 57.085
+        },
+        {
+         "text": "VoiceStudio",
+         "tail": "",
+         "hl": false,
+         "start": 57.085,
+         "end": 57.706
+        },
+        {
+         "text": "runs",
+         "tail": "",
+         "hl": false,
+         "start": 57.706,
+         "end": 57.861
+        },
+        {
+         "text": "on",
+         "tail": ".",
+         "hl": false,
+         "start": 57.861,
+         "end": 58.202
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "pair",
+    "label": "ONE MORE THING",
+    "transition": "zoom",
+    "left": {
+     "title": "VoiceStudio",
+     "sub": "OPEN MODEL",
+     "icon": "mic"
+    },
+    "right": {
+     "title": "This voice",
+     "sub": "MY LAPTOP",
+     "icon": "sparkle",
+     "dark": true
+    },
+    "stamp": {
+     "text": "SAME MODEL",
+     "cue": "same"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "start": 58.702,
+   "end": 63.964,
+   "sentences": [
+    {
+     "start": 58.702,
+     "end": 61.464,
+     "chunks": [
+      {
+       "start": 58.702,
+       "end": 60.064,
+       "words": [
+        {
+         "text": "Follow",
+         "tail": "",
+         "hl": true,
+         "cue": "follow",
+         "start": 58.702,
+         "end": 59.091
+        },
+        {
+         "text": "for",
+         "tail": "",
+         "hl": false,
+         "start": 59.091,
+         "end": 59.286
+        },
+        {
+         "text": "more",
+         "tail": "",
+         "hl": false,
+         "start": 59.286,
+         "end": 59.675
+        },
+        {
+         "text": "free",
+         "tail": "",
+         "hl": false,
+         "start": 59.675,
+         "end": 59.869
+        },
+        {
+         "text": "tools",
+         "tail": "",
+         "hl": false,
+         "start": 59.869,
+         "end": 60.064
+        }
+       ]
+      },
+      {
+       "start": 60.064,
+       "end": 61.464,
+       "words": [
+        {
+         "text": "that",
+         "tail": "",
+         "hl": false,
+         "start": 60.064,
+         "end": 60.258
+        },
+        {
+         "text": "replace",
+         "tail": "",
+         "hl": false,
+         "start": 60.258,
+         "end": 60.842
+        },
+        {
+         "text": "paid",
+         "tail": "",
+         "hl": false,
+         "start": 60.842,
+         "end": 61.036
+        },
+        {
+         "text": "apps",
+         "tail": ".",
+         "hl": false,
+         "start": 61.036,
+         "end": 61.464
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "visual": {
+    "type": "follow",
+    "label": "MORE FREE TOOLS",
+    "headline": "More free tools like these",
+    "highlight": "free",
+    "name": "Fahim Khan",
+    "tagline": "PRACTICAL DEV TIPS",
+    "cue": "follow"
+   }
+  }
+ ]
+}
