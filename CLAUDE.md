@@ -20,6 +20,8 @@ Ask the user when something is unclear (language, CTA keyword, unverifiable fact
 - Own camera recording -> split-screen reel (60% graphics / 40% camera, whisper captions):
   job with `video`, `tts/build_from_recording.py`, register in `src/explainer/split/reels.tsx`.
 - Kokoro offline TTS: job without `engine` (default `kokoro`).
+- OmniVoice local clone (optional, opt-in only, CPU ~1-2 min per sentence): `"engine": "omnivoice"` +
+  `"refAudio": "voices/fahim-v3-ref.wav"`; separate `motion/.venv-omnivoice`. See `motion/tts/OMNIVOICE.md`.
 
 ## Gotchas
 

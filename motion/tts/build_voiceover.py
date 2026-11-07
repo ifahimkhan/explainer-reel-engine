@@ -13,6 +13,8 @@ Engines (job "engine"):
   elevenlabs   job "voice" is an ElevenLabs voice_id (e.g. your clone from clone_voice.py),
                optional "model" (default eleven_flash_v2_5) and "voiceSettings" {stability, similarity_boost}.
                "speed" is not sent (Eleven v4 has no speed control).
+  omnivoice    local zero-shot clone (CPU, slow). Needs "refAudio" (+ "refText" or a sibling .txt);
+               see omnivoice_tts.py and OMNIVOICE.md.
 
 Word timings come from engine timestamps when available (Kokoro tokens / ElevenLabs
 character alignment) and fall back to spreading words by estimated syllable count.
@@ -105,6 +107,20 @@ def run_elevenlabs(get_client, text: str, voice: str, model: str, settings: dict
     return audio[lo:hi], timed
 
 
+def run_omnivoice(worker, text: str, speed: float) -> tuple:
+    """Returns (trimmed audio, None); OmniVoice gives no timestamps, so words are estimated."""
+    from omnivoice_tts import OmniVoiceError
+
+    try:
+        audio = worker.synthesize(text, speed)
+    except OmniVoiceError as exc:
+        fail(str(exc))
+    if audio.size == 0:
+        fail(f"omnivoice produced no audio for: {text}")
+    lo, hi = trim_bounds(audio)
+    return audio[lo:hi], None
+
+
 def synthesize(engine, text: str, voice: str, speed: float) -> tuple:
     """Synthesis with an on-disk cache keyed by engine settings + text/voice/speed."""
     key = hashlib.sha1(f"{engine.cache_tag}{voice}|{speed}|{text}".encode("utf-8")).hexdigest()[:16]
@@ -154,13 +170,21 @@ class Engine:
         self.lang = job.get("lang", "a")
         self.model = job.get("model", "eleven_flash_v2_5")
         self.settings = job.get("voiceSettings", {})
+        self.job = job
         self._backend = None
         if self.name == "kokoro":
             self.cache_tag = ""
         elif self.name == "elevenlabs":
             self.cache_tag = f"elevenlabs|{self.model}|{json.dumps(self.settings, sort_keys=True)}|"
+        elif self.name == "omnivoice":
+            from omnivoice_tts import OmniVoiceError, cache_tag
+
+            try:
+                self.cache_tag = cache_tag(job)
+            except OmniVoiceError as exc:
+                fail(str(exc))
         else:
-            fail(f"unknown engine {self.name!r} (use kokoro or elevenlabs)")
+            fail(f"unknown engine {self.name!r} (use kokoro, elevenlabs or omnivoice)")
 
     def _get(self):
         if self._backend is None:
@@ -168,6 +192,16 @@ class Engine:
                 from kokoro import KPipeline
 
                 self._backend = KPipeline(lang_code=self.lang)
+            elif self.name == "omnivoice":
+                import atexit
+
+                from omnivoice_tts import OmniVoiceError, OmniVoiceWorker
+
+                try:
+                    self._backend = OmniVoiceWorker(self.job)
+                except OmniVoiceError as exc:
+                    fail(str(exc))
+                atexit.register(self._backend.close)
             else:
                 from elevenlabs_tts import client
 
@@ -177,6 +211,8 @@ class Engine:
     def run(self, text: str, voice: str, speed: float) -> tuple:
         if self.name == "kokoro":
             return run_kokoro(self._get(), text, voice, speed)
+        if self.name == "omnivoice":
+            return run_omnivoice(self._get(), text, speed)
         return run_elevenlabs(self._get, text, voice, self.model, self.settings)
 
 

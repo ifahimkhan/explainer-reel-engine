@@ -19,3 +19,12 @@ __pycache__/
 .ruff_cache/
 out/
 .claude/settings.local.json
+
+# Generated narration (rebuild with motion/tts) and third-party ad clips
+motion/public/**/voice.wav
+motion/public/voice/
+motion/public/ad13/
+
+# Local OmniVoice engine: venv and voice reference clips (own voice, not committed)
+motion/.venv-omnivoice/
+motion/voices/*.wav
